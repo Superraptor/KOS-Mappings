@@ -1,0 +1,41 @@
+# curie_map:
+#   bibo: "http://purl.org/ontology/bibo/"
+#   prism: "http://prismstandard.org/namespaces/basic/2.0/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
+# mapping_set_id: "https://w3id.org/commons/mappings/bibo_prism"
+# mapping_set_title: "BIBO to PRISM Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: prism
+# subject_source: bibo
+subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+bibo:pages	skos:relatedMatch	prism:startingPage	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:doi	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:section	skos:exactMatch	prism:section	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:pages	skos:exactMatch	prism:pageRange	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:edition	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:pageStart	skos:exactMatch	prism:startingPage	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:pageEnd	skos:exactMatch	prism:endingPage	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:pages	skos:relatedMatch	prism:endingPage	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:locator	skos:exactMatch	prism:number	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:issn	skos:exactMatch	prism:issn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:issn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:doi	skos:exactMatch	prism:doi	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:isbn13	skos:broadMatch	prism:isbn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:volume	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:issue	skos:exactMatch	prism:issueIdentifier	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:isbn10	skos:broadMatch	prism:isbn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:versionIdentifier	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:eIssn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:issueIdentifier	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:edition	skos:exactMatch	prism:edition	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:volume	skos:exactMatch	prism:volume	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:shortDescription	skos:relatedMatch	prism:keyword	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:identifier	skos:narrowMatch	prism:isbn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:eissn	skos:exactMatch	prism:eIssn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:isbn	skos:exactMatch	prism:isbn	semapv:ManualMappingCuration	bibo	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0

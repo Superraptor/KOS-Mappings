@@ -1,0 +1,981 @@
+# curie_map:
+#   ehdaa: "http://purl.obolibrary.org/obo/EHDAA_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_ehdaa"
+# mapping_set_title: "UBERON to EHDAA Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ehdaa
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000003	oboInOwl:hasDbXref	ehdaa:9083	semapv:UnspecifiedMatching	naris		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000004	oboInOwl:hasDbXref	ehdaa:1502	semapv:UnspecifiedMatching	nose		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000007	oboInOwl:hasDbXref	ehdaa:2183	semapv:UnspecifiedMatching	pituitary gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000007	oboInOwl:hasDbXref	ehdaa:4477	semapv:UnspecifiedMatching	pituitary gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000010	oboInOwl:hasDbXref	ehdaa:2893	semapv:UnspecifiedMatching	peripheral nervous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000011	oboInOwl:hasDbXref	ehdaa:4655	semapv:UnspecifiedMatching	parasympathetic nervous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000013	oboInOwl:hasDbXref	ehdaa:3769	semapv:UnspecifiedMatching	sympathetic nervous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000014	oboInOwl:hasDbXref	ehdaa:6530	semapv:UnspecifiedMatching	zone of skin		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000019	oboInOwl:hasDbXref	ehdaa:936	semapv:UnspecifiedMatching	camera-type eye		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000020	oboInOwl:hasDbXref	ehdaa:500	semapv:UnspecifiedMatching	sense organ		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000044	oboInOwl:hasDbXref	ehdaa:2899	semapv:UnspecifiedMatching	dorsal root ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000045	oboInOwl:hasDbXref	ehdaa:2897	semapv:UnspecifiedMatching	ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000045	oboInOwl:hasDbXref	ehdaa:4662	semapv:UnspecifiedMatching	ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000045	oboInOwl:hasDbXref	ehdaa:5621	semapv:UnspecifiedMatching	ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000045	oboInOwl:hasDbXref	ehdaa:918	semapv:UnspecifiedMatching	ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000056	oboInOwl:hasDbXref	ehdaa:9341	semapv:UnspecifiedMatching	ureter		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000065	oboInOwl:hasDbXref	ehdaa:1568	semapv:UnspecifiedMatching	respiratory tract		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000065	oboInOwl:hasDbXref	ehdaa:2219	semapv:UnspecifiedMatching	respiratory tract		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000076	oboInOwl:hasDbXref	ehdaa:1494	semapv:UnspecifiedMatching	external ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000076	oboInOwl:hasDbXref	ehdaa:350	semapv:UnspecifiedMatching	external ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000076	oboInOwl:hasDbXref	ehdaa:4784	semapv:UnspecifiedMatching	external ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000076	oboInOwl:hasDbXref	ehdaa:4790	semapv:UnspecifiedMatching	external ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000076	oboInOwl:hasDbXref	ehdaa:4796	semapv:UnspecifiedMatching	external ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000076	oboInOwl:hasDbXref	ehdaa:7860	semapv:UnspecifiedMatching	external ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000079	oboInOwl:hasDbXref	ehdaa:8136	semapv:UnspecifiedMatching	male reproductive system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000080	oboInOwl:hasDbXref	ehdaa:1581	semapv:UnspecifiedMatching	mesonephros		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000080	oboInOwl:hasDbXref	ehdaa:5903	semapv:UnspecifiedMatching	mesonephros		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000081	oboInOwl:hasDbXref	ehdaa:3089	semapv:UnspecifiedMatching	metanephros		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000081	oboInOwl:hasDbXref	ehdaa:5911	semapv:UnspecifiedMatching	metanephros		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000084	oboInOwl:hasDbXref	ehdaa:3091	semapv:UnspecifiedMatching	ureteric bud		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000084	oboInOwl:hasDbXref	ehdaa:5917	semapv:UnspecifiedMatching	ureteric bud		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000086	oboInOwl:hasDbXref	ehdaa:31	semapv:UnspecifiedMatching	zona pellucida		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000086	oboInOwl:hasDbXref	ehdaa:62	semapv:UnspecifiedMatching	zona pellucida		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000087	oboInOwl:hasDbXref	ehdaa:40	semapv:UnspecifiedMatching	inner cell mass		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000090	oboInOwl:hasDbXref	ehdaa:50	semapv:UnspecifiedMatching	blastocele		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000106	oboInOwl:hasDbXref	ehdaa:27	semapv:UnspecifiedMatching	zygote stage		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000163	oboInOwl:hasDbXref	ehdaa:4895	semapv:UnspecifiedMatching	embryonic cloaca		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000164	oboInOwl:hasDbXref	ehdaa:5029	semapv:UnspecifiedMatching	primitive urogenital sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000164	oboInOwl:hasDbXref	ehdaa:5919	semapv:UnspecifiedMatching	primitive urogenital sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000165	oboInOwl:hasDbXref	ehdaa:542	semapv:UnspecifiedMatching	mouth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000167	oboInOwl:hasDbXref	ehdaa:6970	semapv:UnspecifiedMatching	oral cavity		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000178	oboInOwl:hasDbXref	ehdaa:418	semapv:UnspecifiedMatching	blood		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000301	oboInOwl:hasDbXref	ehdaa:83	semapv:UnspecifiedMatching	amniotic cavity		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000305	oboInOwl:hasDbXref	ehdaa:136	semapv:UnspecifiedMatching	amnion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000319	oboInOwl:hasDbXref	ehdaa:127	semapv:UnspecifiedMatching	cytotrophoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000319	oboInOwl:hasDbXref	ehdaa:152	semapv:UnspecifiedMatching	cytotrophoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000319	oboInOwl:hasDbXref	ehdaa:89	semapv:UnspecifiedMatching	cytotrophoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000348	oboInOwl:hasDbXref	ehdaa:3744	semapv:UnspecifiedMatching	ophthalmic nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:3015	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:3905	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:3999	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:4005	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:6899	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:6903	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:6994	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:8086	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:9182	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:9190	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:9196	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000353	oboInOwl:hasDbXref	ehdaa:9202	semapv:UnspecifiedMatching	parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000371	oboInOwl:hasDbXref	ehdaa:129	semapv:UnspecifiedMatching	syncytiotrophoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000371	oboInOwl:hasDbXref	ehdaa:91	semapv:UnspecifiedMatching	syncytiotrophoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000376	oboInOwl:hasDbXref	ehdaa:5171	semapv:UnspecifiedMatching	hindlimb stylopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000376	oboInOwl:hasDbXref	ehdaa:6200	semapv:UnspecifiedMatching	hindlimb stylopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000378	oboInOwl:hasDbXref	ehdaa:9146	semapv:UnspecifiedMatching	tongue muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	ehdaa:392	semapv:UnspecifiedMatching	anatomical system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000468	oboInOwl:hasDbXref	ehdaa:1	semapv:UnspecifiedMatching	multicellular organism		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000473	oboInOwl:hasDbXref	ehdaa:8146	semapv:UnspecifiedMatching	testis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000474	oboInOwl:hasDbXref	ehdaa:8116	semapv:UnspecifiedMatching	female reproductive system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000478	oboInOwl:hasDbXref	ehdaa:46	semapv:UnspecifiedMatching	extraembryonic structure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000922	oboInOwl:hasDbXref	ehdaa:38	semapv:UnspecifiedMatching	embryo		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000926	oboInOwl:hasDbXref	ehdaa:124	semapv:UnspecifiedMatching	mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000926	oboInOwl:hasDbXref	ehdaa:160	semapv:UnspecifiedMatching	mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000926	oboInOwl:hasDbXref	ehdaa:183	semapv:UnspecifiedMatching	mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000941	oboInOwl:hasDbXref	ehdaa:6788	semapv:UnspecifiedMatching	cranial nerve II		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000945	oboInOwl:hasDbXref	ehdaa:2993	semapv:UnspecifiedMatching	stomach		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000948	oboInOwl:hasDbXref	ehdaa:420	semapv:UnspecifiedMatching	heart		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000955	oboInOwl:hasDbXref	ehdaa:2641	semapv:UnspecifiedMatching	brain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000955	oboInOwl:hasDbXref	ehdaa:6485	semapv:UnspecifiedMatching	brain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000956	oboInOwl:hasDbXref	ehdaa:5464	semapv:UnspecifiedMatching	cerebral cortex		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000959	oboInOwl:hasDbXref	ehdaa:10227	semapv:UnspecifiedMatching	optic chiasma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000961	oboInOwl:hasDbXref	ehdaa:4664	semapv:UnspecifiedMatching	thoracic ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000964	oboInOwl:hasDbXref	ehdaa:10199	semapv:UnspecifiedMatching	cornea		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000965	oboInOwl:hasDbXref	ehdaa:9057	semapv:UnspecifiedMatching	lens of camera-type eye		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000966	oboInOwl:hasDbXref	ehdaa:4757	semapv:UnspecifiedMatching	retina		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000975	oboInOwl:hasDbXref	ehdaa:9561	semapv:UnspecifiedMatching	sternum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000978	oboInOwl:hasDbXref	ehdaa:5151	semapv:UnspecifiedMatching	leg		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000978	oboInOwl:hasDbXref	ehdaa:6176	semapv:UnspecifiedMatching	leg		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000978	oboInOwl:hasDbXref	ehdaa:8289	semapv:UnspecifiedMatching	leg		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000989	oboInOwl:hasDbXref	ehdaa:9380	semapv:UnspecifiedMatching	penis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000990	oboInOwl:hasDbXref	ehdaa:5923	semapv:UnspecifiedMatching	reproductive system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000992	oboInOwl:hasDbXref	ehdaa:8124	semapv:UnspecifiedMatching	ovary		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001004	oboInOwl:hasDbXref	ehdaa:2203	semapv:UnspecifiedMatching	respiratory system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001008	oboInOwl:hasDbXref	ehdaa:5901	semapv:UnspecifiedMatching	renal system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001016	oboInOwl:hasDbXref	ehdaa:826	semapv:UnspecifiedMatching	nervous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001017	oboInOwl:hasDbXref	ehdaa:828	semapv:UnspecifiedMatching	central nervous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001021	oboInOwl:hasDbXref	ehdaa:2851	semapv:UnspecifiedMatching	nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001021	oboInOwl:hasDbXref	ehdaa:3776	semapv:UnspecifiedMatching	nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001021	oboInOwl:hasDbXref	ehdaa:4657	semapv:UnspecifiedMatching	nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001040	oboInOwl:hasDbXref	ehdaa:164	semapv:UnspecifiedMatching	yolk sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001041	oboInOwl:hasDbXref	ehdaa:520	semapv:UnspecifiedMatching	foregut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001042	oboInOwl:hasDbXref	ehdaa:2947	semapv:UnspecifiedMatching	chordate pharynx		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001043	oboInOwl:hasDbXref	ehdaa:2937	semapv:UnspecifiedMatching	esophagus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001044	oboInOwl:hasDbXref	ehdaa:7987	semapv:UnspecifiedMatching	saliva-secreting gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001045	oboInOwl:hasDbXref	ehdaa:983	semapv:UnspecifiedMatching	midgut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001046	oboInOwl:hasDbXref	ehdaa:975	semapv:UnspecifiedMatching	hindgut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001049	oboInOwl:hasDbXref	ehdaa:2869	semapv:UnspecifiedMatching	neural tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001049	oboInOwl:hasDbXref	ehdaa:908	semapv:UnspecifiedMatching	neural tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001052	oboInOwl:hasDbXref	ehdaa:5836	semapv:UnspecifiedMatching	rectum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001064	oboInOwl:hasDbXref	ehdaa:6905	semapv:UnspecifiedMatching	ventral pancreatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001092	oboInOwl:hasDbXref	ehdaa:10606	semapv:UnspecifiedMatching	vertebral bone 1		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001093	oboInOwl:hasDbXref	ehdaa:10608	semapv:UnspecifiedMatching	vertebral bone 2		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001098	oboInOwl:hasDbXref	ehdaa:8011	semapv:UnspecifiedMatching	incisor tooth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001098	oboInOwl:hasDbXref	ehdaa:8047	semapv:UnspecifiedMatching	incisor tooth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001100	oboInOwl:hasDbXref	ehdaa:8313	semapv:UnspecifiedMatching	pectoralis minor		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001101	oboInOwl:hasDbXref	ehdaa:9887	semapv:UnspecifiedMatching	external jugular vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001111	oboInOwl:hasDbXref	ehdaa:5988	semapv:UnspecifiedMatching	intercostal muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001112	oboInOwl:hasDbXref	ehdaa:8307	semapv:UnspecifiedMatching	latissimus dorsi muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001114	oboInOwl:hasDbXref	ehdaa:4001	semapv:UnspecifiedMatching	right lobe of liver		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001115	oboInOwl:hasDbXref	ehdaa:3995	semapv:UnspecifiedMatching	left lobe of liver		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001116	oboInOwl:hasDbXref	ehdaa:8082	semapv:UnspecifiedMatching	quadrate lobe of liver		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001117	oboInOwl:hasDbXref	ehdaa:6990	semapv:UnspecifiedMatching	caudate lobe of liver		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001125	oboInOwl:hasDbXref	ehdaa:9463	semapv:UnspecifiedMatching	serratus ventralis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001129	oboInOwl:hasDbXref	ehdaa:8317	semapv:UnspecifiedMatching	subscapularis muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa:2331	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa:2349	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa:295	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa:6073	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa:640	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa:646	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001138	oboInOwl:hasDbXref	ehdaa:5414	semapv:UnspecifiedMatching	superior mesenteric vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001140	oboInOwl:hasDbXref	ehdaa:8722	semapv:UnspecifiedMatching	renal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001146	oboInOwl:hasDbXref	ehdaa:8731	semapv:UnspecifiedMatching	suprarenal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001148	oboInOwl:hasDbXref	ehdaa:5648	semapv:UnspecifiedMatching	median nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001150	oboInOwl:hasDbXref	ehdaa:9178	semapv:UnspecifiedMatching	body of pancreas		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001152	oboInOwl:hasDbXref	ehdaa:3045	semapv:UnspecifiedMatching	cystic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001153	oboInOwl:hasDbXref	ehdaa:3913	semapv:UnspecifiedMatching	caecum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001160	oboInOwl:hasDbXref	ehdaa:4844	semapv:UnspecifiedMatching	fundus of stomach		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001166	oboInOwl:hasDbXref	ehdaa:4860	semapv:UnspecifiedMatching	pylorus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001174	oboInOwl:hasDbXref	ehdaa:3981	semapv:UnspecifiedMatching	common bile duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001176	oboInOwl:hasDbXref	ehdaa:3992	semapv:UnspecifiedMatching	right hepatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001177	oboInOwl:hasDbXref	ehdaa:3990	semapv:UnspecifiedMatching	left hepatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001180	oboInOwl:hasDbXref	ehdaa:2343	semapv:UnspecifiedMatching	superior recess of lesser sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001181	oboInOwl:hasDbXref	ehdaa:6083	semapv:UnspecifiedMatching	inferior recess of lesser sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001182	oboInOwl:hasDbXref	ehdaa:3358	semapv:UnspecifiedMatching	superior mesenteric artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001182	oboInOwl:hasDbXref	ehdaa:5313	semapv:UnspecifiedMatching	superior mesenteric artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001183	oboInOwl:hasDbXref	ehdaa:4345	semapv:UnspecifiedMatching	inferior mesenteric artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001184	oboInOwl:hasDbXref	ehdaa:5321	semapv:UnspecifiedMatching	renal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001184	oboInOwl:hasDbXref	ehdaa:8594	semapv:UnspecifiedMatching	renal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001191	oboInOwl:hasDbXref	ehdaa:2553	semapv:UnspecifiedMatching	common iliac artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001215	oboInOwl:hasDbXref	ehdaa:8712	semapv:UnspecifiedMatching	inferior mesenteric vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001221	oboInOwl:hasDbXref	ehdaa:8254	semapv:UnspecifiedMatching	transversus abdominis muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001247	oboInOwl:hasDbXref	ehdaa:4856	semapv:UnspecifiedMatching	falciform ligament		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001255	oboInOwl:hasDbXref	ehdaa:9328	semapv:UnspecifiedMatching	urinary bladder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001264	oboInOwl:hasDbXref	ehdaa:6893	semapv:UnspecifiedMatching	pancreas		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001267	oboInOwl:hasDbXref	ehdaa:5655	semapv:UnspecifiedMatching	femoral nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001269	oboInOwl:hasDbXref	ehdaa:10661	semapv:UnspecifiedMatching	acetabular part of hip bone		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001280	oboInOwl:hasDbXref	ehdaa:2201	semapv:UnspecifiedMatching	liver parenchyma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001304	oboInOwl:hasDbXref	ehdaa:8126	semapv:UnspecifiedMatching	germinal epithelium of ovary		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001308	oboInOwl:hasDbXref	ehdaa:4337	semapv:UnspecifiedMatching	external iliac artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001310	oboInOwl:hasDbXref	ehdaa:1026	semapv:UnspecifiedMatching	umbilical artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001310	oboInOwl:hasDbXref	ehdaa:410	semapv:UnspecifiedMatching	umbilical artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001322	oboInOwl:hasDbXref	ehdaa:5659	semapv:UnspecifiedMatching	sciatic nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001341	oboInOwl:hasDbXref	ehdaa:2335	semapv:UnspecifiedMatching	lesser sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001352	oboInOwl:hasDbXref	ehdaa:8975	semapv:UnspecifiedMatching	external acoustic meatus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001353	oboInOwl:hasDbXref	ehdaa:2931	semapv:UnspecifiedMatching	anal region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001373	oboInOwl:hasDbXref	ehdaa:10583	semapv:UnspecifiedMatching	sartorius muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001377	oboInOwl:hasDbXref	ehdaa:8299	semapv:UnspecifiedMatching	quadriceps femoris		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001383	oboInOwl:hasDbXref	ehdaa:8291	semapv:UnspecifiedMatching	muscle of leg		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001388	oboInOwl:hasDbXref	ehdaa:8293	semapv:UnspecifiedMatching	gastrocnemius		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001460	oboInOwl:hasDbXref	ehdaa:4164	semapv:UnspecifiedMatching	arm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001460	oboInOwl:hasDbXref	ehdaa:6210	semapv:UnspecifiedMatching	arm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001460	oboInOwl:hasDbXref	ehdaa:8275	semapv:UnspecifiedMatching	arm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001461	oboInOwl:hasDbXref	ehdaa:4166	semapv:UnspecifiedMatching	elbow		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001461	oboInOwl:hasDbXref	ehdaa:6212	semapv:UnspecifiedMatching	elbow		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001464	oboInOwl:hasDbXref	ehdaa:5153	semapv:UnspecifiedMatching	hip		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001464	oboInOwl:hasDbXref	ehdaa:6178	semapv:UnspecifiedMatching	hip		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001465	oboInOwl:hasDbXref	ehdaa:5159	semapv:UnspecifiedMatching	knee		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001465	oboInOwl:hasDbXref	ehdaa:6184	semapv:UnspecifiedMatching	knee		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001467	oboInOwl:hasDbXref	ehdaa:4180	semapv:UnspecifiedMatching	shoulder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001467	oboInOwl:hasDbXref	ehdaa:6228	semapv:UnspecifiedMatching	shoulder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001477	oboInOwl:hasDbXref	ehdaa:8305	semapv:UnspecifiedMatching	infraspinatus muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001478	oboInOwl:hasDbXref	ehdaa:8321	semapv:UnspecifiedMatching	teres major muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001492	oboInOwl:hasDbXref	ehdaa:5650	semapv:UnspecifiedMatching	radial nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001494	oboInOwl:hasDbXref	ehdaa:5652	semapv:UnspecifiedMatching	ulnar nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001496	oboInOwl:hasDbXref	ehdaa:9828	semapv:UnspecifiedMatching	ascending aorta		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001497	oboInOwl:hasDbXref	ehdaa:8326	semapv:UnspecifiedMatching	muscle of pelvic girdle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001499	oboInOwl:hasDbXref	ehdaa:8277	semapv:UnspecifiedMatching	muscle of arm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001506	oboInOwl:hasDbXref	ehdaa:8281	semapv:UnspecifiedMatching	brachialis muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001507	oboInOwl:hasDbXref	ehdaa:8279	semapv:UnspecifiedMatching	biceps brachii		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001509	oboInOwl:hasDbXref	ehdaa:8287	semapv:UnspecifiedMatching	triceps brachii		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001530	oboInOwl:hasDbXref	ehdaa:7331	semapv:UnspecifiedMatching	common carotid artery plus branches		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001532	oboInOwl:hasDbXref	ehdaa:408	semapv:UnspecifiedMatching	internal carotid artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001532	oboInOwl:hasDbXref	ehdaa:6389	semapv:UnspecifiedMatching	internal carotid artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001533	oboInOwl:hasDbXref	ehdaa:4357	semapv:UnspecifiedMatching	subclavian artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001535	oboInOwl:hasDbXref	ehdaa:5328	semapv:UnspecifiedMatching	vertebral artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001555	oboInOwl:hasDbXref	ehdaa:518	semapv:UnspecifiedMatching	digestive tract		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001571	oboInOwl:hasDbXref	ehdaa:9150	semapv:UnspecifiedMatching	genioglossus muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001575	oboInOwl:hasDbXref	ehdaa:9148	semapv:UnspecifiedMatching	extrinsic muscle of tongue		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001576	oboInOwl:hasDbXref	ehdaa:9152	semapv:UnspecifiedMatching	intrinsic muscle of tongue		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001579	oboInOwl:hasDbXref	ehdaa:6672	semapv:UnspecifiedMatching	olfactory nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001585	oboInOwl:hasDbXref	ehdaa:8726	semapv:UnspecifiedMatching	anterior vena cava		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001586	oboInOwl:hasDbXref	ehdaa:5407	semapv:UnspecifiedMatching	internal jugular vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001587	oboInOwl:hasDbXref	ehdaa:4455	semapv:UnspecifiedMatching	subclavian vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001597	oboInOwl:hasDbXref	ehdaa:10561	semapv:UnspecifiedMatching	masseter muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001598	oboInOwl:hasDbXref	ehdaa:10565	semapv:UnspecifiedMatching	temporalis muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001599	oboInOwl:hasDbXref	ehdaa:9029	semapv:UnspecifiedMatching	stapedius muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001600	oboInOwl:hasDbXref	ehdaa:10167	semapv:UnspecifiedMatching	tensor tympani		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001600	oboInOwl:hasDbXref	ehdaa:10191	semapv:UnspecifiedMatching	tensor tympani		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001601	oboInOwl:hasDbXref	ehdaa:5729	semapv:UnspecifiedMatching	extra-ocular muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001609	oboInOwl:hasDbXref	ehdaa:5777	semapv:UnspecifiedMatching	isthmus of thyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001616	oboInOwl:hasDbXref	ehdaa:7357	semapv:UnspecifiedMatching	maxillary artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001619	oboInOwl:hasDbXref	ehdaa:7363	semapv:UnspecifiedMatching	ophthalmic artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001624	oboInOwl:hasDbXref	ehdaa:5296	semapv:UnspecifiedMatching	anterior cerebral artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001627	oboInOwl:hasDbXref	ehdaa:5298	semapv:UnspecifiedMatching	middle cerebral artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001628	oboInOwl:hasDbXref	ehdaa:3352	semapv:UnspecifiedMatching	posterior communicating artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001633	oboInOwl:hasDbXref	ehdaa:5285	semapv:UnspecifiedMatching	basilar artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001643	oboInOwl:hasDbXref	ehdaa:3736	semapv:UnspecifiedMatching	oculomotor nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001645	oboInOwl:hasDbXref	ehdaa:3738	semapv:UnspecifiedMatching	trigeminal nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001647	oboInOwl:hasDbXref	ehdaa:3729	semapv:UnspecifiedMatching	facial nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001649	oboInOwl:hasDbXref	ehdaa:3733	semapv:UnspecifiedMatching	glossopharyngeal nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001650	oboInOwl:hasDbXref	ehdaa:2859	semapv:UnspecifiedMatching	hypoglossal nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001675	oboInOwl:hasDbXref	ehdaa:2113	semapv:UnspecifiedMatching	trigeminal ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001678	oboInOwl:hasDbXref	ehdaa:6035	semapv:UnspecifiedMatching	temporal bone		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001684	oboInOwl:hasDbXref	ehdaa:8007	semapv:UnspecifiedMatching	mandible		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001686	oboInOwl:hasDbXref	ehdaa:5697	semapv:UnspecifiedMatching	auditory ossicle bone		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001690	oboInOwl:hasDbXref	ehdaa:502	semapv:UnspecifiedMatching	ear		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001691	oboInOwl:hasDbXref	ehdaa:3786	semapv:UnspecifiedMatching	external ear		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001698	oboInOwl:hasDbXref	ehdaa:10627	semapv:UnspecifiedMatching	foramen ovale of skull		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001700	oboInOwl:hasDbXref	ehdaa:5567	semapv:UnspecifiedMatching	geniculate ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001700	oboInOwl:hasDbXref	ehdaa:6644	semapv:UnspecifiedMatching	geniculate ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001701	oboInOwl:hasDbXref	ehdaa:2838	semapv:UnspecifiedMatching	glossopharyngeal ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001706	oboInOwl:hasDbXref	ehdaa:6809	semapv:UnspecifiedMatching	nasal septum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001707	oboInOwl:hasDbXref	ehdaa:6801	semapv:UnspecifiedMatching	nasal cavity		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001709	oboInOwl:hasDbXref	ehdaa:8025	semapv:UnspecifiedMatching	upper jaw region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001710	oboInOwl:hasDbXref	ehdaa:7995	semapv:UnspecifiedMatching	lower jaw region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001711	oboInOwl:hasDbXref	ehdaa:9037	semapv:UnspecifiedMatching	eyelid		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001712	oboInOwl:hasDbXref	ehdaa:9047	semapv:UnspecifiedMatching	upper eyelid		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001713	oboInOwl:hasDbXref	ehdaa:9041	semapv:UnspecifiedMatching	lower eyelid		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001723	oboInOwl:hasDbXref	ehdaa:9144	semapv:UnspecifiedMatching	tongue		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001728	oboInOwl:hasDbXref	ehdaa:7086	semapv:UnspecifiedMatching	nasopharynx		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001738	oboInOwl:hasDbXref	ehdaa:9395	semapv:UnspecifiedMatching	thyroid cartilage		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001739	oboInOwl:hasDbXref	ehdaa:8157	semapv:UnspecifiedMatching	laryngeal cartilage		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001756	oboInOwl:hasDbXref	ehdaa:5693	semapv:UnspecifiedMatching	middle ear		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001761	oboInOwl:hasDbXref	ehdaa:2150	semapv:UnspecifiedMatching	future foramen cecum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001761	oboInOwl:hasDbXref	ehdaa:2977	semapv:UnspecifiedMatching	future foramen cecum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001766	oboInOwl:hasDbXref	ehdaa:9033	semapv:UnspecifiedMatching	anterior chamber of eyeball		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001782	oboInOwl:hasDbXref	ehdaa:4765	semapv:UnspecifiedMatching	pigmented layer of retina		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001783	oboInOwl:hasDbXref	ehdaa:9077	semapv:UnspecifiedMatching	optic disc		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001796	oboInOwl:hasDbXref	ehdaa:10196	semapv:UnspecifiedMatching	aqueous humor of eyeball		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001807	oboInOwl:hasDbXref	ehdaa:5635	semapv:UnspecifiedMatching	paravertebral ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001810	oboInOwl:hasDbXref	ehdaa:3780	semapv:UnspecifiedMatching	nerve plexus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001814	oboInOwl:hasDbXref	ehdaa:3782	semapv:UnspecifiedMatching	brachial nerve plexus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001815	oboInOwl:hasDbXref	ehdaa:4673	semapv:UnspecifiedMatching	lumbosacral nerve plexus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001825	oboInOwl:hasDbXref	ehdaa:6489	semapv:UnspecifiedMatching	paranasal sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001841	oboInOwl:hasDbXref	ehdaa:7802	semapv:UnspecifiedMatching	anterior semicircular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001842	oboInOwl:hasDbXref	ehdaa:7796	semapv:UnspecifiedMatching	posterior semicircular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001843	oboInOwl:hasDbXref	ehdaa:7790	semapv:UnspecifiedMatching	lateral semicircular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001846	oboInOwl:hasDbXref	ehdaa:504	semapv:UnspecifiedMatching	internal ear		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001849	oboInOwl:hasDbXref	ehdaa:4698	semapv:UnspecifiedMatching	membranous labyrinth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001851	oboInOwl:hasDbXref	ehdaa:9344	semapv:UnspecifiedMatching	cortex		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001853	oboInOwl:hasDbXref	ehdaa:4726	semapv:UnspecifiedMatching	utricle of membranous labyrinth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001854	oboInOwl:hasDbXref	ehdaa:4712	semapv:UnspecifiedMatching	saccule of membranous labyrinth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001855	oboInOwl:hasDbXref	ehdaa:4718	semapv:UnspecifiedMatching	cochlear duct of membranous labyrinth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001862	oboInOwl:hasDbXref	ehdaa:4706	semapv:UnspecifiedMatching	vestibular labyrinth		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001884	oboInOwl:hasDbXref	ehdaa:4677	semapv:UnspecifiedMatching	phrenic nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001890	oboInOwl:hasDbXref	ehdaa:3470	semapv:UnspecifiedMatching	forebrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001891	oboInOwl:hasDbXref	ehdaa:3694	semapv:UnspecifiedMatching	midbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001894	oboInOwl:hasDbXref	ehdaa:1969	semapv:UnspecifiedMatching	diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001894	oboInOwl:hasDbXref	ehdaa:2645	semapv:UnspecifiedMatching	diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001894	oboInOwl:hasDbXref	ehdaa:3472	semapv:UnspecifiedMatching	diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001895	oboInOwl:hasDbXref	ehdaa:5498	semapv:UnspecifiedMatching	metencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001896	oboInOwl:hasDbXref	ehdaa:7588	semapv:UnspecifiedMatching	medulla oblongata		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001898	oboInOwl:hasDbXref	ehdaa:5446	semapv:UnspecifiedMatching	hypothalamus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001899	oboInOwl:hasDbXref	ehdaa:5433	semapv:UnspecifiedMatching	epithalamus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001901	oboInOwl:hasDbXref	ehdaa:5007	semapv:UnspecifiedMatching	epithelium of trachea		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001905	oboInOwl:hasDbXref	ehdaa:7523	semapv:UnspecifiedMatching	pineal body		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001951	oboInOwl:hasDbXref	ehdaa:7090	semapv:UnspecifiedMatching	epithelium of nasopharynx		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001981	oboInOwl:hasDbXref	ehdaa:240	semapv:UnspecifiedMatching	blood vessel		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001989	oboInOwl:hasDbXref	ehdaa:8943	semapv:UnspecifiedMatching	superior cervical ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001990	oboInOwl:hasDbXref	ehdaa:8941	semapv:UnspecifiedMatching	middle cervical ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001997	oboInOwl:hasDbXref	ehdaa:4774	semapv:UnspecifiedMatching	olfactory epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001999	oboInOwl:hasDbXref	ehdaa:9458	semapv:UnspecifiedMatching	iliopsoas		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002012	oboInOwl:hasDbXref	ehdaa:4351	semapv:UnspecifiedMatching	pulmonary artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002016	oboInOwl:hasDbXref	ehdaa:2629	semapv:UnspecifiedMatching	pulmonary vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002017	oboInOwl:hasDbXref	ehdaa:6510	semapv:UnspecifiedMatching	portal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002019	oboInOwl:hasDbXref	ehdaa:2855	semapv:UnspecifiedMatching	accessory XI nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002028	oboInOwl:hasDbXref	ehdaa:3514	semapv:UnspecifiedMatching	hindbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002028	oboInOwl:hasDbXref	ehdaa:6487	semapv:UnspecifiedMatching	hindbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002046	oboInOwl:hasDbXref	ehdaa:2148	semapv:UnspecifiedMatching	thyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002046	oboInOwl:hasDbXref	ehdaa:2975	semapv:UnspecifiedMatching	thyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002048	oboInOwl:hasDbXref	ehdaa:1554	semapv:UnspecifiedMatching	lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002048	oboInOwl:hasDbXref	ehdaa:2205	semapv:UnspecifiedMatching	lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002058	oboInOwl:hasDbXref	ehdaa:5623	semapv:UnspecifiedMatching	main ciliary ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002059	oboInOwl:hasDbXref	ehdaa:6710	semapv:UnspecifiedMatching	submandibular ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002062	oboInOwl:hasDbXref	ehdaa:2586	semapv:UnspecifiedMatching	endocardial cushion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002063	oboInOwl:hasDbXref	ehdaa:480	semapv:UnspecifiedMatching	sinus venosus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002064	oboInOwl:hasDbXref	ehdaa:1314	semapv:UnspecifiedMatching	common cardinal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002065	oboInOwl:hasDbXref	ehdaa:1316	semapv:UnspecifiedMatching	posterior cardinal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002066	oboInOwl:hasDbXref	ehdaa:1034	semapv:UnspecifiedMatching	umbilical vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002066	oboInOwl:hasDbXref	ehdaa:488	semapv:UnspecifiedMatching	umbilical vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002068	oboInOwl:hasDbXref	ehdaa:7016	semapv:UnspecifiedMatching	urachus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002068	oboInOwl:hasDbXref	ehdaa:9332	semapv:UnspecifiedMatching	urachus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002075	oboInOwl:hasDbXref	ehdaa:512	semapv:UnspecifiedMatching	viscus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002081	oboInOwl:hasDbXref	ehdaa:1265	semapv:UnspecifiedMatching	cardiac atrium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002082	oboInOwl:hasDbXref	ehdaa:1912	semapv:UnspecifiedMatching	cardiac ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002083	oboInOwl:hasDbXref	ehdaa:5402	semapv:UnspecifiedMatching	ductus venosus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002085	oboInOwl:hasDbXref	ehdaa:1896	semapv:UnspecifiedMatching	interatrial septum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002087	oboInOwl:hasDbXref	ehdaa:764	semapv:UnspecifiedMatching	atrioventricular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002090	oboInOwl:hasDbXref	ehdaa:5049	semapv:UnspecifiedMatching	postcranial axial skeleton		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002094	oboInOwl:hasDbXref	ehdaa:2603	semapv:UnspecifiedMatching	interventricular septum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002101	oboInOwl:hasDbXref	ehdaa:1697	semapv:UnspecifiedMatching	limb		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002101	oboInOwl:hasDbXref	ehdaa:8273	semapv:UnspecifiedMatching	limb		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002102	oboInOwl:hasDbXref	ehdaa:6208	semapv:UnspecifiedMatching	forelimb		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002103	oboInOwl:hasDbXref	ehdaa:6094	semapv:UnspecifiedMatching	hindlimb		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002107	oboInOwl:hasDbXref	ehdaa:2197	semapv:UnspecifiedMatching	liver		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002110	oboInOwl:hasDbXref	ehdaa:8062	semapv:UnspecifiedMatching	gallbladder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002120	oboInOwl:hasDbXref	ehdaa:1017	semapv:UnspecifiedMatching	pronephros		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002133	oboInOwl:hasDbXref	ehdaa:7421	semapv:UnspecifiedMatching	atrioventricular valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002134	oboInOwl:hasDbXref	ehdaa:7427	semapv:UnspecifiedMatching	tricuspid valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002137	oboInOwl:hasDbXref	ehdaa:4410	semapv:UnspecifiedMatching	aortic valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002146	oboInOwl:hasDbXref	ehdaa:4412	semapv:UnspecifiedMatching	pulmonary valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002167	oboInOwl:hasDbXref	ehdaa:4969	semapv:UnspecifiedMatching	right lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002168	oboInOwl:hasDbXref	ehdaa:4947	semapv:UnspecifiedMatching	left lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002170	oboInOwl:hasDbXref	ehdaa:4987	semapv:UnspecifiedMatching	upper lobe of right lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002171	oboInOwl:hasDbXref	ehdaa:4979	semapv:UnspecifiedMatching	lower lobe of right lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002182	oboInOwl:hasDbXref	ehdaa:3072	semapv:UnspecifiedMatching	main bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:4955	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:4963	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:4977	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:4985	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:4993	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:8175	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:8187	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:8203	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:8213	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002183	oboInOwl:hasDbXref	ehdaa:8225	semapv:UnspecifiedMatching	lobar bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002184	oboInOwl:hasDbXref	ehdaa:7043	semapv:UnspecifiedMatching	segmental bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002184	oboInOwl:hasDbXref	ehdaa:7049	semapv:UnspecifiedMatching	segmental bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002184	oboInOwl:hasDbXref	ehdaa:7058	semapv:UnspecifiedMatching	segmental bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002184	oboInOwl:hasDbXref	ehdaa:7064	semapv:UnspecifiedMatching	segmental bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002184	oboInOwl:hasDbXref	ehdaa:7070	semapv:UnspecifiedMatching	segmental bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002186	oboInOwl:hasDbXref	ehdaa:8171	semapv:UnspecifiedMatching	bronchiole		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002186	oboInOwl:hasDbXref	ehdaa:8183	semapv:UnspecifiedMatching	bronchiole		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002186	oboInOwl:hasDbXref	ehdaa:8199	semapv:UnspecifiedMatching	bronchiole		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002186	oboInOwl:hasDbXref	ehdaa:8221	semapv:UnspecifiedMatching	bronchiole		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002192	oboInOwl:hasDbXref	ehdaa:7567	semapv:UnspecifiedMatching	ventricular system choroidal fissure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002197	oboInOwl:hasDbXref	ehdaa:7540	semapv:UnspecifiedMatching	median eminence of neurohypophysis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002198	oboInOwl:hasDbXref	ehdaa:7536	semapv:UnspecifiedMatching	neurohypophysis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002223	oboInOwl:hasDbXref	ehdaa:7761	semapv:UnspecifiedMatching	endolymphatic sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002229	oboInOwl:hasDbXref	ehdaa:9530	semapv:UnspecifiedMatching	interparietal bone		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002240	oboInOwl:hasDbXref	ehdaa:2863	semapv:UnspecifiedMatching	spinal cord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002244	oboInOwl:hasDbXref	ehdaa:6962	semapv:UnspecifiedMatching	premaxilla		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002244	oboInOwl:hasDbXref	ehdaa:8033	semapv:UnspecifiedMatching	premaxilla		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002248	oboInOwl:hasDbXref	ehdaa:796	semapv:UnspecifiedMatching	transverse pericardial sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002255	oboInOwl:hasDbXref	ehdaa:7865	semapv:UnspecifiedMatching	vomeronasal organ		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002262	oboInOwl:hasDbXref	ehdaa:8946	semapv:UnspecifiedMatching	celiac ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002285	oboInOwl:hasDbXref	ehdaa:3502	semapv:UnspecifiedMatching	telencephalic ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002285	oboInOwl:hasDbXref	ehdaa:6576	semapv:UnspecifiedMatching	telencephalic ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002287	oboInOwl:hasDbXref	ehdaa:1343	semapv:UnspecifiedMatching	optic recess of third ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002287	oboInOwl:hasDbXref	ehdaa:1973	semapv:UnspecifiedMatching	optic recess of third ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002287	oboInOwl:hasDbXref	ehdaa:2649	semapv:UnspecifiedMatching	optic recess of third ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002287	oboInOwl:hasDbXref	ehdaa:3478	semapv:UnspecifiedMatching	optic recess of third ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002289	oboInOwl:hasDbXref	ehdaa:3696	semapv:UnspecifiedMatching	midbrain cerebral aqueduct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002296	oboInOwl:hasDbXref	ehdaa:3019	semapv:UnspecifiedMatching	dorsal mesentery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002296	oboInOwl:hasDbXref	ehdaa:3033	semapv:UnspecifiedMatching	dorsal mesentery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002296	oboInOwl:hasDbXref	ehdaa:3921	semapv:UnspecifiedMatching	dorsal mesentery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002296	oboInOwl:hasDbXref	ehdaa:3934	semapv:UnspecifiedMatching	dorsal mesentery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002296	oboInOwl:hasDbXref	ehdaa:3957	semapv:UnspecifiedMatching	dorsal mesentery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002296	oboInOwl:hasDbXref	ehdaa:3971	semapv:UnspecifiedMatching	dorsal mesentery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002328	oboInOwl:hasDbXref	ehdaa:1241	semapv:UnspecifiedMatching	notochord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002328	oboInOwl:hasDbXref	ehdaa:6021	semapv:UnspecifiedMatching	notochord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002329	oboInOwl:hasDbXref	ehdaa:366	semapv:UnspecifiedMatching	somite		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002329	oboInOwl:hasDbXref	ehdaa:699	semapv:UnspecifiedMatching	somite		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002331	oboInOwl:hasDbXref	ehdaa:158	semapv:UnspecifiedMatching	umbilical cord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002333	oboInOwl:hasDbXref	ehdaa:9831	semapv:UnspecifiedMatching	pulmonary trunk		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002340	oboInOwl:hasDbXref	ehdaa:5003	semapv:UnspecifiedMatching	epithelium of main bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002346	oboInOwl:hasDbXref	ehdaa:1498	semapv:UnspecifiedMatching	neuroectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002346	oboInOwl:hasDbXref	ehdaa:255	semapv:UnspecifiedMatching	neuroectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:1367	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:1961	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:2001	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:2099	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:2685	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:2833	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:2867	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:3692	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:3710	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:6566	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002361	oboInOwl:hasDbXref	ehdaa:6583	semapv:UnspecifiedMatching	pia mater		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002370	oboInOwl:hasDbXref	ehdaa:9119	semapv:UnspecifiedMatching	thymus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002375	oboInOwl:hasDbXref	ehdaa:9393	semapv:UnspecifiedMatching	cricoid cartilage		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002381	oboInOwl:hasDbXref	ehdaa:8311	semapv:UnspecifiedMatching	pectoralis major		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002382	oboInOwl:hasDbXref	ehdaa:8252	semapv:UnspecifiedMatching	rectus abdominis muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002383	oboInOwl:hasDbXref	ehdaa:8319	semapv:UnspecifiedMatching	supraspinatus muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002386	oboInOwl:hasDbXref	ehdaa:4172	semapv:UnspecifiedMatching	forelimb zeugopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002386	oboInOwl:hasDbXref	ehdaa:6218	semapv:UnspecifiedMatching	forelimb zeugopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002392	oboInOwl:hasDbXref	ehdaa:7849	semapv:UnspecifiedMatching	nasolacrimal duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002392	oboInOwl:hasDbXref	ehdaa:9094	semapv:UnspecifiedMatching	nasolacrimal duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002397	oboInOwl:hasDbXref	ehdaa:8043	semapv:UnspecifiedMatching	maxilla		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002399	oboInOwl:hasDbXref	ehdaa:4858	semapv:UnspecifiedMatching	lesser omentum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002407	oboInOwl:hasDbXref	ehdaa:5376	semapv:UnspecifiedMatching	pericardium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002408	oboInOwl:hasDbXref	ehdaa:3422	semapv:UnspecifiedMatching	parietal serous pericardium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002408	oboInOwl:hasDbXref	ehdaa:5378	semapv:UnspecifiedMatching	parietal serous pericardium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002410	oboInOwl:hasDbXref	ehdaa:3767	semapv:UnspecifiedMatching	autonomic nervous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002411	oboInOwl:hasDbXref	ehdaa:9360	semapv:UnspecifiedMatching	clitoris		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002415	oboInOwl:hasDbXref	ehdaa:9198	semapv:UnspecifiedMatching	tail		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002416	oboInOwl:hasDbXref	ehdaa:6520	semapv:UnspecifiedMatching	integumental system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002422	oboInOwl:hasDbXref	ehdaa:896	semapv:UnspecifiedMatching	fourth ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002423	oboInOwl:hasDbXref	ehdaa:2189	semapv:UnspecifiedMatching	hepatobiliary system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002424	oboInOwl:hasDbXref	ehdaa:2187	semapv:UnspecifiedMatching	oral epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002432	oboInOwl:hasDbXref	ehdaa:8765	semapv:UnspecifiedMatching	pars intermedia of adenohypophysis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002433	oboInOwl:hasDbXref	ehdaa:8767	semapv:UnspecifiedMatching	pars tuberalis of adenohypophysis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002434	oboInOwl:hasDbXref	ehdaa:7538	semapv:UnspecifiedMatching	pituitary stalk		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002440	oboInOwl:hasDbXref	ehdaa:8939	semapv:UnspecifiedMatching	inferior cervical ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002444	oboInOwl:hasDbXref	ehdaa:4745	semapv:UnspecifiedMatching	lens fiber		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002444	oboInOwl:hasDbXref	ehdaa:9065	semapv:UnspecifiedMatching	lens fiber		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002456	oboInOwl:hasDbXref	ehdaa:8585	semapv:UnspecifiedMatching	internal thoracic artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002457	oboInOwl:hasDbXref	ehdaa:4340	semapv:UnspecifiedMatching	intersomitic artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002458	oboInOwl:hasDbXref	ehdaa:4355	semapv:UnspecifiedMatching	spinal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002462	oboInOwl:hasDbXref	ehdaa:9456	semapv:UnspecifiedMatching	erector spinae muscle group		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002463	oboInOwl:hasDbXref	ehdaa:8295	semapv:UnspecifiedMatching	muscle of posterior compartment of hindlimb stylopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002464	oboInOwl:hasDbXref	ehdaa:4675	semapv:UnspecifiedMatching	nerve trunk		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002465	oboInOwl:hasDbXref	ehdaa:8677	semapv:UnspecifiedMatching	lymphoid system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002494	oboInOwl:hasDbXref	ehdaa:8655	semapv:UnspecifiedMatching	papillary muscle of heart		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002530	oboInOwl:hasDbXref	ehdaa:2161	semapv:UnspecifiedMatching	gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002533	oboInOwl:hasDbXref	ehdaa:1595	semapv:UnspecifiedMatching	post-anal tail bud		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002539	oboInOwl:hasDbXref	ehdaa:571	semapv:UnspecifiedMatching	pharyngeal arch		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002827	oboInOwl:hasDbXref	ehdaa:5569	semapv:UnspecifiedMatching	vestibulocochlear ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002827	oboInOwl:hasDbXref	ehdaa:6653	semapv:UnspecifiedMatching	vestibulocochlear ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002894	oboInOwl:hasDbXref	ehdaa:5482	semapv:UnspecifiedMatching	olfactory cortex		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003050	oboInOwl:hasDbXref	ehdaa:1504	semapv:UnspecifiedMatching	olfactory placode		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003052	oboInOwl:hasDbXref	ehdaa:5789	semapv:UnspecifiedMatching	midbrain-hindbrain boundary		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003054	oboInOwl:hasDbXref	ehdaa:2891	semapv:UnspecifiedMatching	roof plate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003054	oboInOwl:hasDbXref	ehdaa:916	semapv:UnspecifiedMatching	roof plate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003055	oboInOwl:hasDbXref	ehdaa:6538	semapv:UnspecifiedMatching	periderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003061	oboInOwl:hasDbXref	ehdaa:207	semapv:UnspecifiedMatching	blood island		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003062	oboInOwl:hasDbXref	ehdaa:549	semapv:UnspecifiedMatching	primitive knot		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003063	oboInOwl:hasDbXref	ehdaa:181	semapv:UnspecifiedMatching	prechordal plate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003066	oboInOwl:hasDbXref	ehdaa:611	semapv:UnspecifiedMatching	pharyngeal arch 2		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003069	oboInOwl:hasDbXref	ehdaa:506	semapv:UnspecifiedMatching	otic placode		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003072	oboInOwl:hasDbXref	ehdaa:2912	semapv:UnspecifiedMatching	optic cup		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003073	oboInOwl:hasDbXref	ehdaa:2908	semapv:UnspecifiedMatching	lens placode		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003074	oboInOwl:hasDbXref	ehdaa:1590	semapv:UnspecifiedMatching	mesonephric duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003075	oboInOwl:hasDbXref	ehdaa:346	semapv:UnspecifiedMatching	neural plate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003075	oboInOwl:hasDbXref	ehdaa:902	semapv:UnspecifiedMatching	neural plate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003081	oboInOwl:hasDbXref	ehdaa:379	semapv:UnspecifiedMatching	lateral plate mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003082	oboInOwl:hasDbXref	ehdaa:1721	semapv:UnspecifiedMatching	myotome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003082	oboInOwl:hasDbXref	ehdaa:1727	semapv:UnspecifiedMatching	myotome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003082	oboInOwl:hasDbXref	ehdaa:1733	semapv:UnspecifiedMatching	myotome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003082	oboInOwl:hasDbXref	ehdaa:1739	semapv:UnspecifiedMatching	myotome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003087	oboInOwl:hasDbXref	ehdaa:1312	semapv:UnspecifiedMatching	anterior cardinal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003091	oboInOwl:hasDbXref	ehdaa:952	semapv:UnspecifiedMatching	thyroid primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003092	oboInOwl:hasDbXref	ehdaa:2987	semapv:UnspecifiedMatching	ultimobranchial body		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003092	oboInOwl:hasDbXref	ehdaa:9139	semapv:UnspecifiedMatching	ultimobranchial body		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003098	oboInOwl:hasDbXref	ehdaa:3816	semapv:UnspecifiedMatching	optic stalk		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003107	oboInOwl:hasDbXref	ehdaa:7997	semapv:UnspecifiedMatching	Meckel's cartilage		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003114	oboInOwl:hasDbXref	ehdaa:1080	semapv:UnspecifiedMatching	pharyngeal arch 3		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003115	oboInOwl:hasDbXref	ehdaa:1663	semapv:UnspecifiedMatching	pharyngeal arch 4		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003124	oboInOwl:hasDbXref	ehdaa:150	semapv:UnspecifiedMatching	chorion membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003126	oboInOwl:hasDbXref	ehdaa:3078	semapv:UnspecifiedMatching	trachea		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003128	oboInOwl:hasDbXref	ehdaa:6029	semapv:UnspecifiedMatching	cranium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003217	oboInOwl:hasDbXref	ehdaa:7542	semapv:UnspecifiedMatching	neural lobe of neurohypophysis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003220	oboInOwl:hasDbXref	ehdaa:4041	semapv:UnspecifiedMatching	metanephric mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003220	oboInOwl:hasDbXref	ehdaa:5021	semapv:UnspecifiedMatching	metanephric mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003220	oboInOwl:hasDbXref	ehdaa:5915	semapv:UnspecifiedMatching	metanephric mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003224	oboInOwl:hasDbXref	ehdaa:156	semapv:UnspecifiedMatching	chorion syncytiotrophoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003229	oboInOwl:hasDbXref	ehdaa:4168	semapv:UnspecifiedMatching	epithelium of elbow		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003229	oboInOwl:hasDbXref	ehdaa:6214	semapv:UnspecifiedMatching	epithelium of elbow		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003230	oboInOwl:hasDbXref	ehdaa:5198	semapv:UnspecifiedMatching	epithelium of carpal region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003231	oboInOwl:hasDbXref	ehdaa:5155	semapv:UnspecifiedMatching	epithelium of hip		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003231	oboInOwl:hasDbXref	ehdaa:6180	semapv:UnspecifiedMatching	epithelium of hip		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003232	oboInOwl:hasDbXref	ehdaa:5161	semapv:UnspecifiedMatching	epithelium of knee		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003232	oboInOwl:hasDbXref	ehdaa:6186	semapv:UnspecifiedMatching	epithelium of knee		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003233	oboInOwl:hasDbXref	ehdaa:4182	semapv:UnspecifiedMatching	epithelium of shoulder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003233	oboInOwl:hasDbXref	ehdaa:6230	semapv:UnspecifiedMatching	epithelium of shoulder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003235	oboInOwl:hasDbXref	ehdaa:8027	semapv:UnspecifiedMatching	epithelium of upper jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003236	oboInOwl:hasDbXref	ehdaa:7999	semapv:UnspecifiedMatching	epithelium of lower jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003238	oboInOwl:hasDbXref	ehdaa:7806	semapv:UnspecifiedMatching	epithelium of superior semicircular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003239	oboInOwl:hasDbXref	ehdaa:7800	semapv:UnspecifiedMatching	epithelium of posterior semicircular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003240	oboInOwl:hasDbXref	ehdaa:7794	semapv:UnspecifiedMatching	epithelium of lateral semicircular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003241	oboInOwl:hasDbXref	ehdaa:4730	semapv:UnspecifiedMatching	epithelium of utricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003242	oboInOwl:hasDbXref	ehdaa:4724	semapv:UnspecifiedMatching	epithelium of saccule		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003243	oboInOwl:hasDbXref	ehdaa:4722	semapv:UnspecifiedMatching	epithelium of cochlear duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003244	oboInOwl:hasDbXref	ehdaa:6526	semapv:UnspecifiedMatching	epithelium of mammary gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003246	oboInOwl:hasDbXref	ehdaa:7765	semapv:UnspecifiedMatching	epithelium of endolymphatic sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003247	oboInOwl:hasDbXref	ehdaa:4174	semapv:UnspecifiedMatching	epithelium of forearm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003247	oboInOwl:hasDbXref	ehdaa:6220	semapv:UnspecifiedMatching	epithelium of forearm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003248	oboInOwl:hasDbXref	ehdaa:5145	semapv:UnspecifiedMatching	epithelium of footplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003248	oboInOwl:hasDbXref	ehdaa:6144	semapv:UnspecifiedMatching	epithelium of footplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003249	oboInOwl:hasDbXref	ehdaa:510	semapv:UnspecifiedMatching	epithelium of otic placode		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003254	oboInOwl:hasDbXref	ehdaa:138	semapv:UnspecifiedMatching	amniotic ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003257	oboInOwl:hasDbXref	ehdaa:166	semapv:UnspecifiedMatching	yolk sac endoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003258	oboInOwl:hasDbXref	ehdaa:524	semapv:UnspecifiedMatching	endoderm of foregut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003259	oboInOwl:hasDbXref	ehdaa:987	semapv:UnspecifiedMatching	endoderm of midgut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003260	oboInOwl:hasDbXref	ehdaa:979	semapv:UnspecifiedMatching	endoderm of hindgut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003261	oboInOwl:hasDbXref	ehdaa:956	semapv:UnspecifiedMatching	thyroid primordium endoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003262	oboInOwl:hasDbXref	ehdaa:140	semapv:UnspecifiedMatching	amniotic mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003265	oboInOwl:hasDbXref	ehdaa:154	semapv:UnspecifiedMatching	chorionic mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003267	oboInOwl:hasDbXref	ehdaa:8045	semapv:UnspecifiedMatching	tooth of upper jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003268	oboInOwl:hasDbXref	ehdaa:8009	semapv:UnspecifiedMatching	tooth of lower jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003269	oboInOwl:hasDbXref	ehdaa:2923	semapv:UnspecifiedMatching	skeletal muscle tissue of eye		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003274	oboInOwl:hasDbXref	ehdaa:2339	semapv:UnspecifiedMatching	mesothelium of omental bursa		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003277	oboInOwl:hasDbXref	ehdaa:8041	semapv:UnspecifiedMatching	skeleton of upper jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003278	oboInOwl:hasDbXref	ehdaa:8005	semapv:UnspecifiedMatching	skeleton of lower jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003279	oboInOwl:hasDbXref	ehdaa:3082	semapv:UnspecifiedMatching	endothelium of trachea		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003280	oboInOwl:hasDbXref	ehdaa:3076	semapv:UnspecifiedMatching	endothelium of main bronchus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003281	oboInOwl:hasDbXref	ehdaa:2999	semapv:UnspecifiedMatching	mesentery of stomach		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003282	oboInOwl:hasDbXref	ehdaa:432	semapv:UnspecifiedMatching	mesentery of heart		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003283	oboInOwl:hasDbXref	ehdaa:2943	semapv:UnspecifiedMatching	mesentery of oesophagus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003284	oboInOwl:hasDbXref	ehdaa:3031	semapv:UnspecifiedMatching	mesentery of midgut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003286	oboInOwl:hasDbXref	ehdaa:3830	semapv:UnspecifiedMatching	foregut region of duodenum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003287	oboInOwl:hasDbXref	ehdaa:3937	semapv:UnspecifiedMatching	midgut region of duodenum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003288	oboInOwl:hasDbXref	ehdaa:3708	semapv:UnspecifiedMatching	meninx of midbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003289	oboInOwl:hasDbXref	ehdaa:5476	semapv:UnspecifiedMatching	meninx of telencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003290	oboInOwl:hasDbXref	ehdaa:5458	semapv:UnspecifiedMatching	meninx of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003291	oboInOwl:hasDbXref	ehdaa:3688	semapv:UnspecifiedMatching	meninx of hindbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003292	oboInOwl:hasDbXref	ehdaa:2865	semapv:UnspecifiedMatching	meninx of spinal cord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003294	oboInOwl:hasDbXref	ehdaa:950	semapv:UnspecifiedMatching	gland of foregut		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003295	oboInOwl:hasDbXref	ehdaa:2967	semapv:UnspecifiedMatching	pharyngeal gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003299	oboInOwl:hasDbXref	ehdaa:3712	semapv:UnspecifiedMatching	roof plate of midbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003300	oboInOwl:hasDbXref	ehdaa:3512	semapv:UnspecifiedMatching	roof plate of telencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003301	oboInOwl:hasDbXref	ehdaa:1979	semapv:UnspecifiedMatching	roof plate of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003301	oboInOwl:hasDbXref	ehdaa:2657	semapv:UnspecifiedMatching	roof plate of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003301	oboInOwl:hasDbXref	ehdaa:3494	semapv:UnspecifiedMatching	roof plate of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003302	oboInOwl:hasDbXref	ehdaa:5524	semapv:UnspecifiedMatching	roof plate of metencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003303	oboInOwl:hasDbXref	ehdaa:7614	semapv:UnspecifiedMatching	roof plate of medulla oblongata		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003304	oboInOwl:hasDbXref	ehdaa:170	semapv:UnspecifiedMatching	mesoderm blood island		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003306	oboInOwl:hasDbXref	ehdaa:2871	semapv:UnspecifiedMatching	floor plate of neural tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003306	oboInOwl:hasDbXref	ehdaa:910	semapv:UnspecifiedMatching	floor plate of neural tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003307	oboInOwl:hasDbXref	ehdaa:3698	semapv:UnspecifiedMatching	floor plate of midbrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003308	oboInOwl:hasDbXref	ehdaa:3498	semapv:UnspecifiedMatching	floor plate of telencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003309	oboInOwl:hasDbXref	ehdaa:1975	semapv:UnspecifiedMatching	floor plate of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003309	oboInOwl:hasDbXref	ehdaa:2651	semapv:UnspecifiedMatching	floor plate of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003309	oboInOwl:hasDbXref	ehdaa:3480	semapv:UnspecifiedMatching	floor plate of diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003310	oboInOwl:hasDbXref	ehdaa:5500	semapv:UnspecifiedMatching	floor plate of metencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003311	oboInOwl:hasDbXref	ehdaa:7590	semapv:UnspecifiedMatching	floor plate of medulla oblongata		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003312	oboInOwl:hasDbXref	ehdaa:8150	semapv:UnspecifiedMatching	mesenchyme of testis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003314	oboInOwl:hasDbXref	ehdaa:2910	semapv:UnspecifiedMatching	eye mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003315	oboInOwl:hasDbXref	ehdaa:8128	semapv:UnspecifiedMatching	mesenchyme of ovary		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003316	oboInOwl:hasDbXref	ehdaa:168	semapv:UnspecifiedMatching	mesenchyme of yolk sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003316	oboInOwl:hasDbXref	ehdaa:205	semapv:UnspecifiedMatching	mesenchyme of yolk sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003318	oboInOwl:hasDbXref	ehdaa:4170	semapv:UnspecifiedMatching	mesenchyme of elbow		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003318	oboInOwl:hasDbXref	ehdaa:6216	semapv:UnspecifiedMatching	mesenchyme of elbow		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003319	oboInOwl:hasDbXref	ehdaa:5200	semapv:UnspecifiedMatching	mesenchyme of carpal region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003320	oboInOwl:hasDbXref	ehdaa:5157	semapv:UnspecifiedMatching	mesenchyme of hip		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003320	oboInOwl:hasDbXref	ehdaa:6182	semapv:UnspecifiedMatching	mesenchyme of hip		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003321	oboInOwl:hasDbXref	ehdaa:5163	semapv:UnspecifiedMatching	mesenchyme of knee		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003321	oboInOwl:hasDbXref	ehdaa:6188	semapv:UnspecifiedMatching	mesenchyme of knee		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003322	oboInOwl:hasDbXref	ehdaa:4184	semapv:UnspecifiedMatching	mesenchyme of shoulder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003322	oboInOwl:hasDbXref	ehdaa:6232	semapv:UnspecifiedMatching	mesenchyme of shoulder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003323	oboInOwl:hasDbXref	ehdaa:8031	semapv:UnspecifiedMatching	mesenchyme of upper jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003324	oboInOwl:hasDbXref	ehdaa:8003	semapv:UnspecifiedMatching	mesenchyme of lower jaw		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003325	oboInOwl:hasDbXref	ehdaa:8981	semapv:UnspecifiedMatching	mesenchyme of pinna		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003326	oboInOwl:hasDbXref	ehdaa:6528	semapv:UnspecifiedMatching	mesenchyme of mammary gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003327	oboInOwl:hasDbXref	ehdaa:4176	semapv:UnspecifiedMatching	mesenchyme of forearm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003327	oboInOwl:hasDbXref	ehdaa:6222	semapv:UnspecifiedMatching	mesenchyme of forearm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003328	oboInOwl:hasDbXref	ehdaa:5149	semapv:UnspecifiedMatching	mesenchyme of footplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003328	oboInOwl:hasDbXref	ehdaa:6172	semapv:UnspecifiedMatching	mesenchyme of footplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003413	oboInOwl:hasDbXref	ehdaa:1703	semapv:UnspecifiedMatching	pectoral appendage bud mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003472	oboInOwl:hasDbXref	ehdaa:5290	semapv:UnspecifiedMatching	cerebellar artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003535	oboInOwl:hasDbXref	ehdaa:4659	semapv:UnspecifiedMatching	vagus X nerve trunk		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003666	oboInOwl:hasDbXref	ehdaa:8053	semapv:UnspecifiedMatching	upper jaw molar		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003667	oboInOwl:hasDbXref	ehdaa:8017	semapv:UnspecifiedMatching	lower jaw molar		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003709	oboInOwl:hasDbXref	ehdaa:9758	semapv:UnspecifiedMatching	circle of Willis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003711	oboInOwl:hasDbXref	ehdaa:9868	semapv:UnspecifiedMatching	brachiocephalic vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003723	oboInOwl:hasDbXref	ehdaa:3749	semapv:UnspecifiedMatching	vestibular nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003822	oboInOwl:hasDbXref	ehdaa:4186	semapv:UnspecifiedMatching	forelimb stylopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003822	oboInOwl:hasDbXref	ehdaa:6234	semapv:UnspecifiedMatching	forelimb stylopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003823	oboInOwl:hasDbXref	ehdaa:5165	semapv:UnspecifiedMatching	hindlimb zeugopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003823	oboInOwl:hasDbXref	ehdaa:6190	semapv:UnspecifiedMatching	hindlimb zeugopod		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003842	oboInOwl:hasDbXref	ehdaa:2889	semapv:UnspecifiedMatching	neural tube lumen		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003842	oboInOwl:hasDbXref	ehdaa:914	semapv:UnspecifiedMatching	neural tube lumen		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003847	oboInOwl:hasDbXref	ehdaa:7372	semapv:UnspecifiedMatching	thyroid artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003848	oboInOwl:hasDbXref	ehdaa:8703	semapv:UnspecifiedMatching	gonadal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003849	oboInOwl:hasDbXref	ehdaa:360	semapv:UnspecifiedMatching	mesencephalic neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003852	oboInOwl:hasDbXref	ehdaa:362	semapv:UnspecifiedMatching	rhombencephalon neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003853	oboInOwl:hasDbXref	ehdaa:696	semapv:UnspecifiedMatching	spinal cord neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003855	oboInOwl:hasDbXref	ehdaa:5012	semapv:UnspecifiedMatching	gonad mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003857	oboInOwl:hasDbXref	ehdaa:9051	semapv:UnspecifiedMatching	upper eyelid mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003858	oboInOwl:hasDbXref	ehdaa:9045	semapv:UnspecifiedMatching	lower eyelid mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003887	oboInOwl:hasDbXref	ehdaa:251	semapv:UnspecifiedMatching	intraembryonic coelom		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003888	oboInOwl:hasDbXref	ehdaa:146	semapv:UnspecifiedMatching	extraembryonic coelomic cavity		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003893	oboInOwl:hasDbXref	ehdaa:4739	semapv:UnspecifiedMatching	capsule		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003893	oboInOwl:hasDbXref	ehdaa:9061	semapv:UnspecifiedMatching	capsule		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003894	oboInOwl:hasDbXref	ehdaa:973	semapv:UnspecifiedMatching	liver primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003897	oboInOwl:hasDbXref	ehdaa:5982	semapv:UnspecifiedMatching	axial muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003902	oboInOwl:hasDbXref	ehdaa:4763	semapv:UnspecifiedMatching	retinal neural layer		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:1271	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:1279	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:1922	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:1930	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:426	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:442	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:450	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:458	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:466	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:474	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:772	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:780	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:788	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:800	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003906	oboInOwl:hasDbXref	ehdaa:808	semapv:UnspecifiedMatching	cardiac jelly		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003907	oboInOwl:hasDbXref	ehdaa:5336	semapv:UnspecifiedMatching	left atrioventricular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003908	oboInOwl:hasDbXref	ehdaa:5338	semapv:UnspecifiedMatching	right atrioventricular canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003921	oboInOwl:hasDbXref	ehdaa:2163	semapv:UnspecifiedMatching	pancreas primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003963	oboInOwl:hasDbXref	ehdaa:6706	semapv:UnspecifiedMatching	otic ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003978	oboInOwl:hasDbXref	ehdaa:1892	semapv:UnspecifiedMatching	valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003978	oboInOwl:hasDbXref	ehdaa:4406	semapv:UnspecifiedMatching	valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004016	oboInOwl:hasDbXref	ehdaa:1719	semapv:UnspecifiedMatching	dermatome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004016	oboInOwl:hasDbXref	ehdaa:1725	semapv:UnspecifiedMatching	dermatome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004016	oboInOwl:hasDbXref	ehdaa:1731	semapv:UnspecifiedMatching	dermatome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004016	oboInOwl:hasDbXref	ehdaa:1737	semapv:UnspecifiedMatching	dermatome		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004055	oboInOwl:hasDbXref	ehdaa:551	semapv:UnspecifiedMatching	primitive pit		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004056	oboInOwl:hasDbXref	ehdaa:547	semapv:UnspecifiedMatching	primitive groove		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004066	oboInOwl:hasDbXref	ehdaa:4778	semapv:UnspecifiedMatching	frontonasal prominence		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004067	oboInOwl:hasDbXref	ehdaa:4786	semapv:UnspecifiedMatching	lateral nasal prominence		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004068	oboInOwl:hasDbXref	ehdaa:4792	semapv:UnspecifiedMatching	medial nasal prominence		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004117	oboInOwl:hasDbXref	ehdaa:1086	semapv:UnspecifiedMatching	pharyngeal pouch		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004117	oboInOwl:hasDbXref	ehdaa:1669	semapv:UnspecifiedMatching	pharyngeal pouch		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004117	oboInOwl:hasDbXref	ehdaa:579	semapv:UnspecifiedMatching	pharyngeal pouch		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004117	oboInOwl:hasDbXref	ehdaa:617	semapv:UnspecifiedMatching	pharyngeal pouch		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004122	oboInOwl:hasDbXref	ehdaa:1013	semapv:UnspecifiedMatching	genitourinary system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004145	oboInOwl:hasDbXref	ehdaa:464	semapv:UnspecifiedMatching	outflow tract		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004145	oboInOwl:hasDbXref	ehdaa:798	semapv:UnspecifiedMatching	outflow tract		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004154	oboInOwl:hasDbXref	ehdaa:1900	semapv:UnspecifiedMatching	atrial septum primum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004155	oboInOwl:hasDbXref	ehdaa:3406	semapv:UnspecifiedMatching	atrial septum secundum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004161	oboInOwl:hasDbXref	ehdaa:736	semapv:UnspecifiedMatching	septum transversum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004288	oboInOwl:hasDbXref	ehdaa:5047	semapv:UnspecifiedMatching	skeleton		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004339	oboInOwl:hasDbXref	ehdaa:9538	semapv:UnspecifiedMatching	vault of skull		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004341	oboInOwl:hasDbXref	ehdaa:185	semapv:UnspecifiedMatching	primitive streak		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004344	oboInOwl:hasDbXref	ehdaa:1310	semapv:UnspecifiedMatching	cardinal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004345	oboInOwl:hasDbXref	ehdaa:56	semapv:UnspecifiedMatching	trophectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004348	oboInOwl:hasDbXref	ehdaa:938	semapv:UnspecifiedMatching	optic eminence		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004362	oboInOwl:hasDbXref	ehdaa:573	semapv:UnspecifiedMatching	pharyngeal arch 1		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004363	oboInOwl:hasDbXref	ehdaa:398	semapv:UnspecifiedMatching	pharyngeal arch artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004363	oboInOwl:hasDbXref	ehdaa:7327	semapv:UnspecifiedMatching	pharyngeal arch artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004449	oboInOwl:hasDbXref	ehdaa:5294	semapv:UnspecifiedMatching	cerebral artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004452	oboInOwl:hasDbXref	ehdaa:5196	semapv:UnspecifiedMatching	carpal region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004535	oboInOwl:hasDbXref	ehdaa:394	semapv:UnspecifiedMatching	cardiovascular system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004572	oboInOwl:hasDbXref	ehdaa:396	semapv:UnspecifiedMatching	arterial system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004582	oboInOwl:hasDbXref	ehdaa:486	semapv:UnspecifiedMatching	venous system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004667	oboInOwl:hasDbXref	ehdaa:2607	semapv:UnspecifiedMatching	interventricular septum muscular part		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004686	oboInOwl:hasDbXref	ehdaa:9160	semapv:UnspecifiedMatching	gastro-splenic ligament		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004706	oboInOwl:hasDbXref	ehdaa:438	semapv:UnspecifiedMatching	bulbus cordis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004706	oboInOwl:hasDbXref	ehdaa:768	semapv:UnspecifiedMatching	bulbus cordis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004761	oboInOwl:hasDbXref	ehdaa:6031	semapv:UnspecifiedMatching	cartilaginous neurocranium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004771	oboInOwl:hasDbXref	ehdaa:7842	semapv:UnspecifiedMatching	posterior nasal aperture		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004813	oboInOwl:hasDbXref	ehdaa:8148	semapv:UnspecifiedMatching	seminiferous tubule epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004822	oboInOwl:hasDbXref	ehdaa:3051	semapv:UnspecifiedMatching	extrahepatic bile duct epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004823	oboInOwl:hasDbXref	ehdaa:3053	semapv:UnspecifiedMatching	intrahepatic bile duct epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004873	oboInOwl:hasDbXref	ehdaa:383	semapv:UnspecifiedMatching	splanchnopleure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004874	oboInOwl:hasDbXref	ehdaa:381	semapv:UnspecifiedMatching	somatopleure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004887	oboInOwl:hasDbXref	ehdaa:4965	semapv:UnspecifiedMatching	left lung hilus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004888	oboInOwl:hasDbXref	ehdaa:4995	semapv:UnspecifiedMatching	right lung hilus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004890	oboInOwl:hasDbXref	ehdaa:4971	semapv:UnspecifiedMatching	right lung accessory lobe		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004909	oboInOwl:hasDbXref	ehdaa:4032	semapv:UnspecifiedMatching	epithelium of gonad		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004909	oboInOwl:hasDbXref	ehdaa:5931	semapv:UnspecifiedMatching	epithelium of gonad		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005071	oboInOwl:hasDbXref	ehdaa:900	semapv:UnspecifiedMatching	posterior neuropore		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005078	oboInOwl:hasDbXref	ehdaa:1983	semapv:UnspecifiedMatching	lamina terminalis of neural tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005078	oboInOwl:hasDbXref	ehdaa:2661	semapv:UnspecifiedMatching	lamina terminalis of neural tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005091	oboInOwl:hasDbXref	ehdaa:482	semapv:UnspecifiedMatching	left horn of sinus venosus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005092	oboInOwl:hasDbXref	ehdaa:484	semapv:UnspecifiedMatching	right horn of sinus venosus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005147	oboInOwl:hasDbXref	ehdaa:9346	semapv:UnspecifiedMatching	metanephric renal vesicle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005171	oboInOwl:hasDbXref	ehdaa:3049	semapv:UnspecifiedMatching	hepatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005197	oboInOwl:hasDbXref	ehdaa:3778	semapv:UnspecifiedMatching	segmental spinal nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005200	oboInOwl:hasDbXref	ehdaa:6524	semapv:UnspecifiedMatching	thoracic mammary gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005234	oboInOwl:hasDbXref	ehdaa:940	semapv:UnspecifiedMatching	optic eminence ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005253	oboInOwl:hasDbXref	ehdaa:179	semapv:UnspecifiedMatching	head mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005256	oboInOwl:hasDbXref	ehdaa:377	semapv:UnspecifiedMatching	trunk mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005290	oboInOwl:hasDbXref	ehdaa:5526	semapv:UnspecifiedMatching	myelencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005296	oboInOwl:hasDbXref	ehdaa:8130	semapv:UnspecifiedMatching	ovary sex cord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005297	oboInOwl:hasDbXref	ehdaa:8152	semapv:UnspecifiedMatching	testis sex cord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005339	oboInOwl:hasDbXref	ehdaa:4401	semapv:UnspecifiedMatching	outflow tract pulmonary component		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005361	oboInOwl:hasDbXref	ehdaa:2842	semapv:UnspecifiedMatching	superior glossopharyngeal IX ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005366	oboInOwl:hasDbXref	ehdaa:5480	semapv:UnspecifiedMatching	olfactory lobe		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005384	oboInOwl:hasDbXref	ehdaa:6803	semapv:UnspecifiedMatching	nasal cavity epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005385	oboInOwl:hasDbXref	ehdaa:6807	semapv:UnspecifiedMatching	nasal cavity respiratory epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005396	oboInOwl:hasDbXref	ehdaa:6385	semapv:UnspecifiedMatching	carotid artery segment		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005402	oboInOwl:hasDbXref	ehdaa:9280	semapv:UnspecifiedMatching	philtrum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005407	oboInOwl:hasDbXref	ehdaa:10101	semapv:UnspecifiedMatching	sublingual ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005409	oboInOwl:hasDbXref	ehdaa:514	semapv:UnspecifiedMatching	alimentary part of gastrointestinal system		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005410	oboInOwl:hasDbXref	ehdaa:4704	semapv:UnspecifiedMatching	cartilaginous otic capsule		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005412	oboInOwl:hasDbXref	ehdaa:4759	semapv:UnspecifiedMatching	optic fissure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005417	oboInOwl:hasDbXref	ehdaa:1699	semapv:UnspecifiedMatching	forelimb bud		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005418	oboInOwl:hasDbXref	ehdaa:2358	semapv:UnspecifiedMatching	hindlimb bud		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005426	oboInOwl:hasDbXref	ehdaa:4737	semapv:UnspecifiedMatching	lens vesicle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005428	oboInOwl:hasDbXref	ehdaa:669	semapv:UnspecifiedMatching	vagal neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005429	oboInOwl:hasDbXref	ehdaa:3013	semapv:UnspecifiedMatching	dorsal pancreatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005429	oboInOwl:hasDbXref	ehdaa:9188	semapv:UnspecifiedMatching	dorsal pancreatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005430	oboInOwl:hasDbXref	ehdaa:6669	semapv:UnspecifiedMatching	ansa cervicalis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005431	oboInOwl:hasDbXref	ehdaa:6382	semapv:UnspecifiedMatching	anterior spinal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005432	oboInOwl:hasDbXref	ehdaa:9826	semapv:UnspecifiedMatching	aortic sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005435	oboInOwl:hasDbXref	ehdaa:8679	semapv:UnspecifiedMatching	upper part of cisterna chyli		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005436	oboInOwl:hasDbXref	ehdaa:8570	semapv:UnspecifiedMatching	common hepatic artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005437	oboInOwl:hasDbXref	ehdaa:6684	semapv:UnspecifiedMatching	conus medullaris		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005438	oboInOwl:hasDbXref	ehdaa:9884	semapv:UnspecifiedMatching	coronary sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005439	oboInOwl:hasDbXref	ehdaa:218	semapv:UnspecifiedMatching	definitive endoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005440	oboInOwl:hasDbXref	ehdaa:6462	semapv:UnspecifiedMatching	ductus arteriosus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005441	oboInOwl:hasDbXref	ehdaa:8260	semapv:UnspecifiedMatching	external intercostal muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005442	oboInOwl:hasDbXref	ehdaa:8248	semapv:UnspecifiedMatching	abdominal external oblique muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005443	oboInOwl:hasDbXref	ehdaa:6686	semapv:UnspecifiedMatching	filum terminale		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005446	oboInOwl:hasDbXref	ehdaa:10629	semapv:UnspecifiedMatching	foramen rotundum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005448	oboInOwl:hasDbXref	ehdaa:6071	semapv:UnspecifiedMatching	greater omentum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005449	oboInOwl:hasDbXref	ehdaa:2327	semapv:UnspecifiedMatching	greater sac		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005453	oboInOwl:hasDbXref	ehdaa:8948	semapv:UnspecifiedMatching	inferior mesenteric ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005454	oboInOwl:hasDbXref	ehdaa:8250	semapv:UnspecifiedMatching	abdominal internal oblique muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005455	oboInOwl:hasDbXref	ehdaa:1918	semapv:UnspecifiedMatching	interventricular groove		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005456	oboInOwl:hasDbXref	ehdaa:10631	semapv:UnspecifiedMatching	jugular foramen		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005461	oboInOwl:hasDbXref	ehdaa:8309	semapv:UnspecifiedMatching	levator scapulae muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005464	oboInOwl:hasDbXref	ehdaa:2556	semapv:UnspecifiedMatching	median sacral artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005465	oboInOwl:hasDbXref	ehdaa:5657	semapv:UnspecifiedMatching	obturator nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005467	oboInOwl:hasDbXref	ehdaa:8270	semapv:UnspecifiedMatching	platysma		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005475	oboInOwl:hasDbXref	ehdaa:9880	semapv:UnspecifiedMatching	sigmoid sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005479	oboInOwl:hasDbXref	ehdaa:8950	semapv:UnspecifiedMatching	superior mesenteric ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005480	oboInOwl:hasDbXref	ehdaa:10650	semapv:UnspecifiedMatching	superior orbital fissure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005481	oboInOwl:hasDbXref	ehdaa:9882	semapv:UnspecifiedMatching	tentorial sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005485	oboInOwl:hasDbXref	ehdaa:8631	semapv:UnspecifiedMatching	valve of inferior vena cava		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005486	oboInOwl:hasDbXref	ehdaa:6491	semapv:UnspecifiedMatching	venous dural sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005491	oboInOwl:hasDbXref	ehdaa:660	semapv:UnspecifiedMatching	glossopharyngeal neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005492	oboInOwl:hasDbXref	ehdaa:4735	semapv:UnspecifiedMatching	hyaloid vessel		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005494	oboInOwl:hasDbXref	ehdaa:689	semapv:UnspecifiedMatching	intermediate mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005495	oboInOwl:hasDbXref	ehdaa:3700	semapv:UnspecifiedMatching	midbrain lateral wall		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005496	oboInOwl:hasDbXref	ehdaa:2873	semapv:UnspecifiedMatching	neural tube lateral wall		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005496	oboInOwl:hasDbXref	ehdaa:912	semapv:UnspecifiedMatching	neural tube lateral wall		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005497	oboInOwl:hasDbXref	ehdaa:257	semapv:UnspecifiedMatching	non-neural ectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005498	oboInOwl:hasDbXref	ehdaa:424	semapv:UnspecifiedMatching	primitive heart tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005498	oboInOwl:hasDbXref	ehdaa:436	semapv:UnspecifiedMatching	primitive heart tube		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005561	oboInOwl:hasDbXref	ehdaa:3504	semapv:UnspecifiedMatching	telencephalon lateral wall		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005562	oboInOwl:hasDbXref	ehdaa:2969	semapv:UnspecifiedMatching	thymus primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005563	oboInOwl:hasDbXref	ehdaa:667	semapv:UnspecifiedMatching	trigeminal neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005564	oboInOwl:hasDbXref	ehdaa:5927	semapv:UnspecifiedMatching	gonad primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005565	oboInOwl:hasDbXref	ehdaa:658	semapv:UnspecifiedMatching	facio-acoustic neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005591	oboInOwl:hasDbXref	ehdaa:1977	semapv:UnspecifiedMatching	diencephalon lateral wall		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005599	oboInOwl:hasDbXref	ehdaa:1251	semapv:UnspecifiedMatching	common dorsal aorta		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005600	oboInOwl:hasDbXref	ehdaa:7783	semapv:UnspecifiedMatching	crus commune		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005601	oboInOwl:hasDbXref	ehdaa:434	semapv:UnspecifiedMatching	dorsal mesocardium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005602	oboInOwl:hasDbXref	ehdaa:3001	semapv:UnspecifiedMatching	dorsal mesogastrium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005606	oboInOwl:hasDbXref	ehdaa:4733	semapv:UnspecifiedMatching	hyaloid cavity		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005607	oboInOwl:hasDbXref	ehdaa:5703	semapv:UnspecifiedMatching	hyaloid vascular plexus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005608	oboInOwl:hasDbXref	ehdaa:3342	semapv:UnspecifiedMatching	hyoid artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005609	oboInOwl:hasDbXref	ehdaa:2551	semapv:UnspecifiedMatching	iliac artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005612	oboInOwl:hasDbXref	ehdaa:5307	semapv:UnspecifiedMatching	intercostal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005613	oboInOwl:hasDbXref	ehdaa:404	semapv:UnspecifiedMatching	left dorsal aorta		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005614	oboInOwl:hasDbXref	ehdaa:9059	semapv:UnspecifiedMatching	lens anterior epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005615	oboInOwl:hasDbXref	ehdaa:9063	semapv:UnspecifiedMatching	lens equatorial epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005616	oboInOwl:hasDbXref	ehdaa:4343	semapv:UnspecifiedMatching	mesenteric artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005617	oboInOwl:hasDbXref	ehdaa:4442	semapv:UnspecifiedMatching	mesenteric vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005619	oboInOwl:hasDbXref	ehdaa:9283	semapv:UnspecifiedMatching	secondary palatal shelf		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005621	oboInOwl:hasDbXref	ehdaa:8315	semapv:UnspecifiedMatching	rhomboid		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005622	oboInOwl:hasDbXref	ehdaa:406	semapv:UnspecifiedMatching	right dorsal aorta		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005623	oboInOwl:hasDbXref	ehdaa:4408	semapv:UnspecifiedMatching	semi-lunar valve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005624	oboInOwl:hasDbXref	ehdaa:8596	semapv:UnspecifiedMatching	suprarenal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005626	oboInOwl:hasDbXref	ehdaa:3005	semapv:UnspecifiedMatching	ventral mesogastrium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005674	oboInOwl:hasDbXref	ehdaa:4991	semapv:UnspecifiedMatching	right lung cranial lobe endothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005675	oboInOwl:hasDbXref	ehdaa:4983	semapv:UnspecifiedMatching	right lung caudal lobe endothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005676	oboInOwl:hasDbXref	ehdaa:4975	semapv:UnspecifiedMatching	right lung accessory lobe endothelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005687	oboInOwl:hasDbXref	ehdaa:9554	semapv:UnspecifiedMatching	orbitosphenoid cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005689	oboInOwl:hasDbXref	ehdaa:625	semapv:UnspecifiedMatching	2nd arch mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005690	oboInOwl:hasDbXref	ehdaa:1094	semapv:UnspecifiedMatching	3rd arch mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005691	oboInOwl:hasDbXref	ehdaa:1677	semapv:UnspecifiedMatching	4th arch mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005700	oboInOwl:hasDbXref	ehdaa:8051	semapv:UnspecifiedMatching	upper jaw molar odontogenic papilla		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005701	oboInOwl:hasDbXref	ehdaa:8015	semapv:UnspecifiedMatching	lower jaw molar odontogenic papilla		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005702	oboInOwl:hasDbXref	ehdaa:942	semapv:UnspecifiedMatching	optic eminence mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005704	oboInOwl:hasDbXref	ehdaa:9287	semapv:UnspecifiedMatching	secondary palatal shelf mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005705	oboInOwl:hasDbXref	ehdaa:6968	semapv:UnspecifiedMatching	primary palate mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005745	oboInOwl:hasDbXref	ehdaa:10646	semapv:UnspecifiedMatching	optic foramen		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005746	oboInOwl:hasDbXref	ehdaa:5707	semapv:UnspecifiedMatching	primary vitreous		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005760	oboInOwl:hasDbXref	ehdaa:5921	semapv:UnspecifiedMatching	urorectal septum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005792	oboInOwl:hasDbXref	ehdaa:1015	semapv:UnspecifiedMatching	nephric ridge		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005805	oboInOwl:hasDbXref	ehdaa:402	semapv:UnspecifiedMatching	dorsal aorta		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005856	oboInOwl:hasDbXref	ehdaa:8979	semapv:UnspecifiedMatching	developing mesenchymal condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005867	oboInOwl:hasDbXref	ehdaa:5871	semapv:UnspecifiedMatching	mandibular prominence		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005868	oboInOwl:hasDbXref	ehdaa:5877	semapv:UnspecifiedMatching	maxillary prominence		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005870	oboInOwl:hasDbXref	ehdaa:4772	semapv:UnspecifiedMatching	olfactory pit		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005872	oboInOwl:hasDbXref	ehdaa:575	semapv:UnspecifiedMatching	1st arch pharyngeal cleft		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005873	oboInOwl:hasDbXref	ehdaa:613	semapv:UnspecifiedMatching	2nd arch pharyngeal cleft		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005874	oboInOwl:hasDbXref	ehdaa:1082	semapv:UnspecifiedMatching	3rd arch pharyngeal cleft		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005875	oboInOwl:hasDbXref	ehdaa:1665	semapv:UnspecifiedMatching	4th arch pharyngeal cleft		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005876	oboInOwl:hasDbXref	ehdaa:5925	semapv:UnspecifiedMatching	undifferentiated genital tubercle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005928	oboInOwl:hasDbXref	ehdaa:9085	semapv:UnspecifiedMatching	external naris		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005931	oboInOwl:hasDbXref	ehdaa:9087	semapv:UnspecifiedMatching	primary choana		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005967	oboInOwl:hasDbXref	ehdaa:1914	semapv:UnspecifiedMatching	conotruncal ridge		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006026	oboInOwl:hasDbXref	ehdaa:6298	semapv:UnspecifiedMatching	interdigital region between manual digits 1 and 2		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006029	oboInOwl:hasDbXref	ehdaa:6304	semapv:UnspecifiedMatching	interdigital region between manual digits 2 and 3		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006032	oboInOwl:hasDbXref	ehdaa:6310	semapv:UnspecifiedMatching	interdigital region between manual digits 3 and 4		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006035	oboInOwl:hasDbXref	ehdaa:6316	semapv:UnspecifiedMatching	interdigital region between manual digits 4 and 5		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006038	oboInOwl:hasDbXref	ehdaa:6148	semapv:UnspecifiedMatching	interdigital region between pedal digits 1 and 2		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006041	oboInOwl:hasDbXref	ehdaa:6154	semapv:UnspecifiedMatching	interdigital region between pedal digits 2 and 3		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006044	oboInOwl:hasDbXref	ehdaa:6160	semapv:UnspecifiedMatching	interdigital region between pedal digits 3 and 4		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006047	oboInOwl:hasDbXref	ehdaa:6166	semapv:UnspecifiedMatching	interdigital region between pedal digits 4 and 5		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006072	oboInOwl:hasDbXref	ehdaa:5051	semapv:UnspecifiedMatching	cervical region of vertebral column		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006073	oboInOwl:hasDbXref	ehdaa:5063	semapv:UnspecifiedMatching	thoracic region of vertebral column		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006074	oboInOwl:hasDbXref	ehdaa:5055	semapv:UnspecifiedMatching	lumbar region of vertebral column		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006075	oboInOwl:hasDbXref	ehdaa:5059	semapv:UnspecifiedMatching	sacral region of vertebral column		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006082	oboInOwl:hasDbXref	ehdaa:9330	semapv:UnspecifiedMatching	fundus of urinary bladder		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006207	oboInOwl:hasDbXref	ehdaa:2592	semapv:UnspecifiedMatching	aortico-pulmonary spiral septum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006208	oboInOwl:hasDbXref	ehdaa:4685	semapv:UnspecifiedMatching	auditory hillocks		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006209	oboInOwl:hasDbXref	ehdaa:7141	semapv:UnspecifiedMatching	basioccipital cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006210	oboInOwl:hasDbXref	ehdaa:3217	semapv:UnspecifiedMatching	body-wall mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006211	oboInOwl:hasDbXref	ehdaa:536	semapv:UnspecifiedMatching	buccopharyngeal membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006212	oboInOwl:hasDbXref	ehdaa:766	semapv:UnspecifiedMatching	bulbo-ventricular groove		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006213	oboInOwl:hasDbXref	ehdaa:8544	semapv:UnspecifiedMatching	carpus cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006214	oboInOwl:hasDbXref	ehdaa:6324	semapv:UnspecifiedMatching	carpus pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006216	oboInOwl:hasDbXref	ehdaa:5105	semapv:UnspecifiedMatching	cervical sinus of His		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006216	oboInOwl:hasDbXref	ehdaa:6534	semapv:UnspecifiedMatching	cervical sinus of His		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006217	oboInOwl:hasDbXref	ehdaa:214	semapv:UnspecifiedMatching	cloacal membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006217	oboInOwl:hasDbXref	ehdaa:2933	semapv:UnspecifiedMatching	cloacal membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006218	oboInOwl:hasDbXref	ehdaa:1267	semapv:UnspecifiedMatching	common atrial chamber		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006219	oboInOwl:hasDbXref	ehdaa:6002	semapv:UnspecifiedMatching	deltoid pre-muscle mass		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006220	oboInOwl:hasDbXref	ehdaa:3476	semapv:UnspecifiedMatching	diencephalic part of interventricular foramen		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006222	oboInOwl:hasDbXref	ehdaa:844	semapv:UnspecifiedMatching	future diencephalon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006223	oboInOwl:hasDbXref	ehdaa:2945	semapv:UnspecifiedMatching	dorsal meso-oesophagus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006224	oboInOwl:hasDbXref	ehdaa:8483	semapv:UnspecifiedMatching	elbow joint primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006227	oboInOwl:hasDbXref	ehdaa:8363	semapv:UnspecifiedMatching	ethmoid bone primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006228	oboInOwl:hasDbXref	ehdaa:8355	semapv:UnspecifiedMatching	exoccipital pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006230	oboInOwl:hasDbXref	ehdaa:2925	semapv:UnspecifiedMatching	extrinsic ocular pre-muscle mass		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006231	oboInOwl:hasDbXref	ehdaa:9552	semapv:UnspecifiedMatching	facial bone primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006232	oboInOwl:hasDbXref	ehdaa:1477	semapv:UnspecifiedMatching	facio-acoustic VII-VIII preganglion complex		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006233	oboInOwl:hasDbXref	ehdaa:8118	semapv:UnspecifiedMatching	female genital tubercle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006235	oboInOwl:hasDbXref	ehdaa:526	semapv:UnspecifiedMatching	foregut-midgut junction		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006236	oboInOwl:hasDbXref	ehdaa:9540	semapv:UnspecifiedMatching	tetrapod frontal bone primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006238	oboInOwl:hasDbXref	ehdaa:300	semapv:UnspecifiedMatching	future brain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006238	oboInOwl:hasDbXref	ehdaa:830	semapv:UnspecifiedMatching	future brain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006239	oboInOwl:hasDbXref	ehdaa:4118	semapv:UnspecifiedMatching	future central tendon		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006240	oboInOwl:hasDbXref	ehdaa:2643	semapv:UnspecifiedMatching	future forebrain		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006241	oboInOwl:hasDbXref	ehdaa:898	semapv:UnspecifiedMatching	future spinal cord		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006242	oboInOwl:hasDbXref	ehdaa:3047	semapv:UnspecifiedMatching	gallbladder primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006243	oboInOwl:hasDbXref	ehdaa:1479	semapv:UnspecifiedMatching	glossopharyngeal IX preganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006244	oboInOwl:hasDbXref	ehdaa:8462	semapv:UnspecifiedMatching	hip joint primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006245	oboInOwl:hasDbXref	ehdaa:6240	semapv:UnspecifiedMatching	humerus cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006246	oboInOwl:hasDbXref	ehdaa:4192	semapv:UnspecifiedMatching	humerus pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006247	oboInOwl:hasDbXref	ehdaa:9568	semapv:UnspecifiedMatching	iliac pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006248	oboInOwl:hasDbXref	ehdaa:9024	semapv:UnspecifiedMatching	incus pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006250	oboInOwl:hasDbXref	ehdaa:4479	semapv:UnspecifiedMatching	infundibular recess of 3rd ventricle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006252	oboInOwl:hasDbXref	ehdaa:3452	semapv:UnspecifiedMatching	intersubcardinal venous anastomosis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006253	oboInOwl:hasDbXref	ehdaa:4761	semapv:UnspecifiedMatching	embryonic intraretinal space		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006254	oboInOwl:hasDbXref	ehdaa:9570	semapv:UnspecifiedMatching	ischial cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006255	oboInOwl:hasDbXref	ehdaa:7153	semapv:UnspecifiedMatching	ischial pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006256	oboInOwl:hasDbXref	ehdaa:8467	semapv:UnspecifiedMatching	knee joint primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006257	oboInOwl:hasDbXref	ehdaa:1005	semapv:UnspecifiedMatching	laryngotracheal groove		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006259	oboInOwl:hasDbXref	ehdaa:3809	semapv:UnspecifiedMatching	lens pit		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006261	oboInOwl:hasDbXref	ehdaa:8138	semapv:UnspecifiedMatching	male genital tubercle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006262	oboInOwl:hasDbXref	ehdaa:9026	semapv:UnspecifiedMatching	malleus pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006264	oboInOwl:hasDbXref	ehdaa:534	semapv:UnspecifiedMatching	mouth-foregut junction		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006265	oboInOwl:hasDbXref	ehdaa:58	semapv:UnspecifiedMatching	mural trophectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006266	oboInOwl:hasDbXref	ehdaa:4770	semapv:UnspecifiedMatching	nasolacrimal groove		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006267	oboInOwl:hasDbXref	ehdaa:264	semapv:UnspecifiedMatching	notochordal plate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006268	oboInOwl:hasDbXref	ehdaa:224	semapv:UnspecifiedMatching	notochordal process		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006270	oboInOwl:hasDbXref	ehdaa:944	semapv:UnspecifiedMatching	optic pit		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006271	oboInOwl:hasDbXref	ehdaa:10648	semapv:UnspecifiedMatching	orbital fissure		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006272	oboInOwl:hasDbXref	ehdaa:5882	semapv:UnspecifiedMatching	oronasal cavity		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006273	oboInOwl:hasDbXref	ehdaa:929	semapv:UnspecifiedMatching	otic pit		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006274	oboInOwl:hasDbXref	ehdaa:9544	semapv:UnspecifiedMatching	tetrapod parietal bone primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006275	oboInOwl:hasDbXref	ehdaa:636	semapv:UnspecifiedMatching	pericardio-peritoneal canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006276	oboInOwl:hasDbXref	ehdaa:4751	semapv:UnspecifiedMatching	perioptic mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006277	oboInOwl:hasDbXref	ehdaa:4122	semapv:UnspecifiedMatching	pleuropericardial canals		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006278	oboInOwl:hasDbXref	ehdaa:4126	semapv:UnspecifiedMatching	pleuropericardial folds		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006279	oboInOwl:hasDbXref	ehdaa:4128	semapv:UnspecifiedMatching	pleuroperitoneal canal		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006280	oboInOwl:hasDbXref	ehdaa:60	semapv:UnspecifiedMatching	polar trophectoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006282	oboInOwl:hasDbXref	ehdaa:818	semapv:UnspecifiedMatching	primary head vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006284	oboInOwl:hasDbXref	ehdaa:1356	semapv:UnspecifiedMatching	early prosencephalic vesicle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006285	oboInOwl:hasDbXref	ehdaa:9572	semapv:UnspecifiedMatching	pubic pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006286	oboInOwl:hasDbXref	ehdaa:7267	semapv:UnspecifiedMatching	radius cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006287	oboInOwl:hasDbXref	ehdaa:4178	semapv:UnspecifiedMatching	radius-ulna pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006288	oboInOwl:hasDbXref	ehdaa:8347	semapv:UnspecifiedMatching	rib cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006289	oboInOwl:hasDbXref	ehdaa:6026	semapv:UnspecifiedMatching	rib pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006290	oboInOwl:hasDbXref	ehdaa:8368	semapv:UnspecifiedMatching	scapula cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006291	oboInOwl:hasDbXref	ehdaa:6041	semapv:UnspecifiedMatching	scapula pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006292	oboInOwl:hasDbXref	ehdaa:8493	semapv:UnspecifiedMatching	shoulder joint primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006293	oboInOwl:hasDbXref	ehdaa:3003	semapv:UnspecifiedMatching	spleen primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006294	oboInOwl:hasDbXref	ehdaa:5699	semapv:UnspecifiedMatching	stapes pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006295	oboInOwl:hasDbXref	ehdaa:9565	semapv:UnspecifiedMatching	sternebral bone pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006296	oboInOwl:hasDbXref	ehdaa:2631	semapv:UnspecifiedMatching	subcardinal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006297	oboInOwl:hasDbXref	ehdaa:7989	semapv:UnspecifiedMatching	sublingual gland primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006298	oboInOwl:hasDbXref	ehdaa:9255	semapv:UnspecifiedMatching	submandibular gland primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006300	oboInOwl:hasDbXref	ehdaa:7492	semapv:UnspecifiedMatching	supracardinal vein		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006301	oboInOwl:hasDbXref	ehdaa:5474	semapv:UnspecifiedMatching	telencephalic part of interventricular foramen		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006304	oboInOwl:hasDbXref	ehdaa:924	semapv:UnspecifiedMatching	future trigeminal ganglion		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006305	oboInOwl:hasDbXref	ehdaa:5705	semapv:UnspecifiedMatching	tunica vasculosa lentis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006306	oboInOwl:hasDbXref	ehdaa:7269	semapv:UnspecifiedMatching	ulna cartilage element		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006307	oboInOwl:hasDbXref	ehdaa:7011	semapv:UnspecifiedMatching	urogenital membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006630	oboInOwl:hasDbXref	ehdaa:5343	semapv:UnspecifiedMatching	left atrium auricular region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006631	oboInOwl:hasDbXref	ehdaa:5352	semapv:UnspecifiedMatching	right atrium auricular region		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006635	oboInOwl:hasDbXref	ehdaa:5976	semapv:UnspecifiedMatching	anterior abdominal wall		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006643	oboInOwl:hasDbXref	ehdaa:9388	semapv:UnspecifiedMatching	tunica albuginea of testis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006726	oboInOwl:hasDbXref	ehdaa:9039	semapv:UnspecifiedMatching	outer canthus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006749	oboInOwl:hasDbXref	ehdaa:3870	semapv:UnspecifiedMatching	superior parathyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006749	oboInOwl:hasDbXref	ehdaa:9135	semapv:UnspecifiedMatching	superior parathyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006755	oboInOwl:hasDbXref	ehdaa:3864	semapv:UnspecifiedMatching	inferior parathyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006755	oboInOwl:hasDbXref	ehdaa:9127	semapv:UnspecifiedMatching	inferior parathyroid gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006871	oboInOwl:hasDbXref	ehdaa:5143	semapv:UnspecifiedMatching	embryonic footplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006871	oboInOwl:hasDbXref	ehdaa:6096	semapv:UnspecifiedMatching	embryonic footplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006875	oboInOwl:hasDbXref	ehdaa:4194	semapv:UnspecifiedMatching	embryonic handplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006875	oboInOwl:hasDbXref	ehdaa:6242	semapv:UnspecifiedMatching	embryonic handplate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006904	oboInOwl:hasDbXref	ehdaa:655	semapv:UnspecifiedMatching	head mesenchyme from mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006905	oboInOwl:hasDbXref	ehdaa:5861	semapv:UnspecifiedMatching	mandibular process mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006905	oboInOwl:hasDbXref	ehdaa:5873	semapv:UnspecifiedMatching	mandibular process mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006938	oboInOwl:hasDbXref	ehdaa:8983	semapv:UnspecifiedMatching	pinna surface epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006957	oboInOwl:hasDbXref	ehdaa:9257	semapv:UnspecifiedMatching	submandibular gland primordium epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006964	oboInOwl:hasDbXref	ehdaa:7532	semapv:UnspecifiedMatching	pars distalis of adenohypophysis		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007005	oboInOwl:hasDbXref	ehdaa:385	semapv:UnspecifiedMatching	cardiogenic splanchnic mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007237	oboInOwl:hasDbXref	ehdaa:583	semapv:UnspecifiedMatching	1st arch mandibular component		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007238	oboInOwl:hasDbXref	ehdaa:595	semapv:UnspecifiedMatching	1st arch maxillary component		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007267	oboInOwl:hasDbXref	ehdaa:7082	semapv:UnspecifiedMatching	trachea pre-cartilage rings		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007329	oboInOwl:hasDbXref	ehdaa:9194	semapv:UnspecifiedMatching	pancreatic duct		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007690	oboInOwl:hasDbXref	ehdaa:962	semapv:UnspecifiedMatching	early pharyngeal endoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007832	oboInOwl:hasDbXref	ehdaa:7149	semapv:UnspecifiedMatching	pelvic girdle skeleton		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007832	oboInOwl:hasDbXref	ehdaa:8324	semapv:UnspecifiedMatching	pelvic girdle skeleton		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008776	oboInOwl:hasDbXref	ehdaa:44	semapv:UnspecifiedMatching	inner cell mass derived hypoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008776	oboInOwl:hasDbXref	ehdaa:79	semapv:UnspecifiedMatching	inner cell mass derived hypoblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008780	oboInOwl:hasDbXref	ehdaa:42	semapv:UnspecifiedMatching	inner cell mass derived epiblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008780	oboInOwl:hasDbXref	ehdaa:75	semapv:UnspecifiedMatching	inner cell mass derived epiblast		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008801	oboInOwl:hasDbXref	ehdaa:9246	semapv:UnspecifiedMatching	parotid gland primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008835	oboInOwl:hasDbXref	ehdaa:1530	semapv:UnspecifiedMatching	hepatic diverticulum		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008945	oboInOwl:hasDbXref	ehdaa:105	semapv:UnspecifiedMatching	extraembryonic endoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008951	oboInOwl:hasDbXref	ehdaa:2981	semapv:UnspecifiedMatching	left lung lobe		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008952	oboInOwl:hasDbXref	ehdaa:4957	semapv:UnspecifiedMatching	upper lobe of left lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008953	oboInOwl:hasDbXref	ehdaa:4949	semapv:UnspecifiedMatching	lower lobe of left lung		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009132	oboInOwl:hasDbXref	ehdaa:8297	semapv:UnspecifiedMatching	peroneus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009142	oboInOwl:hasDbXref	ehdaa:177	semapv:UnspecifiedMatching	entire embryonic mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009197	oboInOwl:hasDbXref	ehdaa:6033	semapv:UnspecifiedMatching	basioccipital pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009213	oboInOwl:hasDbXref	ehdaa:3788	semapv:UnspecifiedMatching	pharyngeal membrane of 1st arch		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009292	oboInOwl:hasDbXref	ehdaa:4776	semapv:UnspecifiedMatching	embryonic nasal process		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009293	oboInOwl:hasDbXref	ehdaa:4780	semapv:UnspecifiedMatching	embryonic frontal process		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009617	oboInOwl:hasDbXref	ehdaa:364	semapv:UnspecifiedMatching	head paraxial mesoderm		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009672	oboInOwl:hasDbXref	ehdaa:7840	semapv:UnspecifiedMatching	oronasal membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009672	oboInOwl:hasDbXref	ehdaa:7984	semapv:UnspecifiedMatching	oronasal membrane		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009673	oboInOwl:hasDbXref	ehdaa:5574	semapv:UnspecifiedMatching	accessory XI nerve cranial component		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009674	oboInOwl:hasDbXref	ehdaa:5576	semapv:UnspecifiedMatching	accessory XI nerve spinal component		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009675	oboInOwl:hasDbXref	ehdaa:3719	semapv:UnspecifiedMatching	chorda tympani branch of facial nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009676	oboInOwl:hasDbXref	ehdaa:1993	semapv:UnspecifiedMatching	early telencephalic vesicle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009676	oboInOwl:hasDbXref	ehdaa:2671	semapv:UnspecifiedMatching	early telencephalic vesicle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009714	oboInOwl:hasDbXref	ehdaa:7856	semapv:UnspecifiedMatching	intermaxillary process		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009920	oboInOwl:hasDbXref	ehdaa:1122	semapv:UnspecifiedMatching	optic neural crest		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009968	oboInOwl:hasDbXref	ehdaa:9876	semapv:UnspecifiedMatching	primitive superior sagittal sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010020	oboInOwl:hasDbXref	ehdaa:6772	semapv:UnspecifiedMatching	tubotympanic recess epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010047	oboInOwl:hasDbXref	ehdaa:2181	semapv:UnspecifiedMatching	oral gland		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010056	oboInOwl:hasDbXref	ehdaa:2951	semapv:UnspecifiedMatching	future tongue		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010132	oboInOwl:hasDbXref	ehdaa:8574	semapv:UnspecifiedMatching	gastroduodenal artery		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010531	oboInOwl:hasDbXref	ehdaa:7007	semapv:UnspecifiedMatching	metanephros induced blastemal cells		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010531	oboInOwl:hasDbXref	ehdaa:8105	semapv:UnspecifiedMatching	metanephros induced blastemal cells		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010751	oboInOwl:hasDbXref	ehdaa:9536	semapv:UnspecifiedMatching	squamous part of temporal bone primordium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010847	oboInOwl:hasDbXref	ehdaa:6226	semapv:UnspecifiedMatching	ulna pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010852	oboInOwl:hasDbXref	ehdaa:6196	semapv:UnspecifiedMatching	fibula pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010986	oboInOwl:hasDbXref	ehdaa:5992	semapv:UnspecifiedMatching	serratus ventralis pre-muscle mass		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010990	oboInOwl:hasDbXref	ehdaa:9465	semapv:UnspecifiedMatching	transversospinales muscle		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011156	oboInOwl:hasDbXref	ehdaa:8361	semapv:UnspecifiedMatching	facial skeleton		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011163	oboInOwl:hasDbXref	ehdaa:9534	semapv:UnspecifiedMatching	supraoccipital pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011195	oboInOwl:hasDbXref	ehdaa:3868	semapv:UnspecifiedMatching	inferior parathyroid epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011196	oboInOwl:hasDbXref	ehdaa:3874	semapv:UnspecifiedMatching	superior parathyroid epithelium		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011208	oboInOwl:hasDbXref	ehdaa:1747	semapv:UnspecifiedMatching	medial migration pathway NC-derived mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011209	oboInOwl:hasDbXref	ehdaa:1745	semapv:UnspecifiedMatching	lateral migration pathway NC-derived mesenchyme		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011301	oboInOwl:hasDbXref	ehdaa:9563	semapv:UnspecifiedMatching	manubrium sternum pre-cartilage condensation		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011737	oboInOwl:hasDbXref	ehdaa:6992	semapv:UnspecifiedMatching	caudate lobe hepatic sinusoid		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011738	oboInOwl:hasDbXref	ehdaa:8084	semapv:UnspecifiedMatching	quadrate lobe hepatic sinusoid		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011755	oboInOwl:hasDbXref	ehdaa:9363	semapv:UnspecifiedMatching	female labial swelling		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0013159	oboInOwl:hasDbXref	ehdaa:5435	semapv:UnspecifiedMatching	epithalamus mantle layer		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0013160	oboInOwl:hasDbXref	ehdaa:5437	semapv:UnspecifiedMatching	epithalamus ventricular layer		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014892	oboInOwl:hasDbXref	ehdaa:5035	semapv:UnspecifiedMatching	skeletal muscle organ, vertebrate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014892	oboInOwl:hasDbXref	ehdaa:5043	semapv:UnspecifiedMatching	skeletal muscle organ, vertebrate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014892	oboInOwl:hasDbXref	ehdaa:5978	semapv:UnspecifiedMatching	skeletal muscle organ, vertebrate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014892	oboInOwl:hasDbXref	ehdaa:5984	semapv:UnspecifiedMatching	skeletal muscle organ, vertebrate		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015117	oboInOwl:hasDbXref	ehdaa:3500	semapv:UnspecifiedMatching	lamina terminalis of cerebral hemisphere		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015117	oboInOwl:hasDbXref	ehdaa:4498	semapv:UnspecifiedMatching	lamina terminalis of cerebral hemisphere		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0017637	oboInOwl:hasDbXref	ehdaa:8693	semapv:UnspecifiedMatching	marginal venous sinus		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0018675	oboInOwl:hasDbXref	ehdaa:5628	semapv:UnspecifiedMatching	pelvic splanchnic nerve		uberon	ehdaa	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

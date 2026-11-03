@@ -1,0 +1,40 @@
+# curie_map:
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   ms: "http://purl.obolibrary.org/obo/MS_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/ms_mesh"
+# mapping_set_title: "MS to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: ms
+# subject_source_version: 4.1.257
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+ms:1000054	skos:exactMatch	mesh:D002845	semapv:ManualMappingCuration	chromatography	Chromatography	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1000058	skos:exactMatch	mesh:D017022	semapv:ManualMappingCuration	flow injection analysis	Flow Injection Analysis	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1000261	skos:exactMatch	mesh:D000075663	semapv:ManualMappingCuration	ion mobility spectrometry	Ion Mobility Spectrometry	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1000268	skos:exactMatch	mesh:D013058	semapv:ManualMappingCuration	mass spectrometry	Mass Spectrometry	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1000862	skos:exactMatch	mesh:D007526	semapv:ManualMappingCuration	isoelectric point	Isoelectric Point	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1000882	skos:exactMatch	mesh:D011506	semapv:ManualMappingCuration	protein	Proteins	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1001251	skos:exactMatch	mesh:D014357	semapv:ManualMappingCuration	Trypsin	Trypsin	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1001306	skos:exactMatch	mesh:D002918	semapv:ManualMappingCuration	Chymotrypsin	Chymotrypsin	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1001884	skos:exactMatch	mesh:D059629	semapv:ManualMappingCuration	signal-to-noise ratio	Signal-To-Noise Ratio	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1001915	skos:exactMatch	mesh:D019272	semapv:ManualMappingCuration	leukocyte elastase	Leukocyte Elastase	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1001917	skos:exactMatch	mesh:C028344	semapv:ManualMappingCuration	glutamyl endopeptidase	glutamyl endopeptidase	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1002981	skos:exactMatch	mesh:D011392	semapv:ManualMappingCuration	Proline	Proline	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003037	skos:exactMatch	mesh:D012265	semapv:ManualMappingCuration	ribonucleotide	Ribonucleotides	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003038	skos:exactMatch	mesh:D003854	semapv:ManualMappingCuration	deoxyribonucleotide	Deoxyribonucleotides	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003039	skos:exactMatch	mesh:D000596	semapv:ManualMappingCuration	amino acid	Amino Acids	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003040	skos:exactMatch	mesh:D009005	semapv:ManualMappingCuration	monosaccharide	Monosaccharides	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003041	skos:exactMatch	mesh:D009696	semapv:ManualMappingCuration	nucleic acid	Nucleic Acids	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003042	skos:exactMatch	mesh:D011134	semapv:ManualMappingCuration	polysaccharide	Polysaccharides	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003348	skos:exactMatch	mesh:D040901	semapv:ManualMappingCuration	proteomics	Proteomics	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003979	skos:exactMatch	mesh:D013820	semapv:ManualMappingCuration	Thermolysin	Thermolysin	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ms:1003983	skos:exactMatch	mesh:D019811	semapv:ManualMappingCuration	hydroxylamine	Hydroxylamine	ms	4.1.257	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

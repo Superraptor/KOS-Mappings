@@ -1,0 +1,16 @@
+# curie_map:
+#   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sio: "http://semanticscience.org/resource/SIO_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_sio"
+# mapping_set_title: "ONTONEO to SIO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: sio
+# subject_source: ontoneo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoneo:00000150	rdfs:subClassOf	sio:000570	semapv:UnspecifiedMatching	disengagement	movement	ontoneo	sio	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000153	rdfs:subClassOf	sio:000570	semapv:UnspecifiedMatching	engajamento fetal	movement	ontoneo	sio	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

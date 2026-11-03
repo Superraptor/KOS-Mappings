@@ -1,0 +1,21 @@
+# curie_map:
+#   commoncoreontology: "https://www.commoncoreontologies.org/ont"
+#   obo: "http://purl.obolibrary.org/obo/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/obo_commoncoreontology"
+# mapping_set_title: "OBO to COMMONCOREONTOLOGY Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: commoncoreontology
+# object_source_version: "2024-11-06"
+# subject_source: obo
+# subject_source_version: 2026
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+obo:mesh#B	skos:closeMatch	commoncoreontology:00000551	semapv:ManualMappingCuration	Organisms	Organism	obo	2026	commoncoreontology	2024-11-06	Biomappings	0.1.0	2026-09-18	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obo:mesh#C	skos:exactMatch	commoncoreontology:00000318	semapv:ManualMappingCuration	Diseases	Disease	obo	2026	commoncoreontology	2024-11-06	Biomappings	0.1.0	2026-09-18	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

@@ -1,0 +1,29 @@
+# curie_map:
+#   cleavage: "https://identifiers.org/cleavage:"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+#   zfs: "http://purl.obolibrary.org/obo/ZFS_"
+#   zygote: "https://identifiers.org/zygote:"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_zfs"
+# mapping_set_title: "UBERON to ZFS Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: zfs
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000069	oboInOwl:hasDbXref	zfs:0000048	semapv:UnspecifiedMatching	larval stage	larva	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000105	oboInOwl:hasDbXref	zfs:0000000	semapv:UnspecifiedMatching	life cycle stage	unknown	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000105	oboInOwl:hasDbXref	zfs:0100000	semapv:UnspecifiedMatching	life cycle stage	zebrafish stage	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000106	oboInOwl:hasDbXref	zfs:0000001	semapv:UnspecifiedMatching	zygote stage	zygote:1-cell	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000107	oboInOwl:hasDbXref	zfs:0000046	semapv:UnspecifiedMatching	cleavage stage	cleavage	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000108	oboInOwl:hasDbXref	zfs:0000045	semapv:UnspecifiedMatching	blastula stage	blastula	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000109	oboInOwl:hasDbXref	zfs:0000047	semapv:UnspecifiedMatching	gastrula stage	gastrula	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000112	oboInOwl:hasDbXref	zfs:0000051	semapv:UnspecifiedMatching	sexually immature stage	juvenile	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000113	oboInOwl:hasDbXref	zfs:0000044	semapv:UnspecifiedMatching	post-juvenile adult stage	adult	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004707	oboInOwl:hasDbXref	zfs:0000050	semapv:UnspecifiedMatching	pharyngula stage	pharyngula	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007232	oboInOwl:hasDbXref	zfs:0000002	semapv:UnspecifiedMatching	2 cell stage	cleavage:2-cell	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007233	oboInOwl:hasDbXref	zfs:0000003	semapv:UnspecifiedMatching	4 cell stage	cleavage:4-cell	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007236	oboInOwl:hasDbXref	zfs:0000004	semapv:UnspecifiedMatching	8 cell stage	cleavage:8-cell	uberon	zfs	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

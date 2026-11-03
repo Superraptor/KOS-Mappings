@@ -1,0 +1,31 @@
+# curie_map:
+#   iao: "http://purl.obolibrary.org/obo/IAO_"
+#   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_iao"
+# mapping_set_title: "ONTONEO to IAO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: iao
+# subject_source: ontoneo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoneo:00000013	rdfs:subClassOf	iao:0000104	semapv:UnspecifiedMatching	caesarean section plan	plan specification	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000014	rdfs:subClassOf	iao:0000104	semapv:UnspecifiedMatching	human parturition plan	plan specification	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000047	rdfs:subClassOf	iao:0000032	semapv:UnspecifiedMatching	dado de medição de altura	scalar measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000048	rdfs:subClassOf	iao:0000032	semapv:UnspecifiedMatching	dado de medição do peso	scalar measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000049	rdfs:subClassOf	iao:0000003	semapv:UnspecifiedMatching	unidade de medida de peso	measurement unit label	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000050	rdfs:subClassOf	iao:0000003	semapv:UnspecifiedMatching	height unit	measurement unit label	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000064	rdfs:subClassOf	iao:0000300	semapv:UnspecifiedMatching	endereço residencial	textual entity	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000159	rdfs:subClassOf	iao:0000310	semapv:UnspecifiedMatching	partogram	document	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000161	rdfs:subClassOf	iao:0000032	semapv:UnspecifiedMatching	amniotic fluid index	scalar measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000170	rdfs:subClassOf	iao:0000300	semapv:UnspecifiedMatching	commercial address	textual entity	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000172	rdfs:subClassOf	iao:0000104	semapv:UnspecifiedMatching	method for EDD determination	plan specification	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000173	rdfs:subClassOf	iao:0000109	semapv:UnspecifiedMatching	dado de medição da quantidade	measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000228	rdfs:subClassOf	iao:0000032	semapv:UnspecifiedMatching	cervix diameter measurement datum	scalar measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000231	rdfs:subClassOf	iao:0000109	semapv:UnspecifiedMatching	fetal station measurement datum	measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000242	rdfs:subClassOf	iao:0000416	semapv:UnspecifiedMatching	duração da menstruação	time measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000243	rdfs:subClassOf	iao:0000416	semapv:UnspecifiedMatching	duração do ciclo menstrual	time measurement datum	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000259	rdfs:subClassOf	iao:0000030	semapv:UnspecifiedMatching	conteúdo de data	information content entity	ontoneo	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

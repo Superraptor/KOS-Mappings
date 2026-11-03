@@ -1,0 +1,36 @@
+# curie_map:
+#   chebi: "http://purl.obolibrary.org/obo/CHEBI_"
+#   efo: "http://www.ebi.ac.uk/efo/EFO_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/chebi_efo"
+# mapping_set_title: "CHEBI to EFO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: efo
+# object_source_version: 3.92.0
+# subject_source: chebi
+# subject_source_version: 253
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+chebi:137394	skos:exactMatch	efo:0004967	semapv:ManualMappingCuration	Alexa Fluor 647	Alexa Fluor 647	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:32988	skos:exactMatch	efo:0004417	semapv:ManualMappingCuration	amide	amide	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:37527	skos:exactMatch	efo:0004416	semapv:ManualMappingCuration	acid	acid	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:47774	skos:exactMatch	efo:0004195	semapv:ManualMappingCuration	low-density lipoprotein cholesterol	LDL cholesterol	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:52673	skos:exactMatch	efo:0004968	semapv:ManualMappingCuration	Alexa Fluor 555	Alexa Fluor 555	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:6495	skos:exactMatch	efo:0003836	semapv:ManualMappingCuration	lipoprotein	lipoprotein	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:749533	skos:exactMatch	efo:0010102	semapv:ManualMappingCuration	peginterferon alfa-2a	peginterferon alfa-2a	chebi	253	efo	3.92.0	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chebi:757263	skos:exactMatch	efo:0600014	semapv:ManualMappingCuration	ropeginterferon alfa-2b	ropeginterferon alfa-2b	chebi	253	efo	3.92.0	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chebi:80142	skos:exactMatch	efo:0003266	semapv:ManualMappingCuration	Neuromedin U	neuromedin U	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:80295	skos:exactMatch	efo:0002679	semapv:ManualMappingCuration	Urocortin I	urocortin I	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:80296	skos:exactMatch	efo:0002680	semapv:ManualMappingCuration	Urocortin II	urocortin II	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:81569	skos:exactMatch	efo:0003234	semapv:ManualMappingCuration	Follicle stimulating hormone	follicle stimulating hormone	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:81571	skos:exactMatch	efo:0003199	semapv:ManualMappingCuration	Leptin	leptin	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:81579	skos:exactMatch	efo:0003233	semapv:ManualMappingCuration	Erythropoietin	erythropoietin	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:87751	skos:exactMatch	efo:0003191	semapv:ManualMappingCuration	ocimene	ocimene	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:89494	skos:exactMatch	efo:0002671	semapv:ManualMappingCuration	iberin	iberin	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+chebi:9574	skos:exactMatch	efo:0003183	semapv:ManualMappingCuration	Thrombin	thrombin	chebi	253	efo	3.92.0	https://github.com/gyorilab/mapnet/blob/main/scripts/generate_efo_chebi_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0

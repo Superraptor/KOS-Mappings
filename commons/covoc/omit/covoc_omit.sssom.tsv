@@ -1,0 +1,19 @@
+# curie_map:
+#   covoc: "http://purl.obolibrary.org/obo/COVOC_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   omit: "http://purl.obolibrary.org/obo/OMIT_"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
+# mapping_set_id: "https://w3id.org/commons/mappings/covoc_omit"
+# mapping_set_title: "COVOC to OMIT Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: omit
+# subject_source: covoc
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+covoc:0050014	oboInOwl:hasDbXref	omit:0005182	semapv:UnspecifiedMatching	Developing Countries	Developing Countries	covoc	omit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050018	oboInOwl:hasDbXref	omit:0027403	semapv:UnspecifiedMatching	epidemics	Epidemics	covoc	omit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050022	oboInOwl:hasDbXref	omit:0022989	semapv:UnspecifiedMatching	Geographic Information Systems	Geographic Information Systems	covoc	omit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050028	oboInOwl:hasDbXref	omit:0028469	semapv:UnspecifiedMatching	hand sanitizer	Hand Sanitizers	covoc	omit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050063	oboInOwl:hasDbXref	omit:0013816	semapv:UnspecifiedMatching	Social Distance	Social Distance	covoc	omit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

@@ -1,0 +1,21 @@
+# curie_map:
+#   ccle: "https://www.cbioportal.org/patient?studyId=ccle_broad_2019&caseId="
+#   depmap: "https://depmap.org/portal/cell_line/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/ccle_depmap"
+# mapping_set_title: "CCLE to DEPMAP Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: depmap
+# subject_source: ccle
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+ccle:CACO2	skos:exactMatch	depmap:ACH-000003	semapv:ManualMappingCuration	CACO2	CACO2	ccle		depmap		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0001-9439-5346	CC0-1.0
+ccle:HNT34	skos:exactMatch	depmap:ACH-000299	semapv:ManualMappingCuration	HNT34		ccle		depmap		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ccle:MET2B	skos:exactMatch	depmap:ACH-002388	semapv:ManualMappingCuration	MET2B	MET2B	ccle		depmap		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ccle:SIHA	skos:exactMatch	depmap:ACH-000556	semapv:ManualMappingCuration	SIHA	SIHA	ccle		depmap		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

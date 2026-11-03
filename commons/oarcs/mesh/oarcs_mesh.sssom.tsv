@@ -1,0 +1,27 @@
+# curie_map:
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   oarcs: "http://purl.obolibrary.org/obo/OARCS_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/oarcs_mesh"
+# mapping_set_title: "OARCS to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: oarcs
+# subject_source_version: "2019-04-18"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+oarcs:0000010	skos:exactMatch	mesh:D006458	semapv:ManualMappingCuration	hemolymph	Hemolymph	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000063	skos:exactMatch	mesh:D000073872	semapv:ManualMappingCuration	vascular ring	Vascular Ring	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000079	skos:exactMatch	mesh:D001021	semapv:ManualMappingCuration	aortic valve	Aortic Valve	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000082	skos:exactMatch	mesh:D000077426	semapv:ManualMappingCuration	gastric artery	Gastric Artery	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000166	skos:exactMatch	mesh:D006499	semapv:ManualMappingCuration	hepatic artery	Hepatic Artery	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000191	skos:exactMatch	mesh:D001011	semapv:ManualMappingCuration	aorta	Aorta	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000244	skos:exactMatch	mesh:D004848	semapv:ManualMappingCuration	epithelium	Epithelium	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+oarcs:0000253	skos:exactMatch	mesh:D006321	semapv:ManualMappingCuration	heart	Heart	oarcs	2019-04-18	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

@@ -1,0 +1,33 @@
+# curie_map:
+#   mmusdv: "http://purl.obolibrary.org/obo/MmusDv_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_mmusdv"
+# mapping_set_title: "UBERON to MMUSDV Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: mmusdv
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000066	oboInOwl:hasDbXref	mmusdv:0000092	semapv:UnspecifiedMatching	fully formed stage	postnatal stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000068	oboInOwl:hasDbXref	mmusdv:0000042	semapv:UnspecifiedMatching	embryo stage	prenatal stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000104	oboInOwl:hasDbXref	mmusdv:0000001	semapv:UnspecifiedMatching	life cycle	life cycle	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000105	oboInOwl:hasDbXref	mmusdv:0000000	semapv:UnspecifiedMatching	life cycle stage	life cycle stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000106	oboInOwl:hasDbXref	mmusdv:0000003	semapv:UnspecifiedMatching	zygote stage	Theiler stage 01	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000107	oboInOwl:hasDbXref	mmusdv:0000004	semapv:UnspecifiedMatching	cleavage stage	cleavage stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000108	oboInOwl:hasDbXref	mmusdv:0000007	semapv:UnspecifiedMatching	blastula stage	blastula stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000109	oboInOwl:hasDbXref	mmusdv:0000013	semapv:UnspecifiedMatching	gastrula stage	gastrula stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000110	oboInOwl:hasDbXref	mmusdv:0000017	semapv:UnspecifiedMatching	neurula stage	Theiler stage 11	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000111	oboInOwl:hasDbXref	mmusdv:0000018	semapv:UnspecifiedMatching	organogenesis stage	organogenesis stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000112	oboInOwl:hasDbXref	mmusdv:0000043	semapv:UnspecifiedMatching	sexually immature stage	immature stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000113	oboInOwl:hasDbXref	mmusdv:0000110	semapv:UnspecifiedMatching	post-juvenile adult stage	mature stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007220	oboInOwl:hasDbXref	mmusdv:0000031	semapv:UnspecifiedMatching	late embryonic stage	fetal stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007221	oboInOwl:hasDbXref	mmusdv:0000036	semapv:UnspecifiedMatching	neonate stage	Theiler stage 27	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007222	oboInOwl:hasDbXref	mmusdv:0000134	semapv:UnspecifiedMatching	late adult stage	late adult stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0018241	oboInOwl:hasDbXref	mmusdv:0000136	semapv:UnspecifiedMatching	prime adult stage	prime adult stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0018685	oboInOwl:hasDbXref	mmusdv:0000138	semapv:UnspecifiedMatching	nursing stage	nursing stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034919	oboInOwl:hasDbXref	mmusdv:0000178	semapv:UnspecifiedMatching	juvenile stage	juvenile stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034920	oboInOwl:hasDbXref	mmusdv:0000177	semapv:UnspecifiedMatching	infant stage	infant stage	uberon	mmusdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

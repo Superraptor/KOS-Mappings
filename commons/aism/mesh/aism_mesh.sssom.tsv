@@ -1,0 +1,24 @@
+# curie_map:
+#   aism: "http://purl.obolibrary.org/obo/AISM_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/aism_mesh"
+# mapping_set_title: "AISM to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: aism
+# subject_source_version: "2026-02-14"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+aism:0000004	skos:exactMatch	mesh:D003228	semapv:ManualMappingCuration	conjunctiva	Conjunctiva	aism	2026-02-14	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+aism:0000076	skos:exactMatch	mesh:D005269	semapv:ManualMappingCuration	femur	Femur	aism	2026-02-14	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+aism:0000093	skos:exactMatch	mesh:D007013	semapv:ManualMappingCuration	hypopharynx	Hypopharynx	aism	2026-02-14	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+aism:0004130	skos:exactMatch	mesh:D013249	semapv:ManualMappingCuration	sternum	Sternum	aism	2026-02-14	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+aism:0004188	skos:exactMatch	mesh:D008684	semapv:ManualMappingCuration	metatarsus	Metatarsus	aism	2026-02-14	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

@@ -1,0 +1,26 @@
+# curie_map:
+#   amphx: "http://purl.obolibrary.org/obo/AMPHX_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/amphx_mesh"
+# mapping_set_title: "AMPHX to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: amphx
+# subject_source_version: "2020-12-18"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+amphx:0000001	skos:exactMatch	mesh:D005718	semapv:ManualMappingCuration	gametogenesis	Gametogenesis	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+amphx:0000002	skos:exactMatch	mesh:D009866	semapv:ManualMappingCuration	oogenesis	Oogenesis	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+amphx:0000003	skos:exactMatch	mesh:D013091	semapv:ManualMappingCuration	spermatogenesis	Spermatogenesis	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+amphx:0000019	skos:closeMatch	mesh:D000328	semapv:ManualMappingCuration	adult	Adult	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+amphx:1000006	skos:exactMatch	mesh:D002490	semapv:ManualMappingCuration	central nervous system	Central Nervous System	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+amphx:1000013	skos:exactMatch	mesh:D015053	semapv:ManualMappingCuration	zygote	Zygote	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+amphx:1000051	skos:exactMatch	mesh:D004817	semapv:ManualMappingCuration	epidermis	Epidermis	amphx	2020-12-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

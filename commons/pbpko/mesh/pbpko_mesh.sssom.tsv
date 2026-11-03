@@ -1,0 +1,28 @@
+# curie_map:
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   pbpko: "http://purl.obolibrary.org/obo/PBPKO_"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/pbpko_mesh"
+# mapping_set_title: "PBPKO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: pbpko
+# subject_source_version: "2026-07-15"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+pbpko:00007	skos:exactMatch	mesh:D015992	semapv:ManualMappingCuration	body mass index	Body Mass Index	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00065	skos:exactMatch	mesh:D005919	semapv:ManualMappingCuration	glomerular filtration rate	Glomerular Filtration Rate	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00127	skos:exactMatch	mesh:D008970	semapv:ManualMappingCuration	molecular weight	Molecular Weight	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00140	skos:exactMatch	mesh:D000042	semapv:ManualMappingCuration	absorption	Absorption	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00242	skos:exactMatch	mesh:D019570	semapv:ManualMappingCuration	inhalation exposure	Inhalation Exposure	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00256	skos:exactMatch	mesh:D019540	semapv:ManualMappingCuration	area under curve	Area Under Curve	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00262	skos:exactMatch	mesh:D006207	semapv:ManualMappingCuration	half-life	Half-Life	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:00387	skos:exactMatch	mesh:D005865	semapv:ManualMappingCuration	gestational age	Gestational Age	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+pbpko:05003	skos:exactMatch	mesh:D055548	semapv:ManualMappingCuration	vapor pressure	Vapor Pressure	pbpko	2026-07-15	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

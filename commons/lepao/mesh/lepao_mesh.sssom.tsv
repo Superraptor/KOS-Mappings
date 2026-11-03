@@ -1,0 +1,33 @@
+# curie_map:
+#   lepao: "http://purl.obolibrary.org/obo/LEPAO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/lepao_mesh"
+# mapping_set_title: "LEPAO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: lepao
+# subject_source_version: "2023-02-18"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+lepao:0000016	skos:exactMatch	mesh:D002686	semapv:ManualMappingCuration	chitin	Chitin	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000026	skos:exactMatch	mesh:D001011	semapv:ManualMappingCuration	aorta	Aorta	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000027	skos:exactMatch	mesh:D006321	semapv:ManualMappingCuration	heart	Heart	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000053	skos:exactMatch	mesh:D004848	semapv:ManualMappingCuration	epithelium	Epithelium	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000059	skos:exactMatch	mesh:D010614	semapv:ManualMappingCuration	pharynx	Pharynx	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000064	skos:exactMatch	mesh:D011134	semapv:ManualMappingCuration	polysaccharides	Polysaccharides	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000067	skos:exactMatch	mesh:D003094	semapv:ManualMappingCuration	collagen	Collagen	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000071	skos:exactMatch	mesh:D001485	semapv:ManualMappingCuration	basement membrane	Basement Membrane	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000080	skos:exactMatch	mesh:D004817	semapv:ManualMappingCuration	epidermis	Epidermis	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000085	skos:exactMatch	mesh:D012007	semapv:ManualMappingCuration	rectum	Rectum	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000096	skos:exactMatch	mesh:D008442	semapv:ManualMappingCuration	maxillary nerve	Maxillary Nerve	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000101	skos:exactMatch	mesh:D003238	semapv:ManualMappingCuration	connective tissue	Connective Tissue	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000105	skos:exactMatch	mesh:D019581	semapv:ManualMappingCuration	neuropil	Neuropil	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+lepao:0000144	skos:exactMatch	mesh:D054259	semapv:ManualMappingCuration	neural tube	Neural Tube	lepao	2023-02-18	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

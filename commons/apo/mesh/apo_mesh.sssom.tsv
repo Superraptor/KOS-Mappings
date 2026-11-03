@@ -1,0 +1,38 @@
+# curie_map:
+#   apo: "http://purl.obolibrary.org/obo/APO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/apo_mesh"
+# mapping_set_title: "APO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: apo
+# subject_source_version: "2026-06-16"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+apo:0000039	skos:exactMatch	mesh:D008540	semapv:ManualMappingCuration	meiosis	Meiosis	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000051	skos:exactMatch	mesh:D048430	semapv:ManualMappingCuration	cell shape	Cell Shape	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000052	skos:exactMatch	mesh:D048429	semapv:ManualMappingCuration	cell size	Cell Size	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000065	skos:exactMatch	mesh:D005427	semapv:ManualMappingCuration	flocculation	Flocculation	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000071	skos:exactMatch	mesh:D048749	semapv:ManualMappingCuration	cytokinesis	Cytokinesis	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000074	skos:exactMatch	mesh:D001343	semapv:ManualMappingCuration	autophagy	Autophagy	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000075	skos:exactMatch	mesh:D004705	semapv:ManualMappingCuration	endocytosis	Endocytosis	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000088	skos:exactMatch	mesh:D004351	semapv:ManualMappingCuration	drug resistance	Drug Resistance	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000093	skos:exactMatch	mesh:D000071436	semapv:ManualMappingCuration	thermotolerance	Thermotolerance	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000129	skos:exactMatch	mesh:D021381	semapv:ManualMappingCuration	protein transport	Protein Transport	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000145	skos:exactMatch	mesh:D010085	semapv:ManualMappingCuration	oxidative phosphorylation	Oxidative Phosphorylation	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000155	skos:exactMatch	mesh:D017209	semapv:ManualMappingCuration	apoptosis	Apoptosis	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000188	skos:exactMatch	mesh:D002846	semapv:ManualMappingCuration	Affinity Chromatography	Chromatography, Affinity	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000208	skos:exactMatch	mesh:D020090	semapv:ManualMappingCuration	chromosome segregation	Chromosome Segregation	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000240	skos:exactMatch	mesh:D063306	semapv:ManualMappingCuration	mitophagy	Mitophagy	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000312	skos:exactMatch	mesh:D016923	semapv:ManualMappingCuration	cell death	Cell Death	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000313	skos:exactMatch	mesh:D001329	semapv:ManualMappingCuration	autolysis	Autolysis	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000336	skos:exactMatch	mesh:D000782	semapv:ManualMappingCuration	aneuploidy	Aneuploidy	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apo:0000337	skos:exactMatch	mesh:D011123	semapv:ManualMappingCuration	polyploidy	Polyploidy	apo	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

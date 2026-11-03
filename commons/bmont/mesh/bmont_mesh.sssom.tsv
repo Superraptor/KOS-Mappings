@@ -1,0 +1,21 @@
+# curie_map:
+#   bmont: "http://purl.obolibrary.org/obo/BMONT_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/bmont_mesh"
+# mapping_set_title: "BMONT to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: bmont
+# subject_source_version: "2025-06-20"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+bmont:0000093	skos:exactMatch	mesh:D000077107	semapv:ManualMappingCuration	gait analysis	Gait Analysis	bmont	2025-06-20	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+bmont:0000110	skos:exactMatch	mesh:D000071937	semapv:ManualMappingCuration	cerebral blood volume	Cerebral Blood Volume	bmont	2025-06-20	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

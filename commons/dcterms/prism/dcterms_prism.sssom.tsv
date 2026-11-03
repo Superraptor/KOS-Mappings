@@ -1,0 +1,18 @@
+# curie_map:
+#   dcterms: "http://purl.org/dc/terms/"
+#   prism: "http://prismstandard.org/namespaces/basic/2.0/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
+# mapping_set_id: "https://w3id.org/commons/mappings/dcterms_prism"
+# mapping_set_title: "DCTERMS to PRISM Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: prism
+# subject_source: dcterms
+subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+dcterms:issued	skos:narrowMatch	prism:publicationDate	semapv:ManualMappingCuration	dcterms	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	prism:publicationDate	semapv:ManualMappingCuration	dcterms	prism	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0

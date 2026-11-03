@@ -1,0 +1,19 @@
+# curie_map:
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   ro: "http://purl.obolibrary.org/obo/RO_"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sepio: "http://purl.obolibrary.org/obo/SEPIO_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/sepio"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from SEPIO"
+# mapping_set_id: "https://w3id.org/commons/mappings/sepio_ro"
+# mapping_set_title: "SEPIO to RO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ro
+# object_source_version: 1.0
+# subject_source: sepio
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	object_source_version	mapping_tool	mapping_date	mapping_provider	confidence	license
+sepio:0000017	rdfs:subPropertyOf	ro:0000057	semapv:UnspecifiedMatching	has_agent	has participant	sepio	ro	1.0	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000084	rdfs:subPropertyOf	ro:0002614	semapv:UnspecifiedMatching	has_evidence_item	is evidence with support from	sepio	ro	1.0	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000085	rdfs:subPropertyOf	ro:0002614	semapv:UnspecifiedMatching	evidence_has_supporting_activity	is evidence with support from	sepio	ro	1.0	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000124	rdfs:subPropertyOf	ro:0002614	semapv:UnspecifiedMatching	evidence_has_supporting_reference	is evidence with support from	sepio	ro	1.0	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0

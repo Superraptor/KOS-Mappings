@@ -1,0 +1,43 @@
+# curie_map:
+#   ogms: "http://purl.obolibrary.org/obo/OGMS_"
+#   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_ogms"
+# mapping_set_title: "ONTONEO to OGMS Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ogms
+# subject_source: ontoneo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoneo:00000001	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame da cabeça	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000015	rdfs:subClassOf	ogms:0000083	semapv:UnspecifiedMatching	abdominal examination finding	physical examination finding	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000016	rdfs:subClassOf	ogms:0000083	semapv:UnspecifiedMatching	achado no exame de mama	physical examination finding	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000018	rdfs:subClassOf	ogms:0000083	semapv:UnspecifiedMatching	achados do exame pélvico	physical examination finding	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000019	rdfs:subClassOf	ogms:0000083	semapv:UnspecifiedMatching	achados do exame vaginal	physical examination finding	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000026	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame físico masculino	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000031	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	cardiovascular examination	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000032	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame respiratório	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000033	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame gastrointestinal	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000034	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame neurológico	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000035	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	endocrine examination	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000036	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame musculoesquelético	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000037	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame da pele	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000038	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame imunológico	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000039	rdfs:subClassOf	ogms:0000057	semapv:UnspecifiedMatching	exame hematológico e linfático	physical examination	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000057	rdfs:subClassOf	ogms:0000014	semapv:UnspecifiedMatching	descoberta sobre os sinais vitais	clinical finding	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000067	rdfs:subClassOf	ogms:0000097	semapv:UnspecifiedMatching	acompanhamento pré-natal	health care encounter	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000078	rdfs:subClassOf	ogms:0000096	semapv:UnspecifiedMatching	acompanhamento	health care process	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000094	rdfs:subClassOf	ogms:0000073	semapv:UnspecifiedMatching	diagnóstico pré-natal	diagnosis	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000111	rdfs:subClassOf	ogms:0000056	semapv:UnspecifiedMatching	exame de urina	clinical laboratory test	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000113	rdfs:subClassOf	ogms:0000056	semapv:UnspecifiedMatching	exame de fezes	clinical laboratory test	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000156	rdfs:subClassOf	ogms:0000045	semapv:UnspecifiedMatching	macrosomatia	disorder	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000210	rdfs:subClassOf	ogms:0000089	semapv:UnspecifiedMatching	anomalias dos ductos mullerianos	congenital disorder	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000224	rdfs:subClassOf	ogms:0000015	semapv:UnspecifiedMatching		clinical history	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000225	rdfs:subClassOf	ogms:0000015	semapv:UnspecifiedMatching		clinical history	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000226	rdfs:subClassOf	ogms:0000015	semapv:UnspecifiedMatching		clinical history	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000247	rdfs:subClassOf	ogms:0000102	semapv:UnspecifiedMatching		injury	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000248	rdfs:subClassOf	ogms:0000102	semapv:UnspecifiedMatching	lesão vaginal	injury	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000249	rdfs:subClassOf	ogms:0000102	semapv:UnspecifiedMatching	breast injury	injury	ontoneo	ogms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

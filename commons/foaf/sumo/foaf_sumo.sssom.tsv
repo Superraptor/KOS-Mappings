@@ -1,0 +1,20 @@
+# curie_map:
+#   foaf: "http://xmlns.com/foaf/0.1/"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sumo: "http://www.ontologyportal.org/SUMO.owl#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/foaf_sumo"
+# mapping_set_title: "FOAF to SUMO Mappings"
+# mapping_set_version: 36853f75
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: sumo
+# publication_date: "2025-02-13"
+# subject_source: foaf
+subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+foaf:Image	owl:equivalentClass	sumo:Image	semapv:ManualMappingCuration	foaf	sumo	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl	CC0-1.0
+foaf:Person	owl:equivalentClass	sumo:Human	semapv:ManualMappingCuration	foaf	sumo	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl	CC0-1.0
+foaf:Document	owl:equivalentClass	sumo:Text	semapv:ManualMappingCuration	foaf	sumo	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl	CC0-1.0

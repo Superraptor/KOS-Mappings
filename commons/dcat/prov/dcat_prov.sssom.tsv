@@ -1,0 +1,26 @@
+# curie_map:
+#   dcat: "http://www.w3.org/ns/dcat#"
+#   prov: "http://www.w3.org/ns/prov#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/dcat_prov"
+# mapping_set_title: "DCAT to PROV Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: prov
+# subject_source: dcat
+# subject_source_version: 2.1.1
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+dcat:Relationship	rdfs:subClassOf	prov:EntityInfluence	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:dataset	rdfs:subPropertyOf	prov:hadMember	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:CatalogRecord	rdfs:subClassOf	prov:Entity	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:Distribution	rdfs:subClassOf	prov:Entity	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:catalog	rdfs:subPropertyOf	prov:hadMember	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:Resource	rdfs:subClassOf	prov:Entity	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:qualifiedRelation	rdfs:subPropertyOf	prov:qualifiedInfluence	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:Catalog	rdfs:subClassOf	prov:Collection	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dcat:service	rdfs:subPropertyOf	prov:hadMember	semapv:ManualMappingCuration	dcat	2.1.1	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0

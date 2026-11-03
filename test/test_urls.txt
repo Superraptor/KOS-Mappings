@@ -1,0 +1,13 @@
+https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl
+https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw
+https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl
+https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl
+https://ec-jrc.github.io/dcat-ap-to-schema-org/
+https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv
+https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl
+https://icdcdn.who.int/static/releasefiles/2024-01/mapping.zip
+https://data.nber.org/gem/icd10cmtoicd9gem.csv
+https://raw.githubusercontent.com/galterlibrary/mapping-project/master/LCSH-to-MeSH-mapping-data.txt
+https://about.ebsco.com/m/ee/Marketing/titleLists/qrh-coverage.xls
+https://doi.org/10.15497/RDA00069
+https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/ontologyAlignmentMetadata.html

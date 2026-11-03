@@ -1,0 +1,36 @@
+# curie_map:
+#   afpo: "http://purl.obolibrary.org/obo/AfPO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/afpo_mesh"
+# mapping_set_title: "AFPO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: afpo
+# subject_source_version: "2024-03-21"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+afpo:0000188	skos:exactMatch	mesh:D000094846	semapv:ManualMappingCuration	Eastern African	East African People	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000199	skos:exactMatch	mesh:C000725919	semapv:ManualMappingCuration	Kalenjin	Kalenjin people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000274	skos:exactMatch	mesh:D000094845	semapv:ManualMappingCuration	Central African	Central African People	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000275	skos:exactMatch	mesh:D000094843	semapv:ManualMappingCuration	Northern African	North African People	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000276	skos:exactMatch	mesh:D000094847	semapv:ManualMappingCuration	Southern African	Southern African People	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000277	skos:exactMatch	mesh:D000094848	semapv:ManualMappingCuration	Western African	West African People	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000325	skos:exactMatch	mesh:C000725415	semapv:ManualMappingCuration	Afrikaner	Afrikaner people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000344	skos:exactMatch	mesh:C000725667	semapv:ManualMappingCuration	Tonga	Tonga people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000344	skos:exactMatch	mesh:D014058	semapv:ManualMappingCuration	Tonga	Tonga	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000355	skos:exactMatch	mesh:C000724499	semapv:ManualMappingCuration	Andalusian	Andalusian people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000357	skos:exactMatch	mesh:C000724805	semapv:ManualMappingCuration	Copt	Copt people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000365	skos:exactMatch	mesh:C000724806	semapv:ManualMappingCuration	Egyptian	Egyptian people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000386	skos:exactMatch	mesh:C000725813	semapv:ManualMappingCuration	Bilen	Bilen people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000416	skos:exactMatch	mesh:C000725685	semapv:ManualMappingCuration	Dogon	Dogon people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000420	skos:exactMatch	mesh:C000725690	semapv:ManualMappingCuration	Esan	Esan people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000427	skos:exactMatch	mesh:C000725859	semapv:ManualMappingCuration	Urhobo	Urhobo people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+afpo:0000546	skos:exactMatch	mesh:C000725720	semapv:ManualMappingCuration	Krahn	Krahn people	afpo	2024-03-21	mesh	2026	Biomappings	0.1.0	2026-08-23	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

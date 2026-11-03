@@ -1,0 +1,24 @@
+# curie_map:
+#   dcterms: "http://purl.org/dc/terms/"
+#   frbr: "http://purl.org/vocab/frbr/core#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
+# mapping_set_id: "https://w3id.org/commons/mappings/dcterms_frbr"
+# mapping_set_title: "DCTERMS to FRBR Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: frbr
+# subject_source: dcterms
+subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+dcterms:Agent	skos:exactMatch	frbr:ResponsibleEntity	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:hasPart	skos:exactMatch	frbr:part	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:isVersionOf	skos:broadMatch	frbr:relatedEndeavour	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:Agent	skos:narrowMatch	frbr:CorporateBody	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:Agent	skos:narrowMatch	frbr:Person	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:contributor	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:isPartOf	skos:exactMatch	frbr:partOf	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:subject	skos:narrowMatch	frbr:subject	semapv:ManualMappingCuration	dcterms	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0

@@ -1,0 +1,27 @@
+# curie_map:
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   obcs: "http://purl.obolibrary.org/obo/OBCS_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/obcs_mesh"
+# mapping_set_title: "OBCS to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: obcs
+# subject_source_version: "2023-12-08"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+obcs:0000005	skos:exactMatch	mesh:D016011	semapv:ManualMappingCuration	normal distribution	Normal Distribution	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000023	skos:exactMatch	mesh:D015999	semapv:ManualMappingCuration	multivariate analysis	Multivariate Analysis	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000044	skos:exactMatch	mesh:D016010	semapv:ManualMappingCuration	binomial distribution	Binomial Distribution	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000045	skos:exactMatch	mesh:D016012	semapv:ManualMappingCuration	Poisson distribution	Poisson Distribution	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000054	skos:exactMatch	mesh:D016017	semapv:ManualMappingCuration	odds ratio	Odds Ratio	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000103	skos:narrowMatch	mesh:D018709	semapv:ManualMappingCuration	mann-whitney U test	Statistics, Nonparametric	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000119	skos:exactMatch	mesh:D016009	semapv:ManualMappingCuration	chi-square distribution	Chi-Square Distribution	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+obcs:0000241	skos:narrowMatch	mesh:D018709	semapv:ManualMappingCuration	Kolmogorov–Smirnov test	Statistics, Nonparametric	obcs	2023-12-08	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

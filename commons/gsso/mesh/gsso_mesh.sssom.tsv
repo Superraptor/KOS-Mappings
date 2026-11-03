@@ -1,0 +1,29 @@
+# curie_map:
+#   gsso: "http://purl.obolibrary.org/obo/GSSO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/gsso_mesh"
+# mapping_set_title: "GSSO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: gsso
+# subject_source_version: 2.0.5
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+gsso:000074	skos:exactMatch	mesh:D000094503	semapv:ManualMappingCuration	obstetrician	Obstetricians	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000130	skos:exactMatch	mesh:D063106	semapv:ManualMappingCuration	transgender person	Transgender Persons	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000171	skos:exactMatch	mesh:D000080183	semapv:ManualMappingCuration	intersex person	Intersex Persons	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000230	skos:closeMatch	mesh:D000091762	semapv:ManualMappingCuration	ethnic minority	Ethnic and Racial Minorities	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000231	skos:exactMatch	mesh:D000072339	semapv:ManualMappingCuration	gender and sexual minorities	Sexual and Gender Minorities	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000232	skos:exactMatch	mesh:D009938	semapv:ManualMappingCuration	organization	Organizations	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000252	skos:exactMatch	mesh:D001521	semapv:ManualMappingCuration	behavioral therapy	Behavior Therapy	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000280	skos:exactMatch	mesh:D001348	semapv:ManualMappingCuration	aversive therapy	Aversive Therapy	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:000339	skos:exactMatch	mesh:D011613	semapv:ManualMappingCuration	psychotherapy	Psychotherapy	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+gsso:008161	skos:exactMatch	mesh:D050218	semapv:ManualMappingCuration	body fat distribution	Body Fat Distribution	gsso	2.0.5	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

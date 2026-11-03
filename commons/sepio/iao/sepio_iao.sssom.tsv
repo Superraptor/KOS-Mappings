@@ -1,0 +1,24 @@
+# curie_map:
+#   iao: "http://purl.obolibrary.org/obo/IAO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sepio: "http://purl.obolibrary.org/obo/SEPIO_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/sepio"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from SEPIO"
+# mapping_set_id: "https://w3id.org/commons/mappings/sepio_iao"
+# mapping_set_title: "SEPIO to IAO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: iao
+# subject_source: sepio
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+sepio:0000400	rdfs:subClassOf	iao:0000100	semapv:UnspecifiedMatching	study data set	homogenous data collection	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000402	rdfs:subClassOf	iao:0000109	semapv:UnspecifiedMatching	evidence direction	measurement datum	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000414	rdfs:subClassOf	iao:0000109	semapv:UnspecifiedMatching	evidence quality	measurement datum	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:000383	rdfs:subClassOf	iao:0000310	semapv:UnspecifiedMatching	record	document	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000144	rdfs:subPropertyOf	iao:0000136	semapv:UnspecifiedMatching	has_qualifier	is about	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000257	rdfs:subPropertyOf	iao:0000136	semapv:UnspecifiedMatching	describes_study_data	is about	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000386	rdfs:subPropertyOf	iao:0000118	semapv:UnspecifiedMatching	sepio_preferred_label	alternative label	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000388	rdfs:subPropertyOf	iao:0000136	semapv:UnspecifiedMatching	has_subject	is about	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000389	rdfs:subPropertyOf	iao:0000136	semapv:UnspecifiedMatching	has_predicate	is about	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000390	rdfs:subPropertyOf	iao:0000136	semapv:UnspecifiedMatching	has_object	is about	sepio	iao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0

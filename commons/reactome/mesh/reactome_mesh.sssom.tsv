@@ -1,0 +1,26 @@
+# curie_map:
+#   debio: "https://biopragmatics.github.io/debio/"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   reactome: "https://reactome.org/content/detail/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/reactome_mesh"
+# mapping_set_title: "REACTOME to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2024
+# subject_source: reactome
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+reactome:R-HSA-1500620	debio:0000003	mesh:D008540	semapv:ManualMappingCuration	Meiosis	Meiosis	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-156582	debio:0000003	mesh:D000107	semapv:ManualMappingCuration	Acetylation	Acetylation	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-1632852	debio:0000003	mesh:D000080550	semapv:ManualMappingCuration	Macroautophagy	Macroautophagy	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-168256	debio:0000003	mesh:D007107	semapv:ManualMappingCuration	Immune System	Immune System	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-2990846	debio:0000003	mesh:D058207	semapv:ManualMappingCuration	SUMOylation	Sumoylation	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-400253	debio:0000003	mesh:D057906	semapv:ManualMappingCuration	Circadian Clock	Circadian Clocks	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-9613829	debio:0000003	mesh:D000080642	semapv:ManualMappingCuration	Chaperone Mediated Autophagy	Chaperone-Mediated Autophagy	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+reactome:R-HSA-9620244	debio:0000003	mesh:D017774	semapv:ManualMappingCuration	Long-term potentiation	Long-Term Potentiation	reactome		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

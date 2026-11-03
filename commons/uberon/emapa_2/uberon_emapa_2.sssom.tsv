@@ -1,0 +1,22 @@
+# curie_map:
+#   emapa_2: "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_emapa_2"
+# mapping_set_title: "UBERON to EMAPA_2 Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: emapa_2
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000074	oboInOwl:hasDbXref	emapa_2:28329	semapv:UnspecifiedMatching	renal glomerulus		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000926	oboInOwl:hasDbXref	emapa_2:16083	semapv:UnspecifiedMatching	mesoderm		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001740	oboInOwl:hasDbXref	emapa_2:17977	semapv:UnspecifiedMatching	arytenoid cartilage		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003118	oboInOwl:hasDbXref	emapa_2:16202	semapv:UnspecifiedMatching	pharyngeal arch artery 1		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003119	oboInOwl:hasDbXref	emapa_2:16203	semapv:UnspecifiedMatching	pharyngeal arch artery 2		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005564	oboInOwl:hasDbXref	emapa_2:17204	semapv:UnspecifiedMatching	gonad primordium		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005903	oboInOwl:hasDbXref	emapa_2:29282	semapv:UnspecifiedMatching	duct of seminal vesicle		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007213	oboInOwl:hasDbXref	emapa_2:16271	semapv:UnspecifiedMatching	mesenchyme derived from head neural crest		uberon	emapa_2	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

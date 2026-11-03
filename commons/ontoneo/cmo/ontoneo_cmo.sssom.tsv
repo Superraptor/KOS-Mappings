@@ -1,0 +1,17 @@
+# curie_map:
+#   cmo: "http://purl.obolibrary.org/obo/CMO_"
+#   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_cmo"
+# mapping_set_title: "ONTONEO to CMO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: cmo
+# subject_source: ontoneo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoneo:00000213	rdfs:subClassOf	cmo:0000012	semapv:UnspecifiedMatching	peso ao nascer	body weight	ontoneo	cmo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000214	rdfs:subClassOf	cmo:0000012	semapv:UnspecifiedMatching	peso no início da gravidez	body weight	ontoneo	cmo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000240	rdfs:subClassOf	cmo:0000012	semapv:UnspecifiedMatching	peso no parto	body weight	ontoneo	cmo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

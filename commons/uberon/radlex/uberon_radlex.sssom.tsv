@@ -1,0 +1,18 @@
+# curie_map:
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   radlex: "https://radlex.org/RID/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_radlex"
+# mapping_set_title: "UBERON to RADLEX Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: radlex
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0035922	oboInOwl:hasDbXref	radlex:RID6872	semapv:UnspecifiedMatching	intraculminate fissure of cerebellum		uberon	radlex	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035926	oboInOwl:hasDbXref	radlex:RID6871	semapv:UnspecifiedMatching	preculminate fissure of cerebellum		uberon	radlex	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035933	oboInOwl:hasDbXref	radlex:RID6449	semapv:UnspecifiedMatching	paracentral lobule		uberon	radlex	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035939	oboInOwl:hasDbXref	radlex:RID6708	semapv:UnspecifiedMatching	amiculum		uberon	radlex	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

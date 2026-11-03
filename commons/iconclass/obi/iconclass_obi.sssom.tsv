@@ -1,0 +1,31 @@
+# curie_map:
+#   iconclass: "https://iconclass.org/"
+#   obi: "http://purl.obolibrary.org/obo/OBI_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/iconclass_obi"
+# mapping_set_title: "ICONCLASS to OBI Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: obi
+# subject_source: iconclass
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+iconclass:34C1	skos:broadMatch	obi:0000694	semapv:ManualMappingCuration	feeding wild animals	animal feeding	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:41A774	skos:narrowMatch	obi:0002681	semapv:ManualMappingCuration	container of glass: bottle, jar, vase	glass bottle	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:41D2321	skos:relatedMatch	obi:0002797	semapv:ManualMappingCuration	apron	apron	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:46B331	skos:relatedMatch	obi:0001135	semapv:ManualMappingCuration	weighing-instruments	balance	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:47I222	skos:broadMatch	obi:0000694	semapv:ManualMappingCuration	giving water, feeding (cattle)	animal feeding	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49D521	skos:relatedMatch	obi:0000832	semapv:ManualMappingCuration	measuring-instruments	measurement device	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49E2512	skos:relatedMatch	obi:0400169	semapv:ManualMappingCuration	microscope	microscope	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G354	skos:relatedMatch	obi:0000105	semapv:ManualMappingCuration	transplantation ~ surgery	transplantation	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G37	skos:relatedMatch	obi:0000426	semapv:ManualMappingCuration	injection ~ medicine	injection	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G6213	skos:narrowMatch	obi:0000873	semapv:ManualMappingCuration	anatomical specimen	pre-mortem specimen	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G6213	skos:narrowMatch	obi:0002526	semapv:ManualMappingCuration	anatomical specimen	skin of body specimen	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G6213	skos:narrowMatch	obi:0002528	semapv:ManualMappingCuration	anatomical specimen	stomach specimen	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G6213	skos:narrowMatch	obi:0002554	semapv:ManualMappingCuration	anatomical specimen	vagina specimen	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G831	skos:relatedMatch	obi:0003707	semapv:ManualMappingCuration	pestle and mortar	mortar and pestle device	iconclass		obi		https://github.com/biomappings/biomappings/blob/e52731/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

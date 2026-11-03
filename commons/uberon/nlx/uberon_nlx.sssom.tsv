@@ -1,0 +1,127 @@
+# curie_map:
+#   nlx: "http://uri.neuinfo.org/nif/nifstd/nlx_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_nlx"
+# mapping_set_title: "UBERON to NLX Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: nlx
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000122	oboInOwl:hasDbXref	nlx:147821	semapv:UnspecifiedMatching	neuron projection bundle		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000125	oboInOwl:hasDbXref	nlx:28443	semapv:UnspecifiedMatching	neural nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000126	oboInOwl:hasDbXref	nlx:28532	semapv:UnspecifiedMatching	cranial nerve nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000934	oboInOwl:hasDbXref	nlx:146329	semapv:UnspecifiedMatching	ventral nerve cord		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000935	oboInOwl:hasDbXref	nlx:144088	semapv:UnspecifiedMatching	anterior commissure		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001018	oboInOwl:hasDbXref	nlx:147822	semapv:UnspecifiedMatching	axon tract		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001020	oboInOwl:hasDbXref	nlx:110	semapv:UnspecifiedMatching	nervous system commissure		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001021	oboInOwl:hasDbXref	nlx:147826	semapv:UnspecifiedMatching	nerve		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001384	oboInOwl:hasDbXref	nlx:143555	semapv:UnspecifiedMatching	primary motor cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001717	oboInOwl:hasDbXref	nlx:12995	semapv:UnspecifiedMatching	spinal nucleus of trigeminal nerve		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001791	oboInOwl:hasDbXref	nlx:93816	semapv:UnspecifiedMatching	inner nuclear layer of retina		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001792	oboInOwl:hasDbXref	nlx:36500	semapv:UnspecifiedMatching	ganglionic layer of retina		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001795	oboInOwl:hasDbXref	nlx:20558	semapv:UnspecifiedMatching	inner plexiform layer of retina		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001944	oboInOwl:hasDbXref	nlx:59721	semapv:UnspecifiedMatching	pretectal region		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002022	oboInOwl:hasDbXref	nlx:11342	semapv:UnspecifiedMatching	insula		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002180	oboInOwl:hasDbXref	nlx:379	semapv:UnspecifiedMatching	ventral funiculus of spinal cord		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002211	oboInOwl:hasDbXref	nlx:144250	semapv:UnspecifiedMatching	nerve root		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002275	oboInOwl:hasDbXref	nlx:143558	semapv:UnspecifiedMatching	reticular formation		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002287	oboInOwl:hasDbXref	nlx:144280	semapv:UnspecifiedMatching	optic recess of third ventricle		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002288	oboInOwl:hasDbXref	nlx:18606	semapv:UnspecifiedMatching	choroid plexus of third ventricle		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002290	oboInOwl:hasDbXref	nlx:27388	semapv:UnspecifiedMatching	choroid plexus of fourth ventricle		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002307	oboInOwl:hasDbXref	nlx:32548	semapv:UnspecifiedMatching	choroid plexus of lateral ventricle		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002316	oboInOwl:hasDbXref	nlx:412	semapv:UnspecifiedMatching	white matter		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002436	oboInOwl:hasDbXref	nlx:143552	semapv:UnspecifiedMatching	primary visual cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002928	oboInOwl:hasDbXref	nlx:42439	semapv:UnspecifiedMatching	dentate gyrus polymorphic layer		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004069	oboInOwl:hasDbXref	nlx:53	semapv:UnspecifiedMatching	accessory olfactory bulb		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004731	oboInOwl:hasDbXref	nlx:147842	semapv:UnspecifiedMatching	neuromere		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004922	oboInOwl:hasDbXref	nlx:144262	semapv:UnspecifiedMatching	postnatal subventricular zone		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005340	oboInOwl:hasDbXref	nlx:147892	semapv:UnspecifiedMatching	dorsal telencephalic commissure		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005403	oboInOwl:hasDbXref	nlx:57107	semapv:UnspecifiedMatching	ventral striatum		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005413	oboInOwl:hasDbXref	nlx:60355	semapv:UnspecifiedMatching	spinocerebellar tract		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006782	oboInOwl:hasDbXref	nlx:144110	semapv:UnspecifiedMatching	stratum lemnisci of superior colliculus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006840	oboInOwl:hasDbXref	nlx:69745	semapv:UnspecifiedMatching	nucleus of lateral lemniscus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007230	oboInOwl:hasDbXref	nlx:144002	semapv:UnspecifiedMatching	lateral vestibular nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007418	oboInOwl:hasDbXref	nlx:144064	semapv:UnspecifiedMatching	neural decussation		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007630	oboInOwl:hasDbXref	nlx:60880	semapv:UnspecifiedMatching	septohippocampal nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007634	oboInOwl:hasDbXref	nlx:23647	semapv:UnspecifiedMatching	parabrachial nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007764	oboInOwl:hasDbXref	nlx:151902	semapv:UnspecifiedMatching	paramedian reticular nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008933	oboInOwl:hasDbXref	nlx:143551	semapv:UnspecifiedMatching	primary somatosensory cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010415	oboInOwl:hasDbXref	nlx:81	semapv:UnspecifiedMatching	barrel cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011176	oboInOwl:hasDbXref	nlx:77783	semapv:UnspecifiedMatching	oval nucleus of stria terminalis		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011357	oboInOwl:hasDbXref	nlx:151878	semapv:UnspecifiedMatching	Reissner's fiber		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011776	oboInOwl:hasDbXref	nlx:144463	semapv:UnspecifiedMatching	dorsal commissural nucleus of spinal cord		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0013734	oboInOwl:hasDbXref	nlx:144319	semapv:UnspecifiedMatching	rostral linear nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0013738	oboInOwl:hasDbXref	nlx:144307	semapv:UnspecifiedMatching	parabrachial pigmental nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014526	oboInOwl:hasDbXref	nlx:144257	semapv:UnspecifiedMatching	anterior limb of internal capsule		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014527	oboInOwl:hasDbXref	nlx:144258	semapv:UnspecifiedMatching	posterior limb of internal capsule		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014537	oboInOwl:hasDbXref	nlx:144210	semapv:UnspecifiedMatching	periamygdaloid cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014605	oboInOwl:hasDbXref	nlx:144261	semapv:UnspecifiedMatching	fundus striati		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014734	oboInOwl:hasDbXref	nlx:143557	semapv:UnspecifiedMatching	allocortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014735	oboInOwl:hasDbXref	nlx:143559	semapv:UnspecifiedMatching	paleocortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015599	oboInOwl:hasDbXref	nlx:144462	semapv:UnspecifiedMatching	genu of corpus callosum		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015793	oboInOwl:hasDbXref	nlx:49940	semapv:UnspecifiedMatching	induseum griseum		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015800	oboInOwl:hasDbXref	nlx:144479	semapv:UnspecifiedMatching	taenia tectum of brain		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0016530	oboInOwl:hasDbXref	nlx:79282	semapv:UnspecifiedMatching	parietal cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0016538	oboInOwl:hasDbXref	nlx:94939	semapv:UnspecifiedMatching	temporal cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0016824	oboInOwl:hasDbXref	nlx:143582	semapv:UnspecifiedMatching	lateral paragigantocellular nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0016827	oboInOwl:hasDbXref	nlx:143549	semapv:UnspecifiedMatching	dorsal paramedian reticular nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0019275	oboInOwl:hasDbXref	nlx:98733	semapv:UnspecifiedMatching	uncinate fasciculus of the forebrain		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022303	oboInOwl:hasDbXref	nlx:149357	semapv:UnspecifiedMatching	nervous system cell part layer		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022314	oboInOwl:hasDbXref	nlx:144108	semapv:UnspecifiedMatching	superior colliculus stratum zonale		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022315	oboInOwl:hasDbXref	nlx:144263	semapv:UnspecifiedMatching	primary motor cortex layer 5		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022316	oboInOwl:hasDbXref	nlx:144264	semapv:UnspecifiedMatching	primary motor cortex layer 6		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022317	oboInOwl:hasDbXref	nlx:152609	semapv:UnspecifiedMatching	olfactory cortex layer 1		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022318	oboInOwl:hasDbXref	nlx:152610	semapv:UnspecifiedMatching	olfactory cortex layer 2		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022319	oboInOwl:hasDbXref	nlx:152619	semapv:UnspecifiedMatching	lateral geniculate nucleus parvocellular layer		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022320	oboInOwl:hasDbXref	nlx:153848	semapv:UnspecifiedMatching	dorsal cochlear nucleus pyramidal cell layer		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022323	oboInOwl:hasDbXref	nlx:39987	semapv:UnspecifiedMatching	entorhinal cortex layer 4		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022325	oboInOwl:hasDbXref	nlx:58	semapv:UnspecifiedMatching	entorhinal cortex layer 5		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022326	oboInOwl:hasDbXref	nlx:89	semapv:UnspecifiedMatching	molecular layer of dorsal cochlear nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022327	oboInOwl:hasDbXref	nlx:93650	semapv:UnspecifiedMatching	entorhinal cortex layer 3		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022329	oboInOwl:hasDbXref	nlx:98	semapv:UnspecifiedMatching	entorhinal cortex layer 6		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0022423	oboInOwl:hasDbXref	nlx:64080	semapv:UnspecifiedMatching	sagulum nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023852	oboInOwl:hasDbXref	nlx:144255	semapv:UnspecifiedMatching	temporoparietal junction		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023855	oboInOwl:hasDbXref	nlx:144259	semapv:UnspecifiedMatching	commissural nucleus of the solitary tract		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023859	oboInOwl:hasDbXref	nlx:144265	semapv:UnspecifiedMatching	primary somatosensory cortex layer 6		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023861	oboInOwl:hasDbXref	nlx:144291	semapv:UnspecifiedMatching	planum polare		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023862	oboInOwl:hasDbXref	nlx:144306	semapv:UnspecifiedMatching	hippocampal formation of GP94		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023865	oboInOwl:hasDbXref	nlx:22533	semapv:UnspecifiedMatching	medial ventral tegmental area		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023867	oboInOwl:hasDbXref	nlx:50741	semapv:UnspecifiedMatching	islands of Calleja of olfactory tubercle		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0023868	oboInOwl:hasDbXref	nlx:55138	semapv:UnspecifiedMatching	isla magna of Calleja		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034671	oboInOwl:hasDbXref	nlx:153910	semapv:UnspecifiedMatching	arcuate sulcus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034750	oboInOwl:hasDbXref	nlx:143553	semapv:UnspecifiedMatching	visual association cortex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034888	oboInOwl:hasDbXref	nlx:152661	semapv:UnspecifiedMatching	primary motor cortex layer 1		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034894	oboInOwl:hasDbXref	nlx:54921	semapv:UnspecifiedMatching	lateral nucleus of stria terminalis		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034894	oboInOwl:hasDbXref	nlx:60319	semapv:UnspecifiedMatching	lateral nucleus of stria terminalis		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034895	oboInOwl:hasDbXref	nlx:80623	semapv:UnspecifiedMatching	medial nucleus of stria terminalis		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034918	oboInOwl:hasDbXref	nlx:144456	semapv:UnspecifiedMatching	anterior pretectal nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035014	oboInOwl:hasDbXref	nlx:155513	semapv:UnspecifiedMatching	functional part of brain		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035024	oboInOwl:hasDbXref	nlx:144473	semapv:UnspecifiedMatching	lateral spinal nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035044	oboInOwl:hasDbXref	nlx:152611	semapv:UnspecifiedMatching	olfactory cortex layer 3		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035153	oboInOwl:hasDbXref	nlx:156731	semapv:UnspecifiedMatching	dorsolateral prefrontal cortex layer 1		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035154	oboInOwl:hasDbXref	nlx:156732	semapv:UnspecifiedMatching	dorsolateral prefrontal cortex layer 2		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035155	oboInOwl:hasDbXref	nlx:156733	semapv:UnspecifiedMatching	dorsolateral prefrontal cortex layer 3		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035156	oboInOwl:hasDbXref	nlx:156734	semapv:UnspecifiedMatching	dorsolateral prefrontal cortex layer 4		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035157	oboInOwl:hasDbXref	nlx:156735	semapv:UnspecifiedMatching	dorsolateral prefrontal cortex layer 5		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035158	oboInOwl:hasDbXref	nlx:156736	semapv:UnspecifiedMatching	dorsolateral prefrontal cortex layer 6		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035872	oboInOwl:hasDbXref	nlx:157671	semapv:UnspecifiedMatching	primary somatosensory area barrel field layer 5		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035873	oboInOwl:hasDbXref	nlx:157672	semapv:UnspecifiedMatching	primary somatosensory area barrel field layer 1		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035874	oboInOwl:hasDbXref	nlx:157673	semapv:UnspecifiedMatching	primary somatosensory area barrel field layer 2/3		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035875	oboInOwl:hasDbXref	nlx:157674	semapv:UnspecifiedMatching	primary somatosensory area barrel field layer 6b		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035876	oboInOwl:hasDbXref	nlx:157675	semapv:UnspecifiedMatching	primary somatosensory area barrel field layer 6a		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035877	oboInOwl:hasDbXref	nlx:157676	semapv:UnspecifiedMatching	primary somatosensory area barrel field layer 4		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035971	oboInOwl:hasDbXref	nlx:144245	semapv:UnspecifiedMatching	postsubiculum		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035972	oboInOwl:hasDbXref	nlx:144468	semapv:UnspecifiedMatching	interanterodorsal nucleus of the thalamus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035973	oboInOwl:hasDbXref	nlx:144477	semapv:UnspecifiedMatching	nucleus incertus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035974	oboInOwl:hasDbXref	nlx:17240	semapv:UnspecifiedMatching	anteroventral preoptic nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035975	oboInOwl:hasDbXref	nlx:144470	semapv:UnspecifiedMatching	intergeniculate leaflet of the lateral geniculate complex		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035976	oboInOwl:hasDbXref	nlx:144454	semapv:UnspecifiedMatching	accessory abducens nucleus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0036003	oboInOwl:hasDbXref	nlx:54027	semapv:UnspecifiedMatching	A9 dopaminergic cell group		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0036005	oboInOwl:hasDbXref	nlx:144071	semapv:UnspecifiedMatching	A10 dopaminergic cell group		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0036007	oboInOwl:hasDbXref	nlx:91101	semapv:UnspecifiedMatching	A13 dopaminergic cell group		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0036012	oboInOwl:hasDbXref	nlx:144476	semapv:UnspecifiedMatching	nucleus of the brachium of the inferior colliculus		uberon	nlx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

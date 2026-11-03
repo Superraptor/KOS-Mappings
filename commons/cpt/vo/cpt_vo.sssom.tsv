@@ -1,0 +1,25 @@
+# curie_map:
+#   cpt: "https://www.aapc.com/codes/cpt-codes/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+#   vo: "http://purl.obolibrary.org/obo/VO_"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/cpt_vo"
+# mapping_set_title: "CPT to VO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: vo
+# subject_source: cpt
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+cpt:90287	skos:exactMatch	vo:0006001	semapv:ManualMappingCuration	botulinum antitoxin	botulinum antitoxin	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90296	skos:exactMatch	vo:0006005	semapv:ManualMappingCuration	diphtheria antitoxin	diphtheria antitoxin	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90585	skos:exactMatch	vo:0000771	semapv:ManualMappingCuration	BCG	BCG vaccine	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90665	skos:exactMatch	vo:0000764	semapv:ManualMappingCuration	Lyme disease	Lyme disease vaccine	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90685	skos:exactMatch	vo:0005462	semapv:ManualMappingCuration	Influenza, injectable,quadrivalent, preservative free, pediatric	Influenza, injectable,quadrivalent, preservative free, pediatric	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90715	skos:exactMatch	vo:0003180	semapv:ManualMappingCuration	Tdap	TDAP	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90728	skos:exactMatch	vo:0000771	semapv:ManualMappingCuration	BCG	BCG vaccine	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cpt:90756	skos:exactMatch	vo:0005463	semapv:ManualMappingCuration	Influenza, injectable, MDCK, quadrivalent, preservative	Influenza, injectable, MDCK, quadrivalent, preservative	cpt		vo		https://github.com/biomappings/biomappings/blob/e55031/scripts/generate_vaccine_mappings.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

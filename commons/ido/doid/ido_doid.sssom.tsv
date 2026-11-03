@@ -1,0 +1,22 @@
+# curie_map:
+#   doid: "http://purl.obolibrary.org/obo/DOID_"
+#   ido: "http://purl.obolibrary.org/obo/IDO_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/ido_doid"
+# mapping_set_title: "IDO to DOID Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: doid
+# subject_source: ido
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+ido:0000645	skos:exactMatch	doid:1508	semapv:ManualMappingCuration	candidiasis	candidiasis	ido		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ido:0000646	skos:exactMatch	doid:1947	semapv:ManualMappingCuration	trichomoniasis	trichomoniasis	ido		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ido:0000647	skos:exactMatch	doid:2297	semapv:ManualMappingCuration	leptospirosis	leptospirosis	ido		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ido:0000648	skos:exactMatch	doid:12385	semapv:ManualMappingCuration	Shigellosis	shigellosis	ido		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ido:0000649	skos:exactMatch	doid:9181	semapv:ManualMappingCuration	amebiasis	amebiasis	ido		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

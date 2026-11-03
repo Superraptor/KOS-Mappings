@@ -1,0 +1,16 @@
+# curie_map:
+#   aeo_retired: "http://purl.obolibrary.org/obo/AEO_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_aeo_retired"
+# mapping_set_title: "UBERON to AEO_RETIRED Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: aeo_retired
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0003102	oboInOwl:hasDbXref	aeo_retired:0000010	semapv:UnspecifiedMatching	surface structure		uberon	aeo_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007500	oboInOwl:hasDbXref	aeo_retired:0000116	semapv:UnspecifiedMatching	epithelial tube open at both ends		uberon	aeo_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

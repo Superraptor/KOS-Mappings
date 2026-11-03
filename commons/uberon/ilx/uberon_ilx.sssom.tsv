@@ -1,0 +1,19 @@
+# curie_map:
+#   ilx: "https://scicrunch.org/scicrunch/interlex/view/ilx_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_ilx"
+# mapping_set_title: "UBERON to ILX Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ilx
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0001047	oboInOwl:hasDbXref	ilx:0728797	semapv:UnspecifiedMatching	neural glomerulus		uberon	ilx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:8600118	oboInOwl:hasDbXref	ilx:0793734	semapv:UnspecifiedMatching	myenteric ganglion		uberon	ilx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:8600119	oboInOwl:hasDbXref	ilx:0793735	semapv:UnspecifiedMatching	myenteric ganglion of small intestine		uberon	ilx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:8600120	oboInOwl:hasDbXref	ilx:0793555	semapv:UnspecifiedMatching	atrial intrinsic cardiac ganglion		uberon	ilx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:8600123	oboInOwl:hasDbXref	ilx:0793573	semapv:UnspecifiedMatching	lower airway ganglion		uberon	ilx	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

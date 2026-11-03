@@ -1,0 +1,45 @@
+# curie_map:
+#   chebi: "http://purl.obolibrary.org/obo/CHEBI_"
+#   covoc: "http://purl.obolibrary.org/obo/COVOC_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
+# mapping_set_id: "https://w3id.org/commons/mappings/covoc_chebi"
+# mapping_set_title: "COVOC to CHEBI Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: chebi
+# subject_source: covoc
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+covoc:0030001	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	3CLpro-1	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030002	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Adalimumab	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030003	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	ASC09	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030004	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Aviptadil	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030005	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Azvudine	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030006	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Baloxavir marboxil	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030007	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Baricitinib	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030008	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Bismuth potassium citrate	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030009	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Camrelizumab	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030010	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Carriomycin	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030011	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	CD24Fc	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030012	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Danoprevir	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030013	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Diammonium glycyrrhizinate	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030014	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Eculizumab	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030015	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Galidesivir	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030016	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	inhaled gas	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030017	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Interferon alfacon-1	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030018	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Jakotinib hydrochloride	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030019	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	marijuana	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030020	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Mepolizumab	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030021	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Methylprednisolone	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030024	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	PD-1 mAb	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030025	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Polyinosinic-polycytidylic acid	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030026	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	rhG-CSF	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030027	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Sarilumab	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030028	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Thymosin	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030029	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Tocilizumab	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030030	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	Triazavirin	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050002	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	alcohol sanitizer	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050028	rdfs:subClassOf	chebi:24431	semapv:UnspecifiedMatching	hand sanitizer	chemical entity	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090006	rdfs:subClassOf	chebi:36080	semapv:UnspecifiedMatching	haemagglutinin-esterase fusion glycoprotein	protein	covoc	chebi	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

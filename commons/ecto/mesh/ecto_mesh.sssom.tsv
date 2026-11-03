@@ -1,0 +1,21 @@
+# curie_map:
+#   ecto: "http://purl.obolibrary.org/obo/ECTO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/ecto_mesh"
+# mapping_set_title: "ECTO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: ecto
+# subject_source_version: "2026-07-28"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+ecto:0000001	skos:exactMatch	mesh:D000069079	semapv:ManualMappingCuration	exposure to radiation	Radiation Exposure	ecto	2026-07-28	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ecto:6000001	skos:exactMatch	mesh:D000069581	semapv:ManualMappingCuration	exposure to violence	Exposure to Violence	ecto	2026-07-28	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

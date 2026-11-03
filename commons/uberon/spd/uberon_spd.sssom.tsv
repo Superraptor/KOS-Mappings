@@ -1,0 +1,24 @@
+# curie_map:
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   spd: "http://purl.obolibrary.org/obo/SPD_"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_spd"
+# mapping_set_title: "UBERON to SPD Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: spd
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000033	oboInOwl:hasDbXref	spd:0000016	semapv:UnspecifiedMatching	head	cephalic area	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000171	oboInOwl:hasDbXref	spd:0000428	semapv:UnspecifiedMatching	respiration organ	booklung	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000463	oboInOwl:hasDbXref	spd:0000008	semapv:UnspecifiedMatching	organism substance	portion of organism substance	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003127	oboInOwl:hasDbXref	spd:0000434	semapv:UnspecifiedMatching	open tracheal system trachea	trachea	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005155	oboInOwl:hasDbXref	spd:0000427	semapv:UnspecifiedMatching	open tracheal system	tracheal system	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009965	oboInOwl:hasDbXref	spd:0000116	semapv:UnspecifiedMatching	coxal gland	coxal gland	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010148	oboInOwl:hasDbXref	spd:0000547	semapv:UnspecifiedMatching	mating plug	mating plug	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0012245	oboInOwl:hasDbXref	spd:0000318	semapv:UnspecifiedMatching	silk	silk structure	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015169	oboInOwl:hasDbXref	spd:0000343	semapv:UnspecifiedMatching	tapetum	tapetum	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015230	oboInOwl:hasDbXref	spd:0000130	semapv:UnspecifiedMatching	dorsal vessel heart	heart	uberon	spd	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

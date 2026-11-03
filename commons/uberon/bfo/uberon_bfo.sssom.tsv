@@ -1,0 +1,19 @@
+# curie_map:
+#   bfo: "http://purl.obolibrary.org/obo/BFO_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_bfo"
+# mapping_set_title: "UBERON to BFO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: bfo
+# object_source_version: 1.1
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	object_source_version	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0001062	oboInOwl:hasDbXref	bfo:0000004	semapv:UnspecifiedMatching	anatomical entity	independent continuant	uberon	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001062	rdfs:subClassOf	bfo:0000004	semapv:UnspecifiedMatching	anatomical entity	independent continuant	uberon	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035943	rdfs:subClassOf	bfo:0000001	semapv:UnspecifiedMatching	life cycle temporal boundary	entity	uberon	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

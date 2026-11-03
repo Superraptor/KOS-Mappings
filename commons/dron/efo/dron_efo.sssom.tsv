@@ -1,0 +1,18 @@
+# curie_map:
+#   dron: "http://purl.obolibrary.org/obo/DRON_"
+#   efo: "http://www.ebi.ac.uk/efo/EFO_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/dron_efo"
+# mapping_set_title: "DRON to EFO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: efo
+# subject_source: dron
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+dron:00016951	skos:exactMatch	efo:0010102	semapv:ManualMappingCuration	peginterferon alfa-2a	peginterferon alfa-2a	dron		efo		kestrel-mappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

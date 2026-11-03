@@ -1,0 +1,35 @@
+# curie_map:
+#   chmo: "http://purl.obolibrary.org/obo/CHMO_"
+#   goldbook: "https://goldbook.iupac.org/terms/view/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/goldbook_chmo"
+# mapping_set_title: "GOLDBOOK to CHMO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: chmo
+# subject_source: goldbook
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+goldbook:08331	skos:exactMatch	chmo:0000596	semapv:ManualMappingCuration	distortionless enhancement by polarization transfer	distortionless enhancement with polarization transfer	goldbook		chmo		Biomappings	0.1.0	2026-04-11	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08335	skos:exactMatch	chmo:0002382	semapv:ManualMappingCuration	double-quantum filtered correlation spectroscopy	double-quantum-filtered correlation spectroscopy	goldbook		chmo		Biomappings	0.1.0	2026-04-11	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08367	skos:exactMatch	chmo:0002543	semapv:ManualMappingCuration	incredible natural-abundance double-quantum transfer experiment	incredible natural abundance double quantum transfer experiment	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08397	skos:exactMatch	chmo:0001883	semapv:ManualMappingCuration	pulsed-field gradient	pulsed field gradient	goldbook		chmo		Biomappings	0.1.0	2026-04-11	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08490	skos:exactMatch	chmo:0000538	semapv:ManualMappingCuration	inductively-coupled plasma mass spectrometry	inductively coupled plasma mass spectrometry	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08494	skos:exactMatch	chmo:0000956	semapv:ManualMappingCuration	inductively-coupled plasma torch	inductively coupled plasma torch	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08605	skos:exactMatch	chmo:0000636	semapv:ManualMappingCuration	Fourier-transform infrared spectroscopy	Fourier transform infrared spectroscopy	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08606	skos:exactMatch	chmo:0000665	semapv:ManualMappingCuration	Fourier-transform Raman spectroscopy	Fourier transform Raman spectroscopy	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:08613	skos:exactMatch	chmo:0000666	semapv:ManualMappingCuration	hyper-Raman spectroscopy	hyper Raman spectroscopy	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:09183	skos:exactMatch	chmo:0000561	semapv:ManualMappingCuration	dynamic secondary-ion mass spectrometry	dynamic secondary ion mass spectrometry	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:09192	skos:exactMatch	chmo:0000560	semapv:ManualMappingCuration	secondary-ion mass spectrometry	secondary ion mass spectrometry	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:09518	skos:exactMatch	chmo:0001456	semapv:ManualMappingCuration	scanning-probe lithography	scanning probe lithography	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:09788	skos:exactMatch	chmo:0001029	semapv:ManualMappingCuration	two-dimensional gel electrophoresis	two dimensional gel electrophoresis	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:10280	skos:exactMatch	chmo:0002364	semapv:ManualMappingCuration	hollow-fibre liquid-phase microextraction	hollow fibre liquid-phase micro-extraction	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:12419	skos:exactMatch	chmo:0002925	semapv:ManualMappingCuration	Fourier-transform mass spectrometry	Fourier transform mass spectrometry	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:15415	skos:exactMatch	chmo:0002552	semapv:ManualMappingCuration	pulsed-laser polymerisation	pulsed laser polymerisation	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:B00696	skos:exactMatch	chmo:0001492	semapv:ManualMappingCuration	bomb-digestion	bomb digestion	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+goldbook:P04962	skos:exactMatch	chmo:0001260	semapv:ManualMappingCuration	pyrolysis-gas chromatography	pyrolysis gas chromatography	goldbook		chmo		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

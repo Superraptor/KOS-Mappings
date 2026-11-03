@@ -1,0 +1,50 @@
+# curie_map:
+#   hao: "http://purl.obolibrary.org/obo/HAO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/hao_mesh"
+# mapping_set_title: "HAO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: hao
+# subject_source_version: "2023-06-01"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+hao:0000082	skos:exactMatch	mesh:D000077	semapv:ManualMappingCuration	acetabulum	Acetabulum	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000221	skos:exactMatch	mesh:D003228	semapv:ManualMappingCuration	conjunctiva	Conjunctiva	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000222	skos:exactMatch	mesh:D049874	semapv:ManualMappingCuration	corbicula	Corbicula	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000298	skos:exactMatch	mesh:D004817	semapv:ManualMappingCuration	epidermis	Epidermis	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000321	skos:exactMatch	mesh:D005205	semapv:ManualMappingCuration	fascia	Fascia	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000327	skos:exactMatch	mesh:D005269	semapv:ManualMappingCuration	femur	Femur	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000409	skos:exactMatch	mesh:D007013	semapv:ManualMappingCuration	hypopharynx	Hypopharynx	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000494	skos:exactMatch	mesh:D007866	semapv:ManualMappingCuration	leg	Leg	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000506	skos:exactMatch	mesh:D008334	semapv:ManualMappingCuration	mandible	Mandible	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000508	skos:exactMatch	mesh:D008335	semapv:ManualMappingCuration	mandibular condyle	Mandibular Condyle	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000513	skos:exactMatch	mesh:D008437	semapv:ManualMappingCuration	maxilla	Maxilla	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000535	skos:exactMatch	mesh:C488845	semapv:ManualMappingCuration	meron	Meron	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0000956	skos:exactMatch	mesh:D013249	semapv:ManualMappingCuration	sternum	Sternum	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001015	skos:exactMatch	mesh:D013909	semapv:ManualMappingCuration	thorax	Thorax	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001017	skos:exactMatch	mesh:D013977	semapv:ManualMappingCuration	tibia	Tibia	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001019	skos:exactMatch	mesh:D014070	semapv:ManualMappingCuration	tooth	Tooth	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001052	skos:exactMatch	mesh:D014649	semapv:ManualMappingCuration	vas deferens	Vas Deferens	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001087	skos:exactMatch	mesh:D014844	semapv:ManualMappingCuration	vulva	Vulva	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001141	skos:exactMatch	mesh:D008684	semapv:ManualMappingCuration	metatarsus	Metatarsus	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001390	skos:exactMatch	mesh:D008335	semapv:ManualMappingCuration	mandibular condyle	Mandibular Condyle	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001476	skos:exactMatch	mesh:D049874	semapv:ManualMappingCuration	corbicula	Corbicula	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001547	skos:exactMatch	mesh:D002823	semapv:ManualMappingCuration	chorion	Chorion	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001552	skos:exactMatch	mesh:D007717	semapv:ManualMappingCuration	knee	Knee	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001740	skos:exactMatch	mesh:D010614	semapv:ManualMappingCuration	pharynx	Pharynx	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001820	skos:exactMatch	mesh:D005625	semapv:ManualMappingCuration	frontal lobe	Frontal Lobe	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0001970	skos:exactMatch	mesh:D013909	semapv:ManualMappingCuration	thorax	Thorax	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0002054	skos:exactMatch	mesh:D012661	semapv:ManualMappingCuration	semen	Semen	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0002415	skos:exactMatch	mesh:D014132	semapv:ManualMappingCuration	trachea	Trachea	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0002422	skos:exactMatch	mesh:D009809	semapv:ManualMappingCuration	odontoid process	Odontoid Process	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0002499	skos:exactMatch	mesh:D008470	semapv:ManualMappingCuration	meconium	Meconium	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+hao:0002586	skos:exactMatch	mesh:D014621	semapv:ManualMappingCuration	vagina	Vagina	hao	2023-06-01	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

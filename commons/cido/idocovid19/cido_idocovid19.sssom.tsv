@@ -1,0 +1,19 @@
+# curie_map:
+#   cido: "http://purl.obolibrary.org/obo/CIDO_"
+#   idocovid19: "http://purl.obolibrary.org/obo/COVIDO_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/cido_idocovid19"
+# mapping_set_title: "CIDO to IDOCOVID19 Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: idocovid19
+# subject_source: cido
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+cido:0000152	skos:exactMatch	idocovid19:0001388	semapv:ManualMappingCuration	COVID-19 pandemic	COVID-19 pandemic	cido		idocovid19		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cido:0000154	skos:exactMatch	idocovid19:0001391	semapv:ManualMappingCuration	COVID-19 epidemic	COVID-19 epidemic	cido		idocovid19		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

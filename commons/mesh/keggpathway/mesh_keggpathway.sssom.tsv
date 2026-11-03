@@ -1,0 +1,24 @@
+# curie_map:
+#   kegg.pathway: "https://www.kegg.jp/pathway/"
+#   keggpathway: "https://identifiers.org/keggpathway:"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/mesh_keggpathway"
+# mapping_set_title: "MESH to KEGGPATHWAY Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: keggpathway
+# subject_source: mesh
+# subject_source_version: 2024
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+mesh:D000078790	skos:exactMatch	kegg.pathway:map04911	semapv:ManualMappingCuration	Insulin Secretion	Insulin secretion	mesh	2024	keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+mesh:D002453	skos:exactMatch	kegg.pathway:map04110	semapv:ManualMappingCuration	Cell Cycle	Cell cycle	mesh	2024	keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+mesh:D004705	skos:exactMatch	kegg.pathway:map04144	semapv:ManualMappingCuration	Endocytosis	Endocytosis	mesh	2024	keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+mesh:D059765	skos:exactMatch	kegg.pathway:map03440	semapv:ManualMappingCuration	Homologous Recombination	Homologous recombination	mesh	2024	keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+mesh:D060449	skos:exactMatch	kegg.pathway:map04310	semapv:ManualMappingCuration	Wnt Signaling Pathway	Wnt signaling pathway	mesh	2024	keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

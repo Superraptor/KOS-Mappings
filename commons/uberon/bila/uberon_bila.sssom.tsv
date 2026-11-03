@@ -1,0 +1,103 @@
+# curie_map:
+#   bila: "http://purl.obolibrary.org/obo/BILA_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_bila"
+# mapping_set_title: "UBERON to BILA Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: bila
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000010	oboInOwl:hasDbXref	bila:0000081	semapv:UnspecifiedMatching	peripheral nervous system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000026	oboInOwl:hasDbXref	bila:0000018	semapv:UnspecifiedMatching	appendage		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000033	oboInOwl:hasDbXref	bila:0000115	semapv:UnspecifiedMatching	head		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000061	oboInOwl:hasDbXref	bila:0000003	semapv:UnspecifiedMatching	anatomical structure		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000307	oboInOwl:hasDbXref	bila:0000059	semapv:UnspecifiedMatching	blastula		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000383	oboInOwl:hasDbXref	bila:0000088	semapv:UnspecifiedMatching	musculature of body		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000463	oboInOwl:hasDbXref	bila:0000004	semapv:UnspecifiedMatching	organism substance		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000464	oboInOwl:hasDbXref	bila:0000005	semapv:UnspecifiedMatching	anatomical space		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000465	oboInOwl:hasDbXref	bila:0000006	semapv:UnspecifiedMatching	material anatomical entity		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000466	oboInOwl:hasDbXref	bila:0000007	semapv:UnspecifiedMatching	immaterial anatomical entity		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	bila:0000011	semapv:UnspecifiedMatching	anatomical system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000468	oboInOwl:hasDbXref	bila:0000012	semapv:UnspecifiedMatching	multicellular organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000471	oboInOwl:hasDbXref	bila:0000019	semapv:UnspecifiedMatching	compound organ component		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000472	oboInOwl:hasDbXref	bila:0000021	semapv:UnspecifiedMatching	simple organ		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000473	oboInOwl:hasDbXref	bila:0000124	semapv:UnspecifiedMatching	testis		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000475	oboInOwl:hasDbXref	bila:0000032	semapv:UnspecifiedMatching	organism subdivision		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000476	oboInOwl:hasDbXref	bila:0000040	semapv:UnspecifiedMatching	acellular anatomical structure		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000478	oboInOwl:hasDbXref	bila:0000042	semapv:UnspecifiedMatching	extraembryonic structure		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000479	oboInOwl:hasDbXref	bila:0000043	semapv:UnspecifiedMatching	tissue		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000480	oboInOwl:hasDbXref	bila:0000054	semapv:UnspecifiedMatching	anatomical group		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000481	oboInOwl:hasDbXref	bila:0000055	semapv:UnspecifiedMatching	multi-tissue structure		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000482	oboInOwl:hasDbXref	bila:0000065	semapv:UnspecifiedMatching	basal lamina of epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000483	oboInOwl:hasDbXref	bila:0000066	semapv:UnspecifiedMatching	epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000484	oboInOwl:hasDbXref	bila:0000067	semapv:UnspecifiedMatching	simple cuboidal epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000485	oboInOwl:hasDbXref	bila:0000068	semapv:UnspecifiedMatching	simple columnar epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000486	oboInOwl:hasDbXref	bila:0000069	semapv:UnspecifiedMatching	multilaminar epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000487	oboInOwl:hasDbXref	bila:0000070	semapv:UnspecifiedMatching	simple squamous epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000488	oboInOwl:hasDbXref	bila:0000071	semapv:UnspecifiedMatching	atypical epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000489	oboInOwl:hasDbXref	bila:0000072	semapv:UnspecifiedMatching	cavitated compound organ		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000490	oboInOwl:hasDbXref	bila:0000073	semapv:UnspecifiedMatching	unilaminar epithelium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000491	oboInOwl:hasDbXref	bila:0000074	semapv:UnspecifiedMatching	solid compound organ		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000922	oboInOwl:hasDbXref	bila:0000056	semapv:UnspecifiedMatching	embryo		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000923	oboInOwl:hasDbXref	bila:0000035	semapv:UnspecifiedMatching	germ layer		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000924	oboInOwl:hasDbXref	bila:0000036	semapv:UnspecifiedMatching	ectoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000925	oboInOwl:hasDbXref	bila:0000038	semapv:UnspecifiedMatching	endoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000926	oboInOwl:hasDbXref	bila:0000037	semapv:UnspecifiedMatching	mesoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000948	oboInOwl:hasDbXref	bila:0000020	semapv:UnspecifiedMatching	heart		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000955	oboInOwl:hasDbXref	bila:0000135	semapv:UnspecifiedMatching	brain		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000970	oboInOwl:hasDbXref	bila:0000017	semapv:UnspecifiedMatching	eye		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000990	oboInOwl:hasDbXref	bila:0000103	semapv:UnspecifiedMatching	reproductive system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000991	oboInOwl:hasDbXref	bila:0000123	semapv:UnspecifiedMatching	gonad		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000992	oboInOwl:hasDbXref	bila:0000125	semapv:UnspecifiedMatching	ovary		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001007	oboInOwl:hasDbXref	bila:0000082	semapv:UnspecifiedMatching	digestive system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001008	oboInOwl:hasDbXref	bila:0000015	semapv:UnspecifiedMatching	renal system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001016	oboInOwl:hasDbXref	bila:0000079	semapv:UnspecifiedMatching	nervous system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001017	oboInOwl:hasDbXref	bila:0000080	semapv:UnspecifiedMatching	central nervous system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001032	oboInOwl:hasDbXref	bila:0000099	semapv:UnspecifiedMatching	sensory system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001033	oboInOwl:hasDbXref	bila:0000143	semapv:UnspecifiedMatching	gustatory system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001041	oboInOwl:hasDbXref	bila:0000085	semapv:UnspecifiedMatching	foregut		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001045	oboInOwl:hasDbXref	bila:0000086	semapv:UnspecifiedMatching	midgut		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001046	oboInOwl:hasDbXref	bila:0000087	semapv:UnspecifiedMatching	hindgut		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001062	oboInOwl:hasDbXref	bila:0000000	semapv:UnspecifiedMatching	anatomical entity		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001133	oboInOwl:hasDbXref	bila:0000134	semapv:UnspecifiedMatching	cardiac muscle tissue		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001555	oboInOwl:hasDbXref	bila:0000083	semapv:UnspecifiedMatching	digestive tract		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002050	oboInOwl:hasDbXref	bila:0000034	semapv:UnspecifiedMatching	embryonic structure		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002100	oboInOwl:hasDbXref	bila:0000116	semapv:UnspecifiedMatching	trunk		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002104	oboInOwl:hasDbXref	bila:0000140	semapv:UnspecifiedMatching	visual system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002346	oboInOwl:hasDbXref	bila:0000039	semapv:UnspecifiedMatching	neuroectoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002405	oboInOwl:hasDbXref	bila:0000104	semapv:UnspecifiedMatching	immune system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002415	oboInOwl:hasDbXref	bila:0000117	semapv:UnspecifiedMatching	tail		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002416	oboInOwl:hasDbXref	bila:0000118	semapv:UnspecifiedMatching	integumental system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003062	oboInOwl:hasDbXref	bila:0000053	semapv:UnspecifiedMatching	primitive knot		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003100	oboInOwl:hasDbXref	bila:0000028	semapv:UnspecifiedMatching	female organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003101	oboInOwl:hasDbXref	bila:0000027	semapv:UnspecifiedMatching	male organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003103	oboInOwl:hasDbXref	bila:0000024	semapv:UnspecifiedMatching	compound organ		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004122	oboInOwl:hasDbXref	bila:0000122	semapv:UnspecifiedMatching	genitourinary system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004455	oboInOwl:hasDbXref	bila:0000061	semapv:UnspecifiedMatching	neurula embryo		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004535	oboInOwl:hasDbXref	bila:0000016	semapv:UnspecifiedMatching	cardiovascular system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004734	oboInOwl:hasDbXref	bila:0000060	semapv:UnspecifiedMatching	gastrula		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004871	oboInOwl:hasDbXref	bila:0000047	semapv:UnspecifiedMatching	somatic layer of lateral plate mesoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004872	oboInOwl:hasDbXref	bila:0000044	semapv:UnspecifiedMatching	splanchnic layer of lateral plate mesoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005053	oboInOwl:hasDbXref	bila:0000136	semapv:UnspecifiedMatching	primary nerve cord		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005725	oboInOwl:hasDbXref	bila:0000144	semapv:UnspecifiedMatching	olfactory system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005726	oboInOwl:hasDbXref	bila:0000139	semapv:UnspecifiedMatching	chemosensory system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006800	oboInOwl:hasDbXref	bila:0000008	semapv:UnspecifiedMatching	anatomical line		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006973	oboInOwl:hasDbXref	bila:0000126	semapv:UnspecifiedMatching	protonephridium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006974	oboInOwl:hasDbXref	bila:0000127	semapv:UnspecifiedMatching	metanephridium		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006983	oboInOwl:hasDbXref	bila:0000009	semapv:UnspecifiedMatching	anatomical point		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006984	oboInOwl:hasDbXref	bila:0000010	semapv:UnspecifiedMatching	anatomical surface		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007005	oboInOwl:hasDbXref	bila:0000051	semapv:UnspecifiedMatching	cardiogenic splanchnic mesoderm		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007010	oboInOwl:hasDbXref	bila:0000058	semapv:UnspecifiedMatching	cleaving embryo		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007021	oboInOwl:hasDbXref	bila:0000076	semapv:UnspecifiedMatching	sexually immature organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007023	oboInOwl:hasDbXref	bila:0000078	semapv:UnspecifiedMatching	adult organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007026	oboInOwl:hasDbXref	bila:0000084	semapv:UnspecifiedMatching	presumptive gut		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007037	oboInOwl:hasDbXref	bila:0000142	semapv:UnspecifiedMatching	mechanosensory system		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007095	oboInOwl:hasDbXref	bila:0000133	semapv:UnspecifiedMatching	somatic musculature		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007197	oboInOwl:hasDbXref	bila:0000029	semapv:UnspecifiedMatching	hermaphroditic organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010895	oboInOwl:hasDbXref	bila:0000045	semapv:UnspecifiedMatching	sequential hermaphroditic organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010899	oboInOwl:hasDbXref	bila:0000046	semapv:UnspecifiedMatching	synchronous hermaphroditic organism		uberon	bila	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

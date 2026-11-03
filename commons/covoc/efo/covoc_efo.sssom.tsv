@@ -1,0 +1,15 @@
+# curie_map:
+#   covoc: "http://purl.obolibrary.org/obo/COVOC_"
+#   efo: "http://www.ebi.ac.uk/efo/EFO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
+# mapping_set_id: "https://w3id.org/commons/mappings/covoc_efo"
+# mapping_set_title: "COVOC to EFO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: efo
+# subject_source: covoc
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+covoc:0050039	rdfs:subClassOf	efo:0000532	semapv:UnspecifiedMatching	intermediate host	host	covoc	efo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

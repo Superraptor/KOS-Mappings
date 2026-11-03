@@ -1,0 +1,22 @@
+# curie_map:
+#   bfo: "http://purl.obolibrary.org/obo/BFO_"
+#   iao: "http://purl.obolibrary.org/obo/IAO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/iao"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from IAO"
+# mapping_set_id: "https://w3id.org/commons/mappings/iao_bfo"
+# mapping_set_title: "IAO to BFO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: bfo
+# object_source_version: 1.1
+# subject_source: iao
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	object_source_version	mapping_tool	mapping_date	mapping_provider	confidence	license
+iao:0000015	rdfs:subClassOf	bfo:0000019	semapv:UnspecifiedMatching	information carrier	quality	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0
+iao:0000178	rdfs:subClassOf	bfo:0000040	semapv:UnspecifiedMatching	material information bearer	material entity	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0
+iao:0000442	rdfs:subClassOf	bfo:0000023	semapv:UnspecifiedMatching	author role	role	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0
+iao:0000039	rdfs:subPropertyOf	bfo:0000051	semapv:UnspecifiedMatching	has measurement unit label	has part	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0
+iao:0000407	rdfs:subPropertyOf	bfo:0000051	semapv:UnspecifiedMatching	has coordinate unit label	has part	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0
+iao:0000581	rdfs:subPropertyOf	bfo:0000051	semapv:UnspecifiedMatching	has time stamp	has part	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0
+iao:0000583	rdfs:subPropertyOf	bfo:0000051	semapv:UnspecifiedMatching	has measurement datum	has part	iao	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/iao	0.7	CC0-1.0

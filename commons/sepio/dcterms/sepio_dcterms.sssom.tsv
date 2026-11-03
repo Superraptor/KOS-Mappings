@@ -1,0 +1,21 @@
+# curie_map:
+#   dcterms: "http://purl.org/dc/terms/"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sepio: "http://purl.obolibrary.org/obo/SEPIO_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/sepio"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from SEPIO"
+# mapping_set_id: "https://w3id.org/commons/mappings/sepio_dcterms"
+# mapping_set_title: "SEPIO to DCTERMS Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: dcterms
+# subject_source: sepio
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+sepio:0000036	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_modified	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000040	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_evaluated	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000051	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_submitted	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000135	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_authored	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000164	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_updated	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000165	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_validated	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000436	rdfs:subPropertyOf	dcterms:date	semapv:UnspecifiedMatching	date_created	Date	sepio	dcterms	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0

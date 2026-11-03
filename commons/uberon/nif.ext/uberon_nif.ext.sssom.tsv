@@ -1,0 +1,17 @@
+# curie_map:
+#   nif.ext: "http://uri.neuinfo.org/nif/nifstd/nifext_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_nif.ext"
+# mapping_set_title: "UBERON to NIF.EXT Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: nif.ext
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0001727	oboInOwl:hasDbXref	nif.ext:14	semapv:UnspecifiedMatching	taste bud		uberon	nif.ext	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002925	oboInOwl:hasDbXref	nif.ext:11	semapv:UnspecifiedMatching	trigeminal nucleus		uberon	nif.ext	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002926	oboInOwl:hasDbXref	nif.ext:12	semapv:UnspecifiedMatching	gustatory epithelium		uberon	nif.ext	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

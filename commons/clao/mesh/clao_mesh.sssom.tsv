@@ -1,0 +1,33 @@
+# curie_map:
+#   clao: "http://purl.obolibrary.org/obo/CLAO_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/clao_mesh"
+# mapping_set_title: "CLAO to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: clao
+# subject_source_version: "2026-06-16"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+clao:0000113	skos:exactMatch	mesh:D008340	semapv:ManualMappingCuration	mandibular nerve	Mandibular Nerve	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000117	skos:exactMatch	mesh:D009900	semapv:ManualMappingCuration	optic nerve	Optic Nerve	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000133	skos:exactMatch	mesh:D054088	semapv:ManualMappingCuration	ventricular septum	Ventricular Septum	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000234	skos:exactMatch	mesh:D003771	semapv:ManualMappingCuration	dental papilla	Dental Papilla	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000956	skos:exactMatch	mesh:D013909	semapv:ManualMappingCuration	thorax	Thorax	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000967	skos:exactMatch	mesh:D005269	semapv:ManualMappingCuration	femur	Femur	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000968	skos:exactMatch	mesh:D007866	semapv:ManualMappingCuration	leg	Leg	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000969	skos:exactMatch	mesh:D008334	semapv:ManualMappingCuration	mandible	Mandible	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0000984	skos:exactMatch	mesh:D008335	semapv:ManualMappingCuration	mandibular condyle	Mandibular Condyle	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0001026	skos:exactMatch	mesh:D003228	semapv:ManualMappingCuration	conjunctiva	Conjunctiva	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0001061	skos:exactMatch	mesh:D013249	semapv:ManualMappingCuration	sternum	Sternum	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0001088	skos:exactMatch	mesh:D010614	semapv:ManualMappingCuration	pharynx	Pharynx	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0001103	skos:exactMatch	mesh:D014070	semapv:ManualMappingCuration	tooth	Tooth	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+clao:0001184	skos:exactMatch	mesh:D002686	semapv:ManualMappingCuration	chitin	Chitin	clao	2026-06-16	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

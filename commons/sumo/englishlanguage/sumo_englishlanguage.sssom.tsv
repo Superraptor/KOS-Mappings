@@ -1,0 +1,30 @@
+# curie_map:
+#   englishlanguage: "https://identifiers.org/englishlanguage:"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sumo: "http://www.ontologyportal.org/SUMO.owl#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl"
+# mapping_set_id: "https://w3id.org/commons/mappings/sumo_englishlanguage"
+# mapping_set_title: "SUMO to ENGLISHLANGUAGE Mappings"
+# mapping_set_version: 417aa029
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: englishlanguage
+# publication_date: "2014-08-11"
+# subject_source: sumo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+sumo:CoastGuard	owl:equivalentClass	englishlanguage:Coast-Guard	semapv:ManualMappingCuration	coast guard	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:MainTelephoneLine	owl:equivalentClass	englishlanguage:main-telephone-line	semapv:ManualMappingCuration	main telephone line	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:AirForce-BranchOfService	owl:equivalentClass	englishlanguage:Air-Force	semapv:ManualMappingCuration	air force- branch of service	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:TelevisionReceiver	owl:equivalentClass	englishlanguage:TV	semapv:ManualMappingCuration	television receiver	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:average	owl:equivalentProperty	englishlanguage:average	semapv:ManualMappingCuration	average	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:TelevisionReceiver	owl:equivalentClass	englishlanguage:television	semapv:ManualMappingCuration	television receiver	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:Telephone	owl:equivalentClass	englishlanguage:telephone	semapv:ManualMappingCuration	telephone	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:ArtificialSatellite	owl:equivalentClass	englishlanguage:satellite	semapv:ManualMappingCuration	artificial satellite	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:NavalAirForce-BranchOfService	owl:equivalentClass	englishlanguage:Naval-Air-Force	semapv:ManualMappingCuration	naval air force- branch of service	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:CommunicationSatellite	owl:equivalentClass	englishlanguage:communications-satellite	semapv:ManualMappingCuration	communication satellite	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:Latitude	owl:equivalentClass	englishlanguage:latitude	semapv:ManualMappingCuration	latitude	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:Longitude	owl:equivalentClass	englishlanguage:longitude	semapv:ManualMappingCuration	longitude	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0
+sumo:Marines-BranchOfService	owl:equivalentClass	englishlanguage:Marine-Corps	semapv:ManualMappingCuration	marines- branch of service	sumo	englishlanguage	KOS-Mappings Pipeline	1.0.0	2026-11-03	https://raw.githubusercontent.com/abrahaj/SUMO.owl/master/SUMO.owl	CC0-1.0

@@ -1,0 +1,29 @@
+# curie_map:
+#   go: "http://purl.obolibrary.org/obo/GO_"
+#   idomal: "http://purl.obolibrary.org/obo/IDOMAL_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/idomal_go"
+# mapping_set_title: "IDOMAL to GO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: go
+# subject_source: idomal
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+idomal:0000349	skos:exactMatch	go:0017085	semapv:ManualMappingCuration	insecticide resistance	response to insecticide	idomal		go		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000732	skos:exactMatch	go:0032991	semapv:ManualMappingCuration	protein complex	protein-containing complex	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000732	skos:exactMatch	go:0043234	semapv:ManualMappingCuration	protein complex	protein complex	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000816	skos:exactMatch	go:0071888	semapv:ManualMappingCuration	activation-induced cell death	macrophage apoptotic process	idomal		go		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000822	skos:exactMatch	go:0019814	semapv:ManualMappingCuration	antibody	immunoglobulin complex	idomal		go		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002000	skos:exactMatch	go:0007618	semapv:ManualMappingCuration	mating	mating	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002036	skos:exactMatch	go:0007620	semapv:ManualMappingCuration	copulation	copulation	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002125	skos:exactMatch	go:0050877	semapv:ManualMappingCuration	nervous system process	nervous system process	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002180	skos:exactMatch	go:0042330	semapv:ManualMappingCuration	taxis	taxis	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002320	skos:exactMatch	go:0018991	semapv:ManualMappingCuration	oviposition	oviposition	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002373	skos:exactMatch	go:0006935	semapv:ManualMappingCuration	chemotaxis	chemotaxis	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0002454	skos:exactMatch	go:0046879	semapv:ManualMappingCuration	hormone secretion	hormone secretion	idomal		go		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

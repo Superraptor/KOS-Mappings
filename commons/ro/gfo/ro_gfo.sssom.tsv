@@ -1,0 +1,30 @@
+# curie_map:
+#   gfo: "http://www.onto-med.de/ontologies/gfo.owl#"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   ro: "http://purl.obolibrary.org/obo/RO_"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/ontologyAlignmentMetadata.html"
+# mapping_set_id: "https://w3id.org/commons/mappings/ro_gfo"
+# mapping_set_title: "RO to GFO Mappings"
+# mapping_set_version: "2026-11-03"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: gfo
+# object_source_version: 1.0
+# subject_source: ro
+# subject_source_version: 1.0
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	author_label	creator_id	creator_label	license	comment
+ro:has_part	owl:equivalentClass	gfo:has_part	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:part_of	owl:equivalentClass	gfo:part_of	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:has_proper_part	owl:equivalentClass	gfo:has_proper_part	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:proper_part_of	owl:equivalentClass	gfo:proper_part_of	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:has_participant	rdfs:subClassOf	gfo:has_participant	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:participates_in	owl:equivalentClass	gfo:participates_in	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:located_in	rdfs:subClassOf	gfo:occupies	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:location_of	rdfs:subClassOf	gfo:occupied_by	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php|https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:has_agent	owl:equivalentClass	gfo:has_agent	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:agent_in	owl:equivalentClass	gfo:agent_in	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfo-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+ro:has_participant	owl:equivalentClass	gfo:has_participant	semapv:ManualMappingCuration	ro	1.0	gfo	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-gfobasic-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual

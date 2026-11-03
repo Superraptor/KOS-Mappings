@@ -1,0 +1,33 @@
+# curie_map:
+#   ehdaa2_retired: "http://purl.obolibrary.org/obo/EHDAA2_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_ehdaa2_retired"
+# mapping_set_title: "UBERON to EHDAA2_RETIRED Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ehdaa2_retired
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000174	oboInOwl:hasDbXref	ehdaa2_retired:0003184	semapv:UnspecifiedMatching	excreta		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000344	oboInOwl:hasDbXref	ehdaa2_retired:0003234	semapv:UnspecifiedMatching	mucosa		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000485	oboInOwl:hasDbXref	ehdaa2_retired:0003068	semapv:UnspecifiedMatching	simple columnar epithelium		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000922	oboInOwl:hasDbXref	ehdaa2_retired:0003236	semapv:UnspecifiedMatching	embryo		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001136	oboInOwl:hasDbXref	ehdaa2_retired:0003111	semapv:UnspecifiedMatching	mesothelium		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002018	oboInOwl:hasDbXref	ehdaa2_retired:0003181	semapv:UnspecifiedMatching	synovial membrane of synovial joint		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002020	oboInOwl:hasDbXref	ehdaa2_retired:0004658	semapv:UnspecifiedMatching	gray matter		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002416	oboInOwl:hasDbXref	ehdaa2_retired:0003154	semapv:UnspecifiedMatching	integumental system		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003082	oboInOwl:hasDbXref	ehdaa2_retired:0003431	semapv:UnspecifiedMatching	myotome		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003102	oboInOwl:hasDbXref	ehdaa2_retired:0003010	semapv:UnspecifiedMatching	surface structure		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004016	oboInOwl:hasDbXref	ehdaa2_retired:0003428	semapv:UnspecifiedMatching	dermatome		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005366	oboInOwl:hasDbXref	ehdaa2_retired:0001294	semapv:UnspecifiedMatching	olfactory lobe		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005449	oboInOwl:hasDbXref	ehdaa2_retired:0000722	semapv:UnspecifiedMatching	greater sac		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005856	oboInOwl:hasDbXref	ehdaa2_retired:0003148	semapv:UnspecifiedMatching	developing mesenchymal condensation		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005863	oboInOwl:hasDbXref	ehdaa2_retired:0003147	semapv:UnspecifiedMatching	cartilaginous condensation		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005865	oboInOwl:hasDbXref	ehdaa2_retired:0003149	semapv:UnspecifiedMatching	pre-muscle condensation		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006846	oboInOwl:hasDbXref	ehdaa2_retired:0003161	semapv:UnspecifiedMatching	surface groove		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006984	oboInOwl:hasDbXref	ehdaa2_retired:0003192	semapv:UnspecifiedMatching	anatomical surface		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0034705	oboInOwl:hasDbXref	ehdaa2_retired:0004654	semapv:UnspecifiedMatching	developing neuroepithelium		uberon	ehdaa2_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

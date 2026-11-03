@@ -1,0 +1,30 @@
+# curie_map:
+#   chmo: "http://purl.obolibrary.org/obo/CHMO_"
+#   iconclass: "https://iconclass.org/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/iconclass_chmo"
+# mapping_set_title: "ICONCLASS to CHMO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: chmo
+# subject_source: iconclass
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+iconclass:41B14	skos:relatedMatch	chmo:0010008	semapv:ManualMappingCuration	extinguishing a fire	fire extinguisher	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:41B52	skos:relatedMatch	chmo:0010008	semapv:ManualMappingCuration	fire-extinguishing equipment	fire extinguisher	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:41B524	skos:relatedMatch	chmo:0010008	semapv:ManualMappingCuration	chemical fire-extinguishing apparatus	fire extinguisher	iconclass		chmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:46B33	skos:relatedMatch	chmo:0002827	semapv:ManualMappingCuration	weighing	weighing	iconclass		chmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:46B331	skos:relatedMatch	chmo:0002827	semapv:ManualMappingCuration	weighing-instruments	weighing	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:47C1211	skos:relatedMatch	chmo:0001682	semapv:ManualMappingCuration	preparing of material by melting	sample melting	iconclass		chmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:47C124	skos:relatedMatch	chmo:0001549	semapv:ManualMappingCuration	preparing of material by drying	sample drying	iconclass		chmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:47C61	skos:relatedMatch	chmo:0001685	semapv:ManualMappingCuration	mixing (industrial process)	mixing	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:47C621	skos:relatedMatch	chmo:0001427	semapv:ManualMappingCuration	shaping in a mould (industrial process)	moulding	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:48C3522	skos:relatedMatch	chmo:0001558	semapv:ManualMappingCuration	etching	etching	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49E2512	skos:relatedMatch	chmo:0000953	semapv:ManualMappingCuration	microscope	microscope	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49E39542	skos:relatedMatch	chmo:0002208	semapv:ManualMappingCuration	evaporation of solvent	solvent evaporation	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+iconclass:49G621	skos:relatedMatch	chmo:0001528	semapv:ManualMappingCuration	dissection	dissection	iconclass		chmo		https://github.com/biomappings/biomappings/blob/710f39/scripts/culture_to_chemistry.py	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

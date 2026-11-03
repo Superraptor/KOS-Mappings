@@ -1,0 +1,23 @@
+# curie_map:
+#   dct: "http://purl.org/dc/terms/"
+#   prov: "http://www.w3.org/ns/prov#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/dct_prov"
+# mapping_set_title: "DCT to PROV Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: prov
+# subject_source: dct
+subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+dct:hasFormat	rdfs:subPropertyOf	prov:alternateOf	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dct:creator	rdfs:subPropertyOf	prov:wasAttributedTo	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dct:publisher	rdfs:subPropertyOf	prov:wasAttributedTo	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dct:source	rdfs:subPropertyOf	prov:wasDerivedFrom	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dct:isVersionOf	rdfs:subPropertyOf	prov:wasRevisionOf	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dct:contributor	rdfs:subPropertyOf	prov:wasAttributedTo	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0
+dct:isFormatOf	rdfs:subPropertyOf	prov:alternateOf	semapv:ManualMappingCuration	dct	prov	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/w3c/ns/master/dcat-prov.ttl	CC0-1.0

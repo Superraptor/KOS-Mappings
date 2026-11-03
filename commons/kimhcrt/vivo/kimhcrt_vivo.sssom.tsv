@@ -1,0 +1,22 @@
+# curie_map:
+#   kim.hcrt: "https://w3id.org/kim/hcrt/"
+#   kimhcrt: "https://identifiers.org/kimhcrt:"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+#   vivo: "http://vivoweb.org/ontology/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/kimhcrt_vivo"
+# mapping_set_title: "KIMHCRT to VIVO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: vivo
+# subject_source: kimhcrt
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+kim.hcrt:case_study	skos:exactMatch	vivo:CaseStudy	semapv:ManualMappingCuration	Case Study	Case Study	kimhcrt		vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+kim.hcrt:course	skos:exactMatch	vivo:Course	semapv:ManualMappingCuration	Course	Course	kimhcrt		vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+kim.hcrt:slide	skos:exactMatch	vivo:Presentation	semapv:ManualMappingCuration	Presentation	Presentation	kimhcrt		vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+kim.hcrt:video	skos:exactMatch	vivo:Video	semapv:ManualMappingCuration	Video	Video	kimhcrt		vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

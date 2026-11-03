@@ -1,0 +1,38 @@
+# curie_map:
+#   aism: "http://purl.obolibrary.org/obo/AISM_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/aism"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from AISM"
+# mapping_set_id: "https://w3id.org/commons/mappings/aism_uberon"
+# mapping_set_title: "AISM to UBERON Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: uberon
+# subject_source: aism
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+aism:0000003	oboInOwl:hasDbXref	uberon:6004475	semapv:UnspecifiedMatching	insect sclerite	insect sclerite	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000080	rdfs:subClassOf	uberon:0014895	semapv:UnspecifiedMatching	insect cranial muscle	somatic muscle, invertebrate	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000107	rdfs:subClassOf	uberon:6007289	semapv:UnspecifiedMatching	insect head	insect tagmatic subdivision of integument	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000108	rdfs:subClassOf	uberon:6007289	semapv:UnspecifiedMatching	insect thorax	insect tagmatic subdivision of integument	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000109	rdfs:subClassOf	uberon:6007289	semapv:UnspecifiedMatching	insect abdomen	insect tagmatic subdivision of integument	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000137	oboInOwl:hasDbXref	uberon:0001054	semapv:UnspecifiedMatching	malphigian tube	Malpighian tubule	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000177	rdfs:subClassOf	uberon:0000161	semapv:UnspecifiedMatching	pore canal	orifice	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000197	rdfs:subClassOf	uberon:0000161	semapv:UnspecifiedMatching	arthropod foramen	orifice	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000384	rdfs:subClassOf	uberon:0034926	semapv:UnspecifiedMatching	row of punctures	anatomical row	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0002026	rdfs:subClassOf	uberon:0014895	semapv:UnspecifiedMatching	insect cranio-maxillar muscle	somatic muscle, invertebrate	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0002061	rdfs:subClassOf	uberon:0014895	semapv:UnspecifiedMatching	insect cranio-tentorial muscle	somatic muscle, invertebrate	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0002065	rdfs:subClassOf	uberon:0014895	semapv:UnspecifiedMatching	insect thoracic muscle	somatic muscle, invertebrate	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0002085	rdfs:subClassOf	uberon:0014895	semapv:UnspecifiedMatching	insect abdominal muscle	somatic muscle, invertebrate	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004052	rdfs:subClassOf	uberon:0000018	semapv:UnspecifiedMatching	insect compound eye	compound eye	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004053	rdfs:subClassOf	uberon:0000020	semapv:UnspecifiedMatching	insect ocellus	sense organ	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004075	rdfs:subClassOf	uberon:0000161	semapv:UnspecifiedMatching	gonopore	orifice	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004083	rdfs:subClassOf	uberon:0000993	semapv:UnspecifiedMatching	insect oviduct	oviduct	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004197	rdfs:subClassOf	uberon:0000161	semapv:UnspecifiedMatching	insect anus	orifice	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004283	rdfs:subClassOf	uberon:6007284	semapv:UnspecifiedMatching	insect body segment	insect region of integument	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004284	rdfs:subClassOf	uberon:6007284	semapv:UnspecifiedMatching	insect appendage segment	insect region of integument	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004302	rdfs:subClassOf	uberon:0000165	semapv:UnspecifiedMatching	insect mouth	mouth	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004303	rdfs:subClassOf	uberon:0000161	semapv:UnspecifiedMatching	insect gland opening	orifice	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004316	rdfs:subClassOf	uberon:0004053	semapv:UnspecifiedMatching	insect external male genitalia	external male genitalia	aism	uberon	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0

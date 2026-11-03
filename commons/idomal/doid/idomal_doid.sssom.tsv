@@ -1,0 +1,25 @@
+# curie_map:
+#   doid: "http://purl.obolibrary.org/obo/DOID_"
+#   idomal: "http://purl.obolibrary.org/obo/IDOMAL_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/idomal_doid"
+# mapping_set_title: "IDOMAL to DOID Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: doid
+# subject_source: idomal
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+idomal:0000191	skos:exactMatch	doid:14067	semapv:ManualMappingCuration	falciparum malaria	Plasmodium falciparum malaria	idomal		doid		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000192	skos:exactMatch	doid:12978	semapv:ManualMappingCuration	vivax malaria	Plasmodium vivax malaria	idomal		doid		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000193	skos:exactMatch	doid:12919	semapv:ManualMappingCuration	ovale malaria	Plasmodium ovale malaria	idomal		doid		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000194	skos:exactMatch	doid:14324	semapv:ManualMappingCuration	quartan malaria	Plasmodium malariae malaria	idomal		doid		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000270	skos:exactMatch	doid:14069	semapv:ManualMappingCuration	cerebral malaria	cerebral malaria	idomal		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000525	skos:exactMatch	doid:9993	semapv:ManualMappingCuration	hypoglycaemia	hypoglycemia	idomal		doid		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001052	skos:exactMatch	doid:12365	semapv:ManualMappingCuration	malaria	malaria	idomal		doid		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001288	skos:exactMatch	doid:2373	semapv:ManualMappingCuration	ovalocytosis	hereditary elliptocytosis	idomal		doid		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

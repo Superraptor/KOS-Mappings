@@ -1,0 +1,49 @@
+# curie_map:
+#   dcat: "http://www.w3.org/ns/dcat#"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://ec-jrc.github.io/dcat-ap-to-schema-org/"
+# mapping_set_id: "https://w3id.org/commons/mappings/dcat_schema"
+# mapping_set_title: "DCAT to SCHEMA Mappings"
+# mapping_set_version: 2024
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: schema
+# object_source_version: 26.0
+# subject_source: dcat
+# subject_source_version: 2.1.1
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+dcat:Catalog	skos:exactMatch	schema:DataCatalog	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:Dataset	skos:exactMatch	schema:Dataset	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:Distribution	skos:exactMatch	schema:DataDownload	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:CatalogRecord	skos:exactMatch	schema:ListItem	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:DataService	skos:exactMatch	schema:WebAPI	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:dataset	skos:exactMatch	schema:dataset	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:themeTaxonomy	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:catalog	skos:exactMatch	schema:hasPart	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:contactPoint	skos:exactMatch	schema:contactPoint	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:keyword	skos:exactMatch	schema:keywords	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:record	skos:exactMatch	schema:itemListElement	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:service	skos:exactMatch	schema:hasPart	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:distribution	skos:exactMatch	schema:distribution	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:theme	skos:exactMatch	schema:about	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:landingPage	skos:exactMatch	schema:url	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:spatialResolutionInMeters	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:temporalResolution	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:accessURL	skos:exactMatch	schema:contentURL	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:accessService	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:byteSize	skos:exactMatch	schema:contentSize	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:compressionFormat	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:downloadURL	skos:exactMatch	schema:contentURL	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:mediaType	skos:exactMatch	schema:encodingFormat	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:packageFormat	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:endpointURL	skos:exactMatch	schema:url	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:endpointDescription	skos:exactMatch	schema:mainEntityOfPage	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:servesDataset	skos:exactMatch	schema:serviceOutput	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:bbox	skos:exactMatch	schema:box	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:centroid	skos:exactMatch	schema:latitude+schema:longitude+schema:elevation	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:startDate	skos:exactMatch	schema:startDate	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+dcat:endDate	skos:exactMatch	schema:endDate	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0

@@ -1,0 +1,15 @@
+# curie_map:
+#   ncit: "http://purl.obolibrary.org/obo/NCIT_"
+#   ontoavida: "http://purl.obolibrary.org/obo/ONTOAVIDA_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoavida"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTOAVIDA"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoavida_ncit"
+# mapping_set_title: "ONTOAVIDA to NCIT Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ncit
+# subject_source: ontoavida
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoavida:00000096	rdfs:subClassOf	ncit:C42790	semapv:UnspecifiedMatching	avida experiment	Experiment	ontoavida	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0

@@ -1,0 +1,22 @@
+# curie_map:
+#   omrse: "http://purl.obolibrary.org/obo/OMRSE_"
+#   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_omrse"
+# mapping_set_title: "ONTONEO to OMRSE Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: omrse
+# subject_source: ontoneo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoneo:00000041	rdfs:subClassOf	omrse:00000013	semapv:UnspecifiedMatching	obstetrician role	physician role	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000042	rdfs:subClassOf	omrse:00000013	semapv:UnspecifiedMatching	gynecologist role	physician role	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000043	rdfs:subClassOf	omrse:00000013	semapv:UnspecifiedMatching	papel de pediatra	physician role	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000101	rdfs:subClassOf	omrse:00000015	semapv:UnspecifiedMatching	papel de atenção primária	health care provider organization role	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00100000	rdfs:subClassOf	omrse:00000132	semapv:UnspecifiedMatching	dado de identificação religiosa	obsolete identity datum	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00100001	rdfs:subClassOf	omrse:00000132	semapv:UnspecifiedMatching	dado de identificação ocupacional	obsolete identity datum	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00100004	rdfs:subClassOf	omrse:00000132	semapv:UnspecifiedMatching	education level identity datum	obsolete identity datum	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00100006	rdfs:subClassOf	omrse:00000132	semapv:UnspecifiedMatching	dado de identificação de estado civil	obsolete identity datum	ontoneo	omrse	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

@@ -1,0 +1,27 @@
+# curie_map:
+#   apollosv: "http://purl.obolibrary.org/obo/APOLLO_SV_"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/apollosv_mesh"
+# mapping_set_title: "APOLLOSV to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: apollosv
+# subject_source_version: "2026-07-19"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+apollosv:00000002	skos:exactMatch	mesh:D050936	semapv:ManualMappingCuration	basic reproduction number	Basic Reproduction Number	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000036	skos:exactMatch	mesh:D016011	semapv:ManualMappingCuration	normal distribution	Normal Distribution	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-22	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000097	skos:exactMatch	mesh:D017753	semapv:ManualMappingCuration	ecosystem	Ecosystem	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000107	skos:exactMatch	mesh:D001272	semapv:ManualMappingCuration	atmosphere	Atmosphere	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000142	skos:exactMatch	mesh:D014611	semapv:ManualMappingCuration	vaccination	Vaccination	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000470	skos:exactMatch	mesh:D011336	semapv:ManualMappingCuration	probability	Probability	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000550	skos:exactMatch	mesh:D016358	semapv:ManualMappingCuration	contact tracing	Contact Tracing	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000596	skos:exactMatch	mesh:D013559	semapv:ManualMappingCuration	symbiosis	Symbiosis	apollosv	2026-07-19	mesh	2026	Biomappings	0.1.0	2026-08-13	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

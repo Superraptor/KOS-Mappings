@@ -1,0 +1,15 @@
+# curie_map:
+#   aism: "http://purl.obolibrary.org/obo/AISM_"
+#   caro: "http://purl.obolibrary.org/obo/CARO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/aism"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from AISM"
+# mapping_set_id: "https://w3id.org/commons/mappings/aism_caro"
+# mapping_set_title: "AISM to CARO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: caro
+# subject_source: aism
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+aism:0004157	rdfs:subClassOf	caro:0000008	semapv:UnspecifiedMatching	ecdysial line	anatomical line	aism	caro	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0

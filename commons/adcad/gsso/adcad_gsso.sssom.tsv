@@ -1,0 +1,39 @@
+# curie_map:
+#   adcad: "https://purl.dataone.org/odo/ADCAD_"
+#   gsso: "http://purl.obolibrary.org/obo/GSSO_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/adcad_gsso"
+# mapping_set_title: "ADCAD to GSSO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: gsso
+# subject_source: adcad
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+adcad:00003	skos:exactMatch	gsso:007360	semapv:ManualMappingCuration	Archaeology	archaeology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00004	skos:exactMatch	gsso:003852	semapv:ManualMappingCuration	Social Science	social science	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00006	skos:exactMatch	gsso:006201	semapv:ManualMappingCuration	Psychology	psychology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00009	skos:exactMatch	gsso:006210	semapv:ManualMappingCuration	Economics	economics	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00013	skos:exactMatch	gsso:008403	semapv:ManualMappingCuration	Biochemistry	biochemistry	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00015	skos:exactMatch	gsso:008398	semapv:ManualMappingCuration	Cell Biology	cell biology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00019	skos:exactMatch	gsso:011177	semapv:ManualMappingCuration	Bioinformatics	bioinformatics	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00020	skos:exactMatch	gsso:008387	semapv:ManualMappingCuration	Anatomy	anatomy	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00022	skos:exactMatch	gsso:008384	semapv:ManualMappingCuration	Zoology	zoology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00025	skos:exactMatch	gsso:008371	semapv:ManualMappingCuration	Microbiology	microbiology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00027	skos:exactMatch	gsso:008366	semapv:ManualMappingCuration	Epidemiology	epidemiology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00028	skos:exactMatch	gsso:008376	semapv:ManualMappingCuration	Neuroscience	neuroscience	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00034	skos:exactMatch	gsso:006207	semapv:ManualMappingCuration	Chemistry	chemistry	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00037	skos:exactMatch	gsso:009387	semapv:ManualMappingCuration	Mathematics	mathematics	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00057	skos:exactMatch	gsso:011170	semapv:ManualMappingCuration	Computer Science	computer science	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00063	skos:exactMatch	gsso:011173	semapv:ManualMappingCuration	Data science	data science	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00064	skos:exactMatch	gsso:009389	semapv:ManualMappingCuration	Statistics	statistics	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00065	skos:exactMatch	gsso:006208	semapv:ManualMappingCuration	Anthropology	anthropology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00067	skos:exactMatch	gsso:003851	semapv:ManualMappingCuration	Natural Science	natural science	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00068	skos:exactMatch	gsso:009049	semapv:ManualMappingCuration	Formal Science	formal science	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00071	skos:exactMatch	gsso:010235	semapv:ManualMappingCuration	Ethnology	ethnology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+adcad:00077	skos:exactMatch	gsso:006202	semapv:ManualMappingCuration	Sociology	sociology	adcad		gsso		Biomappings	0.1.0	2026-04-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

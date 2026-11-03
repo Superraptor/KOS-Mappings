@@ -1,0 +1,15 @@
+# curie_map:
+#   hp: "http://purl.obolibrary.org/obo/HP_"
+#   htn: "http://purl.obolibrary.org/obo/HTN_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/htn"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from HTN"
+# mapping_set_id: "https://w3id.org/commons/mappings/htn_hp"
+# mapping_set_title: "HTN to HP Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: hp
+# subject_source: htn
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+htn:00000004	rdfs:subClassOf	hp:0000822	semapv:UnspecifiedMatching	documented hypertensive phenotype	Hypertension	htn	hp	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/htn	0.7	CC0-1.0

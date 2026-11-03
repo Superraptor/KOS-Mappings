@@ -1,0 +1,53 @@
+@prefix ex: <http://example.org/thesaurus/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ex:wars a skos:Concept ;
+    skos:altLabel "travelogues"@en ;
+    skos:definition "1789-1799"@en,
+        "18th century philosophical movement"@en,
+        "1914-1918"@en,
+        "1939-1945"@en,
+        "1961/1964-1973"@en,
+        "1991"@en,
+        "anti-Roman Catholic religious upheaval"@en,
+        "articles in journals and magazines; DO"@en,
+        "as in handbook of sexology"@en,
+        "both fiction and non-fiction"@en,
+        "conference papers, etc."@en,
+        "cultural movement in 15th and 16th"@en,
+        "festival programmes, etc."@en,
+        "fiction and poetry anthologies"@en,
+        "how to guides, instruction manuals, sex"@en,
+        "integral and/or critical editions of"@en,
+        "late 18th century, early 19th century"@en,
+        "non-fiction anthologies"@en,
+        "sense of a century's ending; combine"@en,
+        "separate reprints of journal articles or"@en,
+        "special photosections in magazines"@en,
+        "time between first and second world war"@en,
+        "use for catalogues of mail order"@en ;
+    skos:prefLabel "wars"@en ;
+    skos:scopeNote "1789-1799"@en,
+        "18th century philosophical movement"@en,
+        "1914-1918"@en,
+        "1939-1945"@en,
+        "1961/1964-1973"@en,
+        "1991"@en,
+        "anti-Roman Catholic religious upheaval"@en,
+        "articles in journals and magazines; DO"@en,
+        "as in handbook of sexology"@en,
+        "both fiction and non-fiction"@en,
+        "conference papers, etc."@en,
+        "cultural movement in 15th and 16th"@en,
+        "festival programmes, etc."@en,
+        "fiction and poetry anthologies"@en,
+        "how to guides, instruction manuals, sex"@en,
+        "integral and/or critical editions of"@en,
+        "late 18th century, early 19th century"@en,
+        "non-fiction anthologies"@en,
+        "sense of a century's ending; combine"@en,
+        "separate reprints of journal articles or"@en,
+        "special photosections in magazines"@en,
+        "time between first and second world war"@en,
+        "use for catalogues of mail order"@en .
+

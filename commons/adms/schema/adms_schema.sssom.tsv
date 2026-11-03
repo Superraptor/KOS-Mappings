@@ -1,0 +1,25 @@
+# curie_map:
+#   adms: "http://www.w3.org/ns/adms#"
+#   dcat: "http://www.w3.org/ns/dcat#"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://ec-jrc.github.io/dcat-ap-to-schema-org/"
+# mapping_set_id: "https://w3id.org/commons/mappings/adms_schema"
+# mapping_set_title: "ADMS to SCHEMA Mappings"
+# mapping_set_version: 2024
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: schema
+# object_source_version: 26.0
+# subject_source: dcat
+# subject_source_version: 2.1.1
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+adms:Identifier	skos:exactMatch	schema:PropertyValue	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+adms:identifier	skos:exactMatch	schema:identifier	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+adms:sample	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+adms:versionNotes	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+adms:representationTechnique	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0
+adms:status	skos:exactMatch	schema:??	semapv:ManualMappingCuration	dcat	2.1.1	schema	26.0	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://ec-jrc.github.io/dcat-ap-to-schema-org/	CC0-1.0

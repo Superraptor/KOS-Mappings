@@ -1,0 +1,20 @@
+# curie_map:
+#   go: "http://purl.obolibrary.org/obo/GO_"
+#   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
+# mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_go"
+# mapping_set_title: "ONTONEO to GO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: go
+# subject_source: ontoneo
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+ontoneo:00000160	rdfs:subClassOf	go:0008150	semapv:UnspecifiedMatching	ruptura de membranas	biological_process	ontoneo	go	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000171	rdfs:subClassOf	go:0008150	semapv:UnspecifiedMatching	descolamento da placenta	biological_process	ontoneo	go	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000190	rdfs:subClassOf	go:0007565	semapv:UnspecifiedMatching		female pregnancy	ontoneo	go	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000194	rdfs:subClassOf	go:0007565	semapv:UnspecifiedMatching		female pregnancy	ontoneo	go	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000227	rdfs:subClassOf	go:0022414	semapv:UnspecifiedMatching	cervical dilation	reproductive process	ontoneo	go	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000229	rdfs:subClassOf	go:0008150	semapv:UnspecifiedMatching	apagamento do colo uterino	biological_process	ontoneo	go	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

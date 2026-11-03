@@ -1,0 +1,15 @@
+# curie_map:
+#   colao: "http://purl.obolibrary.org/obo/COLAO_"
+#   pato: "http://purl.obolibrary.org/obo/PATO_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/colao"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COLAO"
+# mapping_set_id: "https://w3id.org/commons/mappings/colao_pato"
+# mapping_set_title: "COLAO to PATO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: pato
+# subject_source: colao
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+colao:0000004	rdfs:subClassOf	pato:0000052	semapv:UnspecifiedMatching	deflexed	shape	colao	pato	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/colao	0.7	CC0-1.0

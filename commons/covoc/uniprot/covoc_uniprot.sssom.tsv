@@ -1,0 +1,17 @@
+# curie_map:
+#   covoc: "http://purl.obolibrary.org/obo/COVOC_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uniprot: "http://purl.uniprot.org/uniprot/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
+# mapping_set_id: "https://w3id.org/commons/mappings/covoc_uniprot"
+# mapping_set_title: "COVOC to UNIPROT Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: uniprot
+# subject_source: covoc
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+covoc:0090003	oboInOwl:hasDbXref	uniprot:P0C6F5	semapv:UnspecifiedMatching	replicase polyprotein 1a (BtCoV)		covoc	uniprot	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090004	oboInOwl:hasDbXref	uniprot:P0C6V9	semapv:UnspecifiedMatching	replicase polyprotein 1ab (BtCoV)		covoc	uniprot	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090005	oboInOwl:hasDbXref	uniprot:Q0Q475	semapv:UnspecifiedMatching	spike glycoprotein (BtCoV)		covoc	uniprot	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

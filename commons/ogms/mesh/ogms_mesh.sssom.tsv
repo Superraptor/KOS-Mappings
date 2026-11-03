@@ -1,0 +1,28 @@
+# curie_map:
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   ogms: "http://purl.obolibrary.org/obo/OGMS_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/ogms_mesh"
+# mapping_set_title: "OGMS to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2026
+# subject_source: ogms
+# subject_source_version: "2021-08-19"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+ogms:0000023	skos:exactMatch	mesh:D010641	semapv:ManualMappingCuration	phenotype	Phenotype	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000032	skos:exactMatch	mesh:D006706	semapv:ManualMappingCuration	homeostasis	Homeostasis	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000057	skos:exactMatch	mesh:D010808	semapv:ManualMappingCuration	physical examination	Physical Examination	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000085	skos:exactMatch	mesh:D010146	semapv:ManualMappingCuration	pain	Pain	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000091	skos:exactMatch	mesh:D003289	semapv:ManualMappingCuration	convalescence	Convalescence	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000093	skos:exactMatch	mesh:D011379	semapv:ManualMappingCuration	prognosis	Prognosis	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000098	skos:exactMatch	mesh:D006760	semapv:ManualMappingCuration	hospitalization	Hospitalization	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000143	skos:exactMatch	mesh:D014180	semapv:ManualMappingCuration	transplantation	Transplantation	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ogms:0000147	skos:exactMatch	mesh:D009369	semapv:ManualMappingCuration	neoplasm	Neoplasms	ogms	2021-08-19	mesh	2026	Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

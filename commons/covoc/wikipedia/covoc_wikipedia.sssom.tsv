@@ -1,0 +1,22 @@
+# curie_map:
+#   covoc: "http://purl.obolibrary.org/obo/COVOC_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   wikipedia: "http://en.wikipedia.org/wiki/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
+# mapping_set_id: "https://w3id.org/commons/mappings/covoc_wikipedia"
+# mapping_set_title: "COVOC to WIKIPEDIA Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: wikipedia
+# subject_source: covoc
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+covoc:0010009	oboInOwl:hasDbXref	wikipedia:Immunogenicity	semapv:UnspecifiedMatching	immunogenicity		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0010012	oboInOwl:hasDbXref	wikipedia:Intensive_care_medicine	semapv:UnspecifiedMatching	intensive care		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0010015	oboInOwl:hasDbXref	wikipedia:Clinical_metagenomic_sequencing	semapv:UnspecifiedMatching	low-input metagenomic next-generation sequencing		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0010045	oboInOwl:hasDbXref	wikipedia:Western_blot	semapv:UnspecifiedMatching	Western-Blot		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030003	oboInOwl:hasDbXref	wikipedia:TMC-310911	semapv:UnspecifiedMatching	ASC09		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030005	oboInOwl:hasDbXref	wikipedia:Azvudine	semapv:UnspecifiedMatching	Azvudine		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0030006	oboInOwl:hasDbXref	wikipedia:Baloxavir_marboxil	semapv:UnspecifiedMatching	Baloxavir marboxil		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050018	oboInOwl:hasDbXref	wikipedia:Epidemic	semapv:UnspecifiedMatching	epidemics		covoc	wikipedia	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

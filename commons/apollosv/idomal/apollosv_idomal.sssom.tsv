@@ -1,0 +1,22 @@
+# curie_map:
+#   apollosv: "http://purl.obolibrary.org/obo/APOLLO_SV_"
+#   idomal: "http://purl.obolibrary.org/obo/IDOMAL_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/apollosv_idomal"
+# mapping_set_title: "APOLLOSV to IDOMAL Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: idomal
+# subject_source: apollosv
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+apollosv:00000142	skos:exactMatch	idomal:0001040	semapv:ManualMappingCuration	vaccination	vaccination	apollosv		idomal		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000182	skos:exactMatch	idomal:0000008	semapv:ManualMappingCuration	contagiousness	contagiousness	apollosv		idomal		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000237	skos:exactMatch	idomal:0000063	semapv:ManualMappingCuration	pathogen	pathogen	apollosv		idomal		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000317	skos:exactMatch	idomal:0000355	semapv:ManualMappingCuration	incubation period	incubation period	apollosv		idomal		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000373	skos:exactMatch	idomal:0000995	semapv:ManualMappingCuration	parasite	parasite	apollosv		idomal		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

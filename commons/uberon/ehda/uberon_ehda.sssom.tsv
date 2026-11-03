@@ -1,0 +1,17 @@
+# curie_map:
+#   ehda: "http://purl.obolibrary.org/obo/EHDA_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_ehda"
+# mapping_set_title: "UBERON to EHDA Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: ehda
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000011	oboInOwl:hasDbXref	ehda:10096	semapv:UnspecifiedMatching	parasympathetic nervous system		uberon	ehda	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001130	oboInOwl:hasDbXref	ehda:10119	semapv:UnspecifiedMatching	vertebral column		uberon	ehda	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002410	oboInOwl:hasDbXref	ehda:10095	semapv:UnspecifiedMatching	autonomic nervous system		uberon	ehda	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

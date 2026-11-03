@@ -1,0 +1,20 @@
+# curie_map:
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   ro: "http://purl.obolibrary.org/obo/RO_"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   temporalrelations: "http://www.loa-cnr.it/ontologies/TemporalRelations.owl#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/ontologyAlignmentMetadata.html"
+# mapping_set_id: "https://w3id.org/commons/mappings/temporalrelations_ro"
+# mapping_set_title: "TEMPORALRELATIONS to RO Mappings"
+# mapping_set_version: "2026-11-03"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: ro
+# object_source_version: 1.0
+# subject_source: temporalrelations
+# subject_source_version: 1.0
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	author_label	creator_id	creator_label	license	comment
+temporalrelations:precedes	owl:equivalentClass	ro:precedes	semapv:ManualMappingCuration	temporalrelations	1.0	ro	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-temporalrelations-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual
+temporalrelations:follows	owl:equivalentClass	ro:preceded_by	semapv:ManualMappingCuration	temporalrelations	1.0	ro	1.0	ROMULUS Mediation Framework	1.0	2012-11-21	https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/Mediation/MediationMetadata/bforo-temporalrelations-metadata.php	mailto:zkhan@csir.co.za	Zubeida Khan	mailto:zkhan@csir.co.za	Zubeida Khan	CC0-1.0	Mediation Method: Manual

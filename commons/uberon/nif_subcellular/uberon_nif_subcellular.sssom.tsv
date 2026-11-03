@@ -1,0 +1,25 @@
+# curie_map:
+#   nif_subcellular: "http://www.neurolex.org/wiki/"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_nif_subcellular"
+# mapping_set_title: "UBERON to NIF_SUBCELLULAR Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: nif_subcellular
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000201	oboInOwl:hasDbXref	nif_subcellular:nlx_subcell_100205	semapv:UnspecifiedMatching	endothelial blood brain barrier		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000482	oboInOwl:hasDbXref	nif_subcellular:sao1397492660	semapv:UnspecifiedMatching	basal lamina of epithelium		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001130	oboInOwl:hasDbXref	nif_subcellular:sao1145756102	semapv:UnspecifiedMatching	vertebral column		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002606	oboInOwl:hasDbXref	nif_subcellular:sao205380252	semapv:UnspecifiedMatching	neuropil		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003719	oboInOwl:hasDbXref	nif_subcellular:FMA_83604	semapv:UnspecifiedMatching	Pacinian corpuscle		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005387	oboInOwl:hasDbXref	nif_subcellular:nlx_subcell_20090503	semapv:UnspecifiedMatching	olfactory glomerulus		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011860	oboInOwl:hasDbXref	nif_subcellular:sao7547390221	semapv:UnspecifiedMatching	collection of collagen fibrils		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011915	oboInOwl:hasDbXref	nif_subcellular:nlx_subcell_20090502	semapv:UnspecifiedMatching	cerebellar glomerulus		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011917	oboInOwl:hasDbXref	nif_subcellular:nlx_subcell_20090504	semapv:UnspecifiedMatching	thalamic glomerulus		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0012456	oboInOwl:hasDbXref	nif_subcellular:FMA_83606	semapv:UnspecifiedMatching	Merkel nerve ending		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0018687	oboInOwl:hasDbXref	nif_subcellular:nlx_subcell_100209	semapv:UnspecifiedMatching	glial limiting membrane		uberon	nif_subcellular	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

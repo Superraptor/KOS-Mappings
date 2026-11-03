@@ -1,0 +1,33 @@
+# curie_map:
+#   orcid: "https://orcid.org/"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+#   vivo: "http://vivoweb.org/ontology/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/schema_vivo"
+# mapping_set_title: "SCHEMA to VIVO Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: vivo
+# subject_source: schema
+# subject_source_version: 26.0
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+schema:Blog	skos:exactMatch	vivo:Blog	semapv:ManualMappingCuration	Blog	Blog	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Consortium	skos:exactMatch	vivo:Consortium	semapv:ManualMappingCuration	Consortium	Consortium	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Continent	skos:exactMatch	vivo:Continent	semapv:ManualMappingCuration	Continent	Continent	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Country	skos:exactMatch	vivo:Country	semapv:ManualMappingCuration	Country	Country	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Course	skos:exactMatch	vivo:Course	semapv:ManualMappingCuration	Course	Course	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Dataset	skos:exactMatch	vivo:Dataset	semapv:ManualMappingCuration	Dataset	Dataset	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Hospital	skos:exactMatch	vivo:Hospital	semapv:ManualMappingCuration	Hospital	Hospital	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Library	skos:exactMatch	vivo:Library	semapv:ManualMappingCuration	Library	Library	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Museum	skos:exactMatch	vivo:Museum	semapv:ManualMappingCuration	Museum	Museum	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Review	skos:exactMatch	vivo:Review	semapv:ManualMappingCuration	Review	Review	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:Room	skos:exactMatch	vivo:Room	semapv:ManualMappingCuration	Room	Room	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:School	skos:exactMatch	vivo:School	semapv:ManualMappingCuration	School	School	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:offers	skos:exactMatch	vivo:offers	semapv:ManualMappingCuration	offers	offers	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:publisher	skos:exactMatch	vivo:publisher	semapv:ManualMappingCuration	publisher	publisher	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+schema:video	skos:exactMatch	vivo:Video	semapv:ManualMappingCuration	video	Video	schema	26.0	vivo		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

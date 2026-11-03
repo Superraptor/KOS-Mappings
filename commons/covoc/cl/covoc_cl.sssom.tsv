@@ -1,0 +1,31 @@
+# curie_map:
+#   cl: "http://purl.obolibrary.org/obo/CL_"
+#   covoc: "http://purl.obolibrary.org/obo/COVOC_"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
+# mapping_set_id: "https://w3id.org/commons/mappings/covoc_cl"
+# mapping_set_title: "COVOC to CL Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: cl
+# subject_source: covoc
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+covoc:0020001	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	Calu-3 2B4	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020002	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	VeroE6	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020003	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	VeroE6/TMPRSS2	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020004	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	PER.C6	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020005	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	47D11	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020006	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	F26G1	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020007	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	F26G6	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020008	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	F26G8	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020009	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	F26G18	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020010	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	F26G19	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020011	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	N-176-15	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020012	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	S-9-11	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020013	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	rSN-18	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020014	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	rSN-21-2	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020015	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	rSN-29	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020016	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	rSN-122	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020017	rdfs:subClassOf	cl:0000010	semapv:UnspecifiedMatching	rSN-150	cultured cell	covoc	cl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

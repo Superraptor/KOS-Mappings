@@ -1,0 +1,66 @@
+# curie_map:
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   tgma: "http://purl.obolibrary.org/obo/TGMA_"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_tgma"
+# mapping_set_title: "UBERON to TGMA Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: tgma
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000018	oboInOwl:hasDbXref	tgma:0000024	semapv:UnspecifiedMatching	compound eye		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000033	oboInOwl:hasDbXref	tgma:0000002	semapv:UnspecifiedMatching	head		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000045	oboInOwl:hasDbXref	tgma:0001016	semapv:UnspecifiedMatching	ganglion		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000047	oboInOwl:hasDbXref	tgma:0000729	semapv:UnspecifiedMatching	simple eye		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000061	oboInOwl:hasDbXref	tgma:0001823	semapv:UnspecifiedMatching	anatomical structure		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000079	oboInOwl:hasDbXref	tgma:0000634	semapv:UnspecifiedMatching	male reproductive system		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000165	oboInOwl:hasDbXref	tgma:0000131	semapv:UnspecifiedMatching	mouth		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000167	oboInOwl:hasDbXref	tgma:0000102	semapv:UnspecifiedMatching	oral cavity		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000171	oboInOwl:hasDbXref	tgma:0001247	semapv:UnspecifiedMatching	respiration organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000463	oboInOwl:hasDbXref	tgma:0001824	semapv:UnspecifiedMatching	organism substance		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000464	oboInOwl:hasDbXref	tgma:0001825	semapv:UnspecifiedMatching	anatomical space		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000465	oboInOwl:hasDbXref	tgma:0001826	semapv:UnspecifiedMatching	material anatomical entity		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000466	oboInOwl:hasDbXref	tgma:0001827	semapv:UnspecifiedMatching	immaterial anatomical entity		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	tgma:0001831	semapv:UnspecifiedMatching	anatomical system		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000468	oboInOwl:hasDbXref	tgma:0001832	semapv:UnspecifiedMatching	multicellular organism		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000471	oboInOwl:hasDbXref	tgma:0001835	semapv:UnspecifiedMatching	compound organ component		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000472	oboInOwl:hasDbXref	tgma:0001836	semapv:UnspecifiedMatching	simple organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000474	oboInOwl:hasDbXref	tgma:0000635	semapv:UnspecifiedMatching	female reproductive system		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000475	oboInOwl:hasDbXref	tgma:0001840	semapv:UnspecifiedMatching	organism subdivision		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000476	oboInOwl:hasDbXref	tgma:0001841	semapv:UnspecifiedMatching	acellular anatomical structure		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000478	oboInOwl:hasDbXref	tgma:0001843	semapv:UnspecifiedMatching	extraembryonic structure		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000479	oboInOwl:hasDbXref	tgma:0001844	semapv:UnspecifiedMatching	tissue		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000480	oboInOwl:hasDbXref	tgma:0001846	semapv:UnspecifiedMatching	anatomical group		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000481	oboInOwl:hasDbXref	tgma:0001847	semapv:UnspecifiedMatching	multi-tissue structure		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000482	oboInOwl:hasDbXref	tgma:0001850	semapv:UnspecifiedMatching	basal lamina of epithelium		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000489	oboInOwl:hasDbXref	tgma:0001857	semapv:UnspecifiedMatching	cavitated compound organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000491	oboInOwl:hasDbXref	tgma:0001859	semapv:UnspecifiedMatching	solid compound organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000920	oboInOwl:hasDbXref	tgma:0000681	semapv:UnspecifiedMatching	egg chorion		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000930	oboInOwl:hasDbXref	tgma:0000135	semapv:UnspecifiedMatching	stomodeum		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000972	oboInOwl:hasDbXref	tgma:0000007	semapv:UnspecifiedMatching	antenna		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000984	oboInOwl:hasDbXref	tgma:0000196	semapv:UnspecifiedMatching	imaginal disc-derived wing		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000994	oboInOwl:hasDbXref	tgma:0000560	semapv:UnspecifiedMatching	spermathecum		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001011	oboInOwl:hasDbXref	tgma:0000000	semapv:UnspecifiedMatching	hemolymph		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001019	oboInOwl:hasDbXref	tgma:0000088	semapv:UnspecifiedMatching	nerve fasciculus		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001041	oboInOwl:hasDbXref	tgma:0001014	semapv:UnspecifiedMatching	foregut		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001045	oboInOwl:hasDbXref	tgma:0001036	semapv:UnspecifiedMatching	midgut		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001046	oboInOwl:hasDbXref	tgma:0001020	semapv:UnspecifiedMatching	hindgut		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001054	oboInOwl:hasDbXref	tgma:0001038	semapv:UnspecifiedMatching	Malpighian tubule		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001062	oboInOwl:hasDbXref	tgma:0001822	semapv:UnspecifiedMatching	anatomical entity		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001245	oboInOwl:hasDbXref	tgma:0001279	semapv:UnspecifiedMatching	anus		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001555	oboInOwl:hasDbXref	tgma:0001819	semapv:UnspecifiedMatching	digestive tract		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002536	oboInOwl:hasDbXref	tgma:0000540	semapv:UnspecifiedMatching	arthropod sensillum		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003100	oboInOwl:hasDbXref	tgma:0001839	semapv:UnspecifiedMatching	female organism		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003101	oboInOwl:hasDbXref	tgma:0001838	semapv:UnspecifiedMatching	male organism		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003103	oboInOwl:hasDbXref	tgma:0001837	semapv:UnspecifiedMatching	compound organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003133	oboInOwl:hasDbXref	tgma:0000591	semapv:UnspecifiedMatching	reproductive organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003155	oboInOwl:hasDbXref	tgma:0000041	semapv:UnspecifiedMatching	arthropod occiput		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003917	oboInOwl:hasDbXref	tgma:0001856	semapv:UnspecifiedMatching	arthropod fat body		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005895	oboInOwl:hasDbXref	tgma:0000164	semapv:UnspecifiedMatching	insect leg		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006800	oboInOwl:hasDbXref	tgma:0001828	semapv:UnspecifiedMatching	anatomical line		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008811	oboInOwl:hasDbXref	tgma:0000585	semapv:UnspecifiedMatching	intromittent organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010039	oboInOwl:hasDbXref	tgma:0001041	semapv:UnspecifiedMatching	food storage organ		uberon	tgma	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

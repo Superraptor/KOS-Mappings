@@ -1,0 +1,161 @@
+# curie_map:
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+#   vsao: "http://purl.obolibrary.org/obo/VSAO_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_vsao"
+# mapping_set_title: "UBERON to VSAO Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: vsao
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000026	oboInOwl:hasDbXref	vsao:0000075	semapv:UnspecifiedMatching	appendage		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000041	oboInOwl:hasDbXref	vsao:0000079	semapv:UnspecifiedMatching	odontode scale		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000043	oboInOwl:hasDbXref	vsao:0000073	semapv:UnspecifiedMatching	tendon		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000151	oboInOwl:hasDbXref	vsao:0000147	semapv:UnspecifiedMatching	pectoral fin		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000152	oboInOwl:hasDbXref	vsao:0000129	semapv:UnspecifiedMatching	pelvic fin		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000209	oboInOwl:hasDbXref	vsao:0000208	semapv:UnspecifiedMatching	tetrapod frontal bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000383	oboInOwl:hasDbXref	vsao:0000033	semapv:UnspecifiedMatching	musculature of body		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000981	oboInOwl:hasDbXref	vsao:0000186	semapv:UnspecifiedMatching	femur		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000982	oboInOwl:hasDbXref	vsao:0000101	semapv:UnspecifiedMatching	skeletal joint		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001015	oboInOwl:hasDbXref	vsao:0005038	semapv:UnspecifiedMatching	musculature		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001105	oboInOwl:hasDbXref	vsao:0005031	semapv:UnspecifiedMatching	clavicle bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001130	oboInOwl:hasDbXref	vsao:0000185	semapv:UnspecifiedMatching	vertebral column		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001271	oboInOwl:hasDbXref	vsao:0000304	semapv:UnspecifiedMatching	pelvic girdle region		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001274	oboInOwl:hasDbXref	vsao:0005006	semapv:UnspecifiedMatching	ischium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001421	oboInOwl:hasDbXref	vsao:0000305	semapv:UnspecifiedMatching	pectoral girdle region		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001423	oboInOwl:hasDbXref	vsao:0005012	semapv:UnspecifiedMatching	radius bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001424	oboInOwl:hasDbXref	vsao:0005013	semapv:UnspecifiedMatching	ulna		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001428	oboInOwl:hasDbXref	vsao:0005040	semapv:UnspecifiedMatching	intermedium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001430	oboInOwl:hasDbXref	vsao:0005043	semapv:UnspecifiedMatching	distal carpal bone 1		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001431	oboInOwl:hasDbXref	vsao:0005044	semapv:UnspecifiedMatching	distal carpal bone 2		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001432	oboInOwl:hasDbXref	vsao:0005045	semapv:UnspecifiedMatching	distal carpal bone 3		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001433	oboInOwl:hasDbXref	vsao:0005046	semapv:UnspecifiedMatching	distal carpal bone 4		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001434	oboInOwl:hasDbXref	vsao:0000027	semapv:UnspecifiedMatching	skeletal system		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001440	oboInOwl:hasDbXref	vsao:0000151	semapv:UnspecifiedMatching	forelimb skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001441	oboInOwl:hasDbXref	vsao:0000152	semapv:UnspecifiedMatching	hindlimb skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001442	oboInOwl:hasDbXref	vsao:0005020	semapv:UnspecifiedMatching	skeleton of manus		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001445	oboInOwl:hasDbXref	vsao:0005021	semapv:UnspecifiedMatching	skeleton of pes		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001450	oboInOwl:hasDbXref	vsao:0005016	semapv:UnspecifiedMatching	calcaneus		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001452	oboInOwl:hasDbXref	vsao:0005052	semapv:UnspecifiedMatching	distal tarsal bone 1		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001453	oboInOwl:hasDbXref	vsao:0005053	semapv:UnspecifiedMatching	distal tarsal bone 2		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001454	oboInOwl:hasDbXref	vsao:0005054	semapv:UnspecifiedMatching	distal tarsal bone 3		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001474	oboInOwl:hasDbXref	vsao:0000057	semapv:UnspecifiedMatching	bone element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001729	oboInOwl:hasDbXref	vsao:0000034	semapv:UnspecifiedMatching	oropharynx		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001751	oboInOwl:hasDbXref	vsao:0000069	semapv:UnspecifiedMatching	dentine		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001752	oboInOwl:hasDbXref	vsao:0000065	semapv:UnspecifiedMatching	enamel		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001753	oboInOwl:hasDbXref	vsao:0000062	semapv:UnspecifiedMatching	cementum		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001763	oboInOwl:hasDbXref	vsao:0000025	semapv:UnspecifiedMatching	odontogenic papilla		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001994	oboInOwl:hasDbXref	vsao:0000094	semapv:UnspecifiedMatching	hyaline cartilage tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001995	oboInOwl:hasDbXref	vsao:0000103	semapv:UnspecifiedMatching	fibrocartilage		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001996	oboInOwl:hasDbXref	vsao:0000091	semapv:UnspecifiedMatching	elastic cartilage tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002050	oboInOwl:hasDbXref	vsao:0000178	semapv:UnspecifiedMatching	embryonic structure		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002090	oboInOwl:hasDbXref	vsao:0000093	semapv:UnspecifiedMatching	postcranial axial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002091	oboInOwl:hasDbXref	vsao:0000076	semapv:UnspecifiedMatching	appendicular skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002101	oboInOwl:hasDbXref	vsao:0000121	semapv:UnspecifiedMatching	limb		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002102	oboInOwl:hasDbXref	vsao:0000148	semapv:UnspecifiedMatching	forelimb		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002103	oboInOwl:hasDbXref	vsao:0000150	semapv:UnspecifiedMatching	hindlimb		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002199	oboInOwl:hasDbXref	vsao:0000029	semapv:UnspecifiedMatching	integument		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002204	oboInOwl:hasDbXref	vsao:0000031	semapv:UnspecifiedMatching	musculoskeletal system		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002222	oboInOwl:hasDbXref	vsao:0000036	semapv:UnspecifiedMatching	perichondrium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002328	oboInOwl:hasDbXref	vsao:0000032	semapv:UnspecifiedMatching	notochord		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002384	oboInOwl:hasDbXref	vsao:0000017	semapv:UnspecifiedMatching	connective tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002386	oboInOwl:hasDbXref	vsao:0005058	semapv:UnspecifiedMatching	forelimb zeugopod		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002397	oboInOwl:hasDbXref	vsao:0000207	semapv:UnspecifiedMatching	maxilla		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002418	oboInOwl:hasDbXref	vsao:0000040	semapv:UnspecifiedMatching	cartilage tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002481	oboInOwl:hasDbXref	vsao:0000047	semapv:UnspecifiedMatching	bone tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002497	oboInOwl:hasDbXref	vsao:0005067	semapv:UnspecifiedMatching	acromion		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002513	oboInOwl:hasDbXref	vsao:0000145	semapv:UnspecifiedMatching	endochondral bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002531	oboInOwl:hasDbXref	vsao:0000179	semapv:UnspecifiedMatching	paired fin bud		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002534	oboInOwl:hasDbXref	vsao:0000111	semapv:UnspecifiedMatching	paired fin		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003097	oboInOwl:hasDbXref	vsao:0000165	semapv:UnspecifiedMatching	dorsal fin		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003102	oboInOwl:hasDbXref	vsao:0000001	semapv:UnspecifiedMatching	surface structure		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003221	oboInOwl:hasDbXref	vsao:0000199	semapv:UnspecifiedMatching	phalanx		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003631	oboInOwl:hasDbXref	vsao:0000201	semapv:UnspecifiedMatching	pedal digit 1		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003822	oboInOwl:hasDbXref	vsao:0005057	semapv:UnspecifiedMatching	forelimb stylopod		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003823	oboInOwl:hasDbXref	vsao:0005060	semapv:UnspecifiedMatching	hindlimb zeugopod		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004288	oboInOwl:hasDbXref	vsao:0000026	semapv:UnspecifiedMatching	skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004381	oboInOwl:hasDbXref	vsao:0000300	semapv:UnspecifiedMatching	skeleton of limb		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004529	oboInOwl:hasDbXref	vsao:0000180	semapv:UnspecifiedMatching	anatomical projection		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004704	oboInOwl:hasDbXref	vsao:0005069	semapv:UnspecifiedMatching	bone fossa		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004708	oboInOwl:hasDbXref	vsao:0000067	semapv:UnspecifiedMatching	paired limb/fin		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004709	oboInOwl:hasDbXref	vsao:0000126	semapv:UnspecifiedMatching	pelvic appendage		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004710	oboInOwl:hasDbXref	vsao:0000125	semapv:UnspecifiedMatching	pectoral appendage		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004741	oboInOwl:hasDbXref	vsao:0000187	semapv:UnspecifiedMatching	cleithrum		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004743	oboInOwl:hasDbXref	vsao:0000158	semapv:UnspecifiedMatching	coracoid bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004753	oboInOwl:hasDbXref	vsao:0005002	semapv:UnspecifiedMatching	scapulocoracoid		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004755	oboInOwl:hasDbXref	vsao:0000015	semapv:UnspecifiedMatching	skeletal tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004765	oboInOwl:hasDbXref	vsao:0000128	semapv:UnspecifiedMatching	skeletal element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004770	oboInOwl:hasDbXref	vsao:0000181	semapv:UnspecifiedMatching	articular system		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005863	oboInOwl:hasDbXref	vsao:0000092	semapv:UnspecifiedMatching	cartilaginous condensation		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005944	oboInOwl:hasDbXref	vsao:0000056	semapv:UnspecifiedMatching	axial skeleton plus cranial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006717	oboInOwl:hasDbXref	vsao:0005019	semapv:UnspecifiedMatching	autopodial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006836	oboInOwl:hasDbXref	vsao:0005048	semapv:UnspecifiedMatching	medial tibial tarsal bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006849	oboInOwl:hasDbXref	vsao:0000157	semapv:UnspecifiedMatching	scapula		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007272	oboInOwl:hasDbXref	vsao:0005000	semapv:UnspecifiedMatching	pectoral appendage skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007380	oboInOwl:hasDbXref	vsao:0000048	semapv:UnspecifiedMatching	dermal scale		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007823	oboInOwl:hasDbXref	vsao:0000303	semapv:UnspecifiedMatching	appendage girdle region		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007831	oboInOwl:hasDbXref	vsao:0000156	semapv:UnspecifiedMatching	pectoral girdle skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007832	oboInOwl:hasDbXref	vsao:0000155	semapv:UnspecifiedMatching	pelvic girdle skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007842	oboInOwl:hasDbXref	vsao:0000023	semapv:UnspecifiedMatching	membrane bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007844	oboInOwl:hasDbXref	vsao:0000000	semapv:UnspecifiedMatching	cartilage element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007846	oboInOwl:hasDbXref	vsao:0000050	semapv:UnspecifiedMatching	dense regular connective tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007862	oboInOwl:hasDbXref	vsao:0000054	semapv:UnspecifiedMatching	perichordal tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008846	oboInOwl:hasDbXref	vsao:0000072	semapv:UnspecifiedMatching	skeletal ligament		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008883	oboInOwl:hasDbXref	vsao:0000046	semapv:UnspecifiedMatching	osteoid		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008895	oboInOwl:hasDbXref	vsao:0000149	semapv:UnspecifiedMatching	splanchnocranium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008897	oboInOwl:hasDbXref	vsao:0000099	semapv:UnspecifiedMatching	fin		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008907	oboInOwl:hasDbXref	vsao:0000130	semapv:UnspecifiedMatching	dermal bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008909	oboInOwl:hasDbXref	vsao:0000307	semapv:UnspecifiedMatching	perichordal bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008913	oboInOwl:hasDbXref	vsao:0000308	semapv:UnspecifiedMatching	perichondral bone		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009878	oboInOwl:hasDbXref	vsao:0005022	semapv:UnspecifiedMatching	mesopodial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009879	oboInOwl:hasDbXref	vsao:0005024	semapv:UnspecifiedMatching	tarsal skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009880	oboInOwl:hasDbXref	vsao:0005023	semapv:UnspecifiedMatching	carpal skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010323	oboInOwl:hasDbXref	vsao:0000049	semapv:UnspecifiedMatching	cranial skeletal system		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010362	oboInOwl:hasDbXref	vsao:0000037	semapv:UnspecifiedMatching	endoskeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010363	oboInOwl:hasDbXref	vsao:0000139	semapv:UnspecifiedMatching	endochondral element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010364	oboInOwl:hasDbXref	vsao:0000035	semapv:UnspecifiedMatching	dermal skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010365	oboInOwl:hasDbXref	vsao:0000063	semapv:UnspecifiedMatching	odontoid tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010522	oboInOwl:hasDbXref	vsao:0000135	semapv:UnspecifiedMatching	replacement element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010543	oboInOwl:hasDbXref	vsao:0005028	semapv:UnspecifiedMatching	acropodial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010544	oboInOwl:hasDbXref	vsao:0005026	semapv:UnspecifiedMatching	metacarpus skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010545	oboInOwl:hasDbXref	vsao:0005027	semapv:UnspecifiedMatching	metatarsus skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010546	oboInOwl:hasDbXref	vsao:0005025	semapv:UnspecifiedMatching	metapodial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010688	oboInOwl:hasDbXref	vsao:0005029	semapv:UnspecifiedMatching	skeleton of manual acropodium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010696	oboInOwl:hasDbXref	vsao:0005030	semapv:UnspecifiedMatching	skeleton of pedal acropodium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010703	oboInOwl:hasDbXref	vsao:0005011	semapv:UnspecifiedMatching	forelimb zeugopod skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010707	oboInOwl:hasDbXref	vsao:0000214	semapv:UnspecifiedMatching	appendage girdle complex		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010708	oboInOwl:hasDbXref	vsao:0000213	semapv:UnspecifiedMatching	pectoral complex		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010709	oboInOwl:hasDbXref	vsao:0000215	semapv:UnspecifiedMatching	pelvic complex		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010710	oboInOwl:hasDbXref	vsao:0000153	semapv:UnspecifiedMatching	pectoral fin skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010711	oboInOwl:hasDbXref	vsao:0000154	semapv:UnspecifiedMatching	pelvic fin skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010712	oboInOwl:hasDbXref	vsao:0005018	semapv:UnspecifiedMatching	limb skeleton subdivision		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010713	oboInOwl:hasDbXref	vsao:0000169	semapv:UnspecifiedMatching	paired fin skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010719	oboInOwl:hasDbXref	vsao:0000302	semapv:UnspecifiedMatching	girdle skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010720	oboInOwl:hasDbXref	vsao:0005014	semapv:UnspecifiedMatching	hindlimb zeugopod skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010737	oboInOwl:hasDbXref	vsao:0005055	semapv:UnspecifiedMatching	distal tarsal bone 4		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010738	oboInOwl:hasDbXref	vsao:0005056	semapv:UnspecifiedMatching	distal tarsal bone 5		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010739	oboInOwl:hasDbXref	vsao:0005047	semapv:UnspecifiedMatching	distal carpal bone 5		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010898	oboInOwl:hasDbXref	vsao:0000127	semapv:UnspecifiedMatching	gastralium		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010911	oboInOwl:hasDbXref	vsao:0000132	semapv:UnspecifiedMatching	ossicle		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010912	oboInOwl:hasDbXref	vsao:0000042	semapv:UnspecifiedMatching	subdivision of skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010913	oboInOwl:hasDbXref	vsao:0000184	semapv:UnspecifiedMatching	vertebral element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011141	oboInOwl:hasDbXref	vsao:0000131	semapv:UnspecifiedMatching	appendicular ossicle		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011142	oboInOwl:hasDbXref	vsao:0000133	semapv:UnspecifiedMatching	axial ossicle		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011249	oboInOwl:hasDbXref	vsao:0000306	semapv:UnspecifiedMatching	appendicular skeletal system		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011582	oboInOwl:hasDbXref	vsao:0000301	semapv:UnspecifiedMatching	paired limb/fin skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011583	oboInOwl:hasDbXref	vsao:0005007	semapv:UnspecifiedMatching	stylopodial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011584	oboInOwl:hasDbXref	vsao:0005010	semapv:UnspecifiedMatching	zeugopodial skeleton		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011585	oboInOwl:hasDbXref	vsao:0000006	semapv:UnspecifiedMatching	cell condensation		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011587	oboInOwl:hasDbXref	vsao:0000071	semapv:UnspecifiedMatching	pre-dentine		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011588	oboInOwl:hasDbXref	vsao:0000066	semapv:UnspecifiedMatching	pre-enamel		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011589	oboInOwl:hasDbXref	vsao:0000089	semapv:UnspecifiedMatching	non-mineralized cartilage tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011655	oboInOwl:hasDbXref	vsao:0000161	semapv:UnspecifiedMatching	interclavicle		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011688	oboInOwl:hasDbXref	vsao:0000114	semapv:UnspecifiedMatching	pre-enameloid		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0011692	oboInOwl:hasDbXref	vsao:0000113	semapv:UnspecifiedMatching	enameloid		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0013631	oboInOwl:hasDbXref	vsao:0000137	semapv:UnspecifiedMatching	sesamoid element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0016491	oboInOwl:hasDbXref	vsao:0000183	semapv:UnspecifiedMatching	vertebral centrum element		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:4000013	oboInOwl:hasDbXref	vsao:0000013	semapv:UnspecifiedMatching	mineralized skeletal tissue		uberon	vsao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

@@ -1,0 +1,22 @@
+# curie_map:
+#   idomal: "http://purl.obolibrary.org/obo/IDOMAL_"
+#   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   uberon: "http://purl.obolibrary.org/obo/UBERON_"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
+# mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
+# mapping_set_id: "https://w3id.org/commons/mappings/uberon_idomal"
+# mapping_set_title: "UBERON to IDOMAL Mappings"
+# mapping_tool: "https://www.ebi.ac.uk/ols4"
+# object_source: idomal
+# subject_source: uberon
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
+uberon:0000018	oboInOwl:hasDbXref	idomal:0002421	semapv:UnspecifiedMatching	compound eye		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000106	oboInOwl:hasDbXref	idomal:0000302	semapv:UnspecifiedMatching	zygote stage		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	idomal:0002460	semapv:UnspecifiedMatching	anatomical system		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000480	oboInOwl:hasDbXref	idomal:0002459	semapv:UnspecifiedMatching	anatomical group		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000922	oboInOwl:hasDbXref	idomal:0000646	semapv:UnspecifiedMatching	embryo		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002410	oboInOwl:hasDbXref	idomal:0002126	semapv:UnspecifiedMatching	autonomic nervous system		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007023	oboInOwl:hasDbXref	idomal:0000655	semapv:UnspecifiedMatching	adult organism		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009097	oboInOwl:hasDbXref	idomal:0000443	semapv:UnspecifiedMatching	gravid organism		uberon	idomal	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

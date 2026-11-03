@@ -1,0 +1,36 @@
+# curie_map:
+#   debio: "https://biopragmatics.github.io/debio/"
+#   mesh: "http://id.nlm.nih.gov/mesh/"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   wikipathways: "http://www.wikipathways.org/instance/"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/wikipathways_mesh"
+# mapping_set_title: "WIKIPATHWAYS to MESH Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: mesh
+# object_source_version: 2024
+# subject_source: wikipathways
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+wikipathways:WP1032	debio:0000003	mesh:D000070576	semapv:ManualMappingCuration	NLR Proteins	NLR Proteins	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP1050	debio:0000003	mesh:D018384	semapv:ManualMappingCuration	Oxidative Stress	Oxidative Stress	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP1105	debio:0000003	mesh:D050156	semapv:ManualMappingCuration	Adipogenesis	Adipogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP1331	debio:0000003	mesh:D050156	semapv:ManualMappingCuration	Adipogenesis	Adipogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP1372	debio:0000003	mesh:D018384	semapv:ManualMappingCuration	Oxidative Stress	Oxidative Stress	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP1541	debio:0000003	mesh:D004734	semapv:ManualMappingCuration	Energy Metabolism	Energy Metabolism	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP155	debio:0000003	mesh:D050156	semapv:ManualMappingCuration	Adipogenesis	Adipogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP173	debio:0000003	mesh:D018384	semapv:ManualMappingCuration	Oxidative Stress	Oxidative Stress	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP2313	debio:0000003	mesh:D000375	semapv:ManualMappingCuration	Aging	Aging	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP236	debio:0000003	mesh:D050156	semapv:ManualMappingCuration	Adipogenesis	Adipogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP376	debio:0000003	mesh:D012084	semapv:ManualMappingCuration	Renin - Angiotensin System	Renin-Angiotensin System	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP408	debio:0000003	mesh:D018384	semapv:ManualMappingCuration	Oxidative Stress	Oxidative Stress	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP412	debio:0000003	mesh:D018384	semapv:ManualMappingCuration	Oxidative Stress	Oxidative Stress	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP4313	debio:0000003	mesh:D000079403	semapv:ManualMappingCuration	Ferroptosis	Ferroptosis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP4321	debio:0000003	mesh:D022722	semapv:ManualMappingCuration	Thermogenesis	Thermogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP4758	debio:0000003	mesh:D009404	semapv:ManualMappingCuration	Nephrotic syndrome	Nephrotic Syndrome	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP869	debio:0000003	mesh:D050156	semapv:ManualMappingCuration	Adipogenesis	Adipogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+wikipathways:WP987	debio:0000003	mesh:D050156	semapv:ManualMappingCuration	Adipogenesis	Adipogenesis	wikipathways		mesh	2024	Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

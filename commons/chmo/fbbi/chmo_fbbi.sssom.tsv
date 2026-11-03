@@ -1,0 +1,38 @@
+# curie_map:
+#   chmo: "http://purl.obolibrary.org/obo/CHMO_"
+#   fbbi: "http://purl.obolibrary.org/obo/FBbi_"
+#   orcid: "https://orcid.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   skos: "http://www.w3.org/2004/02/skos/core#"
+# license: "CC0-1.0"
+# mapping_date: "2026-11-02"
+# mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
+# mapping_set_id: "https://w3id.org/commons/mappings/chmo_fbbi"
+# mapping_set_title: "CHMO to FBBI Mappings"
+# mapping_set_version: "2026-11-02"
+# mapping_tool: Biomappings
+# mapping_tool_version: 0.1.0
+# object_source: fbbi
+# object_source_version: "2026-03-30"
+# subject_source: chmo
+# subject_source_version: "2025-10-21"
+subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
+chmo:0000067	skos:exactMatch	fbbi:00000241	semapv:ManualMappingCuration	microscopy	microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000068	skos:exactMatch	fbbi:00000256	semapv:ManualMappingCuration	electron microscopy	electron microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000080	skos:exactMatch	fbbi:00000258	semapv:ManualMappingCuration	transmission electron microscopy	transmission electron microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000081	skos:exactMatch	fbbi:00100014	semapv:ManualMappingCuration	cryogenic transmission electron microscopy	cryogenic transmission electron microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000091	skos:exactMatch	fbbi:00000368	semapv:ManualMappingCuration	fluorescence lifetime imaging microscopy	fluorescence lifetime imaging microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000103	skos:exactMatch	fbbi:00000251	semapv:ManualMappingCuration	confocal microscopy	confocal microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000104	skos:exactMatch	fbbi:00000243	semapv:ManualMappingCuration	bright-field microscopy	bright-field microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000107	skos:exactMatch	fbbi:00000245	semapv:ManualMappingCuration	differential interference contrast microscopy	differential interference contrast microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000110	skos:exactMatch	fbbi:00000247	semapv:ManualMappingCuration	phase contrast microscopy	phase contrast microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000112	skos:exactMatch	fbbi:00000344	semapv:ManualMappingCuration	scanning probe microscopy	scanning probe microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0000113	skos:exactMatch	fbbi:00000259	semapv:ManualMappingCuration	atomic force microscopy	atomic force microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0001074	skos:exactMatch	fbbi:00000249	semapv:ManualMappingCuration	time-lapse microscopy	time lapse microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0001103	skos:exactMatch	fbbi:00000265	semapv:ManualMappingCuration	recorded image	recorded image	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0001709	skos:exactMatch	fbbi:00000269	semapv:ManualMappingCuration	detection method	detection method	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0002177	skos:exactMatch	fbbi:00000244	semapv:ManualMappingCuration	dark-field microscopy	dark-field microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0002312	skos:exactMatch	fbbi:00000260	semapv:ManualMappingCuration	X-ray microscopy	X-ray microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0002413	skos:exactMatch	fbbi:00100014	semapv:ManualMappingCuration	cryogenic electron microscopy	cryogenic transmission electron microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0002519	skos:exactMatch	fbbi:00000254	semapv:ManualMappingCuration	two-photon laser scanning microscopy	two-photon laser scanning microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chmo:0002589	skos:exactMatch	fbbi:00100016	semapv:ManualMappingCuration	cryogenic scanning electron microscopy	cryogenic scanning electron microscopy	chmo	2025-10-21	fbbi	2026-03-30	Biomappings	0.1.0	2026-05-31	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
