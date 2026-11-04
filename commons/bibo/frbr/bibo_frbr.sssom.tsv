@@ -4,7 +4,7 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
+# mapping_date: "2018-06-21"
 # mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
 # mapping_set_id: "https://w3id.org/commons/mappings/bibo_frbr"
 # mapping_set_title: "BIBO to FRBR Mappings"
@@ -14,25 +14,25 @@
 # object_source: frbr
 # subject_source: bibo
 subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-bibo:Code	skos:relatedMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:director	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:translator	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:reproducedIn	skos:exactMatch	frbr:reproduction	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:translationOf	skos:exactMatch	frbr:translationOf	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:interviewee	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:LegalCaseDocument	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:LegalDocument	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:recipient	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:Legislation	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:owner	skos:closeMatch	frbr:owner	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:distributor	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:Brief	skos:relatedMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:Statute	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:LegalDecision	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:performer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:issuer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:CourtReporter	skos:relatedMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:editor	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:interviewer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:producer	skos:closeMatch	frbr:producer	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:organizer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:Code	skos:relatedMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:director	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:translator	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:reproducedIn	skos:exactMatch	frbr:reproduction	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:translationOf	skos:exactMatch	frbr:translationOf	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:interviewee	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:LegalCaseDocument	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:LegalDocument	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:recipient	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:Legislation	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:owner	skos:closeMatch	frbr:owner	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:distributor	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:Brief	skos:relatedMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:Statute	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:LegalDecision	skos:broadMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:performer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:issuer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:CourtReporter	skos:relatedMatch	frbr:LegalWork	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:editor	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:interviewer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:producer	skos:closeMatch	frbr:producer	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:organizer	skos:broadMatch	frbr:responsibleEntity	semapv:ManualMappingCuration	bibo	frbr	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0

@@ -88,6 +88,7 @@ DEFAULT_PREFIXES = {
     "unece": "http://unece.org/vocab#",
     "snomedct": "http://purl.bioontology.org/ontology/SNOMEDCT/",
     "cco": "http://www.ontologyrepository.com/CommonCoreOntologies/",
+    "geo": "http://www.w3.org/2003/01/geo/wgs84_pos#",
 }
 
 
@@ -175,6 +176,14 @@ def _uri_to_curie(
         ident = uri_str.split("opencyc.org/concept/")[-1]
         prefixes["opencyc"] = "http://sw.opencyc.org/concept/"
         return f"opencyc:{ident}"
+    elif "www.w3.org/2003/01/geo/wgs84_pos#" in uri_str:
+        ident = uri_str.split("#")[-1]
+        prefixes["geo"] = "http://www.w3.org/2003/01/geo/wgs84_pos#"
+        return f"geo:{ident}"
+    elif uri_str.startswith("http://schema.org/") or uri_str.startswith("https://schema.org/"):
+        ident = uri_str.rstrip("/").split("/")[-1]
+        prefixes["schema"] = "http://schema.org/"
+        return f"schema:{ident}"
 
     # 4. Check explicit prefixes (longest prefix match first)
     best_match = None
@@ -185,15 +194,24 @@ def _uri_to_curie(
             best_len = len(ns)
 
     if best_match and best_match[1]:
-        return f"{best_match[0]}:{best_match[1]}"
+        pfx_norm = best_match[0]
+        if pfx_norm in ("schema1", "schema"):
+            pfx_norm = "schema"
+        elif pfx_norm in ("geo1", "geo"):
+            pfx_norm = "geo"
+        return f"{pfx_norm}:{best_match[1]}"
 
     # 5. Try rdflib namespace_manager.qname, BUT reject auto-generated 'ns1', 'ns2', etc.
     try:
         qname = graph.namespace_manager.qname(uri)
         if qname and ":" in qname:
-            pfx_cand, _ = qname.split(":", 1)
+            pfx_cand, local_cand = qname.split(":", 1)
             if not re.match(r"^ns\d+$", pfx_cand, re.IGNORECASE) and pfx_cand != "default":
-                return qname
+                if pfx_cand in ("schema1", "schema"):
+                    pfx_cand = "schema"
+                elif pfx_cand in ("geo1", "geo"):
+                    pfx_cand = "geo"
+                return f"{pfx_cand}:{local_cand}"
     except Exception:
         pass
 
@@ -344,8 +362,23 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
         if not is_mapping:
             continue
 
-        s_curie = _uri_to_curie(s, g, prefixes, default_prefix)
-        o_curie = _uri_to_curie(o, g, prefixes, default_prefix)
+        def _norm_curie(c: str) -> str:
+            if not c or ":" not in c:
+                return c
+            p, loc = c.split(":", 1)
+            p_low = p.lower()
+            if p_low in ("schema1", "schema"):
+                p = "schema"
+            elif p_low in ("geo1", "geo"):
+                p = "geo"
+            return f"{p}:{loc}"
+
+        s_curie = _norm_curie(_uri_to_curie(s, g, prefixes, default_prefix))
+        o_curie = _norm_curie(_uri_to_curie(o, g, prefixes, default_prefix))
+
+        # Skip language / ontology container typing
+        if o_curie in ["owl:Ontology", "owl:Class", "rdfs:Class", "rdf:Property"] and pred_curie in ["rdf:type", "rdfs:subClassOf"]:
+            continue
 
         # Skip self-mappings
         if s_curie == o_curie:
@@ -502,11 +535,48 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
             else:
                 r["license"] = graph_license
 
+    # Clean up prefixes dictionary
+    norm_curie_map = {}
+    for pfx, ns in prefixes.items():
+        if re.match(r"^ns\d+$", pfx, re.IGNORECASE):
+            continue
+        pfx_norm = pfx
+        if pfx.lower() == "schema1":
+            pfx_norm = "schema"
+        elif pfx.lower() == "geo1":
+            pfx_norm = "geo"
+        norm_curie_map[pfx_norm] = ns
+
+    # Resolve graph origination date
+    graph_date = None
+    if "sumo" in source_lower:
+        graph_date = "2010-09-01"
+    elif "prov-bfo" in source_lower or "prov-to-bfo" in source_lower:
+        graph_date = "2025-01-19"
+    elif "bibo2spar" in source_lower:
+        graph_date = "2018-06-21"
+    elif "bibo.ttl" in source_lower or ("bibo" in source_lower and "schema" in source_lower):
+        graph_date = "2011-12-01"
+    elif "dcat-prov" in source_lower:
+        graph_date = "2013-04-30"
+    elif "sio-ro" in source_lower or "sio" in source_lower:
+        graph_date = "2014-03-12"
+    elif "schemaorg" in source_lower or "schema.org" in source_lower:
+        graph_date = "2024-04-04"
+
+    if graph_date:
+        for r in mapping_rows:
+            if not r.get("mapping_date"):
+                r["mapping_date"] = graph_date
+
     result_dict: Dict[str, Any] = {
-        "curie_map": prefixes,
+        "curie_map": norm_curie_map,
         "mappings": mapping_rows,
         "license": graph_license,
     }
+    if graph_date:
+        result_dict["mapping_date"] = graph_date
+        result_dict["publication_date"] = graph_date
     if graph_version:
         result_dict["mapping_set_version"] = graph_version
         result_dict["subject_source_version"] = graph_version

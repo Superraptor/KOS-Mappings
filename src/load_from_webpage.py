@@ -457,26 +457,41 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
         res["subject_source_version"] = "4.4"
         res["object_source"] = "dcatap"
         res["object_source_version"] = "2.1.1"
-        res["mapping_set_version"] = "2021"
+        res["mapping_set_version"] = "2021-06-25"
+        res["mapping_date"] = "2021-06-25"
+        res["publication_date"] = "2021-06-25"
         res["mapping_tool"] = "European Commission JRC Crosswalk"
         res["mapping_tool_version"] = "2021"
         res["license"] = "https://creativecommons.org/licenses/by/4.0/"
+        for m in mappings:
+            if not m.get("mapping_date"):
+                m["mapping_date"] = "2021-06-25"
     elif "prov-dc" in source_lower:
         res["subject_source"] = "dcterms"
         res["subject_source_version"] = "2020"
         res["object_source"] = "prov"
         res["object_source_version"] = "2013"
-        res["mapping_set_version"] = "2013"
+        res["mapping_set_version"] = "2013-04-30"
+        res["mapping_date"] = "2013-04-30"
+        res["publication_date"] = "2013-04-30"
         res["mapping_tool"] = "W3C PROV-DC Working Group"
         res["mapping_tool_version"] = "2013"
         res["license"] = "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
+        for m in mappings:
+            if not m.get("mapping_date"):
+                m["mapping_date"] = "2013-04-30"
     elif any(m.get("subject_id", "").startswith("dcat") for m in mappings[:5]):
         res["subject_source"] = "dcat"
         res["subject_source_version"] = "2.1.1"
         res["object_source"] = "schema"
         res["object_source_version"] = "26.0"
-        res["mapping_set_version"] = "2024"
+        res["mapping_set_version"] = "2019-12-05"
+        res["mapping_date"] = "2019-12-05"
+        res["publication_date"] = "2019-12-05"
         res["license"] = "https://creativecommons.org/licenses/by/4.0/"
+        for m in mappings:
+            if not m.get("mapping_date"):
+                m["mapping_date"] = "2019-12-05"
     elif mappings and mappings[0].get("license"):
         res["license"] = mappings[0]["license"]
     else:

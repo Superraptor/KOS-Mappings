@@ -1,0 +1,18 @@
+# curie_map:
+#   cco: "http://www.ontologyrepository.com/CommonCoreOntologies/"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sumo: "http://www.ontologyportal.org/SUMO.owl#"
+# license: "https://spdx.org/licenses/GPL-2.0-only"
+# mapping_date: "2010-09-01"
+# mapping_provider: "https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/cco_sumo"
+# mapping_set_title: "CCO to SUMO Mappings"
+# mapping_set_version: 36853f75
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: sumo
+# publication_date: "2010-09-01"
+# subject_source: cco
+subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+cco:Activity	owl:equivalentClass	sumo:Process	semapv:ManualMappingCuration	cco	sumo	KOS-Mappings Pipeline	1.0.0	2010-09-01	https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl	https://spdx.org/licenses/GPL-2.0-only

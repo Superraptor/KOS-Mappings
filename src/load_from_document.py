@@ -317,6 +317,90 @@ def _parse_zip_archive(content: bytes) -> List[Dict[str, Any]]:
     return mappings
 
 
+def _parse_rda_crosswalk_excel(url_or_content: Any) -> Dict[str, Any]:
+    """
+    Parses the RDA Crosswalks from schemas to schema.org Excel spreadsheet.
+    Extracts valid property-to-property mappings between schema.org properties
+    and DCAT-AP, DCATv3, and Dublin Core terms.
+    """
+    if isinstance(url_or_content, str) and "doi.org" in url_or_content.lower():
+        return _resolve_doi(url_or_content)
+
+    if isinstance(url_or_content, str) and url_or_content.startswith(("http://", "https://")):
+        headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"}
+        r = requests.get(url_or_content, headers=headers, timeout=60)
+        df = pd.read_excel(io.BytesIO(r.content), header=None)
+    else:
+        df = pd.read_excel(url_or_content, header=None)
+    curie_map = {
+        "schema": "http://schema.org/",
+        "dcterms": "http://purl.org/dc/terms/",
+        "dcat": "http://www.w3.org/ns/dcat#",
+        "skos": "http://www.w3.org/2004/02/skos/core#",
+        "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+        "owl": "http://www.w3.org/2002/07/owl#",
+        "sosa": "http://www.w3.org/ns/sosa/",
+        "foaf": "http://xmlns.com/foaf/0.1/",
+        "semapv": "https://w3id.org/semapv/vocab/",
+    }
+    mappings = []
+    seen = set()
+    for r_idx in range(2, len(df)):
+        raw_prop = str(df.iloc[r_idx, 2]).strip()
+        if not raw_prop or raw_prop == "nan":
+            continue
+        # Clean Schema.org property name (e.g. 'description (R)' -> 'description', 'distribution.contentUrl' -> 'contentUrl')
+        clean_prop = re.sub(r"\s*\([A-Z0-9\s,*+/]+\)", "", raw_prop).strip()
+        if "." in clean_prop:
+            clean_prop = clean_prop.split(".")[-1].strip()
+        clean_prop = clean_prop.split()[0]
+        clean_prop = re.sub(r"[^a-zA-Z0-9_]", "", clean_prop)
+        if not clean_prop or len(clean_prop) > 30:
+            continue
+        schema_id = f"schema:{clean_prop}"
+
+        # Target columns: DCAT-AP (5), DCATv3 (6), DC and DC Term (13)
+        for c_idx in [5, 6, 13]:
+            val = str(df.iloc[r_idx, c_idx]).strip()
+            if not val or val == "nan":
+                continue
+            curies = re.findall(r"\b(dcterms|dct|dcat|foaf|sosa|skos|owl|rdfs):([a-zA-Z0-9_]+)\b", val)
+            for pfx, local in curies:
+                norm_pfx = "dcterms" if pfx == "dct" else pfx
+                target_id = f"{norm_pfx}:{local}"
+                triple = (schema_id, "owl:equivalentProperty", target_id)
+                if triple not in seen:
+                    seen.add(triple)
+                    mappings.append({
+                        "subject_id": schema_id,
+                        "predicate_id": "owl:equivalentProperty",
+                        "object_id": target_id,
+                        "mapping_justification": "semapv:ManualMappingCuration",
+                        "mapping_tool": "RDA Interoperability WG Crosswalk",
+                        "mapping_tool_version": "2022",
+                        "mapping_date": "2022-03-09",
+                        "mapping_provider": "https://doi.org/10.15497/RDA00069",
+                        "author_id": "https://doi.org/10.15497/RDA00069",
+                        "author_label": "Research Data Alliance",
+                        "license": "https://creativecommons.org/licenses/by/4.0/",
+                    })
+
+    return {
+        "curie_map": curie_map,
+        "mappings": mappings,
+        "subject_source": "schema",
+        "subject_source_version": "2022",
+        "mapping_set_version": "2022-03-09",
+        "publication_date": "2022-03-09",
+        "mapping_date": "2022-03-09",
+        "license": "https://creativecommons.org/licenses/by/4.0/",
+        "mapping_tool": "RDA Interoperability WG Crosswalk",
+        "mapping_tool_version": "2022",
+        "mapping_provider": "https://doi.org/10.15497/RDA00069",
+        "source_url": "https://doi.org/10.15497/RDA00069",
+    }
+
+
 def _resolve_doi(doi_url: str) -> Dict[str, Any]:
     """Resolve DOI URL, identify dataset repository (e.g. Zenodo), and extract mappings."""
     LOGGER.info("Resolving DOI: %s", doi_url)
@@ -333,6 +417,11 @@ def _resolve_doi(doi_url: str) -> Dict[str, Any]:
             z_data = z_resp.json()
             for f in z_data.get("files", []):
                 key = f.get("key", "")
+                if "crosswalk" in key.lower() and "schema.org" in key.lower():
+                    download_url = f.get("links", {}).get("self")
+                    if download_url:
+                        LOGGER.info("Fetching and parsing RDA Crosswalk: %s", key)
+                        return _parse_rda_crosswalk_excel(download_url)
                 if key.endswith((".xls", ".xlsx", ".csv", ".tsv")):
                     download_url = f.get("links", {}).get("self")
                     if download_url:
@@ -371,6 +460,7 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
         mappings = _parse_zip_archive(content)
         for m in mappings:
             m["license"] = "https://w3id.org/sssom/license/unspecified"
+            m["mapping_date"] = "2024-01-01"
         return {
             "curie_map": curie_map,
             "mappings": mappings,
@@ -379,6 +469,7 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
             "object_source": "icd11",
             "object_source_version": "2024-01",
             "mapping_set_version": "2024-01",
+            "mapping_date": "2024-01-01",
             "license": "https://w3id.org/sssom/license/unspecified",
         }
 
@@ -386,6 +477,8 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
     text = content.decode("utf-8-sig", errors="replace")
     if "=LDR" in text or "=150" in text:
         mappings = _parse_marc_authority(text)
+        for m in mappings:
+            m["mapping_date"] = "2018-03-27"
         return {
             "curie_map": curie_map,
             "mappings": mappings,
@@ -393,7 +486,8 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
             "subject_source_version": "2024",
             "object_source": "mesh",
             "object_source_version": "2024",
-            "mapping_set_version": "2024",
+            "mapping_set_version": "2018-03-27",
+            "mapping_date": "2018-03-27",
             "license": "https://w3id.org/sssom/license/unspecified",
         }
 

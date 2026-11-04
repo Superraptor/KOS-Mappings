@@ -3,7 +3,7 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
+# mapping_date: "2018-06-21"
 # mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
 # mapping_set_id: "https://w3id.org/commons/mappings/dcterms_dcterms"
 # mapping_set_title: "DCTERMS to DCTERMS Mappings"
@@ -13,11 +13,11 @@
 # object_source: dcterms
 # subject_source: dcterms
 subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-dcterms:date	skos:narrowMatch	dcterms:valid	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:date	skos:narrowMatch	dcterms:dateSubmitted	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:date	skos:narrowMatch	dcterms:modified	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:date	skos:narrowMatch	dcterms:dateCopyrighted	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:issued	skos:broadMatch	dcterms:date	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:date	skos:narrowMatch	dcterms:issued	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:date	skos:narrowMatch	dcterms:created	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-dcterms:created	skos:broadMatch	dcterms:date	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	dcterms:valid	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	dcterms:dateSubmitted	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	dcterms:modified	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	dcterms:dateCopyrighted	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:issued	skos:broadMatch	dcterms:date	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	dcterms:issued	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:date	skos:narrowMatch	dcterms:created	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+dcterms:created	skos:broadMatch	dcterms:date	semapv:ManualMappingCuration	dcterms	dcterms	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0

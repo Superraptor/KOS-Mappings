@@ -1,0 +1,20 @@
+# curie_map:
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   sosa: "http://www.w3.org/ns/sosa/"
+# license: "https://creativecommons.org/licenses/by/4.0/"
+# mapping_date: "2022-03-09"
+# mapping_provider: "https://doi.org/10.15497/RDA00069"
+# mapping_set_id: "https://w3id.org/commons/mappings/schema_sosa"
+# mapping_set_title: "SCHEMA to SOSA Mappings"
+# mapping_set_version: "2022-03-09"
+# mapping_tool: "RDA Interoperability WG Crosswalk"
+# mapping_tool_version: 2022
+# object_source: sosa
+# publication_date: "2022-03-09"
+# subject_source: schema
+# subject_source_version: 2022
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	author_label	license
+schema:measurementTechnique	owl:equivalentProperty	sosa:usedProcedure	semapv:ManualMappingCuration	schema	2022	sosa	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:variableMeasured	owl:equivalentProperty	sosa:observedProperty	semapv:ManualMappingCuration	schema	2022	sosa	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/

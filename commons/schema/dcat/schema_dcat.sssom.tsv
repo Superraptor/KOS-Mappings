@@ -4,18 +4,28 @@
 #   schema: "http://schema.org/"
 #   semapv: "https://w3id.org/semapv/vocab/"
 # license: "https://creativecommons.org/licenses/by-sa/3.0/"
-# mapping_date: "2026-11-04"
+# mapping_date: "2024-04-04"
 # mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
 # mapping_set_id: "https://w3id.org/commons/mappings/schema_dcat"
 # mapping_set_title: "SCHEMA to DCAT Mappings"
 # mapping_set_version: "2026-11-04"
-# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool: "RDA Interoperability WG Crosswalk"
 # mapping_tool_version: 1.0.0
 # object_source: dcat
 # object_source_version: 2.1.1
+# publication_date: "2022-03-09"
 # subject_source: schema
 # subject_source_version: 26.0
-subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-schema:DataCatalog	owl:equivalentClass	dcat:Catalog	semapv:ManualMappingCuration	DataCatalog	schema	26.0	dcat	2.1.1	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:DataDownload	owl:equivalentClass	dcat:Distribution	semapv:ManualMappingCuration	DataDownload	schema	26.0	dcat	2.1.1	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:Dataset	owl:equivalentClass	dcat:Dataset	semapv:ManualMappingCuration	Dataset	schema	26.0	dcat	2.1.1	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	author_label	license
+schema:DataCatalog	owl:equivalentClass	dcat:Catalog	semapv:ManualMappingCuration	DataCatalog	schema	26.0	dcat	2.1.1	KOS-Mappings Pipeline	1.0.0	2022-03-09	https://schema.org/version/latest/schemaorg-current-https.ttl			https://creativecommons.org/licenses/by-sa/3.0/
+schema:DataDownload	owl:equivalentClass	dcat:Distribution	semapv:ManualMappingCuration	DataDownload	schema	26.0	dcat	2.1.1	KOS-Mappings Pipeline	1.0.0	2022-03-09	https://schema.org/version/latest/schemaorg-current-https.ttl			https://creativecommons.org/licenses/by-sa/3.0/
+schema:Dataset	owl:equivalentClass	dcat:Dataset	semapv:ManualMappingCuration	Dataset	schema	26.0	dcat	2.1.1	KOS-Mappings Pipeline	1.0.0	2022-03-09	https://schema.org/version/latest/schemaorg-current-https.ttl			https://creativecommons.org/licenses/by-sa/3.0/
+schema:contentUrl	owl:equivalentProperty	dcat:downloadURL	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:url	owl:equivalentProperty	dcat:endPointURL	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:keywords	owl:equivalentProperty	dcat:keyword	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:distribution	owl:equivalentProperty	dcat:distribution	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:encodingFormat	owl:equivalentProperty	dcat:mediaType	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:about	owl:equivalentProperty	dcat:theme	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:fileFormat	owl:equivalentProperty	dcat:mediaType	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:contentURL	owl:equivalentProperty	dcat:accessURL	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/
+schema:contentURL	owl:equivalentProperty	dcat:downloadURL	semapv:ManualMappingCuration		schema	2022	dcat	2.1.1	RDA Interoperability WG Crosswalk	2022	2022-03-09	https://doi.org/10.15497/RDA00069	https://doi.org/10.15497/RDA00069	Research Data Alliance	https://creativecommons.org/licenses/by/4.0/

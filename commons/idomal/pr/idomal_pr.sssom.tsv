@@ -5,7 +5,7 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
+# mapping_date: "2026-08-12"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/idomal_pr"
 # mapping_set_title: "IDOMAL to PR Mappings"
@@ -16,7 +16,7 @@
 # subject_source: idomal
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
 idomal:0000016	skos:narrowMatch	pr:000014493	semapv:ManualMappingCuration	CD36	scavenger receptor class B member 1	idomal		pr		Biomappings	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0000372	skos:broadMatch	pr:000024990	semapv:ManualMappingCuration	interferon-gamma	type II interferon	idomal		pr		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0000372	skos:exactMatch	pr:000000017	semapv:ManualMappingCuration	interferon-gamma	interferon gamma	idomal		pr		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0000783	skos:exactMatch	pr:000000134	semapv:ManualMappingCuration	tumor necrosis factor-alpha	tumor necrosis factor	idomal		pr		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001067	skos:exactMatch	pr:000000001	semapv:ManualMappingCuration	protein	protein	idomal		pr		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000372	skos:broadMatch	pr:000024990	semapv:ManualMappingCuration	interferon-gamma	type II interferon	idomal		pr		mira	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000372	skos:exactMatch	pr:000000017	semapv:ManualMappingCuration	interferon-gamma	interferon gamma	idomal		pr		mira	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0000783	skos:exactMatch	pr:000000134	semapv:ManualMappingCuration	tumor necrosis factor-alpha	tumor necrosis factor	idomal		pr		mira	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001067	skos:exactMatch	pr:000000001	semapv:ManualMappingCuration	protein	protein	idomal		pr		mira	0.1.0	2026-08-12	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

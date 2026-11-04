@@ -5,7 +5,7 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "https://creativecommons.org/licenses/by/4.0/"
-# mapping_date: "2026-11-03"
+# mapping_date: "2021-06-25"
 # mapping_provider: "https://ec-jrc.github.io/datacite-to-dcat-ap/"
 # mapping_set_id: "https://w3id.org/commons/mappings/datacite_dcat"
 # mapping_set_title: "DATACITE to DCAT Mappings"
@@ -17,11 +17,11 @@
 # subject_source: datacite
 # subject_source_version: 4.4
 subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	author_label	license
-datacite:Identifier	skos:exactMatch	dcat:landingPage	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:Identifier	skos:exactMatch	dcat:accessURL	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:Subject	skos:exactMatch	dcat:theme	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:Subject	skos:exactMatch	dcat:keyword	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:ContactPerson	skos:exactMatch	dcat:contactPoint	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:Collected	skos:exactMatch	dcat:startDate	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:Collected	skos:exactMatch	dcat:endDate	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
-datacite:IsPublishedIn	skos:exactMatch	dcat:mediaType	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2026-11-03	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:Identifier	skos:exactMatch	dcat:landingPage	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:Identifier	skos:exactMatch	dcat:accessURL	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:Subject	skos:exactMatch	dcat:theme	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:Subject	skos:exactMatch	dcat:keyword	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:ContactPerson	skos:exactMatch	dcat:contactPoint	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:Collected	skos:exactMatch	dcat:startDate	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:Collected	skos:exactMatch	dcat:endDate	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/
+datacite:IsPublishedIn	skos:exactMatch	dcat:mediaType	semapv:ManualMappingCuration	datacite	4.4	dcatap	2.1.1	European Commission JRC Crosswalk	2021	2021-06-25	https://ec-jrc.github.io/datacite-to-dcat-ap/	https://ec.europa.eu/jrc	European Commission Joint Research Centre	https://creativecommons.org/licenses/by/4.0/

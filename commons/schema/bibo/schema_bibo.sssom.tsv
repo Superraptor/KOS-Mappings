@@ -1,26 +1,62 @@
 # curie_map:
 #   bibo: "http://purl.org/ontology/bibo/"
 #   owl: "http://www.w3.org/2002/07/owl#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   schema: "http://schema.org/"
 #   semapv: "https://w3id.org/semapv/vocab/"
 # license: "https://creativecommons.org/licenses/by-sa/3.0/"
-# mapping_date: "2026-11-04"
-# mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
+# mapping_date: "2011-12-01"
+# mapping_provider: "https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl"
 # mapping_set_id: "https://w3id.org/commons/mappings/schema_bibo"
 # mapping_set_title: "SCHEMA to BIBO Mappings"
 # mapping_set_version: "2026-11-04"
 # mapping_tool: "KOS-Mappings Pipeline"
 # mapping_tool_version: 1.0.0
 # object_source: bibo
+# publication_date: "2011-12-01"
 # subject_source: schema
 # subject_source_version: 26.0
 subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-schema:Periodical	owl:equivalentClass	bibo:Periodical	semapv:ManualMappingCuration	Periodical	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:isbn	owl:equivalentProperty	bibo:isbn	semapv:ManualMappingCuration	isbn	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:PublicationIssue	owl:equivalentClass	bibo:Issue	semapv:ManualMappingCuration	PublicationIssue	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:volumeNumber	owl:equivalentProperty	bibo:volume	semapv:ManualMappingCuration	volumeNumber	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:pageStart	owl:equivalentProperty	bibo:pageStart	semapv:ManualMappingCuration	pageStart	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:issueNumber	owl:equivalentProperty	bibo:issue	semapv:ManualMappingCuration	issueNumber	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:pagination	owl:equivalentProperty	bibo:pages	semapv:ManualMappingCuration	pagination	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:pageEnd	owl:equivalentProperty	bibo:pageEnd	semapv:ManualMappingCuration	pageEnd	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
-schema:issn	owl:equivalentProperty	bibo:issn	semapv:ManualMappingCuration	issn	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:Periodical	owl:equivalentClass	bibo:Periodical	semapv:ManualMappingCuration	Periodical	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:isbn	owl:equivalentProperty	bibo:isbn	semapv:ManualMappingCuration	isbn	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:PublicationIssue	owl:equivalentClass	bibo:Issue	semapv:ManualMappingCuration	PublicationIssue	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:volumeNumber	owl:equivalentProperty	bibo:volume	semapv:ManualMappingCuration	volumeNumber	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:pageStart	owl:equivalentProperty	bibo:pageStart	semapv:ManualMappingCuration	pageStart	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:issueNumber	owl:equivalentProperty	bibo:issue	semapv:ManualMappingCuration	issueNumber	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:pagination	owl:equivalentProperty	bibo:pages	semapv:ManualMappingCuration	pagination	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:pageEnd	owl:equivalentProperty	bibo:pageEnd	semapv:ManualMappingCuration	pageEnd	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:issn	owl:equivalentProperty	bibo:issn	semapv:ManualMappingCuration	issn	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:BlogPosting	rdfs:subClassOf	bibo:Article	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Painting	rdfs:subClassOf	bibo:Image	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:MusicAlbum	rdfs:subClassOf	bibo:AudioDocument	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:TVSeries	rdfs:subClassOf	bibo:Film	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:WebPage	owl:equivalentClass	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:SearchResultsPage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:WebPageElement	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:TVEpisode	rdfs:subClassOf	bibo:Film	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:WPSideBar	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:WPAdBlock	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:WPFooter	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:TVSeries	rdfs:subClassOf	bibo:Series	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:ProfilePage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Table	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:TVSeason	rdfs:subClassOf	bibo:Film	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:CollectionPage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Movie	owl:equivalentClass	bibo:Film	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:MusicRecording	rdfs:subClassOf	bibo:AudioDocument	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:TVSeason	rdfs:subClassOf	bibo:Series	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:ItemPage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Book	owl:equivalentClass	bibo:Book	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:ScholarlyArticle	rdfs:subClassOf	bibo:Article	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Blog	rdfs:subClassOf	bibo:Website	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:WPHeader	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Map	owl:equivalentClass	bibo:Map	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:MediaObject	owl:equivalentClass	bibo:AudioVisualDocument	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Photograph	rdfs:subClassOf	bibo:Image	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:NewsArticle	rdfs:subClassOf	bibo:Article	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:AboutPage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:ContactPage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:CheckoutPage	rdfs:subClassOf	bibo:Webpage	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Article	owl:equivalentClass	bibo:Article	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:SiteNavigationElement	rdfs:subClassOf	bibo:Excerpt	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified
+schema:Blog	rdfs:subClassOf	bibo:Periodical	semapv:ManualMappingCuration		schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2011-12-01	https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl	https://w3id.org/sssom/license/unspecified

@@ -118,6 +118,33 @@ def _extract_platform_metadata(source: str, github_token: Optional[str] = None) 
     return {}
 
 
+KNOWN_ORIGINATION_DATES: Dict[str, str] = {
+    "icd10cm_icd9cm": "2017-10-01",
+    "icd9cm_icd10cm": "2017-10-01",
+    "icd10pcs_icd9pcs": "2017-10-01",
+    "icd9pcs_icd10pcs": "2017-10-01",
+    "gem": "2017-10-01",
+    "icd10_icd11": "2024-01-01",
+    "icd11_icd10": "2024-01-01",
+    "galter": "2018-03-27",
+    "lcsh_mesh": "2018-03-27",
+    "mesh_lcsh": "2018-03-27",
+    "ebsco": "2024-01-01",
+    "rda": "2022-03-09",
+    "datacite-to-dcat-ap": "2021-06-25",
+    "dcat-ap-to-schema-org": "2019-12-05",
+    "dcat-prov": "2013-04-30",
+    "prov-dc": "2013-04-30",
+    "prov-bfo": "2025-01-19",
+    "sio-ro": "2014-03-12",
+    "bibo2spar": "2018-06-21",
+    "bibo.ttl": "2011-12-01",
+    "sumo-dbpedia": "2010-09-01",
+    "sumo_owl": "2013-10-08",
+    "romulus": "2012-11-21",
+}
+
+
 # ------------------------------------------------------------ #
 # SSSOM document builder
 # ------------------------------------------------------------ #
@@ -150,7 +177,37 @@ def _build_sssom_document(
 
     mapping_set_id = f"https://w3id.org/commons/mappings/{p1}_{p2}"
     mapping_set_title = f"{p1.upper()} to {p2.upper()} Mappings"
-    mapping_date = datetime.now().strftime("%Y-%m-%d")
+
+    # Resolve mapping origination date (when mappings originated, not pipeline execution time)
+    mapping_date = None
+    pair = f"{p1}_{p2}".lower()
+    pair_rev = f"{p2}_{p1}".lower()
+    src_text = f"{source_url or ''} {source_file or ''} {extra_meta.get('mapping_provider', '') if extra_meta else ''}".lower()
+
+    if pair in KNOWN_ORIGINATION_DATES:
+        mapping_date = KNOWN_ORIGINATION_DATES[pair]
+    elif pair_rev in KNOWN_ORIGINATION_DATES:
+        mapping_date = KNOWN_ORIGINATION_DATES[pair_rev]
+    else:
+        for k, v in KNOWN_ORIGINATION_DATES.items():
+            if k in src_text:
+                mapping_date = v
+                break
+
+    if not mapping_date and extra_meta and extra_meta.get("mapping_date"):
+        mapping_date = str(extra_meta["mapping_date"]).strip()
+    if not mapping_date and publication:
+        mapping_date = str(publication).strip()
+    if not mapping_date and extra_meta and extra_meta.get("publication_date"):
+        mapping_date = str(extra_meta["publication_date"]).strip()
+    if not mapping_date and mappings:
+        row_dates = [str(r.get("mapping_date", "")).strip() for r in mappings if str(r.get("mapping_date", "")).strip()]
+        if row_dates:
+            mapping_date = sorted(row_dates)[0]
+    if not mapping_date and version and re.match(r"^\d{4}(?:[-_]\d{2}(?:[-_]\d{2})?)?$", str(version).strip()):
+        mapping_date = str(version).replace("_", "-").strip()
+    if not mapping_date:
+        mapping_date = datetime.now().strftime("%Y-%m-%d")
 
     doc: Dict[str, Any] = {
         "mapping_set_id": mapping_set_id,

@@ -245,6 +245,7 @@ def _normalize_to_sssom_rows(df: pd.DataFrame, source: str = "") -> Tuple[List[D
                 "author_label": "Centers for Medicare & Medicaid Services and CDC",
                 "creator_id": "https://www.cms.gov",
                 "creator_label": "Centers for Medicare & Medicaid Services and CDC",
+                "mapping_date": "2017-10-01",
                 "license": "https://creativecommons.org/publicdomain/mark/1.0/",
             }
             # Add extra contextual flag columns
@@ -294,6 +295,7 @@ def _normalize_to_sssom_rows(df: pd.DataFrame, source: str = "") -> Tuple[List[D
                 "author_label": "EBSCO Information Services",
                 "creator_id": "https://www.ebsco.com",
                 "creator_label": "EBSCO Information Services",
+                "mapping_date": "2024-01-01",
                 "license": "https://www.ebsco.com/company/terms-of-use",
             }
             for col in cols:
@@ -346,6 +348,10 @@ def load(
     """
     Load data from spreadsheet source and return standard SSSOM dict.
     """
+    if "rda" in source.lower() and "crosswalk" in source.lower():
+        from src.load_from_document import _parse_rda_crosswalk_excel
+        return _parse_rda_crosswalk_excel(source)
+
     min_non_null = kwargs.get("min_non_null", 2)
     clean_source = source.split("?")[0].rstrip("/")
     if clean_source.endswith("/content"):
@@ -393,12 +399,16 @@ def load(
             res["object_source"] = o_pfx
             res["object_source_version"] = "2018" if "10" in o_pfx else "2017"
             res["mapping_set_version"] = "2018"
+            res["mapping_date"] = "2017-10-01"
+            res["publication_date"] = "2017-10-01"
             res["mapping_tool"] = "CMS GEM Translation Framework"
             res["mapping_tool_version"] = "2018"
         elif o_pfx == "ebsco":
             res["object_source"] = "ebsco"
             res["object_source_version"] = "2024"
             res["mapping_set_version"] = "2024"
+            res["mapping_date"] = "2024-01-01"
+            res["publication_date"] = "2024-01-01"
             res["mapping_tool"] = "EBSCO Coverage Crosswalk"
             res["mapping_tool_version"] = "2024"
 

@@ -600,3 +600,64 @@ def test_owl_axiom_and_turtle_prefix_healing(tmp_path):
     assert m1["object_id"] == "bfo:0000023"
     assert m1["object_label"] == "role"
     assert m1["license"] == "https://creativecommons.org/publicdomain/zero/1.0/"
+
+
+def test_rda_crosswalk_parsing_legitimate_properties():
+    """Ensure RDA crosswalk spreadsheet extracts legitimate property mappings, not classes-to-properties."""
+    from src.load_from_document import _parse_rda_crosswalk_excel
+
+    res = _parse_rda_crosswalk_excel("https://doi.org/10.15497/RDA00069")
+    mappings = res["mappings"]
+    assert len(mappings) > 30
+
+    # Ensure metadata attributes reflect origination date and license
+    assert res["mapping_date"] == "2022-03-09"
+    assert res["publication_date"] == "2022-03-09"
+    assert res["license"] == "https://creativecommons.org/licenses/by/4.0/"
+    assert "schema" in res["curie_map"]
+    assert "dcterms" in res["curie_map"]
+    assert "propertyrrequired" not in res["curie_map"]
+    assert "propertyrequired" not in res["curie_map"]
+
+    # Verify that mappings are property-to-property and no bogus 'propertyrequired' or '(R)' exists
+    for m in mappings:
+        s = m["subject_id"]
+        o = m["object_id"]
+        assert "propertyrequired" not in s.lower()
+        assert "propertyrequired" not in o.lower()
+        assert "(" not in s and ")" not in s
+        assert "(" not in o and ")" not in o
+        assert m["mapping_date"] == "2022-03-09"
+        assert m["license"] == "https://creativecommons.org/licenses/by/4.0/"
+
+    # Check known property mappings
+    equivs = {(m["subject_id"], m["object_id"]) for m in mappings}
+    assert ("schema:description", "dcterms:description") in equivs
+    assert ("schema:name", "dcterms:title") in equivs
+
+
+def test_origination_dates_preservation():
+    """Ensure loaders and metadata resolution preserve authentic origination dates instead of current creation date."""
+    from src.write_sssom_file import _resolve_structure_metadata, _enrich_row_metadata, KNOWN_ORIGINATION_DATES
+
+    # 1. Known historical dates check
+    assert KNOWN_ORIGINATION_DATES["icd10cm_icd9cm"] == "2017-10-01"
+    assert KNOWN_ORIGINATION_DATES["lcsh_mesh"] == "2018-03-27"
+    assert KNOWN_ORIGINATION_DATES["rda"] == "2022-03-09"
+    assert KNOWN_ORIGINATION_DATES["ebsco"] == "2024-01-01"
+
+    # 2. Structure metadata resolution for GEM
+    meta_gem = {
+        "mapping_provider": "https://data.nber.org/gem/icd10cmtoicd9gem.csv",
+        "mapping_tool": "CMS GEM Translation Framework",
+    }
+    resolved = _resolve_structure_metadata("icd10cm", "icd9cm", [], meta_gem)
+    assert resolved["mapping_date"] == "2017-10-01"
+
+    # 3. Row metadata enrichment preserves historical row dates
+    rows_hist = [
+        {"subject_id": "test:A", "predicate_id": "skos:exactMatch", "object_id": "test:B", "mapping_date": "2021-04-01"}
+    ]
+    meta_generic = {"mapping_tool": "Biomappings"}
+    enriched = _enrich_row_metadata(rows_hist, meta_generic, "test", "test")
+    assert enriched[0]["mapping_date"] == "2021-04-01"

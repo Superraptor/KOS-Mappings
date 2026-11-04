@@ -4,7 +4,7 @@
 #   schema: "http://schema.org/"
 #   semapv: "https://w3id.org/semapv/vocab/"
 # license: "https://creativecommons.org/licenses/by-sa/3.0/"
-# mapping_date: "2026-11-04"
+# mapping_date: "2024-04-04"
 # mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
 # mapping_set_id: "https://w3id.org/commons/mappings/schema_mo"
 # mapping_set_title: "SCHEMA to MO Mappings"
@@ -15,4 +15,4 @@
 # subject_source: schema
 # subject_source_version: 26.0
 subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-schema:recordLabel	owl:equivalentProperty	mo:label	semapv:ManualMappingCuration	recordLabel	schema	26.0	mo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:recordLabel	owl:equivalentProperty	mo:label	semapv:ManualMappingCuration	recordLabel	schema	26.0	mo	KOS-Mappings Pipeline	1.0.0	2024-04-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/

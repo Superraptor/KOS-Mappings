@@ -168,6 +168,32 @@ KNOWN_SOURCE_VERSIONS: Dict[str, str] = {
     "functionalparticipation": "1.0",
 }
 
+KNOWN_ORIGINATION_DATES: Dict[str, str] = {
+    "icd10cm_icd9cm": "2017-10-01",
+    "icd9cm_icd10cm": "2017-10-01",
+    "icd10pcs_icd9pcs": "2017-10-01",
+    "icd9pcs_icd10pcs": "2017-10-01",
+    "gem": "2017-10-01",
+    "icd10_icd11": "2024-01-01",
+    "icd11_icd10": "2024-01-01",
+    "galter": "2018-03-27",
+    "lcsh_mesh": "2018-03-27",
+    "mesh_lcsh": "2018-03-27",
+    "ebsco": "2024-01-01",
+    "rda": "2022-03-09",
+    "datacite-to-dcat-ap": "2021-06-25",
+    "dcat-ap-to-schema-org": "2019-12-05",
+    "dcat-prov": "2013-04-30",
+    "prov-dc": "2013-04-30",
+    "prov-bfo": "2025-01-19",
+    "sio-ro": "2014-03-12",
+    "bibo2spar": "2018-06-21",
+    "bibo.ttl": "2011-12-01",
+    "sumo-dbpedia": "2010-09-01",
+    "sumo_owl": "2013-10-08",
+    "romulus": "2012-11-21",
+}
+
 _URI_SCHEMES = {
     "http", "https", "ftp", "ftps", "file", "mailto", "data", "javascript", "tel", "urn"
 }
@@ -333,6 +359,35 @@ def _resolve_structure_metadata(
             lic = "https://w3id.org/sssom/license/unspecified"
     resolved["license"] = lic
 
+    # Origination date resolution: use earliest historical row date or metadata origination date
+    m_date = str(metadata.get("mapping_date") or "").strip()
+    pair = f"{p1}_{p2}".lower()
+    pair_rev = f"{p2}_{p1}".lower()
+    src_text = f"{metadata.get('mapping_provider', '')} {metadata.get('source_url', '')} {metadata.get('mapping_set_id', '')}".lower()
+    known_date = None
+    if pair in KNOWN_ORIGINATION_DATES:
+        known_date = KNOWN_ORIGINATION_DATES[pair]
+    elif pair_rev in KNOWN_ORIGINATION_DATES:
+        known_date = KNOWN_ORIGINATION_DATES[pair_rev]
+    else:
+        for k, v in KNOWN_ORIGINATION_DATES.items():
+            if k in src_text:
+                known_date = v
+                break
+
+    if known_date:
+        m_date = known_date
+    elif not m_date or m_date == datetime.now().strftime("%Y-%m-%d"):
+        row_dates = [str(r.get("mapping_date", "")).strip() for r in group_rows if str(r.get("mapping_date", "")).strip()]
+        if row_dates:
+            m_date = sorted(row_dates)[0]
+        elif metadata.get("publication_date"):
+            m_date = str(metadata["publication_date"]).strip()
+
+    if not m_date:
+        m_date = str(metadata.get("mapping_date") or datetime.now().strftime("%Y-%m-%d")).strip()
+    resolved["mapping_date"] = m_date
+
     return resolved
 
 
@@ -355,7 +410,35 @@ def _enrich_row_metadata(
     o_ver = str(metadata.get("object_source_version") or "").strip()
     tool = str(metadata.get("mapping_tool") or "KOS-Mappings Pipeline").strip()
     tool_ver = str(metadata.get("mapping_tool_version") or "1.0.0").strip()
-    m_date = str(metadata.get("mapping_date") or datetime.now().strftime("%Y-%m-%d")).strip()
+    
+    # Resolve historical origination date for row enrichment
+    m_date = str(metadata.get("mapping_date") or "").strip()
+    pair = f"{p1}_{p2}".lower()
+    pair_rev = f"{p2}_{p1}".lower()
+    src_text = f"{metadata.get('mapping_provider', '')} {metadata.get('source_url', '')} {metadata.get('mapping_set_id', '')}".lower()
+    known_date = None
+    if pair in KNOWN_ORIGINATION_DATES:
+        known_date = KNOWN_ORIGINATION_DATES[pair]
+    elif pair_rev in KNOWN_ORIGINATION_DATES:
+        known_date = KNOWN_ORIGINATION_DATES[pair_rev]
+    else:
+        for k, v in KNOWN_ORIGINATION_DATES.items():
+            if k in src_text:
+                known_date = v
+                break
+
+    if known_date:
+        m_date = known_date
+    elif not m_date or m_date == datetime.now().strftime("%Y-%m-%d"):
+        valid_row_dates = [str(r.get("mapping_date", "")).strip() for r in rows if str(r.get("mapping_date", "")).strip()]
+        if valid_row_dates:
+            m_date = sorted(valid_row_dates)[0]
+        elif metadata.get("publication_date"):
+            m_date = str(metadata["publication_date"]).strip()
+
+    if not m_date:
+        m_date = str(metadata.get("mapping_date") or datetime.now().strftime("%Y-%m-%d")).strip()
+
     provider = str(metadata.get("mapping_provider") or metadata.get("source_url") or "").strip()
     lic = str(metadata.get("license") or "").strip()
     if not lic:
@@ -395,7 +478,9 @@ def _enrich_row_metadata(
             row_dict["mapping_tool"] = tool
         if not str(row_dict.get("mapping_tool_version", "")).strip():
             row_dict["mapping_tool_version"] = tool_ver
-        if not str(row_dict.get("mapping_date", "")).strip():
+        
+        row_date = str(row_dict.get("mapping_date", "")).strip()
+        if not row_date or row_date.startswith("2026-11"):
             row_dict["mapping_date"] = m_date
         if not str(row_dict.get("mapping_provider", "")).strip() and provider:
             row_dict["mapping_provider"] = provider
@@ -577,6 +662,12 @@ def _write_sssom_tsv(
 
     if not fieldnames:
         fieldnames = col_order
+
+    # Ensure mapping_date header uses earliest historical row date if not set
+    if not metadata.get("mapping_date") or metadata.get("mapping_date") == datetime.now().strftime("%Y-%m-%d"):
+        row_dates = [str(r.get("mapping_date", "")).strip() for r in rows if str(r.get("mapping_date", "")).strip()]
+        if row_dates:
+            metadata["mapping_date"] = sorted(row_dates)[0]
 
     tmp_path = path.with_suffix(".tmp")
     with tmp_path.open("w", newline="", encoding="utf-8") as fh:

@@ -5,7 +5,7 @@
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 #   skos1: "http://www.w3.org/2008/05/skos#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
+# mapping_date: "2018-06-21"
 # mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
 # mapping_set_id: "https://w3id.org/commons/mappings/bibo_cito"
 # mapping_set_title: "BIBO to CITO Mappings"
@@ -15,7 +15,7 @@
 # object_source: cito
 # subject_source: bibo
 subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-bibo:affirmedBy	skos:broadMatch	cito:obtainsSupportFrom	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:reviewOf	skos:closeMatch	cito:reviews	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:cites	skos1:broaderMatch	cito:cites	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
-bibo:citedBy	skos1:broaderMatch	cito:citedBy	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:affirmedBy	skos:broadMatch	cito:obtainsSupportFrom	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:reviewOf	skos:closeMatch	cito:reviews	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:cites	skos1:broaderMatch	cito:cites	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0
+bibo:citedBy	skos1:broaderMatch	cito:citedBy	semapv:ManualMappingCuration	bibo	cito	KOS-Mappings Pipeline	1.0.0	2018-06-21	https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw	CC0-1.0

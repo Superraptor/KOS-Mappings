@@ -5,7 +5,7 @@
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 #   t4fs: "http://purl.obolibrary.org/obo/T4FS_"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
+# mapping_date: "2026-04-12"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/schema_t4fs"
 # mapping_set_title: "SCHEMA to T4FS Mappings"

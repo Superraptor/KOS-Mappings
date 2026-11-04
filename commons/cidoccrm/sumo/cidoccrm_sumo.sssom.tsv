@@ -3,8 +3,8 @@
 #   owl: "http://www.w3.org/2002/07/owl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   sumo: "http://www.ontologyportal.org/SUMO.owl#"
-# license: "CC0-1.0"
-# mapping_date: "2026-11-02"
+# license: "https://spdx.org/licenses/GPL-2.0-only"
+# mapping_date: "2010-09-01"
 # mapping_provider: "https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl"
 # mapping_set_id: "https://w3id.org/commons/mappings/cidoccrm_sumo"
 # mapping_set_title: "CIDOCCRM to SUMO Mappings"
@@ -15,4 +15,4 @@
 # publication_date: "2025-02-13"
 # subject_source: cidoccrm
 subject_id	predicate_id	object_id	mapping_justification	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-cidoccrm:E4_Period	owl:equivalentClass	sumo:TimeInterval	semapv:ManualMappingCuration	cidoccrm	sumo	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl	CC0-1.0
+cidoccrm:E4_Period	owl:equivalentClass	sumo:TimeInterval	semapv:ManualMappingCuration	cidoccrm	sumo	KOS-Mappings Pipeline	1.0.0	2010-09-01	https://raw.githubusercontent.com/ontologyportal/sumo/master/mappings/DBpediaMapping.ttl	https://spdx.org/licenses/GPL-2.0-only
