@@ -5,16 +5,15 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/keggpathway_keggpathway"
 # mapping_set_title: "KEGGPATHWAY to KEGGPATHWAY Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: keggpathway
 # subject_source: keggpathway
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-kegg.pathway:hsa00100	skos:exactMatch	kegg.pathway:hsa00140	semapv:ManualMappingCuration	Steroid biosynthesis - Homo sapiens (human)	Steroid hormone biosynthesis - Homo sapiens (human)	keggpathway		keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
-kegg.pathway:hsa04210	skos:exactMatch	kegg.pathway:hsa04215	semapv:ManualMappingCuration	Apoptosis - Homo sapiens (human)	Apoptosis - multiple species - Homo sapiens (human)	keggpathway		keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
-kegg.pathway:hsa04392	skos:exactMatch	kegg.pathway:hsa04390	semapv:ManualMappingCuration	Hippo signaling pathway - multiple species - Homo sapiens (human)	Hippo signaling pathway - Homo sapiens (human)	keggpathway		keggpathway		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
+kegg.pathway:hsa00100	skos:exactMatch	kegg.pathway:hsa00140	semapv:ManualMappingCuration	Steroid biosynthesis - Homo sapiens (human)	Steroid hormone biosynthesis - Homo sapiens (human)	keggpathway		keggpathway		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
+kegg.pathway:hsa04210	skos:exactMatch	kegg.pathway:hsa04215	semapv:ManualMappingCuration	Apoptosis - Homo sapiens (human)	Apoptosis - multiple species - Homo sapiens (human)	keggpathway		keggpathway		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
+kegg.pathway:hsa04392	skos:exactMatch	kegg.pathway:hsa04390	semapv:ManualMappingCuration	Hippo signaling pathway - multiple species - Homo sapiens (human)	Hippo signaling pathway - Homo sapiens (human)	keggpathway		keggpathway		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0

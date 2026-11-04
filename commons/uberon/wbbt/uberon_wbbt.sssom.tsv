@@ -3,7 +3,6 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
 #   wbbt: "http://purl.obolibrary.org/obo/WBbt_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_wbbt"
@@ -12,51 +11,51 @@
 # object_source: wbbt
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000020	oboInOwl:hasDbXref	wbbt:0006929	semapv:UnspecifiedMatching	sense organ	sensillum	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000033	oboInOwl:hasDbXref	wbbt:0005739	semapv:UnspecifiedMatching	head	head	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000045	oboInOwl:hasDbXref	wbbt:0005189	semapv:UnspecifiedMatching	ganglion	ganglion	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000062	oboInOwl:hasDbXref	wbbt:0003760	semapv:UnspecifiedMatching	organ	organ	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000160	oboInOwl:hasDbXref	wbbt:0005772	semapv:UnspecifiedMatching	intestine	intestine	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000167	oboInOwl:hasDbXref	wbbt:0005255	semapv:UnspecifiedMatching	oral cavity	buccal cavity	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000467	oboInOwl:hasDbXref	wbbt:0005746	semapv:UnspecifiedMatching	anatomical system	Organ system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000467	oboInOwl:hasDbXref	wbbt:0005763	semapv:UnspecifiedMatching	anatomical system	Functional system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000468	oboInOwl:hasDbXref	wbbt:0007833	semapv:UnspecifiedMatching	multicellular organism	organism	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000473	oboInOwl:hasDbXref	wbbt:0006794	semapv:UnspecifiedMatching	testis	male gonad	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000479	oboInOwl:hasDbXref	wbbt:0005729	semapv:UnspecifiedMatching	tissue	Tissue	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000482	oboInOwl:hasDbXref	wbbt:0005756	semapv:UnspecifiedMatching	basal lamina of epithelium	basal lamina	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000934	oboInOwl:hasDbXref	wbbt:0005829	semapv:UnspecifiedMatching	ventral nerve cord	ventral nerve cord	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000990	oboInOwl:hasDbXref	wbbt:0005747	semapv:UnspecifiedMatching	reproductive system	reproductive system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000991	oboInOwl:hasDbXref	wbbt:0005175	semapv:UnspecifiedMatching	gonad	gonad	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000994	oboInOwl:hasDbXref	wbbt:0005319	semapv:UnspecifiedMatching	spermathecum	spermatheca	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001007	oboInOwl:hasDbXref	wbbt:0005748	semapv:UnspecifiedMatching	digestive system	alimentary system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001008	oboInOwl:hasDbXref	wbbt:0005736	semapv:UnspecifiedMatching	renal system	excretory system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001015	oboInOwl:hasDbXref	wbbt:0005737	semapv:UnspecifiedMatching	musculature	muscular system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001016	oboInOwl:hasDbXref	wbbt:0005735	semapv:UnspecifiedMatching	nervous system	nervous system	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001062	oboInOwl:hasDbXref	wbbt:0000100	semapv:UnspecifiedMatching	anatomical entity	C. elegans anatomical entity	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001135	oboInOwl:hasDbXref	wbbt:0005781	semapv:UnspecifiedMatching	smooth muscle tissue	smooth muscle	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001245	oboInOwl:hasDbXref	wbbt:0005364	semapv:UnspecifiedMatching	anus	anus	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001353	oboInOwl:hasDbXref	wbbt:0006919	semapv:UnspecifiedMatching	anal region	anal region	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001555	oboInOwl:hasDbXref	wbbt:0005743	semapv:UnspecifiedMatching	digestive tract	digestive tract	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002036	oboInOwl:hasDbXref	wbbt:0005779	semapv:UnspecifiedMatching	striated muscle tissue	striated muscle	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002415	oboInOwl:hasDbXref	wbbt:0005741	semapv:UnspecifiedMatching	tail	tail	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002537	oboInOwl:hasDbXref	wbbt:0005178	semapv:UnspecifiedMatching	hermaphrodite gonad	hermaphrodite gonad	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003049	oboInOwl:hasDbXref	wbbt:0005755	semapv:UnspecifiedMatching	collagen and cuticulin-based cuticle	cuticle	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003101	oboInOwl:hasDbXref	wbbt:0007850	semapv:UnspecifiedMatching	male organism	male	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003133	oboInOwl:hasDbXref	wbbt:0008422	semapv:UnspecifiedMatching	reproductive organ	sex organ	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003135	oboInOwl:hasDbXref	wbbt:0008423	semapv:UnspecifiedMatching	male reproductive organ	male genital	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004462	oboInOwl:hasDbXref	wbbt:0005813	semapv:UnspecifiedMatching	musculature of body wall	body wall musculature	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005067	oboInOwl:hasDbXref	wbbt:0005391	semapv:UnspecifiedMatching	amphid sensory organ	amphid sensillum	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005079	oboInOwl:hasDbXref	wbbt:0005843	semapv:UnspecifiedMatching	eggshell	eggshell	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005564	oboInOwl:hasDbXref	wbbt:0008366	semapv:UnspecifiedMatching	gonad primordium	gonadal primordium	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006834	oboInOwl:hasDbXref	wbbt:0006760	semapv:UnspecifiedMatching	uterus or analog	uterus	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006866	oboInOwl:hasDbXref	wbbt:0005773	semapv:UnspecifiedMatching	terminal part of digestive tract	rectum	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006868	oboInOwl:hasDbXref	wbbt:0006870	semapv:UnspecifiedMatching	seminal fluid secreting gland	seminal vesicle	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007197	oboInOwl:hasDbXref	wbbt:0007849	semapv:UnspecifiedMatching	hermaphroditic organism	hermaphrodite	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007198	oboInOwl:hasDbXref	wbbt:0005758	semapv:UnspecifiedMatching	hermaphrodite anatomical structure	hermaphrodite-specific anatomical entity	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007376	oboInOwl:hasDbXref	wbbt:0005733	semapv:UnspecifiedMatching	outer epithelium	hypodermis	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0014402	oboInOwl:hasDbXref	wbbt:0005752	semapv:UnspecifiedMatching	sex-specific anatomical structure	Sex specific entity	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0014403	oboInOwl:hasDbXref	wbbt:0005757	semapv:UnspecifiedMatching	male anatomical structure	male-specific anatomical entity	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0015232	oboInOwl:hasDbXref	wbbt:0003681	semapv:UnspecifiedMatching	nematode pharynx	pharynx	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0016885	oboInOwl:hasDbXref	wbbt:0005800	semapv:UnspecifiedMatching	epithelium of terminal part of digestive tract	rectal epithelium	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0018543	oboInOwl:hasDbXref	wbbt:0005791	semapv:UnspecifiedMatching	lumen of intestine	intestinal lumen	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0035607	oboInOwl:hasDbXref	wbbt:0006750	semapv:UnspecifiedMatching	accessory nerve cord of dorsal region	dorsal nerve cord	uberon	wbbt	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000020	oboInOwl:hasDbXref	wbbt:0006929	semapv:UnspecifiedMatching	sense organ	sensillum	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000033	oboInOwl:hasDbXref	wbbt:0005739	semapv:UnspecifiedMatching	head	head	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000045	oboInOwl:hasDbXref	wbbt:0005189	semapv:UnspecifiedMatching	ganglion	ganglion	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000062	oboInOwl:hasDbXref	wbbt:0003760	semapv:UnspecifiedMatching	organ	organ	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000160	oboInOwl:hasDbXref	wbbt:0005772	semapv:UnspecifiedMatching	intestine	intestine	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000167	oboInOwl:hasDbXref	wbbt:0005255	semapv:UnspecifiedMatching	oral cavity	buccal cavity	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	wbbt:0005746	semapv:UnspecifiedMatching	anatomical system	Organ system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	wbbt:0005763	semapv:UnspecifiedMatching	anatomical system	Functional system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000468	oboInOwl:hasDbXref	wbbt:0007833	semapv:UnspecifiedMatching	multicellular organism	organism	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000473	oboInOwl:hasDbXref	wbbt:0006794	semapv:UnspecifiedMatching	testis	male gonad	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000479	oboInOwl:hasDbXref	wbbt:0005729	semapv:UnspecifiedMatching	tissue	Tissue	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000482	oboInOwl:hasDbXref	wbbt:0005756	semapv:UnspecifiedMatching	basal lamina of epithelium	basal lamina	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000934	oboInOwl:hasDbXref	wbbt:0005829	semapv:UnspecifiedMatching	ventral nerve cord	ventral nerve cord	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000990	oboInOwl:hasDbXref	wbbt:0005747	semapv:UnspecifiedMatching	reproductive system	reproductive system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000991	oboInOwl:hasDbXref	wbbt:0005175	semapv:UnspecifiedMatching	gonad	gonad	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000994	oboInOwl:hasDbXref	wbbt:0005319	semapv:UnspecifiedMatching	spermathecum	spermatheca	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001007	oboInOwl:hasDbXref	wbbt:0005748	semapv:UnspecifiedMatching	digestive system	alimentary system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001008	oboInOwl:hasDbXref	wbbt:0005736	semapv:UnspecifiedMatching	renal system	excretory system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001015	oboInOwl:hasDbXref	wbbt:0005737	semapv:UnspecifiedMatching	musculature	muscular system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001016	oboInOwl:hasDbXref	wbbt:0005735	semapv:UnspecifiedMatching	nervous system	nervous system	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001062	oboInOwl:hasDbXref	wbbt:0000100	semapv:UnspecifiedMatching	anatomical entity	C. elegans anatomical entity	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001135	oboInOwl:hasDbXref	wbbt:0005781	semapv:UnspecifiedMatching	smooth muscle tissue	smooth muscle	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001245	oboInOwl:hasDbXref	wbbt:0005364	semapv:UnspecifiedMatching	anus	anus	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001353	oboInOwl:hasDbXref	wbbt:0006919	semapv:UnspecifiedMatching	anal region	anal region	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001555	oboInOwl:hasDbXref	wbbt:0005743	semapv:UnspecifiedMatching	digestive tract	digestive tract	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002036	oboInOwl:hasDbXref	wbbt:0005779	semapv:UnspecifiedMatching	striated muscle tissue	striated muscle	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002415	oboInOwl:hasDbXref	wbbt:0005741	semapv:UnspecifiedMatching	tail	tail	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002537	oboInOwl:hasDbXref	wbbt:0005178	semapv:UnspecifiedMatching	hermaphrodite gonad	hermaphrodite gonad	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003049	oboInOwl:hasDbXref	wbbt:0005755	semapv:UnspecifiedMatching	collagen and cuticulin-based cuticle	cuticle	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003101	oboInOwl:hasDbXref	wbbt:0007850	semapv:UnspecifiedMatching	male organism	male	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003133	oboInOwl:hasDbXref	wbbt:0008422	semapv:UnspecifiedMatching	reproductive organ	sex organ	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003135	oboInOwl:hasDbXref	wbbt:0008423	semapv:UnspecifiedMatching	male reproductive organ	male genital	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004462	oboInOwl:hasDbXref	wbbt:0005813	semapv:UnspecifiedMatching	musculature of body wall	body wall musculature	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005067	oboInOwl:hasDbXref	wbbt:0005391	semapv:UnspecifiedMatching	amphid sensory organ	amphid sensillum	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005079	oboInOwl:hasDbXref	wbbt:0005843	semapv:UnspecifiedMatching	eggshell	eggshell	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005564	oboInOwl:hasDbXref	wbbt:0008366	semapv:UnspecifiedMatching	gonad primordium	gonadal primordium	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006834	oboInOwl:hasDbXref	wbbt:0006760	semapv:UnspecifiedMatching	uterus or analog	uterus	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006866	oboInOwl:hasDbXref	wbbt:0005773	semapv:UnspecifiedMatching	terminal part of digestive tract	rectum	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006868	oboInOwl:hasDbXref	wbbt:0006870	semapv:UnspecifiedMatching	seminal fluid secreting gland	seminal vesicle	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007197	oboInOwl:hasDbXref	wbbt:0007849	semapv:UnspecifiedMatching	hermaphroditic organism	hermaphrodite	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007198	oboInOwl:hasDbXref	wbbt:0005758	semapv:UnspecifiedMatching	hermaphrodite anatomical structure	hermaphrodite-specific anatomical entity	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007376	oboInOwl:hasDbXref	wbbt:0005733	semapv:UnspecifiedMatching	outer epithelium	hypodermis	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014402	oboInOwl:hasDbXref	wbbt:0005752	semapv:UnspecifiedMatching	sex-specific anatomical structure	Sex specific entity	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014403	oboInOwl:hasDbXref	wbbt:0005757	semapv:UnspecifiedMatching	male anatomical structure	male-specific anatomical entity	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0015232	oboInOwl:hasDbXref	wbbt:0003681	semapv:UnspecifiedMatching	nematode pharynx	pharynx	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0016885	oboInOwl:hasDbXref	wbbt:0005800	semapv:UnspecifiedMatching	epithelium of terminal part of digestive tract	rectal epithelium	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0018543	oboInOwl:hasDbXref	wbbt:0005791	semapv:UnspecifiedMatching	lumen of intestine	intestinal lumen	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0035607	oboInOwl:hasDbXref	wbbt:0006750	semapv:UnspecifiedMatching	accessory nerve cord of dorsal region	dorsal nerve cord	uberon	wbbt	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

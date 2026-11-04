@@ -104,9 +104,13 @@ def _parse_sssom_stream(
 
     file_tool = metadata.get("mapping_tool", "OLS SSSOM Pipeline")
     file_provider = metadata.get("mapping_provider", f"https://www.ebi.ac.uk/ols4")
-    file_date = metadata.get("mapping_date", "2026-11-03")
     file_confidence = metadata.get("mapping_set_confidence", "0.7")
     file_license = metadata.get("license") or "https://w3id.org/sssom/license/unspecified"
+
+    if metadata.get("mapping_date") and str(metadata["mapping_date"]).startswith("2026-11"):
+        del metadata["mapping_date"]
+    if metadata.get("mapping_set_version") and str(metadata["mapping_set_version"]).startswith("2026-11"):
+        del metadata["mapping_set_version"]
 
     for r in reader:
         s_id = str(r.get("subject_id", "")).strip()
@@ -139,8 +143,13 @@ def _parse_sssom_stream(
             row_dict["mapping_tool"] = file_tool
         if not row_dict.get("mapping_provider"):
             row_dict["mapping_provider"] = file_provider
-        if not row_dict.get("mapping_date"):
-            row_dict["mapping_date"] = file_date
+        
+        row_m_date = str(row_dict.get("mapping_date", "")).strip()
+        if row_m_date and not row_m_date.startswith("2026-11"):
+            row_dict["mapping_date"] = row_m_date
+        else:
+            row_dict["mapping_date"] = ""
+
         if not row_dict.get("confidence") and file_confidence:
             row_dict["confidence"] = file_confidence
         if not row_dict.get("license"):

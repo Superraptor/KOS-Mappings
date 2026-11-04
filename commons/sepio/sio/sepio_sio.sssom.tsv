@@ -3,7 +3,6 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   sepio: "http://purl.obolibrary.org/obo/SEPIO_"
 #   sio: "http://semanticscience.org/resource/SIO_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/sepio"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from SEPIO"
 # mapping_set_id: "https://w3id.org/commons/mappings/sepio_sio"
@@ -12,4 +11,4 @@
 # object_source: sio
 # subject_source: sepio
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-sepio:000383	oboInOwl:hasDbXref	sio:000088	semapv:UnspecifiedMatching	record	record	sepio	sio	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:000383	oboInOwl:hasDbXref	sio:000088	semapv:UnspecifiedMatching	record	record	sepio	sio	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0

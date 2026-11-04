@@ -5,16 +5,15 @@
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 #   wikipathways: "http://www.wikipathways.org/instance/"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/reactome_wikipathways"
 # mapping_set_title: "REACTOME to WIKIPATHWAYS Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: wikipathways
 # subject_source: reactome
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-reactome:R-HSA-195721	skos:exactMatch	wikipathways:WP399	semapv:ManualMappingCuration	Signaling by WNT	Wnt signaling pathway and pluripotency	reactome		wikipathways		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
-reactome:R-HSA-196819	skos:exactMatch	wikipathways:WP4297	semapv:ManualMappingCuration	Vitamin B1 (thiamin) metabolism	Thiamine metabolic pathways	reactome		wikipathways		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
-reactome:R-HSA-77286	skos:exactMatch	wikipathways:WP368	semapv:ManualMappingCuration	mitochondrial fatty acid beta-oxidation of saturated fatty acids	Mitochondrial long chain fatty acid beta-oxidation	reactome		wikipathways		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
+reactome:R-HSA-195721	skos:exactMatch	wikipathways:WP399	semapv:ManualMappingCuration	Signaling by WNT	Wnt signaling pathway and pluripotency	reactome		wikipathways		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
+reactome:R-HSA-196819	skos:exactMatch	wikipathways:WP4297	semapv:ManualMappingCuration	Vitamin B1 (thiamin) metabolism	Thiamine metabolic pathways	reactome		wikipathways		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0
+reactome:R-HSA-77286	skos:exactMatch	wikipathways:WP368	semapv:ManualMappingCuration	mitochondrial fatty acid beta-oxidation of saturated fatty acids	Mitochondrial long chain fatty acid beta-oxidation	reactome		wikipathways		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0002-2046-6145	CC0-1.0

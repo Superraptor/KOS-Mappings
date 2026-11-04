@@ -3,7 +3,6 @@
 #   cvcl: "https://www.cellosaurus.org/CVCL_"
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
 # mapping_set_id: "https://w3id.org/commons/mappings/covoc_cvcl"
@@ -12,14 +11,14 @@
 # object_source: cvcl
 # subject_source: covoc
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-covoc:0020001	oboInOwl:hasDbXref	cvcl:YZ47	semapv:UnspecifiedMatching	Calu-3 2B4		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020002	oboInOwl:hasDbXref	cvcl:0574	semapv:UnspecifiedMatching	VeroE6		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020003	oboInOwl:hasDbXref	cvcl:YQ49	semapv:UnspecifiedMatching	VeroE6/TMPRSS2		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020004	oboInOwl:hasDbXref	cvcl:G704	semapv:UnspecifiedMatching	PER.C6		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020011	oboInOwl:hasDbXref	cvcl:XA76	semapv:UnspecifiedMatching	N-176-15		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020012	oboInOwl:hasDbXref	cvcl:XA77	semapv:UnspecifiedMatching	S-9-11		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020013	oboInOwl:hasDbXref	cvcl:YQ10	semapv:UnspecifiedMatching	rSN-18		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020014	oboInOwl:hasDbXref	cvcl:YQ13	semapv:UnspecifiedMatching	rSN-21-2		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020015	oboInOwl:hasDbXref	cvcl:YQ14	semapv:UnspecifiedMatching	rSN-29		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020016	oboInOwl:hasDbXref	cvcl:YQ11	semapv:UnspecifiedMatching	rSN-122		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020017	oboInOwl:hasDbXref	cvcl:YQ12	semapv:UnspecifiedMatching	rSN-150		covoc	cvcl	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020001	oboInOwl:hasDbXref	cvcl:YZ47	semapv:UnspecifiedMatching	Calu-3 2B4		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020002	oboInOwl:hasDbXref	cvcl:0574	semapv:UnspecifiedMatching	VeroE6		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020003	oboInOwl:hasDbXref	cvcl:YQ49	semapv:UnspecifiedMatching	VeroE6/TMPRSS2		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020004	oboInOwl:hasDbXref	cvcl:G704	semapv:UnspecifiedMatching	PER.C6		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020011	oboInOwl:hasDbXref	cvcl:XA76	semapv:UnspecifiedMatching	N-176-15		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020012	oboInOwl:hasDbXref	cvcl:XA77	semapv:UnspecifiedMatching	S-9-11		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020013	oboInOwl:hasDbXref	cvcl:YQ10	semapv:UnspecifiedMatching	rSN-18		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020014	oboInOwl:hasDbXref	cvcl:YQ13	semapv:UnspecifiedMatching	rSN-21-2		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020015	oboInOwl:hasDbXref	cvcl:YQ14	semapv:UnspecifiedMatching	rSN-29		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020016	oboInOwl:hasDbXref	cvcl:YQ11	semapv:UnspecifiedMatching	rSN-122		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020017	oboInOwl:hasDbXref	cvcl:YQ12	semapv:UnspecifiedMatching	rSN-150		covoc	cvcl	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

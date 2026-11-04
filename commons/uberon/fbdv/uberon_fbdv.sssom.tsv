@@ -3,7 +3,6 @@
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_fbdv"
@@ -12,13 +11,13 @@
 # object_source: fbdv
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000066	oboInOwl:hasDbXref	fbdv:00005369	semapv:UnspecifiedMatching	fully formed stage	adult stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000068	oboInOwl:hasDbXref	fbdv:00005289	semapv:UnspecifiedMatching	embryo stage	embryonic stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000070	oboInOwl:hasDbXref	fbdv:00005349	semapv:UnspecifiedMatching	pupal stage	pupal stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000104	oboInOwl:hasDbXref	fbdv:00000000	semapv:UnspecifiedMatching	life cycle	Drosophila life	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000105	oboInOwl:hasDbXref	fbdv:00007012	semapv:UnspecifiedMatching	life cycle stage	life stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000106	oboInOwl:hasDbXref	fbdv:00005288	semapv:UnspecifiedMatching	zygote stage	fertilized egg stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000107	oboInOwl:hasDbXref	fbdv:00000054	semapv:UnspecifiedMatching	cleavage stage	cleavage stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000109	oboInOwl:hasDbXref	fbdv:00005317	semapv:UnspecifiedMatching	gastrula stage	gastrula stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004730	oboInOwl:hasDbXref	fbdv:00005336	semapv:UnspecifiedMatching	instar larval stage	larval stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007220	oboInOwl:hasDbXref	fbdv:00005333	semapv:UnspecifiedMatching	late embryonic stage	late embryonic stage	uberon	fbdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000066	oboInOwl:hasDbXref	fbdv:00005369	semapv:UnspecifiedMatching	fully formed stage	adult stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000068	oboInOwl:hasDbXref	fbdv:00005289	semapv:UnspecifiedMatching	embryo stage	embryonic stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000070	oboInOwl:hasDbXref	fbdv:00005349	semapv:UnspecifiedMatching	pupal stage	pupal stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000104	oboInOwl:hasDbXref	fbdv:00000000	semapv:UnspecifiedMatching	life cycle	Drosophila life	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000105	oboInOwl:hasDbXref	fbdv:00007012	semapv:UnspecifiedMatching	life cycle stage	life stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000106	oboInOwl:hasDbXref	fbdv:00005288	semapv:UnspecifiedMatching	zygote stage	fertilized egg stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000107	oboInOwl:hasDbXref	fbdv:00000054	semapv:UnspecifiedMatching	cleavage stage	cleavage stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000109	oboInOwl:hasDbXref	fbdv:00005317	semapv:UnspecifiedMatching	gastrula stage	gastrula stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004730	oboInOwl:hasDbXref	fbdv:00005336	semapv:UnspecifiedMatching	instar larval stage	larval stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007220	oboInOwl:hasDbXref	fbdv:00005333	semapv:UnspecifiedMatching	late embryonic stage	late embryonic stage	uberon	fbdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

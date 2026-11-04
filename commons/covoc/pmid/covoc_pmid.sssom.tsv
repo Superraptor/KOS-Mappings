@@ -3,7 +3,6 @@
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   pmid: "https://pubmed.ncbi.nlm.nih.gov/"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
 # mapping_set_id: "https://w3id.org/commons/mappings/covoc_pmid"
@@ -12,9 +11,9 @@
 # object_source: pmid
 # subject_source: covoc
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-covoc:0020001	oboInOwl:hasDbXref	pmid:20090954	semapv:UnspecifiedMatching	Calu-3 2B4		covoc	pmid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020002	oboInOwl:hasDbXref	pmid:31978945	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020002	oboInOwl:hasDbXref	pmid:32020029	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020002	oboInOwl:hasDbXref	pmid:32149036	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020002	oboInOwl:hasDbXref	pmid:32165541	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0020003	oboInOwl:hasDbXref	pmid:32165541	semapv:UnspecifiedMatching	VeroE6/TMPRSS2		covoc	pmid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020001	oboInOwl:hasDbXref	pmid:20090954	semapv:UnspecifiedMatching	Calu-3 2B4		covoc	pmid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020002	oboInOwl:hasDbXref	pmid:31978945	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020002	oboInOwl:hasDbXref	pmid:32020029	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020002	oboInOwl:hasDbXref	pmid:32149036	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020002	oboInOwl:hasDbXref	pmid:32165541	semapv:UnspecifiedMatching	VeroE6		covoc	pmid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0020003	oboInOwl:hasDbXref	pmid:32165541	semapv:UnspecifiedMatching	VeroE6/TMPRSS2		covoc	pmid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

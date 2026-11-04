@@ -3,7 +3,6 @@
 #   hao: "http://purl.obolibrary.org/obo/HAO_"
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/aism"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from AISM"
 # mapping_set_id: "https://w3id.org/commons/mappings/aism_hao"
@@ -12,7 +11,7 @@
 # object_source: hao
 # subject_source: aism
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-aism:0000003	oboInOwl:hasDbXref	hao:0000909	semapv:UnspecifiedMatching	insect sclerite	sclerite	aism	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
-aism:0000004	oboInOwl:hasDbXref	hao:0000221	semapv:UnspecifiedMatching	conjunctiva	conjunctiva	aism	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
-aism:0004283	oboInOwl:hasDbXref	hao:0000929	semapv:UnspecifiedMatching	insect body segment	segment	aism	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
-aism:0004305	oboInOwl:hasDbXref	hao:0001098	semapv:UnspecifiedMatching	sensilla ampullacea	capitate peg sensillum	aism	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000003	oboInOwl:hasDbXref	hao:0000909	semapv:UnspecifiedMatching	insect sclerite	sclerite	aism	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0000004	oboInOwl:hasDbXref	hao:0000221	semapv:UnspecifiedMatching	conjunctiva	conjunctiva	aism	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004283	oboInOwl:hasDbXref	hao:0000929	semapv:UnspecifiedMatching	insect body segment	segment	aism	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0
+aism:0004305	oboInOwl:hasDbXref	hao:0001098	semapv:UnspecifiedMatching	sensilla ampullacea	capitate peg sensillum	aism	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/aism	0.7	CC0-1.0

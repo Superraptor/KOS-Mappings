@@ -9,7 +9,7 @@
 # mapping_provider: "https://raw.githubusercontent.com/mhausenblas/schema-org-rdf/master/mappings/bibo.ttl"
 # mapping_set_id: "https://w3id.org/commons/mappings/schema_bibo"
 # mapping_set_title: "SCHEMA to BIBO Mappings"
-# mapping_set_version: "2026-11-04"
+# mapping_set_version: 26.0
 # mapping_tool: "KOS-Mappings Pipeline"
 # mapping_tool_version: 1.0.0
 # object_source: bibo

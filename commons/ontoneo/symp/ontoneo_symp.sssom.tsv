@@ -3,7 +3,6 @@
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   symp: "http://purl.obolibrary.org/obo/SYMP_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
 # mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_symp"
@@ -12,6 +11,6 @@
 # object_source: symp
 # subject_source: ontoneo
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-ontoneo:00000244	rdfs:subClassOf	symp:0000436	semapv:UnspecifiedMatching	postcoital bleeding	abnormal vaginal bleeding	ontoneo	symp	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000245	rdfs:subClassOf	symp:0000436	semapv:UnspecifiedMatching	intermenstrual bleeding	abnormal vaginal bleeding	ontoneo	symp	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000246	rdfs:subClassOf	symp:0000436	semapv:UnspecifiedMatching	irregular bleeding	abnormal vaginal bleeding	ontoneo	symp	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000244	rdfs:subClassOf	symp:0000436	semapv:UnspecifiedMatching	postcoital bleeding	abnormal vaginal bleeding	ontoneo	symp	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000245	rdfs:subClassOf	symp:0000436	semapv:UnspecifiedMatching	intermenstrual bleeding	abnormal vaginal bleeding	ontoneo	symp	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000246	rdfs:subClassOf	symp:0000436	semapv:UnspecifiedMatching	irregular bleeding	abnormal vaginal bleeding	ontoneo	symp	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

@@ -94,7 +94,7 @@ def test_write_and_validate_sssom(tmp_path):
         "mapping_set_id": "https://w3id.org/commons/mappings/test_test",
         "mapping_set_title": "Test Mappings",
         "license": "CC0-1.0",
-        "mapping_date": "2026-11-02",
+        "mapping_date": "2024-01-01",
         "curie_map": {
             "test1": "http://example.org/test1#",
             "test2": "http://example.org/test2#",
@@ -159,8 +159,8 @@ def test_structure_and_version_metadata(tmp_path):
         }
     ]
     meta = {
-        "mapping_date": "2026-11-02",
-        "mapping_provider": "https://github.com/biopragmatics/biomappings",
+        "mapping_date": "2024-01-01",
+        "mapping_provider": "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv",
     }
 
     resolved = _resolve_structure_metadata("doid", "mesh", group_rows, meta)
@@ -169,7 +169,7 @@ def test_structure_and_version_metadata(tmp_path):
     assert resolved["object_source"] == "mesh"
     assert resolved["subject_source_version"] == "2026-07-31"
     assert resolved["object_source_version"] == "2026"
-    assert resolved["mapping_set_version"] == "2026-11-02"
+    assert resolved["mapping_set_version"] == "ed12b9f4"
     assert resolved["mapping_tool"] == "Biomappings"
     assert resolved["mapping_tool_version"] == "0.1.0"
 
@@ -195,7 +195,7 @@ def test_row_metadata_enrichment(tmp_path):
         "object_source_version": "2026",
         "mapping_tool": "Biomappings",
         "mapping_tool_version": "0.1.0",
-        "mapping_date": "2026-11-02",
+        "mapping_date": "2024-01-01",
         "mapping_provider": "https://example.org/test.tsv",
         "license": "CC0-1.0",
     }
@@ -211,7 +211,8 @@ def test_row_metadata_enrichment(tmp_path):
     assert r["object_source_version"] == "2026"
     assert r["mapping_tool"] == "Biomappings"
     assert r["mapping_tool_version"] == "0.1.0"
-    assert r["mapping_date"] == "2026-11-02"
+    # Row without an authentic date and without a known dataset date is left empty, not stamped with a fabricated date
+    assert r["mapping_date"] == ""
     assert r["mapping_provider"] == "https://example.org/test.tsv"
     assert r["license"] == "CC0-1.0"
     assert r["mapping_justification"] == "semapv:ManualMappingCuration"
@@ -638,15 +639,35 @@ def test_rda_crosswalk_parsing_legitimate_properties():
 
 def test_origination_dates_preservation():
     """Ensure loaders and metadata resolution preserve authentic origination dates instead of current creation date."""
-    from src.write_sssom_file import _resolve_structure_metadata, _enrich_row_metadata, KNOWN_ORIGINATION_DATES
+    from src.write_sssom_file import (
+        _resolve_structure_metadata,
+        _enrich_row_metadata,
+        is_system_date,
+        KNOWN_ORIGINATION_DATES,
+        KNOWN_MAPPING_SET_VERSIONS,
+    )
 
     # 1. Known historical dates check
     assert KNOWN_ORIGINATION_DATES["icd10cm_icd9cm"] == "2017-10-01"
     assert KNOWN_ORIGINATION_DATES["lcsh_mesh"] == "2018-03-27"
     assert KNOWN_ORIGINATION_DATES["rda"] == "2022-03-09"
     assert KNOWN_ORIGINATION_DATES["ebsco"] == "2024-01-01"
+    assert KNOWN_ORIGINATION_DATES["schemaorg"] == "2024-04-04"
+    assert KNOWN_ORIGINATION_DATES["mondo"] == "2026-10-06"
 
-    # 2. Structure metadata resolution for GEM
+    # 2. Known versions check
+    assert KNOWN_MAPPING_SET_VERSIONS["schemaorg"] == "26.0"
+    assert KNOWN_MAPPING_SET_VERSIONS["biomappings"] == "ed12b9f4"
+    assert KNOWN_MAPPING_SET_VERSIONS["bibo2spar"] == "2018-06-21"
+
+    # 3. System dates rejection test
+    assert is_system_date("2026-11-02") is True
+    assert is_system_date("2026-11-03") is True
+    assert is_system_date("2026-11-04") is True
+    assert is_system_date("2024-04-04") is False
+    assert is_system_date("2017-10-01") is False
+
+    # 4. Structure metadata resolution for GEM
     meta_gem = {
         "mapping_provider": "https://data.nber.org/gem/icd10cmtoicd9gem.csv",
         "mapping_tool": "CMS GEM Translation Framework",
@@ -654,10 +675,23 @@ def test_origination_dates_preservation():
     resolved = _resolve_structure_metadata("icd10cm", "icd9cm", [], meta_gem)
     assert resolved["mapping_date"] == "2017-10-01"
 
-    # 3. Row metadata enrichment preserves historical row dates
+    # 5. Row metadata enrichment preserves historical row dates
     rows_hist = [
         {"subject_id": "test:A", "predicate_id": "skos:exactMatch", "object_id": "test:B", "mapping_date": "2021-04-01"}
     ]
     meta_generic = {"mapping_tool": "Biomappings"}
     enriched = _enrich_row_metadata(rows_hist, meta_generic, "test", "test")
     assert enriched[0]["mapping_date"] == "2021-04-01"
+
+    # 6. Row without authentic date is left empty, NOT filled with system date
+    rows_empty = [
+        {"subject_id": "test:A", "predicate_id": "skos:exactMatch", "object_id": "test:B"}
+    ]
+    meta_no_date = {"mapping_tool": "Biomappings"}
+    enriched_empty = _enrich_row_metadata(rows_empty, meta_no_date, "test", "test")
+    assert enriched_empty[0]["mapping_date"] == ""
+
+    # 7. Metadata without authentic date omits mapping_date, does NOT use datetime.now()
+    resolved_no_date = _resolve_structure_metadata("test1", "test2", [], {})
+    assert "mapping_date" not in resolved_no_date
+    assert "mapping_set_version" not in resolved_no_date

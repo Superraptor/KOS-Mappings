@@ -3,7 +3,6 @@
 #   pdumdv: "http://purl.obolibrary.org/obo/PdumDv_"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_pdumdv"
@@ -12,6 +11,6 @@
 # object_source: pdumdv
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000105	oboInOwl:hasDbXref	pdumdv:0000090	semapv:UnspecifiedMatching	life cycle stage	Platynereis life cycle stage	uberon	pdumdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000106	oboInOwl:hasDbXref	pdumdv:0000100	semapv:UnspecifiedMatching	zygote stage	zygote stage	uberon	pdumdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000107	oboInOwl:hasDbXref	pdumdv:0000200	semapv:UnspecifiedMatching	cleavage stage	cleaving embryo stage	uberon	pdumdv	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000105	oboInOwl:hasDbXref	pdumdv:0000090	semapv:UnspecifiedMatching	life cycle stage	Platynereis life cycle stage	uberon	pdumdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000106	oboInOwl:hasDbXref	pdumdv:0000100	semapv:UnspecifiedMatching	zygote stage	zygote stage	uberon	pdumdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000107	oboInOwl:hasDbXref	pdumdv:0000200	semapv:UnspecifiedMatching	cleavage stage	cleaving embryo stage	uberon	pdumdv	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

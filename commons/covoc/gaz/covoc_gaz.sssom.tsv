@@ -3,7 +3,6 @@
 #   gaz: "http://purl.obolibrary.org/obo/GAZ_"
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
 # mapping_set_id: "https://w3id.org/commons/mappings/covoc_gaz"
@@ -12,4 +11,4 @@
 # object_source: gaz
 # subject_source: covoc
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-covoc:0050023	oboInOwl:hasDbXref	gaz:00000448	semapv:UnspecifiedMatching	Geographic Locations	geographic location	covoc	gaz	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050023	oboInOwl:hasDbXref	gaz:00000448	semapv:UnspecifiedMatching	Geographic Locations	geographic location	covoc	gaz	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

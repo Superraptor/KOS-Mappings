@@ -10,7 +10,7 @@
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/anseducationlevel_schema"
 # mapping_set_title: "ANSEDUCATIONLEVEL to SCHEMA Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: 26.0
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: schema

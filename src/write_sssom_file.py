@@ -192,7 +192,47 @@ KNOWN_ORIGINATION_DATES: Dict[str, str] = {
     "sumo-dbpedia": "2010-09-01",
     "sumo_owl": "2013-10-08",
     "romulus": "2012-11-21",
+    "mondo": "2026-10-06",
+    "schemaorg": "2024-04-04",
+    "schema": "2024-04-04",
 }
+
+KNOWN_MAPPING_SET_VERSIONS: Dict[str, str] = {
+    "schemaorg": "26.0",
+    "schema": "26.0",
+    "bibo2spar": "2018-06-21",
+    "dcat-prov": "2013-04-30",
+    "prov-dc": "2013-04-30",
+    "romulus": "2012-11-21",
+    "biomappings": "ed12b9f4",
+    "mondo": "2026-10-06",
+    "gem": "2018",
+    "ebsco": "2024",
+    "rda": "2022-03-09",
+    "datacite-to-dcat-ap": "2021-06-25",
+    "dcat-ap-to-schema-org": "2019-12-05",
+}
+
+
+def is_system_date(val: Optional[Any]) -> bool:
+    """
+    Returns True if the date was created or defaulted by this pipeline system
+    (e.g., system run execution dates like 2026-11-* or current datetime.now())
+    rather than derived from an authentic source file, repository commit, or changelog.
+    """
+    if val is None:
+        return False
+    v_str = str(val).strip().strip("'\"")
+    if not v_str:
+        return False
+    if v_str.startswith("2026-11"):
+        return True
+    try:
+        if v_str == datetime.now().strftime("%Y-%m-%d"):
+            return True
+    except Exception:
+        pass
+    return False
 
 _URI_SCHEMES = {
     "http", "https", "ftp", "ftps", "file", "mailto", "data", "javascript", "tel", "urn"
@@ -322,17 +362,32 @@ def _resolve_structure_metadata(
     elif p2 in KNOWN_SOURCE_VERSIONS:
         resolved["object_source_version"] = KNOWN_SOURCE_VERSIONS[p2]
 
-    # Mapping set version
-    if metadata.get("mapping_set_version"):
-        resolved["mapping_set_version"] = str(metadata["mapping_set_version"]).strip()
+    # Mapping set version: only retain if authentic / derived from source, commit, or known release
+    pair = f"{p1}_{p2}".lower()
+    pair_rev = f"{p2}_{p1}".lower()
+    src_text = f"{metadata.get('mapping_provider', '')} {metadata.get('source_url', '')} {metadata.get('mapping_set_id', '')}".lower()
+    known_ver = None
+    if pair in KNOWN_MAPPING_SET_VERSIONS:
+        known_ver = KNOWN_MAPPING_SET_VERSIONS[pair]
+    elif pair_rev in KNOWN_MAPPING_SET_VERSIONS:
+        known_ver = KNOWN_MAPPING_SET_VERSIONS[pair_rev]
+    else:
+        for k, v in KNOWN_MAPPING_SET_VERSIONS.items():
+            if k in src_text:
+                known_ver = v
+                break
+
+    meta_ver = metadata.get("mapping_set_version")
+    if meta_ver and not is_system_date(meta_ver):
+        resolved["mapping_set_version"] = str(meta_ver).strip()
     elif metadata.get("github_commit_sha"):
         resolved["mapping_set_version"] = str(metadata["github_commit_sha"])[:8].strip()
-    elif metadata.get("publication_date"):
+    elif known_ver:
+        resolved["mapping_set_version"] = known_ver
+    elif metadata.get("publication_date") and not is_system_date(metadata.get("publication_date")):
         resolved["mapping_set_version"] = str(metadata["publication_date"]).strip()
-    elif metadata.get("mapping_date"):
+    elif metadata.get("mapping_date") and not is_system_date(metadata.get("mapping_date")):
         resolved["mapping_set_version"] = str(metadata["mapping_date"]).strip()
-    else:
-        resolved["mapping_set_version"] = datetime.now().strftime("%Y-%m-%d")
 
     # Mapping tool and version
     if metadata.get("mapping_tool"):
@@ -359,11 +414,7 @@ def _resolve_structure_metadata(
             lic = "https://w3id.org/sssom/license/unspecified"
     resolved["license"] = lic
 
-    # Origination date resolution: use earliest historical row date or metadata origination date
-    m_date = str(metadata.get("mapping_date") or "").strip()
-    pair = f"{p1}_{p2}".lower()
-    pair_rev = f"{p2}_{p1}".lower()
-    src_text = f"{metadata.get('mapping_provider', '')} {metadata.get('source_url', '')} {metadata.get('mapping_set_id', '')}".lower()
+    # Origination date resolution: only authentic dates derived from source file/repo/commit/changelog
     known_date = None
     if pair in KNOWN_ORIGINATION_DATES:
         known_date = KNOWN_ORIGINATION_DATES[pair]
@@ -375,18 +426,26 @@ def _resolve_structure_metadata(
                 known_date = v
                 break
 
+    m_date = None
     if known_date:
         m_date = known_date
-    elif not m_date or m_date == datetime.now().strftime("%Y-%m-%d"):
-        row_dates = [str(r.get("mapping_date", "")).strip() for r in group_rows if str(r.get("mapping_date", "")).strip()]
-        if row_dates:
-            m_date = sorted(row_dates)[0]
-        elif metadata.get("publication_date"):
-            m_date = str(metadata["publication_date"]).strip()
+    else:
+        raw_m_date = metadata.get("mapping_date")
+        if raw_m_date and not is_system_date(raw_m_date):
+            m_date = str(raw_m_date).strip()
+        else:
+            auth_row_dates = [
+                str(r.get("mapping_date", "")).strip()
+                for r in group_rows
+                if str(r.get("mapping_date", "")).strip() and not is_system_date(r.get("mapping_date"))
+            ]
+            if auth_row_dates:
+                m_date = sorted(auth_row_dates)[0]
+            elif metadata.get("publication_date") and not is_system_date(metadata.get("publication_date")):
+                m_date = str(metadata["publication_date"]).strip()
 
-    if not m_date:
-        m_date = str(metadata.get("mapping_date") or datetime.now().strftime("%Y-%m-%d")).strip()
-    resolved["mapping_date"] = m_date
+    if m_date and not is_system_date(m_date):
+        resolved["mapping_date"] = m_date
 
     return resolved
 
@@ -412,7 +471,6 @@ def _enrich_row_metadata(
     tool_ver = str(metadata.get("mapping_tool_version") or "1.0.0").strip()
     
     # Resolve historical origination date for row enrichment
-    m_date = str(metadata.get("mapping_date") or "").strip()
     pair = f"{p1}_{p2}".lower()
     pair_rev = f"{p2}_{p1}".lower()
     src_text = f"{metadata.get('mapping_provider', '')} {metadata.get('source_url', '')} {metadata.get('mapping_set_id', '')}".lower()
@@ -426,18 +484,6 @@ def _enrich_row_metadata(
             if k in src_text:
                 known_date = v
                 break
-
-    if known_date:
-        m_date = known_date
-    elif not m_date or m_date == datetime.now().strftime("%Y-%m-%d"):
-        valid_row_dates = [str(r.get("mapping_date", "")).strip() for r in rows if str(r.get("mapping_date", "")).strip()]
-        if valid_row_dates:
-            m_date = sorted(valid_row_dates)[0]
-        elif metadata.get("publication_date"):
-            m_date = str(metadata["publication_date"]).strip()
-
-    if not m_date:
-        m_date = str(metadata.get("mapping_date") or datetime.now().strftime("%Y-%m-%d")).strip()
 
     provider = str(metadata.get("mapping_provider") or metadata.get("source_url") or "").strip()
     lic = str(metadata.get("license") or "").strip()
@@ -480,8 +526,12 @@ def _enrich_row_metadata(
             row_dict["mapping_tool_version"] = tool_ver
         
         row_date = str(row_dict.get("mapping_date", "")).strip()
-        if not row_date or row_date.startswith("2026-11"):
-            row_dict["mapping_date"] = m_date
+        if row_date and not is_system_date(row_date):
+            row_dict["mapping_date"] = row_date
+        elif known_date:
+            row_dict["mapping_date"] = known_date
+        else:
+            row_dict["mapping_date"] = ""
         if not str(row_dict.get("mapping_provider", "")).strip() and provider:
             row_dict["mapping_provider"] = provider
         if not str(row_dict.get("license", "")).strip():
@@ -663,11 +713,23 @@ def _write_sssom_tsv(
     if not fieldnames:
         fieldnames = col_order
 
-    # Ensure mapping_date header uses earliest historical row date if not set
-    if not metadata.get("mapping_date") or metadata.get("mapping_date") == datetime.now().strftime("%Y-%m-%d"):
-        row_dates = [str(r.get("mapping_date", "")).strip() for r in rows if str(r.get("mapping_date", "")).strip()]
-        if row_dates:
-            metadata["mapping_date"] = sorted(row_dates)[0]
+    # Ensure mapping_date header uses earliest authentic row date if header date is missing or system-generated
+    h_m_date = metadata.get("mapping_date")
+    if not h_m_date or is_system_date(h_m_date):
+        auth_row_dates = [
+            str(r.get("mapping_date", "")).strip()
+            for r in rows
+            if str(r.get("mapping_date", "")).strip() and not is_system_date(r.get("mapping_date"))
+        ]
+        if auth_row_dates:
+            metadata["mapping_date"] = sorted(auth_row_dates)[0]
+        elif "mapping_date" in metadata:
+            del metadata["mapping_date"]
+
+    # Ensure mapping_set_version header is not a system date
+    h_m_ver = metadata.get("mapping_set_version")
+    if h_m_ver and is_system_date(h_m_ver):
+        del metadata["mapping_set_version"]
 
     tmp_path = path.with_suffix(".tmp")
     with tmp_path.open("w", newline="", encoding="utf-8") as fh:
@@ -686,6 +748,8 @@ def _write_sssom_tsv(
             val = metadata[k]
             if isinstance(val, (str, int, float, bool)):
                 v_str = str(val).strip().strip("'\"")
+                if not v_str or v_str.lower() == "none":
+                    continue
                 if ":" in v_str or "-" in v_str or " " in v_str:
                     clean_v = v_str.replace('"', '\\"')
                     fh.write(f'# {k}: "{clean_v}"\n')
@@ -1005,8 +1069,8 @@ def write_sssom_file(
     if output_override:
         override_path = Path(output_override).resolve()
         override_meta = dict(metadata)
-        if not override_meta.get("mapping_set_version"):
-            override_meta["mapping_set_version"] = datetime.now().strftime("%Y-%m-%d")
+        if override_meta.get("mapping_set_version") and is_system_date(override_meta["mapping_set_version"]):
+            del override_meta["mapping_set_version"]
         if not override_meta.get("mapping_tool"):
             override_meta["mapping_tool"] = "KOS-Mappings Pipeline"
         if not override_meta.get("mapping_tool_version"):

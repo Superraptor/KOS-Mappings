@@ -3,7 +3,6 @@
 #   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
 # mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_ero"
@@ -12,13 +11,13 @@
 # object_source: ero
 # subject_source: ontoneo
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-ontoneo:00000082	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia ortopédica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000083	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia ginecológica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000084	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia obstétrica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000085	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia neurológica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000086	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia plástica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000087	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia torácica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000088	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia vascular	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000089	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia gastrointestinal	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000204	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia uterina	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:20000068	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cesarean section	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000082	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia ortopédica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000083	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia ginecológica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000084	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia obstétrica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000085	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia neurológica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000086	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia plástica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000087	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia torácica	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000088	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia vascular	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000089	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia gastrointestinal	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000204	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cirurgia uterina	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:20000068	rdfs:subClassOf	ero:0000378	semapv:UnspecifiedMatching	cesarean section	cirurgia	ontoneo	ero	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

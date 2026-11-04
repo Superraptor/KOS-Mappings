@@ -3,7 +3,6 @@
 #   orcid: "https://orcid.org/"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_orcid"
@@ -12,4 +11,4 @@
 # object_source: orcid
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:8410000	oboInOwl:hasDbXref	orcid:0000-0003-4183-8865	semapv:UnspecifiedMatching	duodeno-jejunal junction		uberon	orcid	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:8410000	oboInOwl:hasDbXref	orcid:0000-0003-4183-8865	semapv:UnspecifiedMatching	duodeno-jejunal junction		uberon	orcid	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

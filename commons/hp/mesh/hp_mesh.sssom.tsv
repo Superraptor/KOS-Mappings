@@ -9,7 +9,6 @@
 # mapping_provider: "http://w3id.org/sssom/commons/monarch/mappings/hp_mesh.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/hp_mesh"
 # mapping_set_title: "HP to MESH Mappings"
-# mapping_set_version: "2026-11-03"
 # mapping_tool: "KOS-Mappings Pipeline"
 # mapping_tool_version: 1.0.0
 # object_source: mesh

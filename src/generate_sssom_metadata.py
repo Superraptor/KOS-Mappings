@@ -179,6 +179,8 @@ def _build_sssom_document(
     mapping_set_title = f"{p1.upper()} to {p2.upper()} Mappings"
 
     # Resolve mapping origination date (when mappings originated, not pipeline execution time)
+    from src.write_sssom_file import is_system_date
+
     mapping_date = None
     pair = f"{p1}_{p2}".lower()
     pair_rev = f"{p2}_{p1}".lower()
@@ -194,38 +196,41 @@ def _build_sssom_document(
                 mapping_date = v
                 break
 
-    if not mapping_date and extra_meta and extra_meta.get("mapping_date"):
+    if not mapping_date and extra_meta and extra_meta.get("mapping_date") and not is_system_date(extra_meta["mapping_date"]):
         mapping_date = str(extra_meta["mapping_date"]).strip()
-    if not mapping_date and publication:
+    if not mapping_date and publication and not is_system_date(publication):
         mapping_date = str(publication).strip()
-    if not mapping_date and extra_meta and extra_meta.get("publication_date"):
+    if not mapping_date and extra_meta and extra_meta.get("publication_date") and not is_system_date(extra_meta["publication_date"]):
         mapping_date = str(extra_meta["publication_date"]).strip()
     if not mapping_date and mappings:
-        row_dates = [str(r.get("mapping_date", "")).strip() for r in mappings if str(r.get("mapping_date", "")).strip()]
+        row_dates = [
+            str(r.get("mapping_date", "")).strip()
+            for r in mappings
+            if str(r.get("mapping_date", "")).strip() and not is_system_date(r.get("mapping_date"))
+        ]
         if row_dates:
             mapping_date = sorted(row_dates)[0]
-    if not mapping_date and version and re.match(r"^\d{4}(?:[-_]\d{2}(?:[-_]\d{2})?)?$", str(version).strip()):
+    if not mapping_date and version and re.match(r"^\d{4}(?:[-_]\d{2}(?:[-_]\d{2})?)?$", str(version).strip()) and not is_system_date(version):
         mapping_date = str(version).replace("_", "-").strip()
-    if not mapping_date:
-        mapping_date = datetime.now().strftime("%Y-%m-%d")
 
     doc: Dict[str, Any] = {
         "mapping_set_id": mapping_set_id,
         "mapping_set_title": mapping_set_title,
-        "mapping_date": mapping_date,
         "license": license or (extra_meta.get("license") if extra_meta else None) or "https://w3id.org/sssom/license/unspecified",
         "curie_map": dict(curie_map or {}),
         "mappings": mappings,
     }
+    if mapping_date and not is_system_date(mapping_date):
+        doc["mapping_date"] = mapping_date
 
     if source_file:
         doc["source_file"] = source_file
     if source_url:
         doc["mapping_provider"] = source_url
         doc["source_url"] = source_url
-    if publication:
+    if publication and not is_system_date(publication):
         doc["publication_date"] = publication
-    if version:
+    if version and not is_system_date(version):
         doc["mapping_set_version"] = version
     if subject_source:
         doc["subject_source"] = subject_source

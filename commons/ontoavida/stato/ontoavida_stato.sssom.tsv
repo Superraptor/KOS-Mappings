@@ -3,7 +3,6 @@
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   stato: "http://purl.obolibrary.org/obo/STATO_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoavida"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from ONTOAVIDA"
 # mapping_set_id: "https://w3id.org/commons/mappings/ontoavida_stato"
@@ -12,7 +11,7 @@
 # object_source: stato
 # subject_source: ontoavida
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-ontoavida:00000001	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	configuration file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
-ontoavida:00000002	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	executable file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
-ontoavida:00000003	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	instruction set file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
-ontoavida:00000085	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	digital organism file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00000001	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	configuration file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00000002	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	executable file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00000003	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	instruction set file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00000085	rdfs:subClassOf	stato:0000002	semapv:UnspecifiedMatching	digital organism file	digital file	ontoavida	stato	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0

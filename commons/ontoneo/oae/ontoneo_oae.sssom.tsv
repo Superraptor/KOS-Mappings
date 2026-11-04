@@ -4,7 +4,6 @@
 #   owl: "http://www.w3.org/2002/07/owl#"
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
 # mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_oae"
@@ -13,9 +12,9 @@
 # object_source: oae
 # subject_source: ontoneo
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-ontoneo:00000104	rdfs:subClassOf	oae:0000002	semapv:UnspecifiedMatching	exame radiológico	medical intervention	ontoneo	oae	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000149	rdfs:subClassOf	oae:0002807	semapv:UnspecifiedMatching	amniotomia	medical procedure	ontoneo	oae	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000151	rdfs:subClassOf	oae:0000002	semapv:UnspecifiedMatching	obstetric procedure	medical intervention	ontoneo	oae	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000211	rdfs:subClassOf	oae:0001041	semapv:UnspecifiedMatching		caesarean section	ontoneo	oae	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000239	rdfs:subClassOf	oae:0001041	semapv:UnspecifiedMatching		caesarean section	ontoneo	oae	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:20000068	owl:equivalentClass	oae:0001041	semapv:UnspecifiedMatching	cesarean section	caesarean section	ontoneo	oae	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000104	rdfs:subClassOf	oae:0000002	semapv:UnspecifiedMatching	exame radiológico	medical intervention	ontoneo	oae	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000149	rdfs:subClassOf	oae:0002807	semapv:UnspecifiedMatching	amniotomia	medical procedure	ontoneo	oae	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000151	rdfs:subClassOf	oae:0000002	semapv:UnspecifiedMatching	obstetric procedure	medical intervention	ontoneo	oae	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000211	rdfs:subClassOf	oae:0001041	semapv:UnspecifiedMatching		caesarean section	ontoneo	oae	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000239	rdfs:subClassOf	oae:0001041	semapv:UnspecifiedMatching		caesarean section	ontoneo	oae	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:20000068	owl:equivalentClass	oae:0001041	semapv:UnspecifiedMatching	cesarean section	caesarean section	ontoneo	oae	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

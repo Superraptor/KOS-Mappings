@@ -5,16 +5,15 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/chebi_ncit"
 # mapping_set_title: "CHEBI to NCIT Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: ncit
 # subject_source: chebi
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-chebi:135931	skos:exactMatch	ncit:C73192	semapv:ManualMappingCuration	dexlansoprazole	Dexlansoprazole	chebi		ncit		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-chebi:63598	skos:exactMatch	ncit:C1586	semapv:ManualMappingCuration	levofloxacin	Levofloxacin	chebi		ncit		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-chebi:6375	skos:exactMatch	ncit:C29150	semapv:ManualMappingCuration	lansoprazole	Lansoprazole	chebi		ncit		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chebi:135931	skos:exactMatch	ncit:C73192	semapv:ManualMappingCuration	dexlansoprazole	Dexlansoprazole	chebi		ncit		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chebi:63598	skos:exactMatch	ncit:C1586	semapv:ManualMappingCuration	levofloxacin	Levofloxacin	chebi		ncit		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+chebi:6375	skos:exactMatch	ncit:C29150	semapv:ManualMappingCuration	lansoprazole	Lansoprazole	chebi		ncit		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

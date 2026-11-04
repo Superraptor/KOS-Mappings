@@ -4,21 +4,19 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "https://creativecommons.org/publicdomain/zero/1.0/"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/pato_hp"
 # mapping_set_title: "PATO to HP Mappings"
-# mapping_set_version: "2026-11-02"
 # mapping_tool: "KOS-Mappings Pipeline"
 # mapping_tool_version: 1.0.0
 # object_source: hp
 # subject_source: pato
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
-PATO:0000366	skos:closeMatch	HP:0012835	semapv:LexicalMatching	left	Left	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0000367	skos:closeMatch	HP:0012834	semapv:LexicalMatching	right	Right	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0000618	skos:closeMatch	HP:0012832	semapv:LexicalMatching	bilateral	Bilateral	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0000627	skos:exactMatch	HP:0030650	semapv:LexicalMatching	focal	Focal	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0000634	skos:closeMatch	HP:0012833	semapv:LexicalMatching	unilateral	Unilateral	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0001566	skos:closeMatch	HP:0020034	semapv:LexicalMatching	diffuse	Diffuse	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0001791	skos:closeMatch	HP:0030651	semapv:LexicalMatching	multifocal (preferred synonym of multi-localised)	Multifocal	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
-PATO:0002402	skos:closeMatch	HP:0030651	semapv:LogicalReasoning	multifocal to coalescing	Multifocal	pato	hp	KOS-Mappings Pipeline	1.0.0	2026-11-02	https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0000366	skos:closeMatch	HP:0012835	semapv:LexicalMatching	left	Left	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0000367	skos:closeMatch	HP:0012834	semapv:LexicalMatching	right	Right	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0000618	skos:closeMatch	HP:0012832	semapv:LexicalMatching	bilateral	Bilateral	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0000627	skos:exactMatch	HP:0030650	semapv:LexicalMatching	focal	Focal	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0000634	skos:closeMatch	HP:0012833	semapv:LexicalMatching	unilateral	Unilateral	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0001566	skos:closeMatch	HP:0020034	semapv:LexicalMatching	diffuse	Diffuse	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0001791	skos:closeMatch	HP:0030651	semapv:LexicalMatching	multifocal (preferred synonym of multi-localised)	Multifocal	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/
+PATO:0002402	skos:closeMatch	HP:0030651	semapv:LogicalReasoning	multifocal to coalescing	Multifocal	pato	hp	KOS-Mappings Pipeline	1.0.0		https://w3id.org/sssom/commons/mouse-human/mappings/pato_hp_pat_impc.sssom.tsv	https://creativecommons.org/publicdomain/zero/1.0/

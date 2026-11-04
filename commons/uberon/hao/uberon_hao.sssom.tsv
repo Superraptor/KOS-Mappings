@@ -3,7 +3,6 @@
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_hao"
@@ -12,78 +11,78 @@
 # object_source: hao
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000018	oboInOwl:hasDbXref	hao:0000217	semapv:UnspecifiedMatching	compound eye	compound eye	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000020	oboInOwl:hasDbXref	hao:0000930	semapv:UnspecifiedMatching	sense organ	sense organ	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000026	oboInOwl:hasDbXref	hao:0000144	semapv:UnspecifiedMatching	appendage	appendage	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000033	oboInOwl:hasDbXref	hao:0000397	semapv:UnspecifiedMatching	head	head	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000061	oboInOwl:hasDbXref	hao:0000003	semapv:UnspecifiedMatching	anatomical structure	anatomical structure	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000079	oboInOwl:hasDbXref	hao:0000505	semapv:UnspecifiedMatching	male reproductive system	male genitalia	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000167	oboInOwl:hasDbXref	hao:0000669	semapv:UnspecifiedMatching	oral cavity	oral cavity	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000463	oboInOwl:hasDbXref	hao:0000004	semapv:UnspecifiedMatching	organism substance	portion of organism substance	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000464	oboInOwl:hasDbXref	hao:0000005	semapv:UnspecifiedMatching	anatomical space	anatomical space	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000465	oboInOwl:hasDbXref	hao:0000006	semapv:UnspecifiedMatching	material anatomical entity	material anatomical entity	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000466	oboInOwl:hasDbXref	hao:0000007	semapv:UnspecifiedMatching	immaterial anatomical entity	immaterial anatomical entity	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000467	oboInOwl:hasDbXref	hao:0000011	semapv:UnspecifiedMatching	anatomical system	anatomical system	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000468	oboInOwl:hasDbXref	hao:0000012	semapv:UnspecifiedMatching	multicellular organism	multi-cellular organism	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000471	oboInOwl:hasDbXref	hao:0000019	semapv:UnspecifiedMatching	compound organ component	compound organ component	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000472	oboInOwl:hasDbXref	hao:0000021	semapv:UnspecifiedMatching	simple organ	simple organ	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000473	oboInOwl:hasDbXref	hao:0001007	semapv:UnspecifiedMatching	testis	testis	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000474	oboInOwl:hasDbXref	hao:0000324	semapv:UnspecifiedMatching	female reproductive system	female genitalia	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000475	oboInOwl:hasDbXref	hao:0000032	semapv:UnspecifiedMatching	organism subdivision	organism subdivision	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000476	oboInOwl:hasDbXref	hao:0000040	semapv:UnspecifiedMatching	acellular anatomical structure	acellular anatomical structure	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000478	oboInOwl:hasDbXref	hao:0000042	semapv:UnspecifiedMatching	extraembryonic structure	extraembryonic structure	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000479	oboInOwl:hasDbXref	hao:0000043	semapv:UnspecifiedMatching	tissue	portion of tissue	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000480	oboInOwl:hasDbXref	hao:0000054	semapv:UnspecifiedMatching	anatomical group	anatomical group	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000481	oboInOwl:hasDbXref	hao:0000055	semapv:UnspecifiedMatching	multi-tissue structure	multi-tissue structure	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000482	oboInOwl:hasDbXref	hao:0000065	semapv:UnspecifiedMatching	basal lamina of epithelium	basal lamina	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000483	oboInOwl:hasDbXref	hao:0000066	semapv:UnspecifiedMatching	epithelium	epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000484	oboInOwl:hasDbXref	hao:0000067	semapv:UnspecifiedMatching	simple cuboidal epithelium	simple cuboidal epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000485	oboInOwl:hasDbXref	hao:0000068	semapv:UnspecifiedMatching	simple columnar epithelium	simple columnar epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000486	oboInOwl:hasDbXref	hao:0000069	semapv:UnspecifiedMatching	multilaminar epithelium	multilaminar epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000487	oboInOwl:hasDbXref	hao:0000070	semapv:UnspecifiedMatching	simple squamous epithelium	simple squamous epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000488	oboInOwl:hasDbXref	hao:0000071	semapv:UnspecifiedMatching	atypical epithelium	atypical epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000489	oboInOwl:hasDbXref	hao:0000072	semapv:UnspecifiedMatching	cavitated compound organ	cavitated compound organ	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000490	oboInOwl:hasDbXref	hao:0000073	semapv:UnspecifiedMatching	unilaminar epithelium	unilaminar epithelium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000491	oboInOwl:hasDbXref	hao:0000074	semapv:UnspecifiedMatching	solid compound organ	solid compound organ	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000914	oboInOwl:hasDbXref	hao:0000929	semapv:UnspecifiedMatching	organismal segment	segment	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000971	oboInOwl:hasDbXref	hao:0000666	semapv:UnspecifiedMatching	ommatidium	ommatidium	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000972	oboInOwl:hasDbXref	hao:0000101	semapv:UnspecifiedMatching	antenna	antenna	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000984	oboInOwl:hasDbXref	hao:0001089	semapv:UnspecifiedMatching	imaginal disc-derived wing	wing	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000990	oboInOwl:hasDbXref	hao:0000374	semapv:UnspecifiedMatching	reproductive system	genitalia	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000990	oboInOwl:hasDbXref	hao:0000895	semapv:UnspecifiedMatching	reproductive system	reproductive system	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000991	oboInOwl:hasDbXref	hao:0000379	semapv:UnspecifiedMatching	gonad	gonad	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000994	oboInOwl:hasDbXref	hao:0000945	semapv:UnspecifiedMatching	spermathecum	spermatheca	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001001	oboInOwl:hasDbXref	hao:0000240	semapv:UnspecifiedMatching	chitin-based cuticle	cuticle	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001062	oboInOwl:hasDbXref	hao:0000000	semapv:UnspecifiedMatching	anatomical entity	anatomical entity	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001456	oboInOwl:hasDbXref	hao:0000316	semapv:UnspecifiedMatching	face	face	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002416	oboInOwl:hasDbXref	hao:0000421	semapv:UnspecifiedMatching	integumental system	integument	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002530	oboInOwl:hasDbXref	hao:0000375	semapv:UnspecifiedMatching	gland	gland	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002536	oboInOwl:hasDbXref	hao:0000933	semapv:UnspecifiedMatching	arthropod sensillum	sensillum	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002542	oboInOwl:hasDbXref	hao:0000907	semapv:UnspecifiedMatching	scale	scale	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002548	oboInOwl:hasDbXref	hao:0000459	semapv:UnspecifiedMatching	larva	larva	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003100	oboInOwl:hasDbXref	hao:0000028	semapv:UnspecifiedMatching	female organism	female organism	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003101	oboInOwl:hasDbXref	hao:0000027	semapv:UnspecifiedMatching	male organism	male organism	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003103	oboInOwl:hasDbXref	hao:0000024	semapv:UnspecifiedMatching	compound organ	compound organ	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003130	oboInOwl:hasDbXref	hao:0000956	semapv:UnspecifiedMatching	arthropod sternum	sternum	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003131	oboInOwl:hasDbXref	hao:0001017	semapv:UnspecifiedMatching	arthropod tibia	tibia	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003142	oboInOwl:hasDbXref	hao:0000812	semapv:UnspecifiedMatching	prepupa	prepupa	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003143	oboInOwl:hasDbXref	hao:0000886	semapv:UnspecifiedMatching	pupa	pupa	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003153	oboInOwl:hasDbXref	hao:0000398	semapv:UnspecifiedMatching	insect head capsule	head capsule	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003155	oboInOwl:hasDbXref	hao:0000658	semapv:UnspecifiedMatching	arthropod occiput	occiput	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003161	oboInOwl:hasDbXref	hao:0000661	semapv:UnspecifiedMatching	dorsal ocellus	ocellus	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003162	oboInOwl:hasDbXref	hao:0000481	semapv:UnspecifiedMatching	lateral ocellus	lateral ocellus	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003194	oboInOwl:hasDbXref	hao:0001095	semapv:UnspecifiedMatching	imaginal disc-derived wing vein	wing vein	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003201	oboInOwl:hasDbXref	hao:0000311	semapv:UnspecifiedMatching	exocuticle	exocuticle	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003202	oboInOwl:hasDbXref	hao:0000290	semapv:UnspecifiedMatching	endocuticle	endocuticle	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003211	oboInOwl:hasDbXref	hao:0000526	semapv:UnspecifiedMatching	median eye	median ocellus	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003913	oboInOwl:hasDbXref	hao:0001019	semapv:UnspecifiedMatching	tooth-like structure	tooth	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004529	oboInOwl:hasDbXref	hao:0000822	semapv:UnspecifiedMatching	anatomical projection	process	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005905	oboInOwl:hasDbXref	hao:0000456	semapv:UnspecifiedMatching	insect labrum	labrum	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006800	oboInOwl:hasDbXref	hao:0000008	semapv:UnspecifiedMatching	anatomical line	anatomical line	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007023	oboInOwl:hasDbXref	hao:0000087	semapv:UnspecifiedMatching	adult organism	adult	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007197	oboInOwl:hasDbXref	hao:0000029	semapv:UnspecifiedMatching	hermaphroditic organism	hermaphroditic organism	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007376	oboInOwl:hasDbXref	hao:0000298	semapv:UnspecifiedMatching	outer epithelium	epidermis	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0008811	oboInOwl:hasDbXref	hao:0000091	semapv:UnspecifiedMatching	intromittent organ	aedeagus	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0010895	oboInOwl:hasDbXref	hao:0000045	semapv:UnspecifiedMatching	sequential hermaphroditic organism	sequential hermaphroditic organism	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0010899	oboInOwl:hasDbXref	hao:0000046	semapv:UnspecifiedMatching	synchronous hermaphroditic organism	synchronous hermaphroditic organism	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0014895	oboInOwl:hasDbXref	hao:0001922	semapv:UnspecifiedMatching	somatic muscle, invertebrate	skeletal muscle	uberon	hao	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000018	oboInOwl:hasDbXref	hao:0000217	semapv:UnspecifiedMatching	compound eye	compound eye	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000020	oboInOwl:hasDbXref	hao:0000930	semapv:UnspecifiedMatching	sense organ	sense organ	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000026	oboInOwl:hasDbXref	hao:0000144	semapv:UnspecifiedMatching	appendage	appendage	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000033	oboInOwl:hasDbXref	hao:0000397	semapv:UnspecifiedMatching	head	head	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000061	oboInOwl:hasDbXref	hao:0000003	semapv:UnspecifiedMatching	anatomical structure	anatomical structure	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000079	oboInOwl:hasDbXref	hao:0000505	semapv:UnspecifiedMatching	male reproductive system	male genitalia	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000167	oboInOwl:hasDbXref	hao:0000669	semapv:UnspecifiedMatching	oral cavity	oral cavity	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000463	oboInOwl:hasDbXref	hao:0000004	semapv:UnspecifiedMatching	organism substance	portion of organism substance	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000464	oboInOwl:hasDbXref	hao:0000005	semapv:UnspecifiedMatching	anatomical space	anatomical space	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000465	oboInOwl:hasDbXref	hao:0000006	semapv:UnspecifiedMatching	material anatomical entity	material anatomical entity	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000466	oboInOwl:hasDbXref	hao:0000007	semapv:UnspecifiedMatching	immaterial anatomical entity	immaterial anatomical entity	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000467	oboInOwl:hasDbXref	hao:0000011	semapv:UnspecifiedMatching	anatomical system	anatomical system	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000468	oboInOwl:hasDbXref	hao:0000012	semapv:UnspecifiedMatching	multicellular organism	multi-cellular organism	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000471	oboInOwl:hasDbXref	hao:0000019	semapv:UnspecifiedMatching	compound organ component	compound organ component	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000472	oboInOwl:hasDbXref	hao:0000021	semapv:UnspecifiedMatching	simple organ	simple organ	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000473	oboInOwl:hasDbXref	hao:0001007	semapv:UnspecifiedMatching	testis	testis	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000474	oboInOwl:hasDbXref	hao:0000324	semapv:UnspecifiedMatching	female reproductive system	female genitalia	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000475	oboInOwl:hasDbXref	hao:0000032	semapv:UnspecifiedMatching	organism subdivision	organism subdivision	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000476	oboInOwl:hasDbXref	hao:0000040	semapv:UnspecifiedMatching	acellular anatomical structure	acellular anatomical structure	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000478	oboInOwl:hasDbXref	hao:0000042	semapv:UnspecifiedMatching	extraembryonic structure	extraembryonic structure	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000479	oboInOwl:hasDbXref	hao:0000043	semapv:UnspecifiedMatching	tissue	portion of tissue	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000480	oboInOwl:hasDbXref	hao:0000054	semapv:UnspecifiedMatching	anatomical group	anatomical group	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000481	oboInOwl:hasDbXref	hao:0000055	semapv:UnspecifiedMatching	multi-tissue structure	multi-tissue structure	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000482	oboInOwl:hasDbXref	hao:0000065	semapv:UnspecifiedMatching	basal lamina of epithelium	basal lamina	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000483	oboInOwl:hasDbXref	hao:0000066	semapv:UnspecifiedMatching	epithelium	epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000484	oboInOwl:hasDbXref	hao:0000067	semapv:UnspecifiedMatching	simple cuboidal epithelium	simple cuboidal epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000485	oboInOwl:hasDbXref	hao:0000068	semapv:UnspecifiedMatching	simple columnar epithelium	simple columnar epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000486	oboInOwl:hasDbXref	hao:0000069	semapv:UnspecifiedMatching	multilaminar epithelium	multilaminar epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000487	oboInOwl:hasDbXref	hao:0000070	semapv:UnspecifiedMatching	simple squamous epithelium	simple squamous epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000488	oboInOwl:hasDbXref	hao:0000071	semapv:UnspecifiedMatching	atypical epithelium	atypical epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000489	oboInOwl:hasDbXref	hao:0000072	semapv:UnspecifiedMatching	cavitated compound organ	cavitated compound organ	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000490	oboInOwl:hasDbXref	hao:0000073	semapv:UnspecifiedMatching	unilaminar epithelium	unilaminar epithelium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000491	oboInOwl:hasDbXref	hao:0000074	semapv:UnspecifiedMatching	solid compound organ	solid compound organ	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000914	oboInOwl:hasDbXref	hao:0000929	semapv:UnspecifiedMatching	organismal segment	segment	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000971	oboInOwl:hasDbXref	hao:0000666	semapv:UnspecifiedMatching	ommatidium	ommatidium	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000972	oboInOwl:hasDbXref	hao:0000101	semapv:UnspecifiedMatching	antenna	antenna	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000984	oboInOwl:hasDbXref	hao:0001089	semapv:UnspecifiedMatching	imaginal disc-derived wing	wing	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000990	oboInOwl:hasDbXref	hao:0000374	semapv:UnspecifiedMatching	reproductive system	genitalia	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000990	oboInOwl:hasDbXref	hao:0000895	semapv:UnspecifiedMatching	reproductive system	reproductive system	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000991	oboInOwl:hasDbXref	hao:0000379	semapv:UnspecifiedMatching	gonad	gonad	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000994	oboInOwl:hasDbXref	hao:0000945	semapv:UnspecifiedMatching	spermathecum	spermatheca	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001001	oboInOwl:hasDbXref	hao:0000240	semapv:UnspecifiedMatching	chitin-based cuticle	cuticle	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001062	oboInOwl:hasDbXref	hao:0000000	semapv:UnspecifiedMatching	anatomical entity	anatomical entity	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001456	oboInOwl:hasDbXref	hao:0000316	semapv:UnspecifiedMatching	face	face	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002416	oboInOwl:hasDbXref	hao:0000421	semapv:UnspecifiedMatching	integumental system	integument	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002530	oboInOwl:hasDbXref	hao:0000375	semapv:UnspecifiedMatching	gland	gland	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002536	oboInOwl:hasDbXref	hao:0000933	semapv:UnspecifiedMatching	arthropod sensillum	sensillum	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002542	oboInOwl:hasDbXref	hao:0000907	semapv:UnspecifiedMatching	scale	scale	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002548	oboInOwl:hasDbXref	hao:0000459	semapv:UnspecifiedMatching	larva	larva	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003100	oboInOwl:hasDbXref	hao:0000028	semapv:UnspecifiedMatching	female organism	female organism	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003101	oboInOwl:hasDbXref	hao:0000027	semapv:UnspecifiedMatching	male organism	male organism	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003103	oboInOwl:hasDbXref	hao:0000024	semapv:UnspecifiedMatching	compound organ	compound organ	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003130	oboInOwl:hasDbXref	hao:0000956	semapv:UnspecifiedMatching	arthropod sternum	sternum	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003131	oboInOwl:hasDbXref	hao:0001017	semapv:UnspecifiedMatching	arthropod tibia	tibia	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003142	oboInOwl:hasDbXref	hao:0000812	semapv:UnspecifiedMatching	prepupa	prepupa	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003143	oboInOwl:hasDbXref	hao:0000886	semapv:UnspecifiedMatching	pupa	pupa	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003153	oboInOwl:hasDbXref	hao:0000398	semapv:UnspecifiedMatching	insect head capsule	head capsule	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003155	oboInOwl:hasDbXref	hao:0000658	semapv:UnspecifiedMatching	arthropod occiput	occiput	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003161	oboInOwl:hasDbXref	hao:0000661	semapv:UnspecifiedMatching	dorsal ocellus	ocellus	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003162	oboInOwl:hasDbXref	hao:0000481	semapv:UnspecifiedMatching	lateral ocellus	lateral ocellus	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003194	oboInOwl:hasDbXref	hao:0001095	semapv:UnspecifiedMatching	imaginal disc-derived wing vein	wing vein	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003201	oboInOwl:hasDbXref	hao:0000311	semapv:UnspecifiedMatching	exocuticle	exocuticle	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003202	oboInOwl:hasDbXref	hao:0000290	semapv:UnspecifiedMatching	endocuticle	endocuticle	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003211	oboInOwl:hasDbXref	hao:0000526	semapv:UnspecifiedMatching	median eye	median ocellus	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003913	oboInOwl:hasDbXref	hao:0001019	semapv:UnspecifiedMatching	tooth-like structure	tooth	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004529	oboInOwl:hasDbXref	hao:0000822	semapv:UnspecifiedMatching	anatomical projection	process	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005905	oboInOwl:hasDbXref	hao:0000456	semapv:UnspecifiedMatching	insect labrum	labrum	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006800	oboInOwl:hasDbXref	hao:0000008	semapv:UnspecifiedMatching	anatomical line	anatomical line	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007023	oboInOwl:hasDbXref	hao:0000087	semapv:UnspecifiedMatching	adult organism	adult	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007197	oboInOwl:hasDbXref	hao:0000029	semapv:UnspecifiedMatching	hermaphroditic organism	hermaphroditic organism	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007376	oboInOwl:hasDbXref	hao:0000298	semapv:UnspecifiedMatching	outer epithelium	epidermis	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0008811	oboInOwl:hasDbXref	hao:0000091	semapv:UnspecifiedMatching	intromittent organ	aedeagus	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010895	oboInOwl:hasDbXref	hao:0000045	semapv:UnspecifiedMatching	sequential hermaphroditic organism	sequential hermaphroditic organism	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010899	oboInOwl:hasDbXref	hao:0000046	semapv:UnspecifiedMatching	synchronous hermaphroditic organism	synchronous hermaphroditic organism	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0014895	oboInOwl:hasDbXref	hao:0001922	semapv:UnspecifiedMatching	somatic muscle, invertebrate	skeletal muscle	uberon	hao	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

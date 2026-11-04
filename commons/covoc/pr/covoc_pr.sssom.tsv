@@ -3,7 +3,6 @@
 #   pr: "http://purl.obolibrary.org/obo/PR_"
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
 # mapping_set_id: "https://w3id.org/commons/mappings/covoc_pr"
@@ -12,6 +11,6 @@
 # object_source: pr
 # subject_source: covoc
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-covoc:0090003	rdfs:subClassOf	pr:000000001	semapv:UnspecifiedMatching	replicase polyprotein 1a (BtCoV)	protein	covoc	pr	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0090004	rdfs:subClassOf	pr:000000001	semapv:UnspecifiedMatching	replicase polyprotein 1ab (BtCoV)	protein	covoc	pr	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0090005	rdfs:subClassOf	pr:000000001	semapv:UnspecifiedMatching	spike glycoprotein (BtCoV)	protein	covoc	pr	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090003	rdfs:subClassOf	pr:000000001	semapv:UnspecifiedMatching	replicase polyprotein 1a (BtCoV)	protein	covoc	pr	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090004	rdfs:subClassOf	pr:000000001	semapv:UnspecifiedMatching	replicase polyprotein 1ab (BtCoV)	protein	covoc	pr	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090005	rdfs:subClassOf	pr:000000001	semapv:UnspecifiedMatching	spike glycoprotein (BtCoV)	protein	covoc	pr	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

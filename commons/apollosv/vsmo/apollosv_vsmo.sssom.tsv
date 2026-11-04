@@ -5,15 +5,14 @@
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 #   vsmo: "http://purl.obolibrary.org/obo/VSMO_"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/apollosv_vsmo"
 # mapping_set_title: "APOLLOSV to VSMO Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: vsmo
 # subject_source: apollosv
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-apollosv:00000311	skos:exactMatch	vsmo:0000070	semapv:ManualMappingCuration	Breteau Index	breteau index	apollosv		vsmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-apollosv:00000314	skos:exactMatch	vsmo:0000904	semapv:ManualMappingCuration	gonotrophic cycle	gonotrophic cycle	apollosv		vsmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000311	skos:exactMatch	vsmo:0000070	semapv:ManualMappingCuration	Breteau Index	breteau index	apollosv		vsmo		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+apollosv:00000314	skos:exactMatch	vsmo:0000904	semapv:ManualMappingCuration	gonotrophic cycle	gonotrophic cycle	apollosv		vsmo		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

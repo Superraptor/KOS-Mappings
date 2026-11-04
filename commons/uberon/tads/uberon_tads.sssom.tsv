@@ -3,7 +3,6 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   tads: "http://purl.obolibrary.org/obo/TADS_"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_tads"
@@ -12,28 +11,28 @@
 # object_source: tads
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000165	oboInOwl:hasDbXref	tads:0000040	semapv:UnspecifiedMatching	mouth		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000207	oboInOwl:hasDbXref	tads:0000304	semapv:UnspecifiedMatching	compound eye corneal lens		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000468	oboInOwl:hasDbXref	tads:0000001	semapv:UnspecifiedMatching	multicellular organism		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001007	oboInOwl:hasDbXref	tads:0000170	semapv:UnspecifiedMatching	digestive system		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001008	oboInOwl:hasDbXref	tads:0000162	semapv:UnspecifiedMatching	renal system		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001020	oboInOwl:hasDbXref	tads:0000201	semapv:UnspecifiedMatching	nervous system commissure		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001054	oboInOwl:hasDbXref	tads:0000163	semapv:UnspecifiedMatching	Malpighian tubule		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001245	oboInOwl:hasDbXref	tads:0000066	semapv:UnspecifiedMatching	anus		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002416	oboInOwl:hasDbXref	tads:0000108	semapv:UnspecifiedMatching	integumental system		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003103	oboInOwl:hasDbXref	tads:0000598	semapv:UnspecifiedMatching	compound organ		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003127	oboInOwl:hasDbXref	tads:0000315	semapv:UnspecifiedMatching	open tracheal system trachea		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003131	oboInOwl:hasDbXref	tads:0000281	semapv:UnspecifiedMatching	arthropod tibia		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0003917	oboInOwl:hasDbXref	tads:0000321	semapv:UnspecifiedMatching	arthropod fat body		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004904	oboInOwl:hasDbXref	tads:0000232	semapv:UnspecifiedMatching	neuron projection bundle connecting eye with brain		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005155	oboInOwl:hasDbXref	tads:0000043	semapv:UnspecifiedMatching	open tracheal system		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005905	oboInOwl:hasDbXref	tads:0000039	semapv:UnspecifiedMatching	insect labrum		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006834	oboInOwl:hasDbXref	tads:0000421	semapv:UnspecifiedMatching	uterus or analog		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007100	oboInOwl:hasDbXref	tads:0000147	semapv:UnspecifiedMatching	primary circulatory organ		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007197	oboInOwl:hasDbXref	tads:0000601	semapv:UnspecifiedMatching	hermaphroditic organism		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007376	oboInOwl:hasDbXref	tads:0000109	semapv:UnspecifiedMatching	outer epithelium		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0009965	oboInOwl:hasDbXref	tads:0000080	semapv:UnspecifiedMatching	coxal gland		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0010039	oboInOwl:hasDbXref	tads:0000172	semapv:UnspecifiedMatching	food storage organ		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0010895	oboInOwl:hasDbXref	tads:0000608	semapv:UnspecifiedMatching	sequential hermaphroditic organism		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0010899	oboInOwl:hasDbXref	tads:0000609	semapv:UnspecifiedMatching	synchronous hermaphroditic organism		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0018543	oboInOwl:hasDbXref	tads:0000495	semapv:UnspecifiedMatching	lumen of intestine		uberon	tads	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000165	oboInOwl:hasDbXref	tads:0000040	semapv:UnspecifiedMatching	mouth		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000207	oboInOwl:hasDbXref	tads:0000304	semapv:UnspecifiedMatching	compound eye corneal lens		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000468	oboInOwl:hasDbXref	tads:0000001	semapv:UnspecifiedMatching	multicellular organism		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001007	oboInOwl:hasDbXref	tads:0000170	semapv:UnspecifiedMatching	digestive system		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001008	oboInOwl:hasDbXref	tads:0000162	semapv:UnspecifiedMatching	renal system		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001020	oboInOwl:hasDbXref	tads:0000201	semapv:UnspecifiedMatching	nervous system commissure		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001054	oboInOwl:hasDbXref	tads:0000163	semapv:UnspecifiedMatching	Malpighian tubule		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001245	oboInOwl:hasDbXref	tads:0000066	semapv:UnspecifiedMatching	anus		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002416	oboInOwl:hasDbXref	tads:0000108	semapv:UnspecifiedMatching	integumental system		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003103	oboInOwl:hasDbXref	tads:0000598	semapv:UnspecifiedMatching	compound organ		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003127	oboInOwl:hasDbXref	tads:0000315	semapv:UnspecifiedMatching	open tracheal system trachea		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003131	oboInOwl:hasDbXref	tads:0000281	semapv:UnspecifiedMatching	arthropod tibia		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0003917	oboInOwl:hasDbXref	tads:0000321	semapv:UnspecifiedMatching	arthropod fat body		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004904	oboInOwl:hasDbXref	tads:0000232	semapv:UnspecifiedMatching	neuron projection bundle connecting eye with brain		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005155	oboInOwl:hasDbXref	tads:0000043	semapv:UnspecifiedMatching	open tracheal system		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005905	oboInOwl:hasDbXref	tads:0000039	semapv:UnspecifiedMatching	insect labrum		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006834	oboInOwl:hasDbXref	tads:0000421	semapv:UnspecifiedMatching	uterus or analog		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007100	oboInOwl:hasDbXref	tads:0000147	semapv:UnspecifiedMatching	primary circulatory organ		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007197	oboInOwl:hasDbXref	tads:0000601	semapv:UnspecifiedMatching	hermaphroditic organism		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007376	oboInOwl:hasDbXref	tads:0000109	semapv:UnspecifiedMatching	outer epithelium		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0009965	oboInOwl:hasDbXref	tads:0000080	semapv:UnspecifiedMatching	coxal gland		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010039	oboInOwl:hasDbXref	tads:0000172	semapv:UnspecifiedMatching	food storage organ		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010895	oboInOwl:hasDbXref	tads:0000608	semapv:UnspecifiedMatching	sequential hermaphroditic organism		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0010899	oboInOwl:hasDbXref	tads:0000609	semapv:UnspecifiedMatching	synchronous hermaphroditic organism		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0018543	oboInOwl:hasDbXref	tads:0000495	semapv:UnspecifiedMatching	lumen of intestine		uberon	tads	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

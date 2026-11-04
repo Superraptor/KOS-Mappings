@@ -3,7 +3,6 @@
 #   ontoavida: "http://purl.obolibrary.org/obo/ONTOAVIDA_"
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoavida"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from ONTOAVIDA"
 # mapping_set_id: "https://w3id.org/commons/mappings/ontoavida_gsso"
@@ -12,6 +11,6 @@
 # object_source: gsso
 # subject_source: ontoavida
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-ontoavida:00000017	rdfs:subClassOf	gsso:009994	semapv:UnspecifiedMatching	host digital organism	digital organism	ontoavida	gsso	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
-ontoavida:00000018	rdfs:subClassOf	gsso:009994	semapv:UnspecifiedMatching	parasite digital organism	digital organism	ontoavida	gsso	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
-ontoavida:00001209	rdfs:subClassOf	gsso:009994	semapv:UnspecifiedMatching	merely-viable digital organism	digital organism	ontoavida	gsso	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00000017	rdfs:subClassOf	gsso:009994	semapv:UnspecifiedMatching	host digital organism	digital organism	ontoavida	gsso	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00000018	rdfs:subClassOf	gsso:009994	semapv:UnspecifiedMatching	parasite digital organism	digital organism	ontoavida	gsso	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0
+ontoavida:00001209	rdfs:subClassOf	gsso:009994	semapv:UnspecifiedMatching	merely-viable digital organism	digital organism	ontoavida	gsso	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoavida	0.7	CC0-1.0

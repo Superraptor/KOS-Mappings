@@ -3,7 +3,6 @@
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   umls: "https://identifiers.org/umls:"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
 # mapping_set_id: "https://w3id.org/commons/mappings/covoc_umls"
@@ -12,14 +11,14 @@
 # object_source: umls
 # subject_source: covoc
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-covoc:0010014	oboInOwl:hasDbXref	umls:C0022189	semapv:UnspecifiedMatching	isolation		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0050014	oboInOwl:hasDbXref	umls:C0011750	semapv:UnspecifiedMatching	Developing Countries		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0050018	oboInOwl:hasDbXref	umls:C0220823	semapv:UnspecifiedMatching	epidemics		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0050022	oboInOwl:hasDbXref	umls:C0815319	semapv:UnspecifiedMatching	Geographic Information Systems		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0050023	oboInOwl:hasDbXref	umls:C0017446	semapv:UnspecifiedMatching	Geographic Locations		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0050027	oboInOwl:hasDbXref	umls:C0220845	semapv:UnspecifiedMatching	guiding characteristics		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0050063	oboInOwl:hasDbXref	umls:C0037412	semapv:UnspecifiedMatching	Social Distance		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0070003	oboInOwl:hasDbXref	umls:C0026068	semapv:UnspecifiedMatching	Middle East		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0070004	oboInOwl:hasDbXref	umls:C0001747	semapv:UnspecifiedMatching	West Africa		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0090001	oboInOwl:hasDbXref	umls:C1539099	semapv:UnspecifiedMatching	CLEC4M gene		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0090002	oboInOwl:hasDbXref	umls:C1414141	semapv:UnspecifiedMatching	DPP4 gene		covoc	umls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0010014	oboInOwl:hasDbXref	umls:C0022189	semapv:UnspecifiedMatching	isolation		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050014	oboInOwl:hasDbXref	umls:C0011750	semapv:UnspecifiedMatching	Developing Countries		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050018	oboInOwl:hasDbXref	umls:C0220823	semapv:UnspecifiedMatching	epidemics		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050022	oboInOwl:hasDbXref	umls:C0815319	semapv:UnspecifiedMatching	Geographic Information Systems		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050023	oboInOwl:hasDbXref	umls:C0017446	semapv:UnspecifiedMatching	Geographic Locations		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050027	oboInOwl:hasDbXref	umls:C0220845	semapv:UnspecifiedMatching	guiding characteristics		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0050063	oboInOwl:hasDbXref	umls:C0037412	semapv:UnspecifiedMatching	Social Distance		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0070003	oboInOwl:hasDbXref	umls:C0026068	semapv:UnspecifiedMatching	Middle East		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0070004	oboInOwl:hasDbXref	umls:C0001747	semapv:UnspecifiedMatching	West Africa		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090001	oboInOwl:hasDbXref	umls:C1539099	semapv:UnspecifiedMatching	CLEC4M gene		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090002	oboInOwl:hasDbXref	umls:C1414141	semapv:UnspecifiedMatching	DPP4 gene		covoc	umls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

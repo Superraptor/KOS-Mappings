@@ -3,7 +3,6 @@
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_emapa_retired"
@@ -12,13 +11,13 @@
 # object_source: emapa_retired
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000081	oboInOwl:hasDbXref	emapa_retired:17207	semapv:UnspecifiedMatching	metanephros		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000989	oboInOwl:hasDbXref	emapa_retired:18996	semapv:UnspecifiedMatching	penis		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004060	oboInOwl:hasDbXref	emapa_retired:16783	semapv:UnspecifiedMatching	neural tube ventricular layer		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004340	oboInOwl:hasDbXref	emapa_retired:16084	semapv:UnspecifiedMatching	allantois		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004912	oboInOwl:hasDbXref	emapa_retired:16565	semapv:UnspecifiedMatching	biliary bud		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0005253	oboInOwl:hasDbXref	emapa_retired:16269	semapv:UnspecifiedMatching	head mesenchyme		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006082	oboInOwl:hasDbXref	emapa_retired:18322	semapv:UnspecifiedMatching	fundus of urinary bladder		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006250	oboInOwl:hasDbXref	emapa_retired:16648	semapv:UnspecifiedMatching	infundibular recess of 3rd ventricle		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0006904	oboInOwl:hasDbXref	emapa_retired:16270	semapv:UnspecifiedMatching	head mesenchyme from mesoderm		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0007213	oboInOwl:hasDbXref	emapa_retired:16271	semapv:UnspecifiedMatching	mesenchyme derived from head neural crest		uberon	emapa_retired	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000081	oboInOwl:hasDbXref	emapa_retired:17207	semapv:UnspecifiedMatching	metanephros		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000989	oboInOwl:hasDbXref	emapa_retired:18996	semapv:UnspecifiedMatching	penis		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004060	oboInOwl:hasDbXref	emapa_retired:16783	semapv:UnspecifiedMatching	neural tube ventricular layer		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004340	oboInOwl:hasDbXref	emapa_retired:16084	semapv:UnspecifiedMatching	allantois		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004912	oboInOwl:hasDbXref	emapa_retired:16565	semapv:UnspecifiedMatching	biliary bud		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0005253	oboInOwl:hasDbXref	emapa_retired:16269	semapv:UnspecifiedMatching	head mesenchyme		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006082	oboInOwl:hasDbXref	emapa_retired:18322	semapv:UnspecifiedMatching	fundus of urinary bladder		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006250	oboInOwl:hasDbXref	emapa_retired:16648	semapv:UnspecifiedMatching	infundibular recess of 3rd ventricle		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0006904	oboInOwl:hasDbXref	emapa_retired:16270	semapv:UnspecifiedMatching	head mesenchyme from mesoderm		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0007213	oboInOwl:hasDbXref	emapa_retired:16271	semapv:UnspecifiedMatching	mesenchyme derived from head neural crest		uberon	emapa_retired	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

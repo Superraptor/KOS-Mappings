@@ -5,14 +5,13 @@
 #   vido: "http://purl.obolibrary.org/obo/VIDO_"
 #   vsmo: "http://purl.obolibrary.org/obo/VSMO_"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/vido_vsmo"
 # mapping_set_title: "VIDO to VSMO Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: vsmo
 # subject_source: vido
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-vido:0001066	skos:exactMatch	vsmo:0000297	semapv:ManualMappingCuration	virus aggregate	virus aggregate	vido		vsmo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+vido:0001066	skos:exactMatch	vsmo:0000297	semapv:ManualMappingCuration	virus aggregate	virus aggregate	vido		vsmo		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

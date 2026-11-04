@@ -5,15 +5,14 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/cemo_ncit"
 # mapping_set_title: "CEMO to NCIT Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: ncit
 # subject_source: cemo
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-cemo:case_fatality_rate	skos:exactMatch	ncit:C173779	semapv:ManualMappingCuration	case fatality rate	Case Fatality Rate	cemo		ncit		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-cemo:infection_fatality_rate	skos:exactMatch	ncit:C173780	semapv:ManualMappingCuration	infection fatality rate	Infection Fatality Rate	cemo		ncit		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cemo:case_fatality_rate	skos:exactMatch	ncit:C173779	semapv:ManualMappingCuration	case fatality rate	Case Fatality Rate	cemo		ncit		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+cemo:infection_fatality_rate	skos:exactMatch	ncit:C173780	semapv:ManualMappingCuration	infection fatality rate	Infection Fatality Rate	cemo		ncit		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

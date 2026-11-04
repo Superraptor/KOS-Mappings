@@ -7,7 +7,7 @@
 # mapping_provider: "https://sourceforge.net/p/sempublishing/code/HEAD/tree/SPAR/BIBO2SPAR.ttl?format=raw"
 # mapping_set_id: "https://w3id.org/commons/mappings/dcterms_dcterms"
 # mapping_set_title: "DCTERMS to DCTERMS Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: "2018-06-21"
 # mapping_tool: "KOS-Mappings Pipeline"
 # mapping_tool_version: 1.0.0
 # object_source: dcterms

@@ -5,20 +5,19 @@
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 #   vo: "http://purl.obolibrary.org/obo/VO_"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/idomal_vo"
 # mapping_set_title: "IDOMAL to VO Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: vo
 # subject_source: idomal
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-idomal:0001039	skos:exactMatch	vo:0000490	semapv:ManualMappingCuration	immunization	immunization	idomal		vo		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001040	skos:exactMatch	vo:0000002	semapv:ManualMappingCuration	vaccination	vaccination	idomal		vo		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001093	skos:exactMatch	vo:0012381	semapv:ManualMappingCuration	LSA-3	LSA-3	idomal		vo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001109	skos:exactMatch	vo:0011210	semapv:ManualMappingCuration	SERA-5	SERA-5	idomal		vo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001115	skos:exactMatch	vo:0012382	semapv:ManualMappingCuration	EBA-175	eba-175	idomal		vo		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001145	skos:exactMatch	vo:0011220	semapv:ManualMappingCuration	MSP-3	MSP3	idomal		vo		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-idomal:0001150	skos:exactMatch	vo:0011221	semapv:ManualMappingCuration	MSP-8	MSP8	idomal		vo		mira	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001039	skos:exactMatch	vo:0000490	semapv:ManualMappingCuration	immunization	immunization	idomal		vo		mira	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001040	skos:exactMatch	vo:0000002	semapv:ManualMappingCuration	vaccination	vaccination	idomal		vo		mira	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001093	skos:exactMatch	vo:0012381	semapv:ManualMappingCuration	LSA-3	LSA-3	idomal		vo		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001109	skos:exactMatch	vo:0011210	semapv:ManualMappingCuration	SERA-5	SERA-5	idomal		vo		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001115	skos:exactMatch	vo:0012382	semapv:ManualMappingCuration	EBA-175	eba-175	idomal		vo		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001145	skos:exactMatch	vo:0011220	semapv:ManualMappingCuration	MSP-3	MSP3	idomal		vo		mira	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+idomal:0001150	skos:exactMatch	vo:0011221	semapv:ManualMappingCuration	MSP-8	MSP8	idomal		vo		mira	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

@@ -5,16 +5,15 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   skos: "http://www.w3.org/2004/02/skos/core#"
 # license: "CC0-1.0"
-# mapping_date: "2026-11-02"
 # mapping_provider: "https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv"
 # mapping_set_id: "https://w3id.org/commons/mappings/ncit_chebi"
 # mapping_set_title: "NCIT to CHEBI Mappings"
-# mapping_set_version: "2026-11-02"
+# mapping_set_version: ed12b9f4
 # mapping_tool: Biomappings
 # mapping_tool_version: 0.1.0
 # object_source: chebi
 # subject_source: ncit
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	license
-ncit:C1707	skos:exactMatch	chebi:10023	semapv:ManualMappingCuration	Voriconazole	voriconazole	ncit		chebi		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-ncit:C2160	skos:exactMatch	chebi:52726	semapv:ManualMappingCuration	Proteasome Inhibitor	proteasome inhibitor	ncit		chebi		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
-ncit:C65538	skos:exactMatch	chebi:50275	semapv:ManualMappingCuration	Esomeprazole	esomeprazole	ncit		chebi		Biomappings	0.1.0	2026-11-02	https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ncit:C1707	skos:exactMatch	chebi:10023	semapv:ManualMappingCuration	Voriconazole	voriconazole	ncit		chebi		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ncit:C2160	skos:exactMatch	chebi:52726	semapv:ManualMappingCuration	Proteasome Inhibitor	proteasome inhibitor	ncit		chebi		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0
+ncit:C65538	skos:exactMatch	chebi:50275	semapv:ManualMappingCuration	Esomeprazole	esomeprazole	ncit		chebi		Biomappings	0.1.0		https://raw.githubusercontent.com/biopragmatics/biomappings/master/src/biomappings/resources/positive.sssom.tsv	orcid:0000-0003-4423-4370	CC0-1.0

@@ -9,7 +9,7 @@
 # mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
 # mapping_set_id: "https://w3id.org/commons/mappings/schema_cmns-dt"
 # mapping_set_title: "SCHEMA to CMNS-DT Mappings"
-# mapping_set_version: "2026-11-04"
+# mapping_set_version: 26.0
 # mapping_tool: "KOS-Mappings Pipeline"
 # mapping_tool_version: 1.0.0
 # object_source: "cmns-dt"

@@ -3,7 +3,6 @@
 #   ontoneo: "http://purl.obolibrary.org/obo/ONTONEO_"
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/ontoneo"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from ONTONEO"
 # mapping_set_id: "https://w3id.org/commons/mappings/ontoneo_bfo"
@@ -13,6 +12,6 @@
 # object_source_version: 1.1
 # subject_source: ontoneo
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	object_source_version	mapping_tool	mapping_date	mapping_provider	confidence	license
-ontoneo:00000055	rdfs:subClassOf	bfo:0000148	semapv:UnspecifiedMatching	data	zero-dimensional temporal region	ontoneo	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000102	rdfs:subClassOf	bfo:0000034	semapv:UnspecifiedMatching	função de atenção primária	function	ontoneo	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
-ontoneo:00000126	rdfs:subClassOf	bfo:0000019	semapv:UnspecifiedMatching	blood group	quality	ontoneo	bfo	1.1	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000055	rdfs:subClassOf	bfo:0000148	semapv:UnspecifiedMatching	data	zero-dimensional temporal region	ontoneo	bfo	1.1	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000102	rdfs:subClassOf	bfo:0000034	semapv:UnspecifiedMatching	função de atenção primária	function	ontoneo	bfo	1.1	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0
+ontoneo:00000126	rdfs:subClassOf	bfo:0000019	semapv:UnspecifiedMatching	blood group	quality	ontoneo	bfo	1.1	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/ontoneo	0.7	CC0-1.0

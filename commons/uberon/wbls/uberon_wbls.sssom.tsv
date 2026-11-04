@@ -3,7 +3,6 @@
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
 #   wbls: "http://purl.obolibrary.org/obo/WBls_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_wbls"
@@ -12,14 +11,14 @@
 # object_source: wbls
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000066	oboInOwl:hasDbXref	wbls:0000041	semapv:UnspecifiedMatching	fully formed stage	adult Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000068	oboInOwl:hasDbXref	wbls:0000003	semapv:UnspecifiedMatching	embryo stage	embryo Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000068	oboInOwl:hasDbXref	wbls:0000092	semapv:UnspecifiedMatching	embryo stage	Brugia embryo	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000068	oboInOwl:hasDbXref	wbls:0000102	semapv:UnspecifiedMatching	embryo stage	nematode embryo	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000092	oboInOwl:hasDbXref	wbls:0000022	semapv:UnspecifiedMatching	post-embryonic stage	postembryonic Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000092	oboInOwl:hasDbXref	wbls:0000093	semapv:UnspecifiedMatching	post-embryonic stage	Brugia postembryonic stage	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000092	oboInOwl:hasDbXref	wbls:0000103	semapv:UnspecifiedMatching	post-embryonic stage	postembryonic nematode	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000105	oboInOwl:hasDbXref	wbls:0000002	semapv:UnspecifiedMatching	life cycle stage	all stages Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000108	oboInOwl:hasDbXref	wbls:0000005	semapv:UnspecifiedMatching	blastula stage	blastula embryo Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000109	oboInOwl:hasDbXref	wbls:0000010	semapv:UnspecifiedMatching	gastrula stage	gastrulating embryo Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0004729	oboInOwl:hasDbXref	wbls:0000023	semapv:UnspecifiedMatching	nematode larval stage	larva Ce	uberon	wbls	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000066	oboInOwl:hasDbXref	wbls:0000041	semapv:UnspecifiedMatching	fully formed stage	adult Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000068	oboInOwl:hasDbXref	wbls:0000003	semapv:UnspecifiedMatching	embryo stage	embryo Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000068	oboInOwl:hasDbXref	wbls:0000092	semapv:UnspecifiedMatching	embryo stage	Brugia embryo	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000068	oboInOwl:hasDbXref	wbls:0000102	semapv:UnspecifiedMatching	embryo stage	nematode embryo	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000092	oboInOwl:hasDbXref	wbls:0000022	semapv:UnspecifiedMatching	post-embryonic stage	postembryonic Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000092	oboInOwl:hasDbXref	wbls:0000093	semapv:UnspecifiedMatching	post-embryonic stage	Brugia postembryonic stage	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000092	oboInOwl:hasDbXref	wbls:0000103	semapv:UnspecifiedMatching	post-embryonic stage	postembryonic nematode	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000105	oboInOwl:hasDbXref	wbls:0000002	semapv:UnspecifiedMatching	life cycle stage	all stages Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000108	oboInOwl:hasDbXref	wbls:0000005	semapv:UnspecifiedMatching	blastula stage	blastula embryo Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000109	oboInOwl:hasDbXref	wbls:0000010	semapv:UnspecifiedMatching	gastrula stage	gastrulating embryo Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0004729	oboInOwl:hasDbXref	wbls:0000023	semapv:UnspecifiedMatching	nematode larval stage	larva Ce	uberon	wbls	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

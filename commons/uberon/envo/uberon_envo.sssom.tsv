@@ -3,7 +3,6 @@
 #   oboinowl: "http://www.geneontology.org/formats/oboInOwl#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   uberon: "http://purl.obolibrary.org/obo/UBERON_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/uberon"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from UBERON"
 # mapping_set_id: "https://w3id.org/commons/mappings/uberon_envo"
@@ -12,31 +11,31 @@
 # object_source: envo
 # subject_source: uberon
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-uberon:0000062	oboInOwl:hasDbXref	envo:01000162	semapv:UnspecifiedMatching	organ	organ	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000172	oboInOwl:hasDbXref	envo:00000338	semapv:UnspecifiedMatching	vomit	vomit material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000173	oboInOwl:hasDbXref	envo:02000021	semapv:UnspecifiedMatching	amniotic fluid	amniotic fluid material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000174	oboInOwl:hasDbXref	envo:02000022	semapv:UnspecifiedMatching	excreta	excreta material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000175	oboInOwl:hasDbXref	envo:02000033	semapv:UnspecifiedMatching	pleural effusion	pleural effusion material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000176	oboInOwl:hasDbXref	envo:02000035	semapv:UnspecifiedMatching	oronasal secretion	oronasal secretion material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000177	oboInOwl:hasDbXref	envo:02000038	semapv:UnspecifiedMatching	pus	pus material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000178	oboInOwl:hasDbXref	envo:02000027	semapv:UnspecifiedMatching	blood	blood plasma material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000910	oboInOwl:hasDbXref	envo:02000026	semapv:UnspecifiedMatching	chyme	chyme material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000911	oboInOwl:hasDbXref	envo:02000030	semapv:UnspecifiedMatching	chyle	chyle material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000912	oboInOwl:hasDbXref	envo:02000040	semapv:UnspecifiedMatching	mucus	mucus material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0000913	oboInOwl:hasDbXref	envo:02000042	semapv:UnspecifiedMatching	interstitial fluid	interstitial fluid material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001088	oboInOwl:hasDbXref	envo:00002047	semapv:UnspecifiedMatching	urine	urine material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001089	oboInOwl:hasDbXref	envo:02000025	semapv:UnspecifiedMatching	sweat	sweat material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001090	oboInOwl:hasDbXref	envo:02000039	semapv:UnspecifiedMatching	synovial fluid	synovial fluid material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001359	oboInOwl:hasDbXref	envo:02000029	semapv:UnspecifiedMatching	cerebrospinal fluid	cerebrospinal fluid material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001474	oboInOwl:hasDbXref	envo:00002039	semapv:UnspecifiedMatching	bone element	obsolete bone	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001796	oboInOwl:hasDbXref	envo:02000024	semapv:UnspecifiedMatching	aqueous humor of eyeball	aqueous humour material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001797	oboInOwl:hasDbXref	envo:02000032	semapv:UnspecifiedMatching	vitreous humor	vitreous humor material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001827	oboInOwl:hasDbXref	envo:02000034	semapv:UnspecifiedMatching	secretion of lacrimal gland	tear material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001836	oboInOwl:hasDbXref	envo:02000036	semapv:UnspecifiedMatching	saliva	saliva material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001866	oboInOwl:hasDbXref	envo:02000037	semapv:UnspecifiedMatching	sebum	sebum material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001913	oboInOwl:hasDbXref	envo:02000031	semapv:UnspecifiedMatching	milk	breast milk material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001970	oboInOwl:hasDbXref	envo:02000023	semapv:UnspecifiedMatching	bile	bile material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0001988	oboInOwl:hasDbXref	envo:00002003	semapv:UnspecifiedMatching	feces	fecal material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002297	oboInOwl:hasDbXref	envo:02000028	semapv:UnspecifiedMatching	cerumen	ear wax material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0002391	oboInOwl:hasDbXref	envo:02000041	semapv:UnspecifiedMatching	lymph	lymph material	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
-uberon:0013730	oboInOwl:hasDbXref	envo:01000166	semapv:UnspecifiedMatching	mycetome	mycetome	uberon	envo	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000062	oboInOwl:hasDbXref	envo:01000162	semapv:UnspecifiedMatching	organ	organ	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000172	oboInOwl:hasDbXref	envo:00000338	semapv:UnspecifiedMatching	vomit	vomit material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000173	oboInOwl:hasDbXref	envo:02000021	semapv:UnspecifiedMatching	amniotic fluid	amniotic fluid material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000174	oboInOwl:hasDbXref	envo:02000022	semapv:UnspecifiedMatching	excreta	excreta material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000175	oboInOwl:hasDbXref	envo:02000033	semapv:UnspecifiedMatching	pleural effusion	pleural effusion material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000176	oboInOwl:hasDbXref	envo:02000035	semapv:UnspecifiedMatching	oronasal secretion	oronasal secretion material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000177	oboInOwl:hasDbXref	envo:02000038	semapv:UnspecifiedMatching	pus	pus material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000178	oboInOwl:hasDbXref	envo:02000027	semapv:UnspecifiedMatching	blood	blood plasma material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000910	oboInOwl:hasDbXref	envo:02000026	semapv:UnspecifiedMatching	chyme	chyme material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000911	oboInOwl:hasDbXref	envo:02000030	semapv:UnspecifiedMatching	chyle	chyle material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000912	oboInOwl:hasDbXref	envo:02000040	semapv:UnspecifiedMatching	mucus	mucus material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0000913	oboInOwl:hasDbXref	envo:02000042	semapv:UnspecifiedMatching	interstitial fluid	interstitial fluid material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001088	oboInOwl:hasDbXref	envo:00002047	semapv:UnspecifiedMatching	urine	urine material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001089	oboInOwl:hasDbXref	envo:02000025	semapv:UnspecifiedMatching	sweat	sweat material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001090	oboInOwl:hasDbXref	envo:02000039	semapv:UnspecifiedMatching	synovial fluid	synovial fluid material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001359	oboInOwl:hasDbXref	envo:02000029	semapv:UnspecifiedMatching	cerebrospinal fluid	cerebrospinal fluid material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001474	oboInOwl:hasDbXref	envo:00002039	semapv:UnspecifiedMatching	bone element	obsolete bone	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001796	oboInOwl:hasDbXref	envo:02000024	semapv:UnspecifiedMatching	aqueous humor of eyeball	aqueous humour material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001797	oboInOwl:hasDbXref	envo:02000032	semapv:UnspecifiedMatching	vitreous humor	vitreous humor material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001827	oboInOwl:hasDbXref	envo:02000034	semapv:UnspecifiedMatching	secretion of lacrimal gland	tear material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001836	oboInOwl:hasDbXref	envo:02000036	semapv:UnspecifiedMatching	saliva	saliva material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001866	oboInOwl:hasDbXref	envo:02000037	semapv:UnspecifiedMatching	sebum	sebum material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001913	oboInOwl:hasDbXref	envo:02000031	semapv:UnspecifiedMatching	milk	breast milk material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001970	oboInOwl:hasDbXref	envo:02000023	semapv:UnspecifiedMatching	bile	bile material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0001988	oboInOwl:hasDbXref	envo:00002003	semapv:UnspecifiedMatching	feces	fecal material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002297	oboInOwl:hasDbXref	envo:02000028	semapv:UnspecifiedMatching	cerumen	ear wax material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0002391	oboInOwl:hasDbXref	envo:02000041	semapv:UnspecifiedMatching	lymph	lymph material	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0
+uberon:0013730	oboInOwl:hasDbXref	envo:01000166	semapv:UnspecifiedMatching	mycetome	mycetome	uberon	envo	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/uberon	0.7	CC0-1.0

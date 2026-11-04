@@ -3,7 +3,6 @@
 #   ncit: "http://purl.obolibrary.org/obo/NCIT_"
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/covoc"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from COVOC"
 # mapping_set_id: "https://w3id.org/commons/mappings/covoc_ncit"
@@ -12,10 +11,10 @@
 # object_source: ncit
 # subject_source: covoc
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-covoc:0040014	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04291053 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0040015	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04321421 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0040016	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04306497 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0040017	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04321421 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0040025	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04315987 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0090001	rdfs:subClassOf	ncit:C16612	semapv:UnspecifiedMatching	CLEC4M gene	Gene	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
-covoc:0090002	rdfs:subClassOf	ncit:C16612	semapv:UnspecifiedMatching	DPP4 gene	Gene	covoc	ncit	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0040014	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04291053 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0040015	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04321421 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0040016	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04306497 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0040017	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04321421 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0040025	rdfs:subClassOf	ncit:C71104	semapv:UnspecifiedMatching	NCT04315987 clinical trial	Clinical Trial	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090001	rdfs:subClassOf	ncit:C16612	semapv:UnspecifiedMatching	CLEC4M gene	Gene	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0
+covoc:0090002	rdfs:subClassOf	ncit:C16612	semapv:UnspecifiedMatching	DPP4 gene	Gene	covoc	ncit	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/covoc	0.7	CC0-1.0

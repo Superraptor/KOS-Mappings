@@ -3,7 +3,6 @@
 #   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
 #   semapv: "https://w3id.org/semapv/vocab/"
 #   sepio: "http://purl.obolibrary.org/obo/SEPIO_"
-# mapping_date: "2026-11-03"
 # mapping_provider: "https://www.ebi.ac.uk/ols4/ontologies/sepio"
 # mapping_set_description: "These mappings were extracted during the OLS dataload from SEPIO"
 # mapping_set_id: "https://w3id.org/commons/mappings/sepio_oio"
@@ -12,6 +11,6 @@
 # object_source: oio
 # subject_source: sepio
 subject_id	predicate_id	object_id	mapping_justification	subject_label	object_label	subject_source	object_source	mapping_tool	mapping_date	mapping_provider	confidence	license
-sepio:0000026	rdfs:subPropertyOf	oio:ObsoleteProperty	semapv:UnspecifiedMatching	assertion_has_subject	obsolete_property	sepio	oio	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
-sepio:0000027	rdfs:subPropertyOf	oio:ObsoleteProperty	semapv:UnspecifiedMatching	assertion_has_object	obsolete_property	sepio	oio	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
-sepio:0000028	rdfs:subPropertyOf	oio:ObsoleteProperty	semapv:UnspecifiedMatching	assertion_has_predicate	obsolete_property	sepio	oio	https://www.ebi.ac.uk/ols4	2026-11-03	https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000026	rdfs:subPropertyOf	oio:ObsoleteProperty	semapv:UnspecifiedMatching	assertion_has_subject	obsolete_property	sepio	oio	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000027	rdfs:subPropertyOf	oio:ObsoleteProperty	semapv:UnspecifiedMatching	assertion_has_object	obsolete_property	sepio	oio	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
+sepio:0000028	rdfs:subPropertyOf	oio:ObsoleteProperty	semapv:UnspecifiedMatching	assertion_has_predicate	obsolete_property	sepio	oio	https://www.ebi.ac.uk/ols4		https://www.ebi.ac.uk/ols4/ontologies/sepio	0.7	CC0-1.0
