@@ -1,0 +1,27 @@
+# curie_map:
+#   dct: "https://identifiers.org/dct:"
+#   dcterms: "http://purl.org/dc/terms/"
+#   ofdct: "https://identifiers.org/ofdct:"
+#   ofprov: "https://identifiers.org/ofprov:"
+#   prov: "http://www.w3.org/ns/prov#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   semapv: "https://w3id.org/semapv/vocab/"
+#   thandct: "https://identifiers.org/thandct:"
+#   toprov: "https://identifiers.org/toprov:"
+#   whiledct: "https://identifiers.org/whiledct:"
+# license: "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
+# mapping_date: "2026-11-03"
+# mapping_provider: "https://www.w3.org/TR/prov-dc/"
+# mapping_set_id: "https://w3id.org/commons/mappings/prov_dcterms"
+# mapping_set_title: "PROV to DCTERMS Mappings"
+# mapping_set_version: 2013
+# mapping_tool: "W3C PROV-DC Working Group"
+# mapping_tool_version: 2013
+# object_source: prov
+# object_source_version: 2013
+# subject_source: dcterms
+# subject_source_version: 2020
+subject_id	predicate_id	object_id	mapping_justification	subject_source	subject_source_version	object_source	object_source_version	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	author_id	author_label	license	comment
+prov:hadPrimarySource	rdfs:subPropertyOf	dcterms:source	semapv:ManualMappingCuration	dcterms	2020	prov	2013	W3C PROV-DC Working Group	2013	2026-11-03	https://www.w3.org/TR/prov-dc/	https://www.w3.org/TR/prov-dc/	W3C Provenance Working Group	https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document	"The definition ofprov:hadPrimarySource(""something produced by some agent with direct experience and knowledge about the topic"") is more restrictive thandct:source(""A related resource from which the described resource is derived"")."
+prov:wasRevisionOf	rdfs:subPropertyOf	dcterms:isVersionOf	semapv:ManualMappingCuration	dcterms	2020	prov	2013	W3C PROV-DC Working Group	2013	2026-11-03	https://www.w3.org/TR/prov-dc/	https://www.w3.org/TR/prov-dc/	W3C Provenance Working Group	https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document	"Similar to the previous property,prov:wasRevisionOfis more restrictive in the sense that it refers to a revised version of a resource, whiledct:isVersionOfinvolves versions, editions or adaptations of the original resource. As an example, ""West Side Story"" is a version (adaptation) of ""Romeo and Juliet"", but not a revision."
+prov:Location	rdfs:subClassOf	dcterms:LocationPeriodOrJurisdiction	semapv:ManualMappingCuration	dcterms	2020	prov	2013	W3C PROV-DC Working Group	2013	2026-11-03	https://www.w3.org/TR/prov-dc/	https://www.w3.org/TR/prov-dc/	W3C Provenance Working Group	https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document	dct:LocationPeriodOrJurisdictionis a superclass ofdct:Location(equivalent toprov:Location).

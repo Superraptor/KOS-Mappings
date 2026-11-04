@@ -156,7 +156,7 @@ def _build_sssom_document(
         "mapping_set_id": mapping_set_id,
         "mapping_set_title": mapping_set_title,
         "mapping_date": mapping_date,
-        "license": license or "CC0-1.0",
+        "license": license or (extra_meta.get("license") if extra_meta else None) or "https://w3id.org/sssom/license/unspecified",
         "curie_map": dict(curie_map or {}),
         "mappings": mappings,
     }

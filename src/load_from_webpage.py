@@ -49,6 +49,7 @@ DEFAULT_PREFIXES = {
     "temporalrelations": "http://www.loa-cnr.it/ontologies/TemporalRelations.owl#",
     "spatialrelations": "http://www.loa-cnr.it/ontologies/SpatialRelations.owl#",
     "functionalparticipation": "http://www.loa-cnr.it/ontologies/FunctionalParticipation.owl#",
+    "datacite": "http://datacite.org/schema/kernel-4/",
 }
 
 ROMULUS_VERSIONS = {
@@ -305,7 +306,7 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
                         "subject_source_version": ROMULUS_VERSIONS.get(s_pfx, "1.0"),
                         "object_source": o_pfx,
                         "object_source_version": ROMULUS_VERSIONS.get(o_pfx, "1.0"),
-                        "license": "CC0-1.0",
+                        "license": "https://w3id.org/sssom/license/unspecified",
                     }
                     if _is_url(source):
                         m["mapping_provider"] = source
@@ -323,6 +324,79 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
 
                     mappings.append(m)
                 continue
+
+        source_lower = source.lower()
+        if "datacite-to-dcat-ap" in source_lower:
+            # Table 4 contains the canonical DataCite to DCAT-AP property mappings
+            tables_in_page = soup.find_all("table")
+            table4 = tables_in_page[4] if len(tables_in_page) > 4 else None
+            if table4:
+                cur_elem = ""
+                seen_pairs = set()
+                for tr in table4.find_all("tr")[1:]:
+                    cells = [c.get_text(" ", strip=True) for c in tr.find_all(["td", "th"])]
+                    if not cells:
+                        continue
+                    first_cell = cells[0].strip()
+                    if first_cell and not first_cell.startswith(("@", "*", "?")) and not ":" in first_cell and not first_cell.startswith("[["):
+                        cur_elem = first_cell
+                    for cell in cells:
+                        tokens = re.findall(r"\b((?:dct|dcterms|dcat|foaf|vcard|adms|skos|locn):[a-z][A-Za-z0-9_]*)\b", cell)
+                        for token in tokens:
+                            pfx, term = token.split(":", 1)
+                            norm_pfx = "dcterms" if pfx == "dct" else pfx
+                            target_id = f"{norm_pfx}:{term}"
+                            elem_clean = re.sub(r"[^A-Za-z0-9]", "", cur_elem)
+                            pair_key = (f"datacite:{elem_clean}", target_id)
+                            if elem_clean and pair_key not in seen_pairs:
+                                seen_pairs.add(pair_key)
+                                mappings.append({
+                                    "subject_id": f"datacite:{elem_clean}",
+                                    "predicate_id": "skos:exactMatch",
+                                    "object_id": target_id,
+                                    "mapping_justification": "semapv:ManualMappingCuration",
+                                    "mapping_tool": "European Commission JRC Crosswalk",
+                                    "mapping_tool_version": "2021",
+                                    "author_id": "https://ec.europa.eu/jrc",
+                                    "author_label": "European Commission Joint Research Centre",
+                                    "license": "https://creativecommons.org/licenses/by/4.0/",
+                                })
+            continue
+
+        if "prov-dc" in source_lower:
+            for table in tables:
+                for row in table[1:]:
+                    if len(row) >= 3:
+                        c1, rel, c2 = row[0].strip(), row[1].strip(), row[2].strip()
+                        if ":" in c1 and ":" in c2:
+                            p1 = c1.split(":")[0].lower()
+                            p2 = c2.split(":")[0].lower()
+                            if (p1 in ["dct", "dcterms", "dc"] and p2 == "prov") or (p1 == "prov" and p2 in ["dct", "dcterms", "dc"]):
+                                pred = "skos:exactMatch"
+                                if "subproperty" in rel.lower():
+                                    pred = "rdfs:subPropertyOf"
+                                elif "subclass" in rel.lower():
+                                    pred = "rdfs:subClassOf"
+                                elif "equivalent" in rel.lower():
+                                    pred = "owl:equivalentClass"
+
+                                c1_norm = c1.replace("dct:", "dcterms:").replace("dc:", "dcterms:")
+                                c2_norm = c2.replace("dct:", "dcterms:").replace("dc:", "dcterms:")
+                                m_row = {
+                                    "subject_id": c1_norm,
+                                    "predicate_id": pred,
+                                    "object_id": c2_norm,
+                                    "mapping_justification": "semapv:ManualMappingCuration",
+                                    "mapping_tool": "W3C PROV-DC Working Group",
+                                    "mapping_tool_version": "2013",
+                                    "author_id": "https://www.w3.org/TR/prov-dc/",
+                                    "author_label": "W3C Provenance Working Group",
+                                    "license": "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+                                }
+                                if len(row) >= 4 and row[3].strip():
+                                    m_row["comment"] = row[3].strip()
+                                mappings.append(m_row)
+            continue
 
         # DCAT-AP to Schema.org format
         # Look for rows containing CURIEs (col with ':' and another col with ':')
@@ -348,6 +422,11 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
                         "predicate_id": "skos:exactMatch",
                         "object_id": st,
                         "mapping_justification": "semapv:ManualMappingCuration",
+                        "mapping_tool": "European Commission JRC Crosswalk",
+                        "mapping_tool_version": "2021",
+                        "author_id": "https://ec.europa.eu/jrc",
+                        "author_label": "European Commission Joint Research Centre",
+                        "license": "https://creativecommons.org/licenses/by/4.0/",
                     })
 
     # If no mappings found yet, try extracting any pair of columns with entity terms
@@ -364,6 +443,7 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
                                 "predicate_id": "skos:exactMatch",
                                 "object_id": o if ":" in o else f"target:{o}",
                                 "mapping_justification": "semapv:ManualMappingCuration",
+                                "license": "https://w3id.org/sssom/license/unspecified",
                             })
 
     LOGGER.info("Extracted %d mappings from webpage %s", len(mappings), source)
@@ -371,12 +451,36 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
         "curie_map": curie_map,
         "mappings": mappings,
     }
-    if any(m.get("subject_id", "").startswith("dcat") for m in mappings[:5]):
+    source_lower = source.lower()
+    if "datacite-to-dcat-ap" in source_lower:
+        res["subject_source"] = "datacite"
+        res["subject_source_version"] = "4.4"
+        res["object_source"] = "dcatap"
+        res["object_source_version"] = "2.1.1"
+        res["mapping_set_version"] = "2021"
+        res["mapping_tool"] = "European Commission JRC Crosswalk"
+        res["mapping_tool_version"] = "2021"
+        res["license"] = "https://creativecommons.org/licenses/by/4.0/"
+    elif "prov-dc" in source_lower:
+        res["subject_source"] = "dcterms"
+        res["subject_source_version"] = "2020"
+        res["object_source"] = "prov"
+        res["object_source_version"] = "2013"
+        res["mapping_set_version"] = "2013"
+        res["mapping_tool"] = "W3C PROV-DC Working Group"
+        res["mapping_tool_version"] = "2013"
+        res["license"] = "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
+    elif any(m.get("subject_id", "").startswith("dcat") for m in mappings[:5]):
         res["subject_source"] = "dcat"
         res["subject_source_version"] = "2.1.1"
         res["object_source"] = "schema"
         res["object_source_version"] = "26.0"
         res["mapping_set_version"] = "2024"
+        res["license"] = "https://creativecommons.org/licenses/by/4.0/"
+    elif mappings and mappings[0].get("license"):
+        res["license"] = mappings[0]["license"]
+    else:
+        res["license"] = "https://w3id.org/sssom/license/unspecified"
 
     return res
 

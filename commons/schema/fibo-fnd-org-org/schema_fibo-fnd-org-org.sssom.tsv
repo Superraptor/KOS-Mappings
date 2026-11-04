@@ -1,0 +1,21 @@
+# curie_map:
+#   fibo-fnd-org-org: "https://spec.edmcouncil.org/fibo/ontology/FND/Organizations/Organizations/"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "https://creativecommons.org/licenses/by-sa/3.0/"
+# mapping_date: "2026-11-04"
+# mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/schema_fibo-fnd-org-org"
+# mapping_set_title: "SCHEMA to FIBO-FND-ORG-ORG Mappings"
+# mapping_set_version: "2026-11-04"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: "fibo-fnd-org-org"
+# subject_source: schema
+# subject_source_version: 26.0
+subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+schema:Organization	owl:equivalentClass	fibo-fnd-org-org:Organization	semapv:ManualMappingCuration	Organization	schema	26.0	fibo-fnd-org-org	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:ContactPoint	owl:equivalentClass	fibo-fnd-org-org:ContactPoint	semapv:ManualMappingCuration	ContactPoint	schema	26.0	fibo-fnd-org-org	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:contactPoint	owl:equivalentProperty	fibo-fnd-org-org:hasContactPoint	semapv:ManualMappingCuration	contactPoint	schema	26.0	fibo-fnd-org-org	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:member	owl:equivalentProperty	fibo-fnd-org-org:hasMember	semapv:ManualMappingCuration	member	schema	26.0	fibo-fnd-org-org	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/

@@ -106,6 +106,7 @@ def _parse_sssom_stream(
     file_provider = metadata.get("mapping_provider", f"https://www.ebi.ac.uk/ols4")
     file_date = metadata.get("mapping_date", "2026-11-03")
     file_confidence = metadata.get("mapping_set_confidence", "0.7")
+    file_license = metadata.get("license") or "https://w3id.org/sssom/license/unspecified"
 
     for r in reader:
         s_id = str(r.get("subject_id", "")).strip()
@@ -143,7 +144,7 @@ def _parse_sssom_stream(
         if not row_dict.get("confidence") and file_confidence:
             row_dict["confidence"] = file_confidence
         if not row_dict.get("license"):
-            row_dict["license"] = "CC0-1.0"
+            row_dict["license"] = file_license
 
         # Versions
         if s_pfx in KNOWN_SOURCE_VERSIONS and not row_dict.get("subject_source_version"):

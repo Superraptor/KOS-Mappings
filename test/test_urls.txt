@@ -11,3 +11,11 @@ https://raw.githubusercontent.com/galterlibrary/mapping-project/master/LCSH-to-M
 https://about.ebsco.com/m/ee/Marketing/titleLists/qrh-coverage.xls
 https://doi.org/10.15497/RDA00069
 https://web.archive.org/web/20180102005419id_/http://www.thezfiles.co.za/ROMULUS/ontologyAlignmentMetadata.html
+https://raw.githubusercontent.com/oborel/obo-relations/master/bridge/sio-ro-bridge.owl
+https://ec-jrc.github.io/datacite-to-dcat-ap/
+https://www.w3.org/TR/prov-dc/
+https://data.nber.org/gem/icd9toicd10cmgem.csv
+https://data.nber.org/gem/icd10pcstoicd9gem.csv
+https://data.nber.org/gem/icd9toicd10pcsgem.csv
+https://schema.org/version/latest/schemaorg-current-https.ttl
+https://raw.githubusercontent.com/BFO-Mappings/PROV-to-BFO/main/prov-bfo-directmappings.ttl

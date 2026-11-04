@@ -1,0 +1,26 @@
+# curie_map:
+#   cmns-dt: "https://www.omg.org/spec/Commons/DatesAndTimes/"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   rdfs: "http://www.w3.org/2000/01/rdf-schema#"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "https://creativecommons.org/licenses/by-sa/3.0/"
+# mapping_date: "2026-11-04"
+# mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/schema_cmns-dt"
+# mapping_set_title: "SCHEMA to CMNS-DT Mappings"
+# mapping_set_version: "2026-11-04"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: "cmns-dt"
+# subject_source: schema
+# subject_source_version: 26.0
+subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+schema:DateTime	owl:equivalentClass	cmns-dt:DateTime	semapv:ManualMappingCuration	DateTime	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:validThrough	owl:equivalentProperty	cmns-dt:hasEndDate	semapv:ManualMappingCuration	validThrough	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:orderDate	rdfs:subPropertyOf	cmns-dt:hasDate	semapv:ManualMappingCuration	orderDate	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:endDate	owl:equivalentProperty	cmns-dt:hasEndDate	semapv:ManualMappingCuration	endDate	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:Date	owl:equivalentClass	cmns-dt:Date	semapv:ManualMappingCuration	Date	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:startDate	owl:equivalentProperty	cmns-dt:hasStartDate	semapv:ManualMappingCuration	startDate	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:validFrom	owl:equivalentProperty	cmns-dt:hasStartDate	semapv:ManualMappingCuration	validFrom	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:Duration	owl:equivalentClass	cmns-dt:Duration	semapv:ManualMappingCuration	Duration	schema	26.0	cmns-dt	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/

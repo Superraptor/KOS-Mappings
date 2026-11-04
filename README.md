@@ -4,7 +4,7 @@
 [![Mapping Commons](https://img.shields.io/badge/Registry-Mapping_Commons-green.svg)](https://mapping-commons.github.io/)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Tests](https://img.shields.io/badge/tests-13%2F13%20passing-brightgreen.svg)](test/run_urls_test.py)
+[![Tests](https://img.shields.io/badge/tests-19%2F19%20passing-brightgreen.svg)](test/run_urls_test.py)
 
 **KOS-Mappings** is an automated extraction, parsing, and harmonization toolkit for Knowledge Organization Systems (KOS), ontologies, thesauri, vocabulary crosswalks, and alignment tables. It converts diverse source formats into validated, high-quality [Simple Standard for Sharing Ontological Mappings (SSSOM)](https://mapping-commons.github.io/sssom/) TSV files structured for publication in the [Mapping Commons Registry](https://mapping-commons.github.io/).
 
@@ -164,10 +164,10 @@ KOS-Mappings/
 
 | Loader Module | Source Types & Extensions | Example Sources |
 |---|---|---|
-| `load_from_graph.py` | Turtle (`.ttl`), RDF/XML (`.rdf`, `.owl`, `.xml`), N-Triples (`.nt`), N3 (`.n3`) | SUMO-DBpedia, BIBO2SPAR, DCAT-PROV, SUMO.owl |
+| `load_from_graph.py` | Turtle (`.ttl`), RDF/XML (`.rdf`, `.owl`, `.xml`), N-Triples (`.nt`), N3 (`.n3`) | SUMO-DBpedia, BIBO2SPAR, DCAT-PROV, SIO-RO Bridge OWL, Schema.org Turtle, BFO-Mappings PROV-to-BFO with OWL 2 annotated axioms |
 | `load_from_sssom.py` | SSSOM TSV (`.sssom.tsv`, `.sssom`) | Biomappings `positive.sssom.tsv` |
-| `load_from_spreadsheet.py` | Microsoft Excel (`.xlsx`, `.xls`), CSV (`.csv`), TSV (`.tsv`) | NBER GEM ICD10CM-to-ICD9, EBSCO QRH Coverage List |
-| `load_from_webpage.py` | HTML web pages, ARIA data tables, Wayback Machine archives | DCAT-AP to Schema.org, ROMULUS multi-ontology alignment metadata (BFO, GFO, DOLCE-Lite) |
+| `load_from_spreadsheet.py` | Microsoft Excel (`.xlsx`, `.xls`), CSV (`.csv`), TSV (`.tsv`) | CMS/NBER GEM forward & reverse diagnosis and procedure mappings (`icd10cmtoicd9`, `icd9toicd10cm`, `icd10pcstoicd9`, `icd9toicd10pcs`), EBSCO QRH Coverage List |
+| `load_from_webpage.py` | HTML web pages, ARIA data tables, Wayback Machine archives | EC JRC DCAT-AP to Schema.org, EC JRC DataCite to DCAT-AP, W3C Dublin Core to PROV (`prov-dc`), ROMULUS multi-ontology alignment metadata (BFO, GFO, DOLCE-Lite) |
 | `load_from_document.py` | MARC 21 Authority files, ZIP bundles, DOIs / Zenodo datasets | Galter LCSH-to-MeSH cross-referenced MARC, WHO ICD-11 ZIP, RDA DOI |
 | `ingest_sssom_archive.py` | Compressed SSSOM TAR archives (`.tgz`, `.tar.gz`) | OLS4 SSSOM bulk extracts (`sssom.tgz`) |
 | `load_from_manual_input.py` | Interactive terminal input | Ad-hoc domain curation |
@@ -472,7 +472,19 @@ To include mappings from this repository in the [Mapping Commons Registry](https
 
 ---
 
-## License
+## License & Constituent Provenance
 
 The code in this repository is distributed under the [MIT License](https://opensource.org/licenses/MIT).
-Generated mapping sets in the `./commons` directory are provided under [Creative Commons Zero 1.0 (CC0 1.0 Public Domain Dedication)](https://creativecommons.org/publicdomain/zero/1.0/) unless otherwise specified by the upstream source license.
+
+### Constituent License Inheritance
+KOS-Mappings preserves upstream intellectual property and licensing rights for all ingested mappings:
+- **No Blanket Assumptions**: Mappings do not default to CC0 1.0. Every constituent mapping set and row inherits the license explicitly declared by its upstream authority, ontology graph, document, or repository API.
+- **Inherited Upstream Licenses**:
+  - **Public Domain Mark 1.0**: CMS / CDC General Equivalence Mappings (GEM)
+  - **CC-BY 4.0**: European Commission JRC Crosswalks (DataCite to DCAT-AP, DCAT-AP to Schema.org), SIO-RO Bridge
+  - **CC-BY 2.5**: BIBO2SPAR
+  - **CC-BY-SA 3.0**: Schema.org
+  - **W3C Software and Document Notice**: W3C DCAT-PROV, W3C PROV-DC
+  - **CC0 1.0**: BFO-Mappings PROV-to-BFO, OBO Relations Ontology, Basic Formal Ontology
+  - **Terms of Use**: EBSCO QRH title lists
+  - **Unspecified**: Where an upstream source does not provide an explicit machine-readable license, the license is set to `https://w3id.org/sssom/license/unspecified` rather than assuming a permissive license.

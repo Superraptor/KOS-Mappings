@@ -255,7 +255,7 @@ def _parse_marc_authority(text: str) -> List[Dict[str, Any]]:
                 "object_source": "mesh",
                 "object_source_version": "2024",
                 "mapping_provider": "https://raw.githubusercontent.com/galterlibrary/mapping-project/master/LCSH-to-MeSH-mapping-data.txt",
-                "license": "CC0-1.0",
+                "license": "https://w3id.org/sssom/license/unspecified",
             }
             if lcsh_label:
                 mapping["subject_label"] = lcsh_label
@@ -339,6 +339,12 @@ def _resolve_doi(doi_url: str) -> Dict[str, Any]:
                         LOGGER.info("Fetching Zenodo data file: %s", key)
                         from src.load_from_spreadsheet import load as load_sheet
                         sheet_data = load_sheet(download_url)
+                        z_lic_dict = z_data.get("metadata", {}).get("license") or {}
+                        z_lic_id = z_lic_dict.get("id") if isinstance(z_lic_dict, dict) else str(z_lic_dict)
+                        z_license = "https://creativecommons.org/licenses/by/4.0/" if "cc-by" in str(z_lic_id).lower() else (str(z_lic_id) if z_lic_id else "https://w3id.org/sssom/license/unspecified")
+                        sheet_data["license"] = z_license
+                        for m in sheet_data.get("mappings", []):
+                            m["license"] = z_license
                         # Add RDA prefix
                         sheet_data["curie_map"]["rda"] = "http://rdaregistry.info/Elements/"
                         return sheet_data
@@ -363,6 +369,8 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
     # Zip handling
     if ext == ".zip" or content.startswith(b"PK\x03\x04"):
         mappings = _parse_zip_archive(content)
+        for m in mappings:
+            m["license"] = "https://w3id.org/sssom/license/unspecified"
         return {
             "curie_map": curie_map,
             "mappings": mappings,
@@ -371,6 +379,7 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
             "object_source": "icd11",
             "object_source_version": "2024-01",
             "mapping_set_version": "2024-01",
+            "license": "https://w3id.org/sssom/license/unspecified",
         }
 
     # Text / MARC handling
@@ -385,6 +394,7 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
             "object_source": "mesh",
             "object_source_version": "2024",
             "mapping_set_version": "2024",
+            "license": "https://w3id.org/sssom/license/unspecified",
         }
 
     # Generic spreadsheet fallback

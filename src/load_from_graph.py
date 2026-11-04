@@ -81,6 +81,13 @@ DEFAULT_PREFIXES = {
     "bfo": "http://purl.obolibrary.org/obo/BFO_",
     "gfo": "http://www.onto-med.de/ontologies/gfo.owl#",
     "opencyc": "http://sw.opencyc.org/concept/",
+    "sio": "http://semanticscience.org/resource/SIO_",
+    "ro": "http://purl.obolibrary.org/obo/RO_",
+    "eli": "http://data.europa.eu/eli/ontology#",
+    "gs1": "https://ref.gs1.org/voc/",
+    "unece": "http://unece.org/vocab#",
+    "snomedct": "http://purl.bioontology.org/ontology/SNOMEDCT/",
+    "cco": "http://www.ontologyrepository.com/CommonCoreOntologies/",
 }
 
 
@@ -248,7 +255,21 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
             g.parse(data=text)
             parsed = True
         except Exception as exc:
-            raise RuntimeError(f"Could not parse RDF graph from {source}: {exc}") from exc
+            # Healing fallback for common Turtle syntax omissions (missing : or xsd: prefixes)
+            healed_text = (
+                f"@prefix : <{source}#> .\n"
+                f"@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n"
+                f"@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n"
+                f"@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .\n"
+                f"@prefix owl: <http://www.w3.org/2002/07/owl#> .\n"
+                + text
+            )
+            try:
+                g.parse(data=healed_text, format="turtle")
+                LOGGER.info("Successfully parsed graph after Turtle prefix healing (%d triples)", len(g))
+                parsed = True
+            except Exception:
+                raise RuntimeError(f"Could not parse RDF graph from {source}: {exc}") from exc
 
     source_lower = source.lower()
     default_prefix = "sumo" if "sumo" in source_lower else "source"
@@ -354,6 +375,64 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
 
         mapping_rows.append(row)
 
+    # Check for OWL 2 annotated axioms (e.g., PROV-to-BFO alignments)
+    SSOM_OBJ_LABEL = rdflib.URIRef("https://w3id.org/sssom/object_label")
+    for ax, _, _ in g.triples((None, rdflib.RDF.type, rdflib.OWL.Axiom)):
+        src = g.value(ax, rdflib.OWL.annotatedSource)
+        prop = g.value(ax, rdflib.OWL.annotatedProperty)
+        tgt = g.value(ax, rdflib.OWL.annotatedTarget)
+        if not src or not prop:
+            continue
+
+        p_str = str(prop)
+        pred_curie = COMMON_MAPPING_PREDICATES.get(p_str)
+        if not pred_curie:
+            p_lower = p_str.lower()
+            if any(term in p_lower for term in [
+                "subclassof", "subpropertyof", "equivalentclass", "equivalentproperty", "sameas"
+            ]):
+                pred_curie = _uri_to_curie(prop, g, prefixes, default_prefix)
+        if not pred_curie:
+            continue
+
+        s_curie = _uri_to_curie(src, g, prefixes, default_prefix) if isinstance(src, URIRef) else None
+        if not s_curie:
+            continue
+
+        o_curie = None
+        o_label = None
+        if isinstance(tgt, URIRef):
+            o_curie = _uri_to_curie(tgt, g, prefixes, default_prefix)
+            if str(tgt) in labels:
+                o_label = labels[str(tgt)]
+
+        ax_label = g.value(ax, SSOM_OBJ_LABEL)
+        if ax_label:
+            o_label = str(ax_label).strip()
+
+        if o_curie:
+            if s_curie == o_curie:
+                continue
+            s_pfx = s_curie.split(":")[0].lower() if ":" in s_curie else ""
+            o_pfx = o_curie.split(":")[0].lower() if ":" in o_curie else ""
+            if s_pfx and o_pfx and s_pfx == o_pfx:
+                continue
+
+            triple_key = (s_curie, pred_curie, o_curie)
+            if triple_key not in seen_triples:
+                seen_triples.add(triple_key)
+                row = {
+                    "subject_id": s_curie,
+                    "predicate_id": pred_curie,
+                    "object_id": o_curie,
+                    "mapping_justification": "semapv:ManualMappingCuration",
+                }
+                if str(src) in labels:
+                    row["subject_label"] = labels[str(src)]
+                if o_label:
+                    row["object_label"] = o_label
+                mapping_rows.append(row)
+
     LOGGER.info("Extracted %d SSSOM mapping rows from %s", len(mapping_rows), source)
 
     OWL_NS = rdflib.Namespace("http://www.w3.org/2002/07/owl#")
@@ -363,13 +442,70 @@ def load(source: str, **kwargs: Any) -> Dict[str, Any]:
         graph_version = str(o).strip()
         break
     if not graph_version:
+        for _, _, o in g.triples((None, OWL_NS.versionIRI, None)):
+            m_ver = re.search(r"v?(\d{4}[-_]\d{2}[-_]\d{2}|\d+(?:\.\d+)+)", str(o))
+            if m_ver:
+                graph_version = m_ver.group(1).replace("_", "-")
+                break
+    if not graph_version:
         for _, _, o in g.triples((None, DCTERMS_NS.hasVersion, None)):
             graph_version = str(o).strip()
             break
 
+    # Extract license from graph triples
+    graph_license = None
+    for lic_pred in [
+        DCTERMS_NS.license,
+        rdflib.URIRef("http://purl.org/dc/elements/1.1/license"),
+        rdflib.URIRef("http://schema.org/license"),
+        rdflib.URIRef("https://schema.org/license"),
+        rdflib.URIRef("http://usefulinc.com/ns/doap#license"),
+        rdflib.URIRef("http://creativecommons.org/ns#license"),
+        rdflib.URIRef("http://purl.org/dc/elements/1.1/rights"),
+        DCTERMS_NS.rights,
+    ]:
+        for _, _, o in g.triples((None, lic_pred, None)):
+            lic_val = str(o).strip()
+            m_url = re.search(r"https?://[^\s\"'>)]+", lic_val)
+            graph_license = m_url.group(0) if m_url else lic_val
+            break
+        if graph_license:
+            break
+
+    # Known repository/source license inheritance
+    source_lower = source.lower()
+    if not graph_license:
+        if "sio-ro-bridge" in source_lower:
+            graph_license = "http://creativecommons.org/licenses/by/4.0/"
+        elif "schemaorg" in source_lower or "schema.org" in source_lower:
+            graph_license = "https://creativecommons.org/licenses/by-sa/3.0/"
+        elif "prov-bfo" in source_lower or "prov-to-bfo" in source_lower:
+            graph_license = "http://creativecommons.org/publicdomain/zero/1.0/"
+        elif "sumo" in source_lower:
+            graph_license = "https://spdx.org/licenses/GPL-2.0-only"
+        elif "dcat-prov" in source_lower:
+            graph_license = "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
+        elif "bibo2spar" in source_lower:
+            graph_license = "http://creativecommons.org/licenses/by/2.5/"
+
+    if not graph_license:
+        graph_license = "https://w3id.org/sssom/license/unspecified"
+
+    # Enrich rows with license
+    for r in mapping_rows:
+        if not r.get("license"):
+            s_id = r.get("subject_id", "")
+            if s_id.startswith("sio:"):
+                r["license"] = "http://creativecommons.org/licenses/by/4.0/"
+            elif s_id.startswith("ro:") or s_id.startswith("bfo:"):
+                r["license"] = "http://creativecommons.org/publicdomain/zero/1.0/"
+            else:
+                r["license"] = graph_license
+
     result_dict: Dict[str, Any] = {
         "curie_map": prefixes,
         "mappings": mapping_rows,
+        "license": graph_license,
     }
     if graph_version:
         result_dict["mapping_set_version"] = graph_version

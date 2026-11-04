@@ -323,6 +323,16 @@ def _resolve_structure_metadata(
     else:
         resolved["mapping_tool_version"] = "1.0.0"
 
+    # License resolution: inherit from constituent rows or metadata
+    lic = str(metadata.get("license") or "").strip()
+    if not lic:
+        row_lics = {str(r.get("license", "")).strip() for r in group_rows if str(r.get("license", "")).strip()}
+        if len(row_lics) == 1 and list(row_lics)[0]:
+            lic = list(row_lics)[0]
+        else:
+            lic = "https://w3id.org/sssom/license/unspecified"
+    resolved["license"] = lic
+
     return resolved
 
 
@@ -347,7 +357,13 @@ def _enrich_row_metadata(
     tool_ver = str(metadata.get("mapping_tool_version") or "1.0.0").strip()
     m_date = str(metadata.get("mapping_date") or datetime.now().strftime("%Y-%m-%d")).strip()
     provider = str(metadata.get("mapping_provider") or metadata.get("source_url") or "").strip()
-    lic = str(metadata.get("license") or "CC0-1.0").strip()
+    lic = str(metadata.get("license") or "").strip()
+    if not lic:
+        row_lics = {str(r.get("license", "")).strip() for r in rows if str(r.get("license", "")).strip()}
+        if len(row_lics) == 1 and list(row_lics)[0]:
+            lic = list(row_lics)[0]
+        else:
+            lic = "https://w3id.org/sssom/license/unspecified"
 
     for r in rows:
         row_dict = dict(r)
@@ -426,6 +442,8 @@ def _run_review_script(
         cwd=str(_SRC_DIR),
         capture_output=True,
         text=True,
+        encoding="utf-8",
+        errors="replace",
         check=False,
     )
     if result.returncode != 0:
@@ -734,9 +752,20 @@ def _merge_rows(
                     all_parts = list(dict.fromkeys(parts_old + parts_new))
                     if any("Mediation Method: Manual" in p for p in all_parts):
                         all_parts = [p for p in all_parts if "Mediation Method: Automatic" not in p]
-                    existing[col] = ". ".join(all_parts)
+                # 6. License (prefer specific license over unspecified/CC0-1.0 default)
+                elif col == "license":
+                    if "unspecified" in old_val.lower() and "unspecified" not in v_str.lower():
+                        existing[col] = v_str
+                    elif "unspecified" in v_str.lower():
+                        existing[col] = old_val
+                    elif old_val == "CC0-1.0" and v_str != "CC0-1.0":
+                        existing[col] = v_str
+                    elif v_str == "CC0-1.0" and old_val != "CC0-1.0":
+                        existing[col] = old_val
+                    elif old_val != v_str:
+                        existing[col] = f"{old_val}|{v_str}"
 
-                # 6. Default scalar: keep the more specific/longer value
+                # 7. Default scalar: keep the more specific/longer value
                 else:
                     if len(v_str) > len(old_val):
                         existing[col] = v_str

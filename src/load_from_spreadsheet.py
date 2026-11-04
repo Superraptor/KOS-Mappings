@@ -14,6 +14,7 @@ import io
 import json
 import logging
 import pathlib
+from pathlib import Path
 import re
 import sys
 from typing import Any, Dict, List, Optional, Sequence, Tuple, Union
@@ -37,10 +38,13 @@ DEFAULT_PREFIXES = {
     "semapv": "https://w3id.org/semapv/vocab/",
     "icd10cm": "http://hl7.org/fhir/sid/icd-10-cm/",
     "icd9cm": "http://hl7.org/fhir/sid/icd-9-cm/",
+    "icd10pcs": "http://www.cms.gov/Medicare/Coding/ICD10/",
+    "icd9pcs": "http://hl7.org/fhir/sid/icd-9-proc/",
     "icd10": "http://id.who.int/icd/release/10/",
     "icd11": "http://id.who.int/icd/release/11/mms/",
     "isbn": "urn:isbn:",
     "issn": "urn:issn:",
+    "ebsco": "https://www.ebsco.com/mid/",
 }
 
 
@@ -156,7 +160,7 @@ def _read_delimited(
             return pd.read_csv(f, sep=sep, dtype=str, keep_default_na=False)
 
 
-def _normalize_to_sssom_rows(df: pd.DataFrame) -> Tuple[List[Dict[str, Any]], Dict[str, str]]:
+def _normalize_to_sssom_rows(df: pd.DataFrame, source: str = "") -> Tuple[List[Dict[str, Any]], Dict[str, str]]:
     """Convert raw dataframe rows into canonical SSSOM rows."""
     curie_map = dict(DEFAULT_PREFIXES)
     df = df.dropna(how="all").fillna("")
@@ -175,29 +179,43 @@ def _normalize_to_sssom_rows(df: pd.DataFrame) -> Tuple[List[Dict[str, Any]], Di
             mappings.append(d)
         return mappings, curie_map
 
-    # ICD10CM to ICD9 GEM detection
-    if "icd10cm" in col_map and "icd9cm" in col_map:
-        c10 = col_map["icd10cm"]
-        c9 = col_map["icd9cm"]
+    # ICD-10 / ICD-9 GEM detection (CM and PCS, forward and reverse)
+    if ("icd10cm" in col_map or "icd10pcs" in col_map) and ("icd9cm" in col_map or "icd9pcs" in col_map):
+        c10 = col_map.get("icd10cm") or col_map.get("icd10pcs")
+        c9 = col_map.get("icd9cm") or col_map.get("icd9pcs")
         no_map_col = col_map.get("no_map")
         approx_col = col_map.get("approximate")
         comb_col = col_map.get("combination")
 
-        # Precompute target frequency to detect many-to-one (broadMatch)
-        c9_freq: Dict[str, int] = {}
+        fname = Path(source).name.lower()
+        is_pcs = "pcs" in fname or any(len(str(v).strip()) == 7 for v in df[c10].head(10))
+        pfx10 = "icd10pcs" if is_pcs else "icd10cm"
+        pfx9 = "icd9pcs" if is_pcs else "icd9cm"
+
+        # Determine direction: is ICD-9 the subject (first column) or is ICD-10 the subject?
+        first_col_lower = cols[0].lower() if cols else ""
+        icd9_is_subject = "icd9" in first_col_lower or "icd9to" in fname
+
+        sub_col = c9 if icd9_is_subject else c10
+        obj_col = c10 if icd9_is_subject else c9
+        sub_pfx = pfx9 if icd9_is_subject else pfx10
+        obj_pfx = pfx10 if icd9_is_subject else pfx9
+
+        # Precompute target frequency to detect many-to-one
+        obj_freq: Dict[str, int] = {}
         for _, row in df.iterrows():
             if no_map_col and str(row[no_map_col]).strip() == "1":
                 continue
-            v9 = str(row[c9]).strip()
-            if v9 and v9 != "NoDRG":
-                c9_freq[v9] = c9_freq.get(v9, 0) + 1
+            v_obj = str(row[obj_col]).strip()
+            if v_obj and v_obj != "NoDRG":
+                obj_freq[v_obj] = obj_freq.get(v_obj, 0) + 1
 
         mappings = []
         for _, row in df.iterrows():
-            val10 = str(row[c10]).strip()
-            val9 = str(row[c9]).strip()
+            val_sub = str(row[sub_col]).strip()
+            val_obj = str(row[obj_col]).strip()
             no_map = str(row[no_map_col]).strip() if no_map_col else "0"
-            if not val10 or not val9 or val9 == "NoDRG" or no_map == "1":
+            if not val_sub or not val_obj or val_obj == "NoDRG" or no_map == "1":
                 continue
 
             approx = str(row[approx_col]).strip() if approx_col else "0"
@@ -207,19 +225,19 @@ def _normalize_to_sssom_rows(df: pd.DataFrame) -> Tuple[List[Dict[str, Any]], Di
             if approx == "0":
                 pred = "skos:exactMatch"
             elif comb == "1":
-                pred = "skos:narrowMatch"
+                pred = "skos:narrowMatch" if not icd9_is_subject else "skos:broadMatch"
             elif approx == "1" and comb == "0":
-                if c9_freq.get(val9, 1) > 1:
-                    pred = "skos:broadMatch"
+                if obj_freq.get(val_obj, 1) > 1:
+                    pred = "skos:broadMatch" if not icd9_is_subject else "skos:narrowMatch"
                 else:
                     pred = "skos:closeMatch"
             else:
                 pred = "skos:exactMatch"
 
             m = {
-                "subject_id": f"icd10cm:{val10}",
+                "subject_id": f"{sub_pfx}:{val_sub}",
                 "predicate_id": pred,
-                "object_id": f"icd9cm:{val9}",
+                "object_id": f"{obj_pfx}:{val_obj}",
                 "mapping_justification": "semapv:ManualMappingCuration",
                 "mapping_tool": "CMS GEM Translation Framework",
                 "mapping_tool_version": "2018",
@@ -227,11 +245,11 @@ def _normalize_to_sssom_rows(df: pd.DataFrame) -> Tuple[List[Dict[str, Any]], Di
                 "author_label": "Centers for Medicare & Medicaid Services and CDC",
                 "creator_id": "https://www.cms.gov",
                 "creator_label": "Centers for Medicare & Medicaid Services and CDC",
-                "license": "CC0-1.0",
+                "license": "https://creativecommons.org/publicdomain/mark/1.0/",
             }
             # Add extra contextual flag columns
             for col in cols:
-                if col not in (c10, c9):
+                if col not in (sub_col, obj_col):
                     v = str(row[col]).strip()
                     if v:
                         m[col.lower()] = v
@@ -276,7 +294,7 @@ def _normalize_to_sssom_rows(df: pd.DataFrame) -> Tuple[List[Dict[str, Any]], Di
                 "author_label": "EBSCO Information Services",
                 "creator_id": "https://www.ebsco.com",
                 "creator_label": "EBSCO Information Services",
-                "license": "CC0-1.0",
+                "license": "https://www.ebsco.com/company/terms-of-use",
             }
             for col in cols:
                 if col not in (issn_isbn_col, pub_col, mid_col):
@@ -357,26 +375,32 @@ def load(
     else:
         df = pd.read_csv(source, dtype=str, keep_default_na=False)
 
-    mappings, curie_map = _normalize_to_sssom_rows(df)
+    mappings, curie_map = _normalize_to_sssom_rows(df, source=str(source))
     LOGGER.info("Loaded %d mappings from spreadsheet %s", len(mappings), source)
     res: Dict[str, Any] = {
         "curie_map": curie_map,
         "mappings": mappings,
     }
-    if any(m.get("subject_id", "").startswith("icd10cm:") for m in mappings[:5]):
-        res["subject_source"] = "icd10cm"
-        res["subject_source_version"] = "2018"
-        res["object_source"] = "icd9cm"
-        res["object_source_version"] = "2017"
-        res["mapping_set_version"] = "2018"
-        res["mapping_tool"] = "CMS GEM Translation Framework"
-        res["mapping_tool_version"] = "2018"
-    elif any(m.get("object_id", "").startswith("ebsco:") for m in mappings[:5]):
-        res["object_source"] = "ebsco"
-        res["object_source_version"] = "2024"
-        res["mapping_set_version"] = "2024"
-        res["mapping_tool"] = "EBSCO Coverage Crosswalk"
-        res["mapping_tool_version"] = "2024"
+    if mappings:
+        first_m = mappings[0]
+        s_pfx = first_m.get("subject_id", "").split(":")[0]
+        o_pfx = first_m.get("object_id", "").split(":")[0]
+        lic = first_m.get("license") or "https://w3id.org/sssom/license/unspecified"
+        res["license"] = lic
+        if "icd" in s_pfx and "icd" in o_pfx:
+            res["subject_source"] = s_pfx
+            res["subject_source_version"] = "2018" if "10" in s_pfx else "2017"
+            res["object_source"] = o_pfx
+            res["object_source_version"] = "2018" if "10" in o_pfx else "2017"
+            res["mapping_set_version"] = "2018"
+            res["mapping_tool"] = "CMS GEM Translation Framework"
+            res["mapping_tool_version"] = "2018"
+        elif o_pfx == "ebsco":
+            res["object_source"] = "ebsco"
+            res["object_source_version"] = "2024"
+            res["mapping_set_version"] = "2024"
+            res["mapping_tool"] = "EBSCO Coverage Crosswalk"
+            res["mapping_tool_version"] = "2024"
 
     return res
 

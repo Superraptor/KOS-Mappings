@@ -451,5 +451,152 @@ def test_romulus_tool_separation_and_merge_justification():
     assert m["mapping_tool_version"] == "1.0|2.0"
 
 
+def test_license_inheritance_and_no_blind_cc0(tmp_path):
+    """Ensure licenses are inherited from constituent resources and not falsely defaulted to CC0-1.0."""
+    from src.write_sssom_file import _resolve_structure_metadata, _enrich_row_metadata
+
+    # 1. Row with specific license inherits that license
+    rows_mit = [
+        {
+            "subject_id": "test:A",
+            "predicate_id": "skos:exactMatch",
+            "object_id": "test:B",
+            "license": "https://spdx.org/licenses/MIT",
+        }
+    ]
+    meta_empty = {}
+    resolved = _resolve_structure_metadata("test", "test", rows_mit, meta_empty)
+    assert resolved["license"] == "https://spdx.org/licenses/MIT"
+
+    # 2. Rows without license and without metadata license get unspecified, not CC0-1.0
+    rows_no_lic = [
+        {
+            "subject_id": "test:A",
+            "predicate_id": "skos:exactMatch",
+            "object_id": "test:B",
+        }
+    ]
+    resolved_unspec = _resolve_structure_metadata("test", "test", rows_no_lic, meta_empty)
+    assert resolved_unspec["license"] == "https://w3id.org/sssom/license/unspecified"
+
+    enriched = _enrich_row_metadata(rows_no_lic, meta_empty, "test", "test")
+    assert enriched[0]["license"] == "https://w3id.org/sssom/license/unspecified"
 
 
+def test_reverse_and_pcs_gem_loading(tmp_path):
+    """Test GEM loading handles both directions and PCS codes with public domain license."""
+    # Reverse CM: icd9 to icd10
+    csv_rev = tmp_path / "icd9toicd10cmgem.csv"
+    csv_rev.write_text("icd9cm,icd10cm,approximate,no_map,combination\n0010,A000,0,0,0\n", encoding="utf-8")
+    res_rev = load_spreadsheet(str(csv_rev))
+    assert res_rev["subject_source"] == "icd9cm"
+    assert res_rev["object_source"] == "icd10cm"
+    assert res_rev["license"] == "https://creativecommons.org/publicdomain/mark/1.0/"
+    assert res_rev["mappings"][0]["subject_id"] == "icd9cm:0010"
+    assert res_rev["mappings"][0]["object_id"] == "icd10cm:A000"
+
+    # PCS GEM
+    csv_pcs = tmp_path / "icd10pcstoicd9gem.csv"
+    csv_pcs.write_text("icd10cm,icd9cm,approximate,no_map,combination\n0016070,0231,1,0,0\n", encoding="utf-8")
+    res_pcs = load_spreadsheet(str(csv_pcs))
+    assert res_pcs["subject_source"] == "icd10pcs"
+    assert res_pcs["object_source"] == "icd9pcs"
+    assert res_pcs["mappings"][0]["subject_id"] == "icd10pcs:0016070"
+    assert res_pcs["mappings"][0]["object_id"] == "icd9pcs:0231"
+
+
+def test_datacite_to_dcatap_webpage_loading(tmp_path):
+    """Test extracting DataCite to DCAT-AP table mappings from HTML."""
+    html_file = tmp_path / "datacite_test.html"
+    html_file.write_text("""
+    <html><body>
+    <table><tr><th>Dummy</th></tr></table>
+    <table><tr><th>Dummy</th></tr></table>
+    <table><tr><th>Dummy</th></tr></table>
+    <table><tr><th>Dummy</th></tr></table>
+    <table>
+      <tr><th>Element</th><th>Property</th><th>Range</th><th>Status</th><th>Comments</th></tr>
+      <tr><td>Creator</td><td>dct:creator</td><td>foaf:Agent</td><td>testing</td><td></td></tr>
+      <tr><td>Title</td><td>dct:title</td><td>rdf:PlainLiteral</td><td>testing</td><td></td></tr>
+    </table>
+    </body></html>
+    """, encoding="utf-8")
+    res = load_webpage(str(html_file))
+    # Test fallback extraction or custom parsing
+    assert "curie_map" in res
+    assert "mappings" in res
+
+
+def test_prov_dc_webpage_loading(tmp_path):
+    """Test extracting Dublin Core to PROV mappings from HTML."""
+    html_file = tmp_path / "prov_dc_test.html"
+    html_file.write_text("""
+    <html><body>
+    <table>
+      <tr><th>DC Term</th><th>Relation</th><th>PROV Term</th><th>Rationale</th></tr>
+      <tr><td>dct:created</td><td>rdfs:subPropertyOf</td><td>prov:generatedAtTime</td><td>Time of creation</td></tr>
+      <tr><td>dct:Agent</td><td>owl:equivalentClass</td><td>prov:Agent</td><td>Same concept</td></tr>
+    </table>
+    </body></html>
+    """, encoding="utf-8")
+    # Path with prov-dc in name triggers prov-dc parser
+    named_file = tmp_path / "prov-dc-test.html"
+    html_file.rename(named_file)
+    res = load_webpage(str(named_file))
+    mappings = res["mappings"]
+    assert len(mappings) == 2
+    assert mappings[0]["subject_id"] == "dcterms:created"
+    assert mappings[0]["predicate_id"] == "rdfs:subPropertyOf"
+    assert mappings[0]["object_id"] == "prov:generatedAtTime"
+    assert mappings[1]["subject_id"] == "dcterms:Agent"
+    assert mappings[1]["predicate_id"] == "owl:equivalentClass"
+    assert mappings[1]["object_id"] == "prov:Agent"
+    assert mappings[0]["license"] == "https://www.w3.org/Consortium/Legal/2015/copyright-software-and-document"
+
+def test_owl_axiom_and_turtle_prefix_healing(tmp_path):
+    """Test healing Turtle prefix omissions and extracting OWL 2 annotated axioms with licenses."""
+    ttl_file = tmp_path / "test_axioms.ttl"
+    # Note: intentionally omitting @prefix : and @prefix xsd: to test healing
+    ttl_content = """@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix bfo: <http://purl.obolibrary.org/obo/BFO_> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix sssom: <https://w3id.org/sssom/> .
+
+<https://example.org/ont> a owl:Ontology ;
+    dc:license <https://creativecommons.org/publicdomain/zero/1.0/> .
+
+:x a rdf:Property .
+"val"^^xsd:string .
+
+[] a owl:Axiom ;
+    owl:annotatedSource prov:Activity ;
+    owl:annotatedProperty owl:equivalentClass ;
+    owl:annotatedTarget bfo:0000015 ;
+    sssom:object_label "process" .
+
+[] a owl:Axiom ;
+    owl:annotatedSource prov:Role ;
+    owl:annotatedProperty rdfs:subClassOf ;
+    owl:annotatedTarget bfo:0000023 ;
+    sssom:object_label "role" .
+"""
+    ttl_file.write_text(ttl_content, encoding="utf-8")
+    res = load_graph(str(ttl_file))
+    mappings = res["mappings"]
+    assert len(mappings) == 2
+    assert res["license"] == "https://creativecommons.org/publicdomain/zero/1.0/"
+    
+    m0 = next(m for m in mappings if m["subject_id"] == "prov:Activity")
+    assert m0["predicate_id"] == "owl:equivalentClass"
+    assert m0["object_id"] == "bfo:0000015"
+    assert m0["object_label"] == "process"
+    assert m0["license"] == "https://creativecommons.org/publicdomain/zero/1.0/"
+
+    m1 = next(m for m in mappings if m["subject_id"] == "prov:Role")
+    assert m1["predicate_id"] == "rdfs:subClassOf"
+    assert m1["object_id"] == "bfo:0000023"
+    assert m1["object_label"] == "role"
+    assert m1["license"] == "https://creativecommons.org/publicdomain/zero/1.0/"

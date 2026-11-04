@@ -1,0 +1,26 @@
+# curie_map:
+#   bibo: "http://purl.org/ontology/bibo/"
+#   owl: "http://www.w3.org/2002/07/owl#"
+#   schema: "http://schema.org/"
+#   semapv: "https://w3id.org/semapv/vocab/"
+# license: "https://creativecommons.org/licenses/by-sa/3.0/"
+# mapping_date: "2026-11-04"
+# mapping_provider: "https://schema.org/version/latest/schemaorg-current-https.ttl"
+# mapping_set_id: "https://w3id.org/commons/mappings/schema_bibo"
+# mapping_set_title: "SCHEMA to BIBO Mappings"
+# mapping_set_version: "2026-11-04"
+# mapping_tool: "KOS-Mappings Pipeline"
+# mapping_tool_version: 1.0.0
+# object_source: bibo
+# subject_source: schema
+# subject_source_version: 26.0
+subject_id	predicate_id	object_id	mapping_justification	subject_label	subject_source	subject_source_version	object_source	mapping_tool	mapping_tool_version	mapping_date	mapping_provider	license
+schema:Periodical	owl:equivalentClass	bibo:Periodical	semapv:ManualMappingCuration	Periodical	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:isbn	owl:equivalentProperty	bibo:isbn	semapv:ManualMappingCuration	isbn	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:PublicationIssue	owl:equivalentClass	bibo:Issue	semapv:ManualMappingCuration	PublicationIssue	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:volumeNumber	owl:equivalentProperty	bibo:volume	semapv:ManualMappingCuration	volumeNumber	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:pageStart	owl:equivalentProperty	bibo:pageStart	semapv:ManualMappingCuration	pageStart	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:issueNumber	owl:equivalentProperty	bibo:issue	semapv:ManualMappingCuration	issueNumber	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:pagination	owl:equivalentProperty	bibo:pages	semapv:ManualMappingCuration	pagination	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:pageEnd	owl:equivalentProperty	bibo:pageEnd	semapv:ManualMappingCuration	pageEnd	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/
+schema:issn	owl:equivalentProperty	bibo:issn	semapv:ManualMappingCuration	issn	schema	26.0	bibo	KOS-Mappings Pipeline	1.0.0	2026-11-04	https://schema.org/version/latest/schemaorg-current-https.ttl	https://creativecommons.org/licenses/by-sa/3.0/

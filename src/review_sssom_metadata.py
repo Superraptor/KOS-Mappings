@@ -69,6 +69,8 @@ def _run_generate_metadata(input_location: str) -> Dict[str, Any]:
             cwd=str(_SRC_DIR),
             capture_output=True,
             text=True,
+            encoding="utf-8",
+            errors="replace",
             check=False,
         )
     except FileNotFoundError as exc:
