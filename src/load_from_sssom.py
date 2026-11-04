@@ -57,6 +57,9 @@ def _normalize_source_url(url: str) -> str:
     return url
 
 
+import gzip
+
+
 def _fetch_sssom_text(source: str) -> str:
     if _is_url(source):
         source = _normalize_source_url(source)
@@ -64,9 +67,21 @@ def _fetch_sssom_text(source: str) -> str:
         headers = {"User-Agent": "curl/7.68.0"}
         resp = requests.get(source, headers=headers, timeout=60)
         resp.raise_for_status()
-        return resp.content.decode("utf-8-sig", errors="replace")
+        raw_bytes = resp.content
+        if raw_bytes.startswith(b"\x1f\x8b") or source.lower().endswith(".gz"):
+            raw_bytes = gzip.decompress(raw_bytes)
+        return raw_bytes.decode("utf-8-sig", errors="replace")
     else:
         path = Path(source)
+        try:
+            with open(path, "rb") as bf:
+                magic = bf.read(2)
+            if magic == b"\x1f\x8b" or path.suffix.lower() == ".gz":
+                with gzip.open(path, "rt", encoding="utf-8-sig", errors="replace") as gz_f:
+                    return gz_f.read()
+        except Exception as exc:
+            LOGGER.debug("Gzip check failed on %s: %s", path, exc)
+
         for enc in ["utf-8-sig", "utf-8", "latin-1"]:
             try:
                 with open(path, "r", encoding=enc) as f:

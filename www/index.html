@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KOS-Mappings Explorer | Crosswalk Pathfinder & Registry</title>
+  <meta name="description" content="Explore, query, and discover multi-hop semantic crosswalks across 320+ Knowledge Organization Systems, ontologies, and vocabularies conforming to the SSSOM standard.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="background-glow" aria-hidden="true"></div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <div class="logo-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="18" cy="5" r="3"></circle>
+            <circle cx="6" cy="12" r="3"></circle>
+            <circle cx="18" cy="19" r="3"></circle>
+            <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+            <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+          </svg>
+        </div>
+        <div>
+          <h1 class="logo-title">KOS-Mappings <span class="badge-version">v1.0 SSSOM</span></h1>
+          <p class="logo-subtitle">Ontological Crosswalk Pathfinder & Registry</p>
+        </div>
+      </div>
+
+      <nav class="nav-tabs" id="nav-tabs" role="tablist">
+        <button class="nav-tab active" id="tab-pathfinder" role="tab" aria-selected="true" data-target="section-pathfinder">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+          Pathfinder
+        </button>
+        <button class="nav-tab" id="tab-query" role="tab" aria-selected="false" data-target="section-query">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          Query Mappings
+        </button>
+        <button class="nav-tab" id="tab-endpoints" role="tab" aria-selected="false" data-target="section-endpoints">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg>
+          Endpoints
+        </button>
+        <button class="nav-tab" id="tab-topology" role="tab" aria-selected="false" data-target="section-topology">
+          <svg class="tab-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+          Topology & Stats
+        </button>
+      </nav>
+
+      <div class="header-actions">
+        <a href="https://github.com/Superraptor/KOS-Mappings" target="_blank" rel="noopener noreferrer" class="btn-github" id="btn-github">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/>
+          </svg>
+          GitHub
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-content">
+
+    <!-- 1. PATHFINDER SECTION -->
+    <section class="tab-section active" id="section-pathfinder" role="tabpanel">
+      <div class="hero-banner">
+        <h2>Semantic Crosswalk Pathfinder</h2>
+        <p>Find the shortest bridging path and transitive alignment between any two ontologies or classification systems in the registry.</p>
+      </div>
+
+      <div class="card pathfinder-box">
+        <div class="path-selectors">
+          <div class="selector-col">
+            <label for="select-source-vocab">Source Vocabulary (From):</label>
+            <div class="input-wrapper">
+              <input type="text" id="input-source-filter" class="form-control" placeholder="Search source (e.g. LOINC, DOID, MESH)..." autocomplete="off">
+              <select id="select-source-vocab" class="form-control" size="6"></select>
+            </div>
+            <div class="selected-details" id="source-details"></div>
+          </div>
+
+          <div class="swap-col">
+            <button class="btn-swap" id="btn-swap-vocabs" title="Swap Source and Target" aria-label="Swap Vocabularies">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 16V4M7 4L3 8M7 4L11 8M17 8v12M17 20l4-4M17 20l-4-4"></path></svg>
+            </button>
+          </div>
+
+          <div class="selector-col">
+            <label for="select-target-vocab">Target Vocabulary (To):</label>
+            <div class="input-wrapper">
+              <input type="text" id="input-target-filter" class="form-control" placeholder="Search target (e.g. SNOMED CT, UCUM, ICD)..." autocomplete="off">
+              <select id="select-target-vocab" class="form-control" size="6"></select>
+            </div>
+            <div class="selected-details" id="target-details"></div>
+          </div>
+        </div>
+
+        <div class="preset-chips-row">
+          <span class="chips-label">Try popular pairs:</span>
+          <button class="chip" data-src="loinc" data-tgt="snomedct">LOINC &rarr; SNOMED CT</button>
+          <button class="chip" data-src="snomedct" data-tgt="ucum">SNOMED CT &rarr; UCUM</button>
+          <button class="chip" data-src="doid" data-tgt="snomedct">DOID &rarr; SNOMED CT</button>
+          <button class="chip" data-src="icd10cm" data-tgt="icd9cm">ICD-10-CM &rarr; ICD-9-CM</button>
+          <button class="chip" data-src="bfo" data-tgt="dolce">BFO &rarr; DOLCE</button>
+          <button class="chip" data-src="dbo" data-tgt="wn">DBpedia &rarr; WordNet</button>
+          <button class="chip" data-src="osm" data-tgt="uscensus">OSM &rarr; US Census</button>
+        </div>
+
+        <div class="action-row">
+          <button class="btn-primary" id="btn-find-path">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+            Find Closest Mapping Path
+          </button>
+        </div>
+      </div>
+
+      <!-- Path Results Container -->
+      <div class="card result-card" id="path-results-card" style="display: none;">
+        <div class="result-header">
+          <div class="result-title-group">
+            <span class="badge-status" id="path-badge-hops">Direct Match</span>
+            <h3 id="path-summary-title">Shortest Path Found</h3>
+          </div>
+          <button class="btn-secondary btn-sm" id="btn-copy-path">Copy Path Summary</button>
+        </div>
+
+        <!-- Visual Timeline -->
+        <div class="timeline-container" id="path-timeline"></div>
+
+        <!-- Semantic Narrative Explanation -->
+        <div class="narrative-box">
+          <h4>Path Traversal & Semantic Explanation</h4>
+          <p id="path-narrative-text"></p>
+        </div>
+
+        <!-- Sample Mappings on Path -->
+        <div class="samples-box" id="path-samples-container">
+          <h4>Concrete Sample Mappings Along this Route</h4>
+          <div class="table-responsive">
+            <table class="data-table" id="table-path-samples">
+              <thead>
+                <tr>
+                  <th>Hop</th>
+                  <th>Subject (Source)</th>
+                  <th>Predicate</th>
+                  <th>Object (Target)</th>
+                  <th>Justification / Tool</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-path-samples"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. QUERY MAPPINGS SECTION -->
+    <section class="tab-section" id="section-query" role="tabpanel">
+      <div class="hero-banner">
+        <h2>Live Concept & Mapping Query</h2>
+        <p>Search across 590,000+ mappings by concept label, CURIE code, justification, or vocabulary name.</p>
+      </div>
+
+      <div class="card">
+        <div class="query-filters">
+          <div class="search-input-wrapper">
+            <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+            <input type="text" id="input-global-search" class="form-control search-field" placeholder="Search concepts (e.g. cholesterol, estradiol, diabetes, unit, heart, phylum)...">
+            <button class="btn-clear" id="btn-clear-search" style="display: none;">&times;</button>
+          </div>
+          <div class="filter-dropdowns">
+            <select id="filter-predicate" class="form-control">
+              <option value="">All Predicates</option>
+              <option value="skos:exactMatch">skos:exactMatch</option>
+              <option value="skos:broadMatch">skos:broadMatch</option>
+              <option value="skos:closeMatch">skos:closeMatch</option>
+              <option value="skos:narrowMatch">skos:narrowMatch</option>
+              <option value="owl:equivalentClass">owl:equivalentClass</option>
+              <option value="sssom:has_exact_replacement">sssom:has_exact_replacement</option>
+            </select>
+            <select id="filter-source" class="form-control">
+              <option value="">All Source Vocabularies</option>
+            </select>
+            <select id="filter-target" class="form-control">
+              <option value="">All Target Vocabularies</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="query-results-meta">
+          <span id="query-count-badge" class="badge-pill">Showing 0 mappings</span>
+          <span class="meta-note">Displaying representative indexed alignment crosswalks</span>
+        </div>
+
+        <div class="table-responsive">
+          <table class="data-table" id="table-query-results">
+            <thead>
+              <tr>
+                <th>Subject ID</th>
+                <th>Subject Label</th>
+                <th>Predicate</th>
+                <th>Object ID</th>
+                <th>Object Label</th>
+                <th>Justification</th>
+                <th>Crosswalk Pair</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-query-results">
+              <tr>
+                <td colspan="7" class="empty-state">Loading mapping indices...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. ENDPOINTS DIRECTORY SECTION -->
+    <section class="tab-section" id="section-endpoints" role="tabpanel">
+      <div class="hero-banner">
+        <h2>Vocabulary Endpoint Dictionary</h2>
+        <p>Canonical directory of all 320+ ontologies, classifications, authority files, and terminologies registered in KOS-Mappings.</p>
+      </div>
+
+      <div class="card">
+        <div class="endpoints-toolbar">
+          <div class="search-input-wrapper">
+            <input type="text" id="input-endpoint-filter" class="form-control" placeholder="Search endpoints by prefix, long-form name, or authority...">
+          </div>
+          <div class="category-pills" id="endpoint-category-filters">
+            <button class="cat-pill active" data-category="ALL">All Categories</button>
+            <button class="cat-pill" data-category="Health & Biomedicine">Health & Biomedicine</button>
+            <button class="cat-pill" data-category="OBO Ontologies">OBO Ontologies</button>
+            <button class="cat-pill" data-category="Upper Ontologies">Upper Ontologies</button>
+            <button class="cat-pill" data-category="Bibliographic Standards">Bibliographic</button>
+            <button class="cat-pill" data-category="Geographic Standards">Geographic</button>
+          </div>
+        </div>
+
+        <div class="endpoints-grid" id="endpoints-grid"></div>
+      </div>
+    </section>
+
+    <!-- 4. TOPOLOGY & STATS SECTION -->
+    <section class="tab-section" id="section-topology" role="tabpanel">
+      <div class="hero-banner">
+        <h2>Registry Topology & Global Metrics</h2>
+        <p>Pairwise connectivity, hub degrees, and dataset coverage across the Knowledge Organization Systems graph.</p>
+      </div>
+
+      <div class="stats-overview-grid">
+        <div class="card stat-card">
+          <span class="stat-number" id="stat-total-vocabs">--</span>
+          <span class="stat-label">Registered Vocabularies</span>
+          <span class="stat-sub">Endpoints & KOS Schemes</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-number" id="stat-total-edges">--</span>
+          <span class="stat-label">Pairwise Alignment Sets</span>
+          <span class="stat-sub">Canonical SSSOM TSV Documents</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-number" id="stat-total-mappings">--</span>
+          <span class="stat-label">Total Validated Mappings</span>
+          <span class="stat-sub">Curated Crosswalk Rows</span>
+        </div>
+        <div class="card stat-card">
+          <span class="stat-number" id="stat-athena-mappings">31,000+</span>
+          <span class="stat-label">Athena OHDSI Ingested</span>
+          <span class="stat-sub">LOINC, SNOMED, UCUM, OMOP</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Top Central Hubs (Highest Connectivity)</h3>
+        <p class="section-desc">Vocabularies with the most inter-system crosswalks in the registry.</p>
+        <div class="hubs-grid" id="top-hubs-container"></div>
+      </div>
+
+      <div class="card">
+        <h3>Pairwise Mapping Matrix & File Directory</h3>
+        <div class="table-responsive">
+          <table class="data-table" id="table-all-edges">
+            <thead>
+              <tr>
+                <th>Subject Vocab</th>
+                <th>Target Vocab</th>
+                <th>Mapping Count</th>
+                <th>Dominant Predicate</th>
+                <th>SSSOM File Path</th>
+                <th>License</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-all-edges"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <p><strong>KOS-Mappings</strong> &bull; Automated Knowledge Organization System Harmonization & SSSOM Publishing</p>
+      <p class="footer-meta">Adheres to <a href="https://mapping-commons.github.io/sssom/" target="_blank" rel="noopener">SSSOM Standard v1.0</a> &bull; Published for the <a href="https://mapping-commons.github.io/" target="_blank" rel="noopener">Mapping Commons Registry</a></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

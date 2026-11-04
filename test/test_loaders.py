@@ -27,6 +27,7 @@ from src.load_from_sssom import load as load_sssom
 from src.load_from_spreadsheet import load as load_spreadsheet
 from src.load_from_webpage import load as load_webpage
 from src.load_from_document import load as load_document
+from src.load_from_athena import load as load_athena
 from src.generate_sssom_metadata import generate_metadata
 from src.write_sssom_file import write_sssom_file, _write_sssom_tsv, _read_sssom_tsv
 
@@ -695,3 +696,120 @@ def test_origination_dates_preservation():
     resolved_no_date = _resolve_structure_metadata("test1", "test2", [], {})
     assert "mapping_date" not in resolved_no_date
     assert "mapping_set_version" not in resolved_no_date
+
+
+def test_load_athena_archive(tmp_path):
+    """Test OHDSI Athena vocabulary loading, concept resolving, and SSSOM validation."""
+    import zipfile
+    from src.write_sssom_file import _filter_curie_map
+
+    zip_file = tmp_path / "test_athena.zip"
+    vocab_csv = (
+        "vocabulary_id\tvocabulary_name\tvocabulary_reference\tvocabulary_version\tvocabulary_concept_id\n"
+        "LOINC\tLogical Observation Identifiers Names and Codes\tRegenstrief\tLOINC 2.82\t44819096\n"
+        "SNOMED\tSystematic Nomenclature of Medicine\tIHTSDO\t2026-02-01 SNOMED CT\t44819097\n"
+        "UCUM\tUnified Code for Units of Measure\tRegenstrief\tVersion 1.8.2\t44819098\n"
+    )
+    concept_csv = (
+        "concept_id\tconcept_name\tdomain_id\tvocabulary_id\tconcept_class_id\tstandard_concept\tconcept_code\tvalid_start_date\tvalid_end_date\tinvalid_reason\n"
+        "101\tHEDIS MY 2020 Value Set - LDL-C Tests\tMeasurement\tLOINC\tLab Test\tS\t96071-6\t20200101\t20991231\t\n"
+        "102\tLow density lipoprotein cholesterol measurement\tMeasurement\tSNOMED\tClinical Finding\tS\t113079009\t20020131\t20991231\t\n"
+        "103\tEstradiol measurement\tMeasurement\tSNOMED\tProcedure\tS\t37538009\t20020131\t20991231\t\n"
+        "104\tEstradiol mass/vol serum\tMeasurement\tLOINC\tLab Test\tS\t85066-9\t20191213\t20991231\t\n"
+    )
+    rel_csv = (
+        "concept_id_1\tconcept_id_2\trelationship_id\tvalid_start_date\tvalid_end_date\tinvalid_reason\n"
+        "101\t102\tMaps to\t20220506\t20991231\t\n"
+        "104\t103\tIs a\t20191213\t20991231\t\n"
+        "101\t102\tMaps to\t20220506\t20991231\tD\n"  # deprecated, should be skipped
+    )
+
+    with zipfile.ZipFile(zip_file, "w") as zf:
+        zf.writestr("VOCABULARY.csv", vocab_csv)
+        zf.writestr("CONCEPT.csv", concept_csv)
+        zf.writestr("CONCEPT_RELATIONSHIP.csv", rel_csv)
+
+    # 1. Test direct loader
+    doc = load_athena(str(zip_file), pairs=["loinc:snomedct"])
+    assert "mappings" in doc
+    assert len(doc["mappings"]) == 2
+
+    m_exact = next(m for m in doc["mappings"] if m["predicate_id"] == "skos:exactMatch")
+    assert m_exact["subject_id"] == "loinc:96071-6"
+    assert m_exact["object_id"] == "snomedct:113079009"
+    assert m_exact["subject_label"] == "HEDIS MY 2020 Value Set - LDL-C Tests"
+    assert m_exact["object_label"] == "Low density lipoprotein cholesterol measurement"
+    assert m_exact["mapping_date"] == "2022-05-06"
+    assert m_exact["subject_source_version"] == "LOINC 2.82"
+    assert m_exact["object_source_version"] == "2026-02-01 SNOMED CT"
+
+    m_broad = next(m for m in doc["mappings"] if m["predicate_id"] == "skos:broadMatch")
+    assert m_broad["subject_id"] == "loinc:85066-9"
+    assert m_broad["object_id"] == "snomedct:37538009"
+    assert m_broad["mapping_date"] == "2019-12-13"
+
+    # 2. Test auto-dispatch via generate_metadata
+    auto_doc = generate_metadata(str(zip_file), pairs=["loinc:snomedct"])
+    assert len(auto_doc["mappings"]) == 2
+    assert auto_doc["mapping_set_id"] == "https://w3id.org/commons/mappings/loinc_snomedct"
+
+    # 3. Test writing and validating with sssom-py
+    out_tsv = tmp_path / "loinc_snomedct.sssom.tsv"
+    filtered_cmap = _filter_curie_map(auto_doc.get("curie_map"), auto_doc["mappings"], auto_doc, "loinc", "snomedct")
+    auto_doc["curie_map"] = filtered_cmap
+    _write_sssom_tsv(out_tsv, auto_doc, auto_doc["mappings"])
+
+    parsed = sssom.parsers.parse_sssom_table(str(out_tsv))
+    assert len(parsed.df) == 2
+
+
+def test_curie_map_filtering_excludes_free_text_labels_and_comments(tmp_path):
+    """
+    Test that free-form textual descriptions (labels, comments, versions) containing
+    colons or chemical notations (e.g. 3-OH-C12:0, C10:1, Note: foo) do NOT pollute
+    the SSSOM curie_map with manufactured prefixes like oh-c12 or c10.
+    """
+    from src.write_sssom_file import _filter_curie_map, _extract_used_prefixes
+
+    rows = [
+        {
+            "subject_id": "loinc:29623-6",
+            "predicate_id": "skos:broadMatch",
+            "object_id": "snomedct:121290001",
+            "mapping_justification": "semapv:ManualMappingCuration",
+            "subject_label": "3-Hydroxydodecanoate (3-OH-C12:0) [Presence] in Urine",
+            "object_label": "3-Hydroxydodecanedioate measurement (Lead: 0.5)",
+            "comment": "Note: C10:1 ratio observed in test c14:2",
+            "subject_source": "loinc",
+            "object_source": "snomedct",
+            "subject_source_version": "LOINC 2.82 Edition: 2026",
+            "mapping_tool": "Athena OHDSI v5.0",
+        }
+    ]
+
+    used = _extract_used_prefixes(rows, p1="loinc", p2="snomedct")
+    # Legitimate prefixes
+    assert "loinc" in used
+    assert "snomedct" in used
+    assert "skos" in used
+    assert "semapv" in used
+
+    # Spurious prefixes that previously leaked from free text
+    assert "oh-c12" not in used
+    assert "c12" not in used
+    assert "c10" not in used
+    assert "c14" not in used
+    assert "lead" not in used
+    assert "note" not in used
+    assert "edition" not in used
+
+    # Filtered CURIE map check
+    cmap = _filter_curie_map({}, rows, p1="loinc", p2="snomedct")
+    assert "oh-c12" not in cmap
+    assert "c10" not in cmap
+    assert "c12" not in cmap
+    assert "lead" not in cmap
+    assert "loinc" in cmap
+    assert "snomedct" in cmap
+
+

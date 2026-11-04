@@ -43,6 +43,10 @@ for d in [str(_SRC_DIR), str(_ROOT_DIR)]:
     if d not in sys.path:
         sys.path.insert(0, d)
 
+def _is_url(candidate: str) -> bool:
+    """Return True if *candidate* looks like an HTTP/HTTPS URL."""
+    return str(candidate).lower().startswith(("http://", "https://"))
+
 # ---------------------------------------------------------------------------
 # 1️⃣  RUN THE METADATA‑GENERATION SCRIPT
 # ---------------------------------------------------------------------------
@@ -238,9 +242,17 @@ def review_metadata(
     The final (reviewed) metadata dictionary.
     """
     # -----------------------------------------------------------------------
-    # 1️⃣  Generate the raw metadata
+    # 1️⃣  Generate or load the raw metadata
     # -----------------------------------------------------------------------
-    raw_metadata = _run_generate_metadata(input_location)
+    p_loc = Path(input_location) if not _is_url(input_location) else None
+    if p_loc and p_loc.is_file() and p_loc.suffix.lower() == ".json":
+        try:
+            with open(p_loc, "r", encoding="utf-8") as jf:
+                raw_metadata = json.load(jf)
+        except Exception:
+            raw_metadata = _run_generate_metadata(input_location)
+    else:
+        raw_metadata = _run_generate_metadata(input_location)
 
     # -----------------------------------------------------------------------
     # 2️⃣  Show it to the user

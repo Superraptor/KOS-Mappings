@@ -1,0 +1,2945 @@
+[
+  {
+    "prefix": "aao",
+    "name": "AAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/aao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'aao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "adcad",
+    "name": "ADCAD",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/adcad:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'adcad'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "adms",
+    "name": "Asset Description Metadata Schema",
+    "category": "Metadata Standards",
+    "uri_prefix": "http://www.w3.org/ns/adms#",
+    "authority": "European Commission",
+    "description": "Vocabulary to describe semantic interoperability assets.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ado",
+    "name": "ADO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ado:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ado'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "aeo",
+    "name": "AEO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/aeo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'aeo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "afpo",
+    "name": "AFPO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/afpo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'afpo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "agro",
+    "name": "AGRO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/agro:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'agro'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "agrovoc",
+    "name": "AGROVOC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/agrovoc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'agrovoc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "aio",
+    "name": "AIO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/aio:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'aio'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "aism",
+    "name": "AISM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/aism:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'aism'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "amphx",
+    "name": "AMPHX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/amphx:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'amphx'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "anseducationlevel",
+    "name": "ANSEDUCATIONLEVEL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/anseducationlevel:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'anseducationlevel'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "apo",
+    "name": "APO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/apo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'apo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "apollosv",
+    "name": "APOLLOSV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/apollosv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'apollosv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "aro",
+    "name": "ARO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/aro:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'aro'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "atc",
+    "name": "Anatomical Therapeutic Chemical Classification",
+    "category": "Pharmacology",
+    "uri_prefix": "https://identifiers.org/atc:",
+    "authority": "World Health Organization (WHO)",
+    "description": "Classification system dividing active substances into anatomical and therapeutic groups.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bao",
+    "name": "BAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/bao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'bao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bco",
+    "name": "BCO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/bco:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'bco'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bfo",
+    "name": "Basic Formal Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/BFO_",
+    "authority": "OBO Foundry / ISO/IEC 21838-2",
+    "description": "Top-level formal ontology designed to support domain-level ontologies.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bibo",
+    "name": "Bibliographic Ontology",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "http://purl.org/ontology/bibo/",
+    "authority": "DCMI / Zepheira",
+    "description": "Ontology for representing citations, bibliographic references, and documents.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bila",
+    "name": "BILA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/bila:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'bila'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "biomodelskisao",
+    "name": "BIOMODELSKISAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/biomodelskisao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'biomodelskisao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "birnlex",
+    "name": "BIRNLEX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/birnlex:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'birnlex'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bmont",
+    "name": "BMONT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/bmont:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'bmont'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bspo",
+    "name": "BSPO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/bspo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'bspo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "bto",
+    "name": "BRENDA Tissue Ontology",
+    "category": "Anatomy & Biochemistry",
+    "uri_prefix": "http://purl.obolibrary.org/obo/BTO_",
+    "authority": "BRENDA",
+    "description": "Comprehensive encyclopedia of tissues and cell types for enzyme information.",
+    "in_commons": true
+  },
+  {
+    "prefix": "caloha",
+    "name": "CALOHA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/caloha:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'caloha'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "caro",
+    "name": "Common Anatomy Reference Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/CARO_",
+    "authority": "OBO Foundry",
+    "description": "Upper-level anatomy ontology to standardize biological structures.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ccf",
+    "name": "CCF",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ccf:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ccf'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ccle",
+    "name": "CCLE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ccle:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ccle'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cco",
+    "name": "CCO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cco:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cco'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ccso",
+    "name": "CCSO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ccso:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ccso'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cdno",
+    "name": "CDNO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cdno:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cdno'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cellosaurus",
+    "name": "CELLOSAURUS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cellosaurus:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cellosaurus'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cemo",
+    "name": "CEMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cemo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cemo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "chebi",
+    "name": "Chemical Entities of Biological Interest",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/CHEBI_",
+    "authority": "EMBL-EBI",
+    "description": "Dictionary of molecular entities focused on small chemical compounds.",
+    "in_commons": true
+  },
+  {
+    "prefix": "chmo",
+    "name": "CHMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/chmo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'chmo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cido",
+    "name": "CIDO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cido:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cido'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cidoccrm",
+    "name": "CIDOCCRM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cidoccrm:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cidoccrm'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cito",
+    "name": "Citation Typing Ontology",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "http://purl.org/spar/cito/",
+    "authority": "SPAR Ontologies",
+    "description": "Ontology enabling formal characterization of citation intents and links.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cl",
+    "name": "Cell Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/CL_",
+    "authority": "OBO Foundry",
+    "description": "Structured representation of in vivo cell types in humans and model organisms.",
+    "in_commons": true
+  },
+  {
+    "prefix": "clao",
+    "name": "CLAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/clao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'clao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "clo",
+    "name": "CLO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/clo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'clo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-cls",
+    "name": "CMNS-CLS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-cls:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-cls'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-col",
+    "name": "CMNS-COL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-col:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-col'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-dt",
+    "name": "CMNS-DT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-dt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-dt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-ge",
+    "name": "CMNS-GE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-ge:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-ge'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-id",
+    "name": "CMNS-ID",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-id:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-id'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-loc",
+    "name": "CMNS-LOC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-loc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-loc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-q",
+    "name": "CMNS-Q",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-q:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-q'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmns-txt",
+    "name": "CMNS-TXT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmns-txt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmns-txt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cmo",
+    "name": "CMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cmo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cmo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cob",
+    "name": "COB",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cob:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cob'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "colao",
+    "name": "COLAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/colao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'colao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "commoncoreontology",
+    "name": "COMMONCOREONTOLOGY",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/commoncoreontology:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'commoncoreontology'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "covoc",
+    "name": "COVOC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/covoc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'covoc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cpt",
+    "name": "Current Procedural Terminology",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://identifiers.org/cpt:",
+    "authority": "American Medical Association (AMA)",
+    "description": "Medical code set used to report medical, surgical, and diagnostic procedures.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cteno",
+    "name": "CTENO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cteno:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cteno'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cto",
+    "name": "CTO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cto:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cto'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cvcl",
+    "name": "CVCL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cvcl:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cvcl'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cvdo",
+    "name": "CVDO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cvdo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cvdo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "cvx",
+    "name": "CVX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/cvx:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'cvx'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "d0",
+    "name": "D0",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/d0:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'd0'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "datacite",
+    "name": "DATACITE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/datacite:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'datacite'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dbo",
+    "name": "DBpedia Ontology",
+    "category": "Knowledge Graphs",
+    "uri_prefix": "http://dbpedia.org/ontology/",
+    "authority": "DBpedia Community",
+    "description": "Cross-domain ontology generated from Wikipedia infoboxes.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dbpedia",
+    "name": "DBpedia Resource Namespace",
+    "category": "Knowledge Graphs",
+    "uri_prefix": "http://dbpedia.org/resource/",
+    "authority": "DBpedia Community",
+    "description": "Linked open data entity namespace extracted from Wikipedia articles.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dc",
+    "name": "Dublin Core Elements",
+    "category": "Metadata Standards",
+    "uri_prefix": "http://purl.org/dc/elements/1.1/",
+    "authority": "DCMI",
+    "description": "Classical Dublin Core 15 element set.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dcat",
+    "name": "Data Catalog Vocabulary",
+    "category": "Metadata Standards",
+    "uri_prefix": "http://www.w3.org/ns/dcat#",
+    "authority": "W3C",
+    "description": "RDF vocabulary designed to facilitate interoperability between data catalogs.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dcatap",
+    "name": "DCAT Application Profile for Data Portals in Europe",
+    "category": "Metadata Standards",
+    "uri_prefix": "http://data.europa.eu/r5r/",
+    "authority": "European Commission",
+    "description": "DCAT profile for sharing public sector datasets across European data portals.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dct",
+    "name": "DCT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/dct:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'dct'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dcterms",
+    "name": "Dublin Core Metadata Initiative Terms",
+    "category": "Metadata Standards",
+    "uri_prefix": "http://purl.org/dc/terms/",
+    "authority": "DCMI",
+    "description": "Core property terms for resource descriptions and provenance.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dctype",
+    "name": "DCTYPE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/dctype:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'dctype'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "depmap",
+    "name": "DEPMAP",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/depmap:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'depmap'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dhba",
+    "name": "DHBA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/dhba:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'dhba'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dideo",
+    "name": "DIDEO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/dideo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'dideo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "digitalsourcetype",
+    "name": "DIGITALSOURCETYPE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/digitalsourcetype:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'digitalsourcetype'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dmba",
+    "name": "DMBA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/dmba:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'dmba'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "doco",
+    "name": "DOCO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/doco:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'doco'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "doi",
+    "name": "Digital Object Identifier",
+    "category": "Identifiers",
+    "uri_prefix": "https://doi.org/",
+    "authority": "International DOI Foundation",
+    "description": "Persistent identifier system for digital documents, datasets, and articles.",
+    "in_commons": false
+  },
+  {
+    "prefix": "doid",
+    "name": "Human Disease Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/DOID_",
+    "authority": "University of Maryland / OBO",
+    "description": "Standardized ontological representation of human disease entities.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dolce",
+    "name": "Descriptive Ontology for Linguistic and Cognitive Engineering",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#",
+    "authority": "ISTC-CNR",
+    "description": "Foundational ontology based on cognitive categories and natural language.",
+    "in_commons": true
+  },
+  {
+    "prefix": "dron",
+    "name": "DRON",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/dron:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'dron'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "drugbank",
+    "name": "DrugBank Knowledgebase",
+    "category": "Pharmacology",
+    "uri_prefix": "https://go.drugbank.com/drugs/",
+    "authority": "DrugBank / OMx",
+    "description": "Comprehensive bio-informatic and chemo-informatic drug knowledge resource.",
+    "in_commons": true
+  },
+  {
+    "prefix": "duo",
+    "name": "DUO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/duo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'duo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ebsco",
+    "name": "EBSCO Subject & Coverage Vocabulary",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "https://www.ebsco.com/terms/",
+    "authority": "EBSCO Information Services",
+    "description": "Controlled indexing terms for academic journals and databases.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ecocore",
+    "name": "ECOCORE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ecocore:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ecocore'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ecto",
+    "name": "ECTO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ecto:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ecto'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "efo",
+    "name": "EFO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/efo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'efo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ehda",
+    "name": "EHDA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ehda:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ehda'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ehdaa",
+    "name": "EHDAA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ehdaa:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ehdaa'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ehdaa2",
+    "name": "EHDAA2",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ehdaa2:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ehdaa2'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "eli",
+    "name": "ELI",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/eli:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'eli'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "emapa",
+    "name": "Edinburgh Mouse Atlas Project Anatomy",
+    "category": "Anatomy",
+    "uri_prefix": "http://purl.obolibrary.org/obo/EMAPA_",
+    "authority": "EMAP / Jackson Lab",
+    "description": "Anatomical ontology covering developmental stages of embryonic mouse.",
+    "in_commons": true
+  },
+  {
+    "prefix": "emaps",
+    "name": "EMAPS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/emaps:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'emaps'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "englishlanguage",
+    "name": "ENGLISHLANGUAGE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/englishlanguage:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'englishlanguage'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "entity",
+    "name": "ENTITY",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/entity:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'entity'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "envo",
+    "name": "ENVO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/envo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'envo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ero",
+    "name": "ERO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ero:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ero'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ev",
+    "name": "EV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ev:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ev'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fabio",
+    "name": "FRBR-aligned Bibliographic Ontology",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "http://purl.org/spar/fabio/",
+    "authority": "SPAR Ontologies",
+    "description": "Ontology for recording publishing assets and scholarly literature.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fao",
+    "name": "FAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fast",
+    "name": "Faceted Application of Subject Terminology",
+    "category": "Library & Authority",
+    "uri_prefix": "http://id.worldcat.org/fast/",
+    "authority": "OCLC",
+    "description": "Faceted Dublin Core-compatible vocabulary based on LCSH.",
+    "in_commons": false
+  },
+  {
+    "prefix": "fbbi",
+    "name": "FBBI",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fbbi:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fbbi'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fbbt",
+    "name": "FBBT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fbbt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fbbt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fbcv",
+    "name": "FBCV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fbcv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fbcv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fbdv",
+    "name": "FBDV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fbdv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fbdv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-be-corp-corp",
+    "name": "FIBO-BE-CORP-CORP",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-be-corp-corp:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-be-corp-corp'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-be-le-cb",
+    "name": "FIBO-BE-LE-CB",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-be-le-cb:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-be-le-cb'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-be-le-lp",
+    "name": "FIBO-BE-LE-LP",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-be-le-lp:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-be-le-lp'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-be-nfp-nfp",
+    "name": "FIBO-BE-NFP-NFP",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-be-nfp-nfp:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-be-nfp-nfp'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-be-oac-cctl",
+    "name": "FIBO-BE-OAC-CCTL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-be-oac-cctl:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-be-oac-cctl'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fbc-dae-dbt",
+    "name": "FIBO-FBC-DAE-DBT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fbc-dae-dbt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fbc-dae-dbt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fbc-pas-fpas",
+    "name": "FIBO-FBC-PAS-FPAS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fbc-pas-fpas:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fbc-pas-fpas'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-acc-cur",
+    "name": "FIBO-FND-ACC-CUR",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-acc-cur:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-acc-cur'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-agr-ctr",
+    "name": "FIBO-FND-AGR-CTR",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-agr-ctr:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-agr-ctr'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-arr-doc",
+    "name": "FIBO-FND-ARR-DOC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-arr-doc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-arr-doc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-dt-oc",
+    "name": "FIBO-FND-DT-OC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-dt-oc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-dt-oc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-org-org",
+    "name": "FIBO-FND-ORG-ORG",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-org-org:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-org-org'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-pas-pas",
+    "name": "FIBO-FND-PAS-PAS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-pas-pas:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-pas-pas'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-plc-adr",
+    "name": "FIBO-FND-PLC-ADR",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-plc-adr:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-plc-adr'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-plc-loc",
+    "name": "FIBO-FND-PLC-LOC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-plc-loc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-plc-loc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-pty-pty",
+    "name": "FIBO-FND-PTY-PTY",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-pty-pty:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-pty-pty'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-fnd-rel-rel",
+    "name": "FIBO-FND-REL-REL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-fnd-rel-rel:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-fnd-rel-rel'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fibo-pay-ps-ps",
+    "name": "FIBO-PAY-PS-PS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fibo-pay-ps-ps:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fibo-pay-ps-ps'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fideo",
+    "name": "FIDEO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fideo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fideo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fix",
+    "name": "FIX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fix:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fix'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fma",
+    "name": "Foundational Model of Anatomy",
+    "category": "Anatomy",
+    "uri_prefix": "http://purl.obolibrary.org/obo/FMA_",
+    "authority": "University of Washington",
+    "description": "Reference ontology for biomedical informatics in domain of human anatomy.",
+    "in_commons": true
+  },
+  {
+    "prefix": "foaf",
+    "name": "Friend of a Friend",
+    "category": "Web Schemas",
+    "uri_prefix": "http://xmlns.com/foaf/0.1/",
+    "authority": "FOAF Project",
+    "description": "Linking people and information using the Web.",
+    "in_commons": true
+  },
+  {
+    "prefix": "fplx",
+    "name": "FPLX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/fplx:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'fplx'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "frbr",
+    "name": "FRBR",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/frbr:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'frbr'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "functionalparticipation",
+    "name": "DOLCE Functional Participation Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://www.loa-cnr.it/ontologies/FunctionalParticipation.owl#",
+    "authority": "ISTC-CNR",
+    "description": "Formal participation axioms for DOLCE-Lite.",
+    "in_commons": false
+  },
+  {
+    "prefix": "gaz",
+    "name": "Gazetteer of Place Names",
+    "category": "Geographic Standards",
+    "uri_prefix": "http://purl.obolibrary.org/obo/GAZ_",
+    "authority": "OBO Foundry",
+    "description": "Ontology of geographical places, geopolitical entities, and physical features.",
+    "in_commons": true
+  },
+  {
+    "prefix": "genepio",
+    "name": "GENEPIO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/genepio:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'genepio'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "geo",
+    "name": "GEO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/geo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'geo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "gfo",
+    "name": "General Formal Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://www.onto-med.de/ontologies/gfo.owl#",
+    "authority": "Onto-Med Leipzig",
+    "description": "Top-level ontology integrating objects, processes, facts, and universals.",
+    "in_commons": true
+  },
+  {
+    "prefix": "gleif-l1",
+    "name": "GLEIF-L1",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/gleif-l1:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'gleif-l1'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "gml",
+    "name": "GML",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/gml:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'gml'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "gnd",
+    "name": "Gemeinsame Normdatei (Integrated Authority File)",
+    "category": "Library & Authority",
+    "uri_prefix": "https://d-nb.info/gnd/",
+    "authority": "German National Library (DNB)",
+    "description": "German authority file for persons, corporate bodies, conferences, and subjects.",
+    "in_commons": false
+  },
+  {
+    "prefix": "go",
+    "name": "Gene Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/GO_",
+    "authority": "Gene Ontology Consortium",
+    "description": "Framework for the model of biology, detailing molecular functions and processes.",
+    "in_commons": true
+  },
+  {
+    "prefix": "goldbook",
+    "name": "GOLDBOOK",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/goldbook:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'goldbook'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "gs1",
+    "name": "GS1",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/gs1:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'gs1'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "gsso",
+    "name": "GSSO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/gsso:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'gsso'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hancestro",
+    "name": "HANCESTRO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hancestro:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hancestro'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hao",
+    "name": "HAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hba",
+    "name": "HBA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hba:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hba'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hcpcs",
+    "name": "Healthcare Common Procedure Coding System",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://identifiers.org/hcpcs:",
+    "authority": "Centers for Medicare & Medicaid Services (CMS)",
+    "description": "Standardized coding system for healthcare services, procedures, and equipment.",
+    "in_commons": false
+  },
+  {
+    "prefix": "hgnc",
+    "name": "HGNC",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hgnc:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hgnc'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hp",
+    "name": "Human Phenotype Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/HP_",
+    "authority": "Monarch Initiative / OBO",
+    "description": "Standardized vocabulary of phenotypic abnormalities encountered in human disease.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hsapdv",
+    "name": "HSAPDV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hsapdv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hsapdv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hso",
+    "name": "HSO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hso:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hso'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "htn",
+    "name": "HTN",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/htn:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'htn'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "hydra",
+    "name": "HYDRA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/hydra:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'hydra'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ianamediatype",
+    "name": "IANAMEDIATYPE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ianamediatype:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ianamediatype'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "iao",
+    "name": "IAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/iao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'iao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd10",
+    "name": "International Classification of Diseases, 10th Revision",
+    "category": "Health Classifications",
+    "uri_prefix": "https://icd.who.int/browse10/2019/en#/",
+    "authority": "World Health Organization (WHO)",
+    "description": "Global epidemiological and health diagnostic classification standard.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd10cm",
+    "name": "ICD-10 Clinical Modification",
+    "category": "Health Classifications",
+    "uri_prefix": "https://identifiers.org/icd10cm:",
+    "authority": "CDC / NCHS",
+    "description": "Clinical modification of ICD-10 for diagnostic coding in US healthcare.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd10pcs",
+    "name": "ICD-10 Procedure Coding System",
+    "category": "Health Classifications",
+    "uri_prefix": "https://identifiers.org/icd10pcs:",
+    "authority": "CMS",
+    "description": "Procedure coding system used in US inpatient hospital settings.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd10who",
+    "name": "ICD10WHO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/icd10who:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'icd10who'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd11",
+    "name": "International Classification of Diseases, 11th Revision",
+    "category": "Health Classifications",
+    "uri_prefix": "http://id.who.int/icd/entity/",
+    "authority": "World Health Organization (WHO)",
+    "description": "Modernized digital diagnostic taxonomy with post-coordination support.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd11foundation",
+    "name": "ICD-11 Foundation Component",
+    "category": "Health Classifications",
+    "uri_prefix": "http://id.who.int/icd/release/11/mms/",
+    "authority": "World Health Organization (WHO)",
+    "description": "Multidimensional underlying knowledge base of ICD-11 entities.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd9cm",
+    "name": "ICD-9 Clinical Modification",
+    "category": "Health Classifications",
+    "uri_prefix": "https://identifiers.org/icd9cm:",
+    "authority": "CDC / CMS",
+    "description": "Predecessor diagnostic and procedure classification in US healthcare.",
+    "in_commons": true
+  },
+  {
+    "prefix": "icd9pcs",
+    "name": "ICD-9 Procedure Coding System",
+    "category": "Health Classifications",
+    "uri_prefix": "https://identifiers.org/icd9pcs:",
+    "authority": "CMS",
+    "description": "Predecessor procedure coding system in US healthcare.",
+    "in_commons": true
+  },
+  {
+    "prefix": "iconclass",
+    "name": "ICONCLASS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/iconclass:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'iconclass'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ido",
+    "name": "IDO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ido:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ido'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "idocovid19",
+    "name": "IDOCOVID19",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/idocovid19:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'idocovid19'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "idomal",
+    "name": "IDOMAL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/idomal:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'idomal'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ilx",
+    "name": "ILX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ilx:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ilx'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "isbn",
+    "name": "International Standard Book Number",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "urn:isbn:",
+    "authority": "International ISBN Agency",
+    "description": "Unique commercial book identifier.",
+    "in_commons": true
+  },
+  {
+    "prefix": "issn",
+    "name": "International Standard Serial Number",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "urn:issn:",
+    "authority": "ISSN International Centre",
+    "description": "Unique eight-digit serial publication identifier.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ito",
+    "name": "ITO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ito:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ito'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "keggpathway",
+    "name": "KEGG Pathway Database",
+    "category": "Pathways & Systems Biology",
+    "uri_prefix": "https://www.kegg.jp/entry/",
+    "authority": "Kanehisa Laboratories",
+    "description": "Collection of manually drawn pathway maps representing molecular interactions.",
+    "in_commons": true
+  },
+  {
+    "prefix": "kestrelo",
+    "name": "KESTRELO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/kestrelo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'kestrelo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "kimeducationlevel",
+    "name": "KIMEDUCATIONLEVEL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/kimeducationlevel:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'kimeducationlevel'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "kimesv",
+    "name": "KIMESV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/kimesv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'kimesv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "kimhcrt",
+    "name": "KIMHCRT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/kimhcrt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'kimhcrt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "lcc-cr",
+    "name": "LCC-CR",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/lcc-cr:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'lcc-cr'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "lcsh",
+    "name": "Library of Congress Subject Headings",
+    "category": "Library & Authority",
+    "uri_prefix": "http://id.loc.gov/authorities/subjects/",
+    "authority": "Library of Congress",
+    "description": "Thesaurus of subject headings used by bibliographic libraries worldwide.",
+    "in_commons": true
+  },
+  {
+    "prefix": "lepao",
+    "name": "LEPAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/lepao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'lepao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "loinc",
+    "name": "Logical Observation Identifiers Names and Codes",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://loinc.org/",
+    "authority": "Regenstrief Institute",
+    "description": "Universal standard for identifying laboratory and clinical observations.",
+    "in_commons": true
+  },
+  {
+    "prefix": "lrmi",
+    "name": "LRMI",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/lrmi:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'lrmi'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "lrmoo",
+    "name": "LRMOO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/lrmoo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'lrmoo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ma",
+    "name": "Mouse Adult Anatomy Ontology",
+    "category": "Anatomy",
+    "uri_prefix": "http://purl.obolibrary.org/obo/MA_",
+    "authority": "The Jackson Laboratory",
+    "description": "Structured vocabulary of adult mouse anatomy.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mat",
+    "name": "MAT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mat:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mat'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "maxo",
+    "name": "MAXO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/maxo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'maxo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mba",
+    "name": "MBA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mba:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mba'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mco",
+    "name": "MCO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mco:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mco'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "meddra",
+    "name": "Medical Dictionary for Regulatory Activities",
+    "category": "Pharmacology",
+    "uri_prefix": "https://identifiers.org/meddra:",
+    "authority": "ICH",
+    "description": "Clinically validated medical terminology used for regulatory data sharing.",
+    "in_commons": true
+  },
+  {
+    "prefix": "medgen",
+    "name": "MedGen Clinical Genetics Database",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://identifiers.org/medgen:",
+    "authority": "NCBI",
+    "description": "Portal to information about medical genetics and genetic disorders.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mesh",
+    "name": "Medical Subject Headings",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "http://id.nlm.nih.gov/mesh/",
+    "authority": "National Library of Medicine (NLM)",
+    "description": "Controlled vocabulary thesaurus used for indexing PubMed/MEDLINE.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mfmo",
+    "name": "MFMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mfmo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mfmo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mi",
+    "name": "MI",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mi:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mi'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "miro",
+    "name": "MIRO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/miro:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'miro'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mmo",
+    "name": "MMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mmo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mmo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mmusdv",
+    "name": "MMUSDV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mmusdv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mmusdv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mo",
+    "name": "MO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "modalia",
+    "name": "MODALIA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/modalia:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'modalia'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mondo",
+    "name": "Mondo Disease Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/MONDO_",
+    "authority": "Monarch Initiative / OBO",
+    "description": "Harmonized ontology integrating global disease classifications into a single graph.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mop",
+    "name": "MOP",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mop:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mop'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mp",
+    "name": "MP",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mp:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mp'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "mpath",
+    "name": "MPATH",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/mpath:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'mpath'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ms",
+    "name": "MS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ms:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ms'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "nbo",
+    "name": "NBO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/nbo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'nbo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ncbiprotein",
+    "name": "NCBIPROTEIN",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ncbiprotein:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ncbiprotein'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ncbitaxon",
+    "name": "NCBI Organismal Taxonomy",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/NCBITaxon_",
+    "authority": "NCBI",
+    "description": "Standard biological classification of all organisms represented in GenBank.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ncit",
+    "name": "NCI Thesaurus",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/NCIT_",
+    "authority": "National Cancer Institute (NCI)",
+    "description": "Comprehensive biomedical vocabulary focused on cancer research and therapeutics.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ndc",
+    "name": "National Drug Code",
+    "category": "Pharmacology",
+    "uri_prefix": "https://identifiers.org/ndc:",
+    "authority": "U.S. Food and Drug Administration (FDA)",
+    "description": "Universal product identifier for human drugs in the United States.",
+    "in_commons": false
+  },
+  {
+    "prefix": "ndfrt",
+    "name": "NDFRT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ndfrt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ndfrt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "neuronames",
+    "name": "NEURONAMES",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/neuronames:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'neuronames'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "nif",
+    "name": "NIF",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/nif:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'nif'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "nlx",
+    "name": "NLX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/nlx:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'nlx'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "nlxanat",
+    "name": "NLXANAT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/nlxanat:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'nlxanat'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "oae",
+    "name": "OAE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/oae:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'oae'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "oarcs",
+    "name": "OARCS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/oarcs:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'oarcs'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "obcs",
+    "name": "OBCS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/obcs:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'obcs'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "obi",
+    "name": "OBI",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/obi:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'obi'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "obo",
+    "name": "OBO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/obo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'obo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "oboinowl",
+    "name": "OBOINOWL",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/oboinowl:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'oboinowl'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "oeo",
+    "name": "OEO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/oeo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'oeo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "og",
+    "name": "OG",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/og:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'og'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ogg",
+    "name": "OGG",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ogg:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ogg'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ogms",
+    "name": "OGMS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ogms:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ogms'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "oio",
+    "name": "OIO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/oio:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'oio'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omiabis",
+    "name": "OMIABIS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/omiabis:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'omiabis'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omim",
+    "name": "Online Mendelian Inheritance in Man",
+    "category": "Genetics & Rare Diseases",
+    "uri_prefix": "https://omim.org/entry/",
+    "authority": "Johns Hopkins University",
+    "description": "Catalog of human genes and genetic phenotypes.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omimps",
+    "name": "OMIMPS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/omimps:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'omimps'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omit",
+    "name": "OMIT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/omit:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'omit'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omo",
+    "name": "OMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/omo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'omo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omop",
+    "name": "OMOP Standardized Vocabulary",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://athena.ohdsi.org/search-terms/terms/",
+    "authority": "OHDSI",
+    "description": "Observational Medical Outcomes Partnership Common Data Model terminology.",
+    "in_commons": false
+  },
+  {
+    "prefix": "omopext",
+    "name": "OMOP Extension",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://athena.ohdsi.org/search-terms/terms/",
+    "authority": "OHDSI",
+    "description": "Clinical terminology extensions curated by the OHDSI vocabulary team.",
+    "in_commons": true
+  },
+  {
+    "prefix": "omrse",
+    "name": "OMRSE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/omrse:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'omrse'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ontoavida",
+    "name": "ONTOAVIDA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ontoavida:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ontoavida'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ontoneo",
+    "name": "ONTONEO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ontoneo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ontoneo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "opmi",
+    "name": "OPMI",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/opmi:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'opmi'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "orcid",
+    "name": "Open Researcher and Contributor ID",
+    "category": "Identifiers",
+    "uri_prefix": "https://orcid.org/",
+    "authority": "ORCID Inc.",
+    "description": "Unique persistent identifier for researchers and academic contributors.",
+    "in_commons": true
+  },
+  {
+    "prefix": "orphanet",
+    "name": "Orphanet Rare Disease Nomenclature",
+    "category": "Genetics & Rare Diseases",
+    "uri_prefix": "https://identifiers.org/orphanet:",
+    "authority": "INSERM / Orphanet",
+    "description": "Reference nomenclature and classification for rare diseases.",
+    "in_commons": true
+  },
+  {
+    "prefix": "orphanetordo",
+    "name": "ORPHANETORDO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/orphanetordo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'orphanetordo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "osm",
+    "name": "OpenStreetMap Tagging & Features",
+    "category": "Geographic Standards",
+    "uri_prefix": "https://www.openstreetmap.org/",
+    "authority": "OpenStreetMap Foundation",
+    "description": "Collaborative project to create a free editable geographic database of the world.",
+    "in_commons": true
+  },
+  {
+    "prefix": "owl",
+    "name": "Web Ontology Language",
+    "category": "W3C Standards",
+    "uri_prefix": "http://www.w3.org/2002/07/owl#",
+    "authority": "W3C",
+    "description": "Formal description logic ontology language for semantic web.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pato",
+    "name": "PATO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pato:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pato'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pba",
+    "name": "PBA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pba:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pba'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pbpko",
+    "name": "PBPKO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pbpko:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pbpko'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pco",
+    "name": "PCO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pco:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pco'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pdumdv",
+    "name": "PDUMDV",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pdumdv:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pdumdv'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pfam",
+    "name": "PFAM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pfam:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pfam'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "phipo",
+    "name": "PHIPO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/phipo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'phipo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pmid",
+    "name": "PubMed Unique Identifier",
+    "category": "Identifiers",
+    "uri_prefix": "https://pubmed.ncbi.nlm.nih.gov/",
+    "authority": "National Library of Medicine",
+    "description": "Unique identifier for biomedical and life sciences literature.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ppo",
+    "name": "PPO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/ppo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'ppo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pr",
+    "name": "Protein Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/PR_",
+    "authority": "OBO Foundry",
+    "description": "Formal representation of evolutionary protein entities, classes, and complexes.",
+    "in_commons": true
+  },
+  {
+    "prefix": "prism",
+    "name": "PRISM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/prism:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'prism'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "prov",
+    "name": "W3C PROV Ontology",
+    "category": "Provenance",
+    "uri_prefix": "http://www.w3.org/ns/prov#",
+    "authority": "W3C",
+    "description": "Conceptual data model that forms a basis for provenance interchange.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pso",
+    "name": "PSO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pso:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pso'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "pubchemcompound",
+    "name": "PUBCHEMCOMPOUND",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/pubchemcompound:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'pubchemcompound'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "radlex",
+    "name": "RADLEX",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/radlex:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'radlex'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "rda",
+    "name": "Resource Description and Access Elements",
+    "category": "Bibliographic Standards",
+    "uri_prefix": "http://rdaregistry.info/Elements/",
+    "authority": "RDA Steering Committee",
+    "description": "Standard for cataloging and descriptive metadata in cultural heritage institutions.",
+    "in_commons": false
+  },
+  {
+    "prefix": "rdf",
+    "name": "Resource Description Framework",
+    "category": "W3C Standards",
+    "uri_prefix": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+    "authority": "W3C",
+    "description": "Foundation data model for graph knowledge representation.",
+    "in_commons": true
+  },
+  {
+    "prefix": "rdfs",
+    "name": "RDF Schema",
+    "category": "W3C Standards",
+    "uri_prefix": "http://www.w3.org/2000/01/rdf-schema#",
+    "authority": "W3C",
+    "description": "Data modeling vocabulary for RDF data structures and hierarchies.",
+    "in_commons": true
+  },
+  {
+    "prefix": "reactome",
+    "name": "Reactome Pathway Database",
+    "category": "Pathways & Systems Biology",
+    "uri_prefix": "https://reactome.org/content/detail/",
+    "authority": "Reactome Consortium",
+    "description": "Open-source curated database of biological pathways and reactions.",
+    "in_commons": true
+  },
+  {
+    "prefix": "registration",
+    "name": "REGISTRATION",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/registration:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'registration'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "regorg",
+    "name": "REGORG",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/regorg:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'regorg'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "retired",
+    "name": "RETIRED",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/retired:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'retired'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ro",
+    "name": "OBO Relation Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/RO_",
+    "authority": "OBO Foundry",
+    "description": "Standardized ontological relations between biomedical entities.",
+    "in_commons": true
+  },
+  {
+    "prefix": "rxnorm",
+    "name": "RxNorm Standardized Clinical Drugs",
+    "category": "Pharmacology",
+    "uri_prefix": "https://identifiers.org/rxnorm:",
+    "authority": "National Library of Medicine (NLM)",
+    "description": "Standardized nomenclature for clinical drugs, ingredients, and dosages.",
+    "in_commons": true
+  },
+  {
+    "prefix": "rxnormext",
+    "name": "RxNorm Extension",
+    "category": "Pharmacology",
+    "uri_prefix": "https://athena.ohdsi.org/search-terms/terms/",
+    "authority": "OHDSI",
+    "description": "International drug extensions adhering to RxNorm model.",
+    "in_commons": false
+  },
+  {
+    "prefix": "sarif",
+    "name": "SARIF",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/sarif:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'sarif'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "scdo",
+    "name": "SCDO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/scdo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'scdo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "schema",
+    "name": "Schema.org Vocabulary",
+    "category": "Web Schemas",
+    "uri_prefix": "http://schema.org/",
+    "authority": "Schema.org Consortium",
+    "description": "Collaborative schema for structured data on the Internet.",
+    "in_commons": true
+  },
+  {
+    "prefix": "sctid",
+    "name": "SNOMED CT Concept Identifier",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "http://snomed.info/id/",
+    "authority": "SNOMED International",
+    "description": "Concept identifier namespace for SNOMED CT clinical terms.",
+    "in_commons": true
+  },
+  {
+    "prefix": "semapv",
+    "name": "Semantic Mapping Vocabulary",
+    "category": "Mapping Standards",
+    "uri_prefix": "https://w3id.org/semapv/vocab/",
+    "authority": "OBO Foundry",
+    "description": "Vocabulary defining justification types and mediation methods for mappings.",
+    "in_commons": false
+  },
+  {
+    "prefix": "sepio",
+    "name": "SEPIO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/sepio:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'sepio'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "sibo",
+    "name": "SIBO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/sibo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'sibo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "sio",
+    "name": "Semanticscience Integrated Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://semanticscience.org/resource/SIO_",
+    "authority": "Dumontier Lab",
+    "description": "Upper-level ontology for the biomedical and health sciences.",
+    "in_commons": true
+  },
+  {
+    "prefix": "skos",
+    "name": "Simple Knowledge Organization System",
+    "category": "W3C Standards",
+    "uri_prefix": "http://www.w3.org/2004/02/skos/core#",
+    "authority": "W3C",
+    "description": "Standard representation for thesauri, classification schemes, and subject headings.",
+    "in_commons": true
+  },
+  {
+    "prefix": "slso",
+    "name": "SLSO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/slso:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'slso'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "snomedct",
+    "name": "Systematized Nomenclature of Medicine - Clinical Terms",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "http://snomed.info/id/",
+    "authority": "SNOMED International",
+    "description": "Comprehensive, clinically validated healthcare terminology.",
+    "in_commons": true
+  },
+  {
+    "prefix": "so",
+    "name": "Sequence Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/SO_",
+    "authority": "Sequence Ontology Consortium",
+    "description": "Structured computer-readable vocabulary for genomic sequence features.",
+    "in_commons": true
+  },
+  {
+    "prefix": "sopt",
+    "name": "Source of Payment Typology",
+    "category": "Healthcare Administration",
+    "uri_prefix": "https://athena.ohdsi.org/search-terms/terms/",
+    "authority": "PHDSC",
+    "description": "National standard for categorizing healthcare payment sources and insurance.",
+    "in_commons": false
+  },
+  {
+    "prefix": "sosa",
+    "name": "SOSA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/sosa:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'sosa'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "spatialrelations",
+    "name": "DOLCE Spatial Relations Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://www.loa-cnr.it/ontologies/SpatialRelations.owl#",
+    "authority": "ISTC-CNR",
+    "description": "Formal spatial relations module for DOLCE-Lite.",
+    "in_commons": false
+  },
+  {
+    "prefix": "spd",
+    "name": "SPD",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/spd:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'spd'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "sssom",
+    "name": "Simple Standard for Sharing Ontological Mappings",
+    "category": "Mapping Standards",
+    "uri_prefix": "https://w3id.org/sssom/",
+    "authority": "Mapping Commons",
+    "description": "Standard specification for tabular representation of ontology crosswalks.",
+    "in_commons": true
+  },
+  {
+    "prefix": "stato",
+    "name": "STATO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/stato:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'stato'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "sumo",
+    "name": "Suggested Upper Merged Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://www.ontologyportal.org/SUMO.owl#",
+    "authority": "IEEE Working Group / Pease",
+    "description": "Formal upper ontology mapped to WordNet and English vocabulary.",
+    "in_commons": true
+  },
+  {
+    "prefix": "symp",
+    "name": "Symptom Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/SYMP_",
+    "authority": "OBO Foundry",
+    "description": "Controlled vocabulary defining symptoms and signs of human pathology.",
+    "in_commons": true
+  },
+  {
+    "prefix": "t4fs",
+    "name": "T4FS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/t4fs:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 't4fs'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "tads",
+    "name": "TADS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/tads:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'tads'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "tao",
+    "name": "TAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/tao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'tao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "taxrank",
+    "name": "Taxonomic Rank Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/TAXRANK_",
+    "authority": "OBO Foundry",
+    "description": "Ontology defining ranks of biological taxa (kingdom, phylum, species, etc.).",
+    "in_commons": true
+  },
+  {
+    "prefix": "tdwgtaxonrank",
+    "name": "TDWGTAXONRANK",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/tdwgtaxonrank:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'tdwgtaxonrank'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "temporalrelations",
+    "name": "DOLCE Temporal Relations Ontology",
+    "category": "Upper Ontologies",
+    "uri_prefix": "http://www.loa-cnr.it/ontologies/TemporalRelations.owl#",
+    "authority": "ISTC-CNR",
+    "description": "Formal temporal relations module for DOLCE-Lite.",
+    "in_commons": true
+  },
+  {
+    "prefix": "tgma",
+    "name": "TGMA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/tgma:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'tgma'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "txpo",
+    "name": "TXPO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/txpo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'txpo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "uberon",
+    "name": "Uber-anatomy Ontology",
+    "category": "OBO Ontologies",
+    "uri_prefix": "http://purl.obolibrary.org/obo/UBERON_",
+    "authority": "OBO Foundry",
+    "description": "Integrated cross-species anatomical ontology representing animal structures.",
+    "in_commons": true
+  },
+  {
+    "prefix": "ucum",
+    "name": "Unified Code for Units of Measure",
+    "category": "Measurement Standards",
+    "uri_prefix": "http://unitsofmeasure.org/",
+    "authority": "Regenstrief Institute",
+    "description": "Standardized syntax and units of measure representation in healthcare.",
+    "in_commons": true
+  },
+  {
+    "prefix": "umls",
+    "name": "Unified Medical Language System",
+    "category": "Health & Biomedicine",
+    "uri_prefix": "https://identifiers.org/umls:",
+    "authority": "National Library of Medicine (NLM)",
+    "description": "Metathesaurus interconnecting diverse health classifications and terminology.",
+    "in_commons": true
+  },
+  {
+    "prefix": "unece",
+    "name": "UNECE",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/unece:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'unece'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "uniprot",
+    "name": "Universal Protein Resource",
+    "category": "Proteomics",
+    "uri_prefix": "https://www.uniprot.org/uniprotkb/",
+    "authority": "UniProt Consortium",
+    "description": "Hub for protein sequence and functional information.",
+    "in_commons": true
+  },
+  {
+    "prefix": "uniprotchain",
+    "name": "UNIPROTCHAIN",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/uniprotchain:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'uniprotchain'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "usairforcerankingsystem",
+    "name": "USAIRFORCERANKINGSYSTEM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/usairforcerankingsystem:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'usairforcerankingsystem'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "usarmyrankingsystem",
+    "name": "USARMYRANKINGSYSTEM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/usarmyrankingsystem:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'usarmyrankingsystem'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "uscensus",
+    "name": "U.S. Census Bureau Classifications",
+    "category": "Demographic Standards",
+    "uri_prefix": "https://www.census.gov/",
+    "authority": "U.S. Census Bureau",
+    "description": "Federal statistical geographic entities, tracts, blocks, and demographic codes.",
+    "in_commons": true
+  },
+  {
+    "prefix": "uscoastguardrankingsystem",
+    "name": "USCOASTGUARDRANKINGSYSTEM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/uscoastguardrankingsystem:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'uscoastguardrankingsystem'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "usmarinecorpsrankingsystem",
+    "name": "USMARINECORPSRANKINGSYSTEM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/usmarinecorpsrankingsystem:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'usmarinecorpsrankingsystem'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "usnavyrankingsystem",
+    "name": "USNAVYRANKINGSYSTEM",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/usnavyrankingsystem:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'usnavyrankingsystem'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vcard",
+    "name": "vCard in RDF",
+    "category": "Metadata Standards",
+    "uri_prefix": "http://www.w3.org/2006/vcard/ns#",
+    "authority": "W3C",
+    "description": "Ontology for electronic business card profiles and organizations.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vhog",
+    "name": "VHOG",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vhog:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vhog'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "viaf",
+    "name": "Virtual International Authority File",
+    "category": "Library & Authority",
+    "uri_prefix": "http://viaf.org/viaf/",
+    "authority": "OCLC",
+    "description": "Joint project linking global national authority files into a single service.",
+    "in_commons": false
+  },
+  {
+    "prefix": "vido",
+    "name": "VIDO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vido:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vido'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vivo",
+    "name": "VIVO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vivo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vivo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vo",
+    "name": "VO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "void",
+    "name": "VOID",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/void:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'void'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vsao",
+    "name": "VSAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vsao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vsao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vsmo",
+    "name": "VSMO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vsmo:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vsmo'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vso",
+    "name": "VSO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vso:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vso'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vt",
+    "name": "VT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "vto",
+    "name": "VTO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/vto:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'vto'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "wbbt",
+    "name": "WBBT",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/wbbt:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'wbbt'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "wbls",
+    "name": "WBLS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/wbls:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'wbls'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "wikidata",
+    "name": "Wikidata Knowledge Graph",
+    "category": "General Knowledge",
+    "uri_prefix": "http://www.wikidata.org/entity/",
+    "authority": "Wikimedia Foundation",
+    "description": "Free, collaborative, multilingual, secondary knowledge base.",
+    "in_commons": false
+  },
+  {
+    "prefix": "wikipathways",
+    "name": "WikiPathways Biological Pathway Repository",
+    "category": "Pathways & Systems Biology",
+    "uri_prefix": "https://www.wikipathways.org/pathways/",
+    "authority": "WikiPathways",
+    "description": "Open, collaborative platform dedicated to the curation of biological pathways.",
+    "in_commons": true
+  },
+  {
+    "prefix": "wikipedia",
+    "name": "Wikipedia Article Namespace",
+    "category": "General Knowledge",
+    "uri_prefix": "http://en.wikipedia.org/wiki/",
+    "authority": "Wikimedia Foundation",
+    "description": "Free encyclopedia web article identifier namespace.",
+    "in_commons": true
+  },
+  {
+    "prefix": "wn",
+    "name": "WordNet 3.0 Synsets",
+    "category": "Linguistics & Lexicons",
+    "uri_prefix": "http://www.ontologyportal.org/WordNet.owl#",
+    "authority": "Princeton University / SUMO",
+    "description": "Lexical database of semantic relations between words and synsets.",
+    "in_commons": true
+  },
+  {
+    "prefix": "wordnet",
+    "name": "Princeton WordNet Lexicon",
+    "category": "Linguistics & Lexicons",
+    "uri_prefix": "http://www.ontologyportal.org/WordNet.owl#",
+    "authority": "Princeton University",
+    "description": "Large lexical database of English nouns, verbs, adjectives, and adverbs.",
+    "in_commons": false
+  },
+  {
+    "prefix": "xao",
+    "name": "XAO",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/xao:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'xao'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "xlmod",
+    "name": "XLMOD",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/xlmod:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'xlmod'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "yago",
+    "name": "YAGO Knowledge Base",
+    "category": "Knowledge Graphs",
+    "uri_prefix": "http://yago-knowledge.org/resource/",
+    "authority": "Max Planck Institute / Telecom Paris",
+    "description": "High-coverage knowledge base derived from Wikipedia, WordNet, and GeoNames.",
+    "in_commons": true
+  },
+  {
+    "prefix": "zfa",
+    "name": "ZFA",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/zfa:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'zfa'.",
+    "in_commons": true
+  },
+  {
+    "prefix": "zfs",
+    "name": "ZFS",
+    "category": "Domain Vocabulary",
+    "uri_prefix": "https://identifiers.org/zfs:",
+    "authority": "External Repository / Mapping Commons",
+    "description": "Domain ontology / vocabulary mapping endpoint 'zfs'.",
+    "in_commons": true
+  }
+]

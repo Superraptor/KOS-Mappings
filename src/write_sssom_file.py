@@ -17,6 +17,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import gzip
 import json
 import logging
 import os
@@ -108,12 +109,24 @@ STANDARD_PREFIX_MAP: Dict[str, str] = {
     "bfo": "http://purl.obolibrary.org/obo/BFO_",
     "ro": "http://purl.obolibrary.org/obo/RO_",
     "obo": "http://purl.obolibrary.org/obo/",
-    # Health classifications
+    # Health classifications & Athena vocabularies
     "icd10": "https://icd.who.int/browse10/2019/en#/",
     "icd11": "http://id.who.int/icd/entity/",
     "icd10cm": "https://identifiers.org/icd10cm:",
     "icd9cm": "https://identifiers.org/icd9cm:",
     "snomedct": "http://snomed.info/id/",
+    "loinc": "https://loinc.org/",
+    "ucum": "http://unitsofmeasure.org/",
+    "omopext": "https://athena.ohdsi.org/search-terms/terms/",
+    "omop": "https://athena.ohdsi.org/search-terms/terms/",
+    "osm": "https://www.openstreetmap.org/",
+    "uscensus": "https://www.census.gov/",
+    "rxnorm": "https://identifiers.org/rxnorm:",
+    "rxnormext": "https://athena.ohdsi.org/search-terms/terms/",
+    "cpt": "https://identifiers.org/cpt:",
+    "hcpcs": "https://identifiers.org/hcpcs:",
+    "atc": "https://identifiers.org/atc:",
+    "ndc": "https://identifiers.org/ndc:",
     "meddra": "https://identifiers.org/meddra:",
     "ncit": "http://purl.obolibrary.org/obo/NCIT_",
     "umls": "https://identifiers.org/umls:",
@@ -150,6 +163,9 @@ KNOWN_SOURCE_VERSIONS: Dict[str, str] = {
     "icd11": "2024-01",
     "icd10cm": "2018",
     "icd9cm": "2017",
+    "snomedct": "2026-02-01",
+    "loinc": "2.82",
+    "ucum": "1.8.2",
     "dcat": "2.1.1",
     "dcatap": "2.1.1",
     "schema": "26.0",
@@ -169,6 +185,8 @@ KNOWN_SOURCE_VERSIONS: Dict[str, str] = {
 }
 
 KNOWN_ORIGINATION_DATES: Dict[str, str] = {
+    "athena": "2026-08-29",
+    "ohdsi": "2026-08-29",
     "icd10cm_icd9cm": "2017-10-01",
     "icd9cm_icd10cm": "2017-10-01",
     "icd10pcs_icd9pcs": "2017-10-01",
@@ -239,6 +257,47 @@ _URI_SCHEMES = {
 }
 _CURIE_PATTERN = re.compile(r"\b([a-zA-Z][a-zA-Z0-9_\-\.]*):([a-zA-Z0-9_\-\.\/#%]+)")
 
+_CURIE_SLOTS = {
+    "subject_id",
+    "predicate_id",
+    "object_id",
+    "subject",
+    "predicate",
+    "object",
+    "mapping_justification",
+    "justification",
+    "author_id",
+    "creator_id",
+    "reviewer_id",
+    "mapping_tool_id",
+    "subject_category",
+    "object_category",
+    "subject_type",
+    "object_type",
+    "predicate_modifier",
+    "mapping_provider",
+    "license",
+    "similarity_measure",
+    "subject_source",
+    "object_source",
+}
+
+_EXCLUDED_TEXT_FIELDS = {
+    "subject_label",
+    "object_label",
+    "comment",
+    "mapping_tool",
+    "mapping_tool_version",
+    "subject_source_version",
+    "object_source_version",
+    "mapping_set_title",
+    "mapping_set_description",
+    "mapping_date",
+    "confidence",
+    "semantic_similarity_score",
+    "match_type",
+}
+
 
 def _extract_used_prefixes(
     rows: Iterable[Dict[str, Any]],
@@ -249,6 +308,7 @@ def _extract_used_prefixes(
     """
     Scans mapping rows and header metadata to identify all CURIE prefixes
     actually referenced by the entities in a specific SSSOM file.
+    Strictly checks CURIE entity slots and ignores free-text labels/comments.
     """
     used: Set[str] = set()
 
@@ -262,29 +322,51 @@ def _extract_used_prefixes(
             used.add(clean_p2)
 
     for row in rows:
-        for val in row.values():
+        for k, val in row.items():
             if not isinstance(val, str) or not val:
                 continue
-            if ":" not in val:
+            k_lower = str(k).lower().strip()
+            if k_lower in _EXCLUDED_TEXT_FIELDS:
                 continue
-            for match in _CURIE_PATTERN.finditer(val):
-                prefix = match.group(1).lower()
-                if prefix not in _URI_SCHEMES:
-                    used.add(prefix)
+            if not (
+                k_lower in _CURIE_SLOTS
+                or k_lower.endswith(("_id", "_curie", "_source", "_justification"))
+            ):
+                continue
+
+            for token in val.split("|"):
+                token = token.strip()
+                if not token or token.startswith(("http://", "https://", "urn:", "ftp://", "file://")):
+                    continue
+                if ":" in token:
+                    pfx, _, _ = token.partition(":")
+                    pfx = pfx.strip().lower()
+                    if pfx and pfx not in _URI_SCHEMES and re.match(r"^[a-zA-Z][a-zA-Z0-9_\-\.]*$", pfx):
+                        used.add(pfx)
+                elif k_lower in ("subject_source", "object_source"):
+                    clean_p = re.sub(r"[^a-zA-Z0-9_\-\.]", "", token).lower()
+                    if clean_p and clean_p not in _URI_SCHEMES and re.match(r"^[a-zA-Z][a-zA-Z0-9_\-\.]*$", clean_p):
+                        used.add(clean_p)
 
     if metadata:
         for k, v in metadata.items():
-            if k in ("curie_map", "mappings", "review"):
+            k_lower = str(k).lower().strip()
+            if k in ("curie_map", "mappings", "review") or k_lower in _EXCLUDED_TEXT_FIELDS:
                 continue
-            if isinstance(v, str) and ":" in v:
-                for match in _CURIE_PATTERN.finditer(v):
-                    prefix = match.group(1).lower()
-                    if prefix not in _URI_SCHEMES:
-                        used.add(prefix)
-            elif k in ("subject_source", "object_source") and isinstance(v, str):
+            if k in ("subject_source", "object_source") and isinstance(v, str):
                 clean_p = re.sub(r"[^a-zA-Z0-9_\-\.]", "", v).lower()
                 if clean_p and clean_p not in _URI_SCHEMES:
                     used.add(clean_p)
+            elif isinstance(v, str) and ":" in v:
+                for token in v.split("|"):
+                    token = token.strip()
+                    if not token or token.startswith(("http://", "https://", "urn:", "ftp://", "file://")):
+                        continue
+                    if ":" in token:
+                        pfx, _, _ = token.partition(":")
+                        pfx = pfx.strip().lower()
+                        if pfx and pfx not in _URI_SCHEMES and re.match(r"^[a-zA-Z][a-zA-Z0-9_\-\.]*$", pfx):
+                            used.add(pfx)
 
     return used
 
@@ -625,11 +707,23 @@ STANDARD_SSSOM_SLOTS = {
 }
 
 
+def _open_sssom_read(path: Path):
+    """Open SSSOM file, detecting gzip automatically via extension or magic bytes."""
+    try:
+        with open(path, "rb") as bf:
+            magic = bf.read(2)
+        if magic == b"\x1f\x8b" or path.name.lower().endswith(".gz"):
+            return gzip.open(path, "rt", newline="", encoding="utf-8", errors="replace")
+    except Exception:
+        pass
+    return path.open(newline="", encoding="utf-8", errors="replace")
+
+
 def _read_sssom_tsv(
     path: Path,
 ) -> Tuple[Dict[str, Any], List[Dict[str, str]], List[str]]:
     """
-    Reads an existing SSSOM TSV file with YAML header comments.
+    Reads an existing SSSOM TSV file with YAML header comments (supports .sssom.tsv and .sssom.tsv.gz).
     """
     header_meta: Dict[str, Any] = {}
     curie_map: Dict[str, str] = {}
@@ -639,7 +733,7 @@ def _read_sssom_tsv(
     in_curie_map = False
     data_lines = []
 
-    with path.open(newline="", encoding="utf-8", errors="replace") as fh:
+    with _open_sssom_read(path) as fh:
         for raw_line in fh:
             line = raw_line.rstrip("\r\n")
             if line.startswith("#"):
@@ -690,11 +784,16 @@ def _write_sssom_tsv(
     metadata: Dict[str, Any],
     rows: List[Dict[str, Any]],
     fieldnames: Optional[List[str]] = None,
-) -> None:
+    compress: bool = False,
+) -> Path:
     """
     Writes a valid SSSOM TSV file with embedded YAML header comments.
+    Supports gzip compression when compress=True or when path ends with .gz.
     """
     path.parent.mkdir(parents=True, exist_ok=True)
+    is_gz = compress or path.name.lower().endswith(".gz")
+    if is_gz and not path.name.lower().endswith(".gz"):
+        path = path.with_name(path.name + ".gz")
 
     # Determine column order: CANONICAL_COLUMN_ORDER first, then others sorted
     all_cols = set()
@@ -731,8 +830,13 @@ def _write_sssom_tsv(
     if h_m_ver and is_system_date(h_m_ver):
         del metadata["mapping_set_version"]
 
-    tmp_path = path.with_suffix(".tmp")
-    with tmp_path.open("w", newline="", encoding="utf-8") as fh:
+    tmp_path = path.with_name(path.name + ".tmp")
+    if is_gz:
+        fh = gzip.open(tmp_path, "wt", newline="", encoding="utf-8")
+    else:
+        fh = tmp_path.open("w", newline="", encoding="utf-8")
+
+    with fh:
         # Write curie_map comment block
         curie_map = metadata.get("curie_map", {})
         if curie_map and isinstance(curie_map, dict):
@@ -762,6 +866,7 @@ def _write_sssom_tsv(
             writer.writerow({k: str(r.get(k, "") or "") for k in fieldnames})
 
     tmp_path.replace(path)
+    return path
 
 
 # --------------------------------------------------------------
@@ -966,10 +1071,11 @@ def write_sssom_file(
     yes: bool = False,
     no_edit: bool = False,
     output_override: Optional[str] = None,
+    compress: bool = False,
 ) -> List[Path]:
     """
     Process input_location into reviewed SSSOM mappings,
-    write/merge into canonical ./commons/<p1>/<p2>/<p1>_<p2>.sssom.tsv,
+    write/merge into canonical ./commons/<p1>/<p2>/<p1>_<p2>.sssom.tsv (or .sssom.tsv.gz),
     and optionally write to output_override.
     Returns list of written file paths.
     """
@@ -981,15 +1087,21 @@ def write_sssom_file(
         )
         input_location = "manual.sssom.tsv"
 
-    LOGGER.info("Reviewing SSSOM metadata for %s", input_location)
-    metadata = _run_review_script(input_location, yes=yes, no_edit=no_edit)
+    if isinstance(input_location, dict):
+        metadata = dict(input_location)
+    elif isinstance(input_location, (str, Path)) and str(input_location).lower().endswith(".json") and Path(input_location).is_file():
+        with open(input_location, "r", encoding="utf-8") as jf:
+            metadata = json.load(jf)
+    else:
+        LOGGER.info("Reviewing SSSOM metadata for %s", input_location)
+        metadata = _run_review_script(str(input_location), yes=yes, no_edit=no_edit)
 
     rows = metadata.get("mappings", [])
-    if not rows:
+    if not rows and isinstance(input_location, (str, Path)):
         # Fallback to direct loader
         LOGGER.warning("Metadata contained no mapping rows, falling back to loader.")
         from src.generate_sssom_metadata import generate_metadata
-        doc = generate_metadata(input_location)
+        doc = generate_metadata(str(input_location))
         rows = doc.get("mappings", [])
         if "curie_map" in doc:
             metadata.setdefault("curie_map", {}).update(doc["curie_map"])
@@ -1026,9 +1138,14 @@ def write_sssom_file(
         pair = _infer_prefix_pair(r)
         groups[pair].append(r)
 
-    # 1. Write or merge canonical files into ./commons/<p1>/<p2>/<p1>_<p2>.sssom.tsv
+    # 1. Write or merge canonical files into ./commons/<p1>/<p2>/<p1>_<p2>.sssom.tsv (or .gz)
     for (p1, p2), group_rows in groups.items():
-        canonical_path = commons_root / p1 / p2 / f"{p1}_{p2}.sssom.tsv"
+        canonical_tsv = commons_root / p1 / p2 / f"{p1}_{p2}.sssom.tsv"
+        canonical_gz = commons_root / p1 / p2 / f"{p1}_{p2}.sssom.tsv.gz"
+
+        existing_path = canonical_gz if canonical_gz.is_file() else (canonical_tsv if canonical_tsv.is_file() else None)
+        target_compressed = compress or (existing_path == canonical_gz) or (len(group_rows) > 50000)
+        target_path = canonical_gz if target_compressed else canonical_tsv
 
         group_meta = dict(metadata)
         group_meta["mapping_set_id"] = f"https://w3id.org/commons/mappings/{p1}_{p2}"
@@ -1043,8 +1160,8 @@ def write_sssom_file(
         # Deduplicate and merge rows within incoming group
         merged_group_rows, group_fieldnames = _merge_rows([], enriched_group_rows)
 
-        if canonical_path.is_file():
-            old_meta, old_rows, _ = _read_sssom_tsv(canonical_path)
+        if existing_path:
+            old_meta, old_rows, _ = _read_sssom_tsv(existing_path)
             merged_meta = _merge_headers(old_meta, group_meta)
             # Re-enrich existing rows to ensure complete row metadata consistency across the totality
             enriched_old_rows = _enrich_row_metadata(old_rows, merged_meta, p1, p2)
@@ -1053,17 +1170,19 @@ def write_sssom_file(
             merged_meta["curie_map"] = _filter_curie_map(
                 merged_meta.get("curie_map", {}), merged_rows, merged_meta, p1=p1, p2=p2
             )
-            _write_sssom_tsv(canonical_path, merged_meta, merged_rows, fieldnames)
-            LOGGER.info("Merged %d rows into canonical file: %s", len(merged_rows), canonical_path)
+            written_file = _write_sssom_tsv(target_path, merged_meta, merged_rows, fieldnames, compress=target_compressed)
+            if existing_path != target_path and existing_path.is_file():
+                existing_path.unlink()
+            LOGGER.info("Merged %d rows into canonical file: %s", len(merged_rows), written_file)
         else:
             # Filter curie map to strictly include only entities mapped in this file
             group_meta["curie_map"] = _filter_curie_map(
                 group_meta.get("curie_map", {}), merged_group_rows, group_meta, p1=p1, p2=p2
             )
-            _write_sssom_tsv(canonical_path, group_meta, merged_group_rows, group_fieldnames)
-            LOGGER.info("Wrote %d rows to new canonical file: %s", len(merged_group_rows), canonical_path)
+            written_file = _write_sssom_tsv(target_path, group_meta, merged_group_rows, group_fieldnames, compress=target_compressed)
+            LOGGER.info("Wrote %d rows to new canonical file: %s", len(merged_group_rows), written_file)
 
-        written_paths.append(canonical_path)
+        written_paths.append(written_file)
 
     # 2. If output_override was specified, write all rows to that file
     if output_override:
@@ -1084,9 +1203,10 @@ def write_sssom_file(
         override_meta["curie_map"] = _filter_curie_map(
             override_meta.get("curie_map", {}), enriched_override_rows, override_meta
         )
-        _write_sssom_tsv(override_path, override_meta, enriched_override_rows)
-        LOGGER.info("Wrote full SSSOM file to output override: %s", override_path)
-        written_paths.append(override_path)
+        is_override_gz = compress or override_path.name.lower().endswith(".gz")
+        written_override = _write_sssom_tsv(override_path, override_meta, enriched_override_rows, compress=is_override_gz)
+        LOGGER.info("Wrote full SSSOM file to output override: %s", written_override)
+        written_paths.append(written_override)
 
     print(f"\n✅ SSSOM processing complete. Output written to {len(written_paths)} location(s).")
     return written_paths
@@ -1100,6 +1220,7 @@ def main() -> None:
     parser.add_argument("-y", "--yes", action="store_true", help="Auto-accept metadata review.")
     parser.add_argument("--no-edit", action="store_true", help="Skip opening metadata editor.")
     parser.add_argument("-o", "--output", default=None, help="Explicit output file path override.")
+    parser.add_argument("-c", "--compress", action="store_true", help="Gzip compress output SSSOM files (.sssom.tsv.gz).")
     args = parser.parse_args()
 
     try:
@@ -1108,8 +1229,11 @@ def main() -> None:
             yes=args.yes,
             no_edit=args.no_edit,
             output_override=args.output,
+            compress=args.compress,
         )
     except Exception as exc:
+        LOGGER.exception("An error occurred: %s", exc)
+        sys.exit(1)
         LOGGER.exception("An error occurred: %s", exc)
         sys.exit(1)
 

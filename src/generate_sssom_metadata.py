@@ -257,6 +257,7 @@ def _build_sssom_document(
 # Loader dispatch logic
 # ------------------------------------------------------------ #
 LOADER_MAP: Dict[str, str] = {
+    "athena": "load_from_athena",
     "document": "load_from_document",
     "graph": "load_from_graph",
     "manual": "load_from_manual_input",
@@ -298,7 +299,18 @@ def _choose_loader_by_extension(source: str) -> str:
     if clean_path.endswith((".xlsx", ".xls", ".ods", ".csv")):
         return "spreadsheet"
 
+    if "vocabulary_download" in source_lower or "athena" in source_lower:
+        return "athena"
+
     if clean_path.endswith(".zip"):
+        try:
+            import zipfile
+            with zipfile.ZipFile(source, "r") as zf:
+                names = {pathlib.Path(n).name.lower() for n in zf.namelist()}
+                if "concept.csv" in names and "concept_relationship.csv" in names:
+                    return "athena"
+        except Exception:
+            pass
         return "document"
 
     if clean_path.endswith(".txt"):
@@ -324,6 +336,15 @@ def _dispatch_load(source: str, args: argparse.Namespace) -> Dict[str, Any]:
     if loader_key == "spreadsheet":
         extra_kwargs["sheet_name"] = getattr(args, "sheet_name", 0)
         extra_kwargs["min_non_null"] = getattr(args, "min_non_null", 2)
+    elif loader_key == "athena":
+        if getattr(args, "pairs", None):
+            extra_kwargs["pairs"] = args.pairs
+        if getattr(args, "relationships", None):
+            extra_kwargs["relationships"] = args.relationships
+        if getattr(args, "include_intra", None) is not None:
+            extra_kwargs["include_intra"] = args.include_intra
+        if getattr(args, "limit", None) is not None:
+            extra_kwargs["limit"] = args.limit
 
     data = load_func(source, **extra_kwargs)
     if "mappings" not in data:
@@ -342,6 +363,10 @@ def generate_metadata(
     publication: Optional[str] = None,
     version: Optional[str] = None,
     github_token: Optional[str] = None,
+    pairs: Optional[Union[str, List[str]]] = None,
+    relationships: Optional[Union[str, List[str]]] = None,
+    include_intra: bool = False,
+    limit: Optional[int] = None,
 ) -> Dict[str, Any]:
     """Programmatic entry point to generate SSSOM metadata and mapping document."""
     args = argparse.Namespace(
@@ -354,6 +379,10 @@ def generate_metadata(
         publication=publication,
         version=version,
         github_token=github_token,
+        pairs=pairs,
+        relationships=relationships,
+        include_intra=include_intra,
+        limit=limit,
     )
     data = _dispatch_load(source, args)
     platform_meta = _extract_platform_metadata(source, github_token=github_token)
@@ -390,6 +419,10 @@ def _parse_cli() -> argparse.Namespace:
     parser.add_argument("--license", help="License identifier.")
     parser.add_argument("--publication", help="Publication info.")
     parser.add_argument("--version", help="Version string.")
+    parser.add_argument("--pair", dest="pairs", action="append", help="Filter vocabulary pair for Athena (e.g. loinc:snomedct).")
+    parser.add_argument("--rel", dest="relationships", action="append", help="Filter relationship_id for Athena (e.g. 'Maps to').")
+    parser.add_argument("--include-intra", action="store_true", help="Include intra-vocabulary mappings.")
+    parser.add_argument("--limit", type=int, default=None, help="Limit number of extracted rows.")
     parser.add_argument("--output", "-o", type=pathlib.Path, help="Write SSSOM JSON output to file.")
     parser.add_argument("--github-token", help="GitHub API personal access token.")
     parser.add_argument("--loader", choices=sorted(LOADER_MAP.keys()), help="Force specific loader.")

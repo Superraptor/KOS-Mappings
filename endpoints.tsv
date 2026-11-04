@@ -1,0 +1,328 @@
+prefix	name	category	uri_prefix	authority	description
+aao	AAO	Domain Vocabulary	https://identifiers.org/aao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'aao'.
+adcad	ADCAD	Domain Vocabulary	https://identifiers.org/adcad:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'adcad'.
+adms	Asset Description Metadata Schema	Metadata Standards	http://www.w3.org/ns/adms#	European Commission	Vocabulary to describe semantic interoperability assets.
+ado	ADO	Domain Vocabulary	https://identifiers.org/ado:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ado'.
+aeo	AEO	Domain Vocabulary	https://identifiers.org/aeo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'aeo'.
+afpo	AFPO	Domain Vocabulary	https://identifiers.org/afpo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'afpo'.
+agro	AGRO	Domain Vocabulary	https://identifiers.org/agro:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'agro'.
+agrovoc	AGROVOC	Domain Vocabulary	https://identifiers.org/agrovoc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'agrovoc'.
+aio	AIO	Domain Vocabulary	https://identifiers.org/aio:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'aio'.
+aism	AISM	Domain Vocabulary	https://identifiers.org/aism:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'aism'.
+amphx	AMPHX	Domain Vocabulary	https://identifiers.org/amphx:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'amphx'.
+anseducationlevel	ANSEDUCATIONLEVEL	Domain Vocabulary	https://identifiers.org/anseducationlevel:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'anseducationlevel'.
+apo	APO	Domain Vocabulary	https://identifiers.org/apo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'apo'.
+apollosv	APOLLOSV	Domain Vocabulary	https://identifiers.org/apollosv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'apollosv'.
+aro	ARO	Domain Vocabulary	https://identifiers.org/aro:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'aro'.
+atc	Anatomical Therapeutic Chemical Classification	Pharmacology	https://identifiers.org/atc:	World Health Organization (WHO)	Classification system dividing active substances into anatomical and therapeutic groups.
+bao	BAO	Domain Vocabulary	https://identifiers.org/bao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'bao'.
+bco	BCO	Domain Vocabulary	https://identifiers.org/bco:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'bco'.
+bfo	Basic Formal Ontology	Upper Ontologies	http://purl.obolibrary.org/obo/BFO_	OBO Foundry / ISO/IEC 21838-2	Top-level formal ontology designed to support domain-level ontologies.
+bibo	Bibliographic Ontology	Bibliographic Standards	http://purl.org/ontology/bibo/	DCMI / Zepheira	Ontology for representing citations, bibliographic references, and documents.
+bila	BILA	Domain Vocabulary	https://identifiers.org/bila:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'bila'.
+biomodelskisao	BIOMODELSKISAO	Domain Vocabulary	https://identifiers.org/biomodelskisao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'biomodelskisao'.
+birnlex	BIRNLEX	Domain Vocabulary	https://identifiers.org/birnlex:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'birnlex'.
+bmont	BMONT	Domain Vocabulary	https://identifiers.org/bmont:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'bmont'.
+bspo	BSPO	Domain Vocabulary	https://identifiers.org/bspo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'bspo'.
+bto	BRENDA Tissue Ontology	Anatomy & Biochemistry	http://purl.obolibrary.org/obo/BTO_	BRENDA	Comprehensive encyclopedia of tissues and cell types for enzyme information.
+caloha	CALOHA	Domain Vocabulary	https://identifiers.org/caloha:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'caloha'.
+caro	Common Anatomy Reference Ontology	Upper Ontologies	http://purl.obolibrary.org/obo/CARO_	OBO Foundry	Upper-level anatomy ontology to standardize biological structures.
+ccf	CCF	Domain Vocabulary	https://identifiers.org/ccf:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ccf'.
+ccle	CCLE	Domain Vocabulary	https://identifiers.org/ccle:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ccle'.
+cco	CCO	Domain Vocabulary	https://identifiers.org/cco:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cco'.
+ccso	CCSO	Domain Vocabulary	https://identifiers.org/ccso:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ccso'.
+cdno	CDNO	Domain Vocabulary	https://identifiers.org/cdno:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cdno'.
+cellosaurus	CELLOSAURUS	Domain Vocabulary	https://identifiers.org/cellosaurus:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cellosaurus'.
+cemo	CEMO	Domain Vocabulary	https://identifiers.org/cemo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cemo'.
+chebi	Chemical Entities of Biological Interest	OBO Ontologies	http://purl.obolibrary.org/obo/CHEBI_	EMBL-EBI	Dictionary of molecular entities focused on small chemical compounds.
+chmo	CHMO	Domain Vocabulary	https://identifiers.org/chmo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'chmo'.
+cido	CIDO	Domain Vocabulary	https://identifiers.org/cido:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cido'.
+cidoccrm	CIDOCCRM	Domain Vocabulary	https://identifiers.org/cidoccrm:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cidoccrm'.
+cito	Citation Typing Ontology	Bibliographic Standards	http://purl.org/spar/cito/	SPAR Ontologies	Ontology enabling formal characterization of citation intents and links.
+cl	Cell Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/CL_	OBO Foundry	Structured representation of in vivo cell types in humans and model organisms.
+clao	CLAO	Domain Vocabulary	https://identifiers.org/clao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'clao'.
+clo	CLO	Domain Vocabulary	https://identifiers.org/clo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'clo'.
+cmns-cls	CMNS-CLS	Domain Vocabulary	https://identifiers.org/cmns-cls:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-cls'.
+cmns-col	CMNS-COL	Domain Vocabulary	https://identifiers.org/cmns-col:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-col'.
+cmns-dt	CMNS-DT	Domain Vocabulary	https://identifiers.org/cmns-dt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-dt'.
+cmns-ge	CMNS-GE	Domain Vocabulary	https://identifiers.org/cmns-ge:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-ge'.
+cmns-id	CMNS-ID	Domain Vocabulary	https://identifiers.org/cmns-id:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-id'.
+cmns-loc	CMNS-LOC	Domain Vocabulary	https://identifiers.org/cmns-loc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-loc'.
+cmns-q	CMNS-Q	Domain Vocabulary	https://identifiers.org/cmns-q:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-q'.
+cmns-txt	CMNS-TXT	Domain Vocabulary	https://identifiers.org/cmns-txt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmns-txt'.
+cmo	CMO	Domain Vocabulary	https://identifiers.org/cmo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cmo'.
+cob	COB	Domain Vocabulary	https://identifiers.org/cob:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cob'.
+colao	COLAO	Domain Vocabulary	https://identifiers.org/colao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'colao'.
+commoncoreontology	COMMONCOREONTOLOGY	Domain Vocabulary	https://identifiers.org/commoncoreontology:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'commoncoreontology'.
+covoc	COVOC	Domain Vocabulary	https://identifiers.org/covoc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'covoc'.
+cpt	Current Procedural Terminology	Health & Biomedicine	https://identifiers.org/cpt:	American Medical Association (AMA)	Medical code set used to report medical, surgical, and diagnostic procedures.
+cteno	CTENO	Domain Vocabulary	https://identifiers.org/cteno:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cteno'.
+cto	CTO	Domain Vocabulary	https://identifiers.org/cto:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cto'.
+cvcl	CVCL	Domain Vocabulary	https://identifiers.org/cvcl:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cvcl'.
+cvdo	CVDO	Domain Vocabulary	https://identifiers.org/cvdo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cvdo'.
+cvx	CVX	Domain Vocabulary	https://identifiers.org/cvx:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'cvx'.
+d0	D0	Domain Vocabulary	https://identifiers.org/d0:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'd0'.
+datacite	DATACITE	Domain Vocabulary	https://identifiers.org/datacite:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'datacite'.
+dbo	DBpedia Ontology	Knowledge Graphs	http://dbpedia.org/ontology/	DBpedia Community	Cross-domain ontology generated from Wikipedia infoboxes.
+dbpedia	DBpedia Resource Namespace	Knowledge Graphs	http://dbpedia.org/resource/	DBpedia Community	Linked open data entity namespace extracted from Wikipedia articles.
+dc	Dublin Core Elements	Metadata Standards	http://purl.org/dc/elements/1.1/	DCMI	Classical Dublin Core 15 element set.
+dcat	Data Catalog Vocabulary	Metadata Standards	http://www.w3.org/ns/dcat#	W3C	RDF vocabulary designed to facilitate interoperability between data catalogs.
+dcatap	DCAT Application Profile for Data Portals in Europe	Metadata Standards	http://data.europa.eu/r5r/	European Commission	DCAT profile for sharing public sector datasets across European data portals.
+dct	DCT	Domain Vocabulary	https://identifiers.org/dct:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'dct'.
+dcterms	Dublin Core Metadata Initiative Terms	Metadata Standards	http://purl.org/dc/terms/	DCMI	Core property terms for resource descriptions and provenance.
+dctype	DCTYPE	Domain Vocabulary	https://identifiers.org/dctype:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'dctype'.
+depmap	DEPMAP	Domain Vocabulary	https://identifiers.org/depmap:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'depmap'.
+dhba	DHBA	Domain Vocabulary	https://identifiers.org/dhba:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'dhba'.
+dideo	DIDEO	Domain Vocabulary	https://identifiers.org/dideo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'dideo'.
+digitalsourcetype	DIGITALSOURCETYPE	Domain Vocabulary	https://identifiers.org/digitalsourcetype:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'digitalsourcetype'.
+dmba	DMBA	Domain Vocabulary	https://identifiers.org/dmba:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'dmba'.
+doco	DOCO	Domain Vocabulary	https://identifiers.org/doco:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'doco'.
+doi	Digital Object Identifier	Identifiers	https://doi.org/	International DOI Foundation	Persistent identifier system for digital documents, datasets, and articles.
+doid	Human Disease Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/DOID_	University of Maryland / OBO	Standardized ontological representation of human disease entities.
+dolce	Descriptive Ontology for Linguistic and Cognitive Engineering	Upper Ontologies	http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#	ISTC-CNR	Foundational ontology based on cognitive categories and natural language.
+dron	DRON	Domain Vocabulary	https://identifiers.org/dron:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'dron'.
+drugbank	DrugBank Knowledgebase	Pharmacology	https://go.drugbank.com/drugs/	DrugBank / OMx	Comprehensive bio-informatic and chemo-informatic drug knowledge resource.
+duo	DUO	Domain Vocabulary	https://identifiers.org/duo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'duo'.
+ebsco	EBSCO Subject & Coverage Vocabulary	Bibliographic Standards	https://www.ebsco.com/terms/	EBSCO Information Services	Controlled indexing terms for academic journals and databases.
+ecocore	ECOCORE	Domain Vocabulary	https://identifiers.org/ecocore:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ecocore'.
+ecto	ECTO	Domain Vocabulary	https://identifiers.org/ecto:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ecto'.
+efo	EFO	Domain Vocabulary	https://identifiers.org/efo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'efo'.
+ehda	EHDA	Domain Vocabulary	https://identifiers.org/ehda:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ehda'.
+ehdaa	EHDAA	Domain Vocabulary	https://identifiers.org/ehdaa:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ehdaa'.
+ehdaa2	EHDAA2	Domain Vocabulary	https://identifiers.org/ehdaa2:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ehdaa2'.
+eli	ELI	Domain Vocabulary	https://identifiers.org/eli:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'eli'.
+emapa	Edinburgh Mouse Atlas Project Anatomy	Anatomy	http://purl.obolibrary.org/obo/EMAPA_	EMAP / Jackson Lab	Anatomical ontology covering developmental stages of embryonic mouse.
+emaps	EMAPS	Domain Vocabulary	https://identifiers.org/emaps:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'emaps'.
+englishlanguage	ENGLISHLANGUAGE	Domain Vocabulary	https://identifiers.org/englishlanguage:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'englishlanguage'.
+entity	ENTITY	Domain Vocabulary	https://identifiers.org/entity:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'entity'.
+envo	ENVO	Domain Vocabulary	https://identifiers.org/envo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'envo'.
+ero	ERO	Domain Vocabulary	https://identifiers.org/ero:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ero'.
+ev	EV	Domain Vocabulary	https://identifiers.org/ev:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ev'.
+fabio	FRBR-aligned Bibliographic Ontology	Bibliographic Standards	http://purl.org/spar/fabio/	SPAR Ontologies	Ontology for recording publishing assets and scholarly literature.
+fao	FAO	Domain Vocabulary	https://identifiers.org/fao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fao'.
+fast	Faceted Application of Subject Terminology	Library & Authority	http://id.worldcat.org/fast/	OCLC	Faceted Dublin Core-compatible vocabulary based on LCSH.
+fbbi	FBBI	Domain Vocabulary	https://identifiers.org/fbbi:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fbbi'.
+fbbt	FBBT	Domain Vocabulary	https://identifiers.org/fbbt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fbbt'.
+fbcv	FBCV	Domain Vocabulary	https://identifiers.org/fbcv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fbcv'.
+fbdv	FBDV	Domain Vocabulary	https://identifiers.org/fbdv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fbdv'.
+fibo-be-corp-corp	FIBO-BE-CORP-CORP	Domain Vocabulary	https://identifiers.org/fibo-be-corp-corp:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-be-corp-corp'.
+fibo-be-le-cb	FIBO-BE-LE-CB	Domain Vocabulary	https://identifiers.org/fibo-be-le-cb:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-be-le-cb'.
+fibo-be-le-lp	FIBO-BE-LE-LP	Domain Vocabulary	https://identifiers.org/fibo-be-le-lp:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-be-le-lp'.
+fibo-be-nfp-nfp	FIBO-BE-NFP-NFP	Domain Vocabulary	https://identifiers.org/fibo-be-nfp-nfp:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-be-nfp-nfp'.
+fibo-be-oac-cctl	FIBO-BE-OAC-CCTL	Domain Vocabulary	https://identifiers.org/fibo-be-oac-cctl:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-be-oac-cctl'.
+fibo-fbc-dae-dbt	FIBO-FBC-DAE-DBT	Domain Vocabulary	https://identifiers.org/fibo-fbc-dae-dbt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fbc-dae-dbt'.
+fibo-fbc-pas-fpas	FIBO-FBC-PAS-FPAS	Domain Vocabulary	https://identifiers.org/fibo-fbc-pas-fpas:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fbc-pas-fpas'.
+fibo-fnd-acc-cur	FIBO-FND-ACC-CUR	Domain Vocabulary	https://identifiers.org/fibo-fnd-acc-cur:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-acc-cur'.
+fibo-fnd-agr-ctr	FIBO-FND-AGR-CTR	Domain Vocabulary	https://identifiers.org/fibo-fnd-agr-ctr:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-agr-ctr'.
+fibo-fnd-arr-doc	FIBO-FND-ARR-DOC	Domain Vocabulary	https://identifiers.org/fibo-fnd-arr-doc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-arr-doc'.
+fibo-fnd-dt-oc	FIBO-FND-DT-OC	Domain Vocabulary	https://identifiers.org/fibo-fnd-dt-oc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-dt-oc'.
+fibo-fnd-org-org	FIBO-FND-ORG-ORG	Domain Vocabulary	https://identifiers.org/fibo-fnd-org-org:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-org-org'.
+fibo-fnd-pas-pas	FIBO-FND-PAS-PAS	Domain Vocabulary	https://identifiers.org/fibo-fnd-pas-pas:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-pas-pas'.
+fibo-fnd-plc-adr	FIBO-FND-PLC-ADR	Domain Vocabulary	https://identifiers.org/fibo-fnd-plc-adr:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-plc-adr'.
+fibo-fnd-plc-loc	FIBO-FND-PLC-LOC	Domain Vocabulary	https://identifiers.org/fibo-fnd-plc-loc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-plc-loc'.
+fibo-fnd-pty-pty	FIBO-FND-PTY-PTY	Domain Vocabulary	https://identifiers.org/fibo-fnd-pty-pty:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-pty-pty'.
+fibo-fnd-rel-rel	FIBO-FND-REL-REL	Domain Vocabulary	https://identifiers.org/fibo-fnd-rel-rel:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-fnd-rel-rel'.
+fibo-pay-ps-ps	FIBO-PAY-PS-PS	Domain Vocabulary	https://identifiers.org/fibo-pay-ps-ps:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fibo-pay-ps-ps'.
+fideo	FIDEO	Domain Vocabulary	https://identifiers.org/fideo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fideo'.
+fix	FIX	Domain Vocabulary	https://identifiers.org/fix:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fix'.
+fma	Foundational Model of Anatomy	Anatomy	http://purl.obolibrary.org/obo/FMA_	University of Washington	Reference ontology for biomedical informatics in domain of human anatomy.
+foaf	Friend of a Friend	Web Schemas	http://xmlns.com/foaf/0.1/	FOAF Project	Linking people and information using the Web.
+fplx	FPLX	Domain Vocabulary	https://identifiers.org/fplx:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'fplx'.
+frbr	FRBR	Domain Vocabulary	https://identifiers.org/frbr:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'frbr'.
+functionalparticipation	DOLCE Functional Participation Ontology	Upper Ontologies	http://www.loa-cnr.it/ontologies/FunctionalParticipation.owl#	ISTC-CNR	Formal participation axioms for DOLCE-Lite.
+gaz	Gazetteer of Place Names	Geographic Standards	http://purl.obolibrary.org/obo/GAZ_	OBO Foundry	Ontology of geographical places, geopolitical entities, and physical features.
+genepio	GENEPIO	Domain Vocabulary	https://identifiers.org/genepio:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'genepio'.
+geo	GEO	Domain Vocabulary	https://identifiers.org/geo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'geo'.
+gfo	General Formal Ontology	Upper Ontologies	http://www.onto-med.de/ontologies/gfo.owl#	Onto-Med Leipzig	Top-level ontology integrating objects, processes, facts, and universals.
+gleif-l1	GLEIF-L1	Domain Vocabulary	https://identifiers.org/gleif-l1:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'gleif-l1'.
+gml	GML	Domain Vocabulary	https://identifiers.org/gml:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'gml'.
+gnd	Gemeinsame Normdatei (Integrated Authority File)	Library & Authority	https://d-nb.info/gnd/	German National Library (DNB)	German authority file for persons, corporate bodies, conferences, and subjects.
+go	Gene Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/GO_	Gene Ontology Consortium	Framework for the model of biology, detailing molecular functions and processes.
+goldbook	GOLDBOOK	Domain Vocabulary	https://identifiers.org/goldbook:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'goldbook'.
+gs1	GS1	Domain Vocabulary	https://identifiers.org/gs1:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'gs1'.
+gsso	GSSO	Domain Vocabulary	https://identifiers.org/gsso:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'gsso'.
+hancestro	HANCESTRO	Domain Vocabulary	https://identifiers.org/hancestro:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hancestro'.
+hao	HAO	Domain Vocabulary	https://identifiers.org/hao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hao'.
+hba	HBA	Domain Vocabulary	https://identifiers.org/hba:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hba'.
+hcpcs	Healthcare Common Procedure Coding System	Health & Biomedicine	https://identifiers.org/hcpcs:	Centers for Medicare & Medicaid Services (CMS)	Standardized coding system for healthcare services, procedures, and equipment.
+hgnc	HGNC	Domain Vocabulary	https://identifiers.org/hgnc:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hgnc'.
+hp	Human Phenotype Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/HP_	Monarch Initiative / OBO	Standardized vocabulary of phenotypic abnormalities encountered in human disease.
+hsapdv	HSAPDV	Domain Vocabulary	https://identifiers.org/hsapdv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hsapdv'.
+hso	HSO	Domain Vocabulary	https://identifiers.org/hso:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hso'.
+htn	HTN	Domain Vocabulary	https://identifiers.org/htn:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'htn'.
+hydra	HYDRA	Domain Vocabulary	https://identifiers.org/hydra:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'hydra'.
+ianamediatype	IANAMEDIATYPE	Domain Vocabulary	https://identifiers.org/ianamediatype:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ianamediatype'.
+iao	IAO	Domain Vocabulary	https://identifiers.org/iao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'iao'.
+icd10	International Classification of Diseases, 10th Revision	Health Classifications	https://icd.who.int/browse10/2019/en#/	World Health Organization (WHO)	Global epidemiological and health diagnostic classification standard.
+icd10cm	ICD-10 Clinical Modification	Health Classifications	https://identifiers.org/icd10cm:	CDC / NCHS	Clinical modification of ICD-10 for diagnostic coding in US healthcare.
+icd10pcs	ICD-10 Procedure Coding System	Health Classifications	https://identifiers.org/icd10pcs:	CMS	Procedure coding system used in US inpatient hospital settings.
+icd10who	ICD10WHO	Domain Vocabulary	https://identifiers.org/icd10who:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'icd10who'.
+icd11	International Classification of Diseases, 11th Revision	Health Classifications	http://id.who.int/icd/entity/	World Health Organization (WHO)	Modernized digital diagnostic taxonomy with post-coordination support.
+icd11foundation	ICD-11 Foundation Component	Health Classifications	http://id.who.int/icd/release/11/mms/	World Health Organization (WHO)	Multidimensional underlying knowledge base of ICD-11 entities.
+icd9cm	ICD-9 Clinical Modification	Health Classifications	https://identifiers.org/icd9cm:	CDC / CMS	Predecessor diagnostic and procedure classification in US healthcare.
+icd9pcs	ICD-9 Procedure Coding System	Health Classifications	https://identifiers.org/icd9pcs:	CMS	Predecessor procedure coding system in US healthcare.
+iconclass	ICONCLASS	Domain Vocabulary	https://identifiers.org/iconclass:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'iconclass'.
+ido	IDO	Domain Vocabulary	https://identifiers.org/ido:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ido'.
+idocovid19	IDOCOVID19	Domain Vocabulary	https://identifiers.org/idocovid19:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'idocovid19'.
+idomal	IDOMAL	Domain Vocabulary	https://identifiers.org/idomal:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'idomal'.
+ilx	ILX	Domain Vocabulary	https://identifiers.org/ilx:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ilx'.
+isbn	International Standard Book Number	Bibliographic Standards	urn:isbn:	International ISBN Agency	Unique commercial book identifier.
+issn	International Standard Serial Number	Bibliographic Standards	urn:issn:	ISSN International Centre	Unique eight-digit serial publication identifier.
+ito	ITO	Domain Vocabulary	https://identifiers.org/ito:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ito'.
+keggpathway	KEGG Pathway Database	Pathways & Systems Biology	https://www.kegg.jp/entry/	Kanehisa Laboratories	Collection of manually drawn pathway maps representing molecular interactions.
+kestrelo	KESTRELO	Domain Vocabulary	https://identifiers.org/kestrelo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'kestrelo'.
+kimeducationlevel	KIMEDUCATIONLEVEL	Domain Vocabulary	https://identifiers.org/kimeducationlevel:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'kimeducationlevel'.
+kimesv	KIMESV	Domain Vocabulary	https://identifiers.org/kimesv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'kimesv'.
+kimhcrt	KIMHCRT	Domain Vocabulary	https://identifiers.org/kimhcrt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'kimhcrt'.
+lcc-cr	LCC-CR	Domain Vocabulary	https://identifiers.org/lcc-cr:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'lcc-cr'.
+lcsh	Library of Congress Subject Headings	Library & Authority	http://id.loc.gov/authorities/subjects/	Library of Congress	Thesaurus of subject headings used by bibliographic libraries worldwide.
+lepao	LEPAO	Domain Vocabulary	https://identifiers.org/lepao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'lepao'.
+loinc	Logical Observation Identifiers Names and Codes	Health & Biomedicine	https://loinc.org/	Regenstrief Institute	Universal standard for identifying laboratory and clinical observations.
+lrmi	LRMI	Domain Vocabulary	https://identifiers.org/lrmi:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'lrmi'.
+lrmoo	LRMOO	Domain Vocabulary	https://identifiers.org/lrmoo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'lrmoo'.
+ma	Mouse Adult Anatomy Ontology	Anatomy	http://purl.obolibrary.org/obo/MA_	The Jackson Laboratory	Structured vocabulary of adult mouse anatomy.
+mat	MAT	Domain Vocabulary	https://identifiers.org/mat:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mat'.
+maxo	MAXO	Domain Vocabulary	https://identifiers.org/maxo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'maxo'.
+mba	MBA	Domain Vocabulary	https://identifiers.org/mba:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mba'.
+mco	MCO	Domain Vocabulary	https://identifiers.org/mco:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mco'.
+meddra	Medical Dictionary for Regulatory Activities	Pharmacology	https://identifiers.org/meddra:	ICH	Clinically validated medical terminology used for regulatory data sharing.
+medgen	MedGen Clinical Genetics Database	Health & Biomedicine	https://identifiers.org/medgen:	NCBI	Portal to information about medical genetics and genetic disorders.
+mesh	Medical Subject Headings	Health & Biomedicine	http://id.nlm.nih.gov/mesh/	National Library of Medicine (NLM)	Controlled vocabulary thesaurus used for indexing PubMed/MEDLINE.
+mfmo	MFMO	Domain Vocabulary	https://identifiers.org/mfmo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mfmo'.
+mi	MI	Domain Vocabulary	https://identifiers.org/mi:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mi'.
+miro	MIRO	Domain Vocabulary	https://identifiers.org/miro:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'miro'.
+mmo	MMO	Domain Vocabulary	https://identifiers.org/mmo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mmo'.
+mmusdv	MMUSDV	Domain Vocabulary	https://identifiers.org/mmusdv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mmusdv'.
+mo	MO	Domain Vocabulary	https://identifiers.org/mo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mo'.
+modalia	MODALIA	Domain Vocabulary	https://identifiers.org/modalia:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'modalia'.
+mondo	Mondo Disease Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/MONDO_	Monarch Initiative / OBO	Harmonized ontology integrating global disease classifications into a single graph.
+mop	MOP	Domain Vocabulary	https://identifiers.org/mop:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mop'.
+mp	MP	Domain Vocabulary	https://identifiers.org/mp:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mp'.
+mpath	MPATH	Domain Vocabulary	https://identifiers.org/mpath:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'mpath'.
+ms	MS	Domain Vocabulary	https://identifiers.org/ms:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ms'.
+nbo	NBO	Domain Vocabulary	https://identifiers.org/nbo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'nbo'.
+ncbiprotein	NCBIPROTEIN	Domain Vocabulary	https://identifiers.org/ncbiprotein:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ncbiprotein'.
+ncbitaxon	NCBI Organismal Taxonomy	OBO Ontologies	http://purl.obolibrary.org/obo/NCBITaxon_	NCBI	Standard biological classification of all organisms represented in GenBank.
+ncit	NCI Thesaurus	OBO Ontologies	http://purl.obolibrary.org/obo/NCIT_	National Cancer Institute (NCI)	Comprehensive biomedical vocabulary focused on cancer research and therapeutics.
+ndc	National Drug Code	Pharmacology	https://identifiers.org/ndc:	U.S. Food and Drug Administration (FDA)	Universal product identifier for human drugs in the United States.
+ndfrt	NDFRT	Domain Vocabulary	https://identifiers.org/ndfrt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ndfrt'.
+neuronames	NEURONAMES	Domain Vocabulary	https://identifiers.org/neuronames:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'neuronames'.
+nif	NIF	Domain Vocabulary	https://identifiers.org/nif:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'nif'.
+nlx	NLX	Domain Vocabulary	https://identifiers.org/nlx:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'nlx'.
+nlxanat	NLXANAT	Domain Vocabulary	https://identifiers.org/nlxanat:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'nlxanat'.
+oae	OAE	Domain Vocabulary	https://identifiers.org/oae:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'oae'.
+oarcs	OARCS	Domain Vocabulary	https://identifiers.org/oarcs:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'oarcs'.
+obcs	OBCS	Domain Vocabulary	https://identifiers.org/obcs:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'obcs'.
+obi	OBI	Domain Vocabulary	https://identifiers.org/obi:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'obi'.
+obo	OBO	Domain Vocabulary	https://identifiers.org/obo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'obo'.
+oboinowl	OBOINOWL	Domain Vocabulary	https://identifiers.org/oboinowl:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'oboinowl'.
+oeo	OEO	Domain Vocabulary	https://identifiers.org/oeo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'oeo'.
+og	OG	Domain Vocabulary	https://identifiers.org/og:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'og'.
+ogg	OGG	Domain Vocabulary	https://identifiers.org/ogg:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ogg'.
+ogms	OGMS	Domain Vocabulary	https://identifiers.org/ogms:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ogms'.
+oio	OIO	Domain Vocabulary	https://identifiers.org/oio:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'oio'.
+omiabis	OMIABIS	Domain Vocabulary	https://identifiers.org/omiabis:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'omiabis'.
+omim	Online Mendelian Inheritance in Man	Genetics & Rare Diseases	https://omim.org/entry/	Johns Hopkins University	Catalog of human genes and genetic phenotypes.
+omimps	OMIMPS	Domain Vocabulary	https://identifiers.org/omimps:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'omimps'.
+omit	OMIT	Domain Vocabulary	https://identifiers.org/omit:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'omit'.
+omo	OMO	Domain Vocabulary	https://identifiers.org/omo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'omo'.
+omop	OMOP Standardized Vocabulary	Health & Biomedicine	https://athena.ohdsi.org/search-terms/terms/	OHDSI	Observational Medical Outcomes Partnership Common Data Model terminology.
+omopext	OMOP Extension	Health & Biomedicine	https://athena.ohdsi.org/search-terms/terms/	OHDSI	Clinical terminology extensions curated by the OHDSI vocabulary team.
+omrse	OMRSE	Domain Vocabulary	https://identifiers.org/omrse:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'omrse'.
+ontoavida	ONTOAVIDA	Domain Vocabulary	https://identifiers.org/ontoavida:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ontoavida'.
+ontoneo	ONTONEO	Domain Vocabulary	https://identifiers.org/ontoneo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ontoneo'.
+opmi	OPMI	Domain Vocabulary	https://identifiers.org/opmi:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'opmi'.
+orcid	Open Researcher and Contributor ID	Identifiers	https://orcid.org/	ORCID Inc.	Unique persistent identifier for researchers and academic contributors.
+orphanet	Orphanet Rare Disease Nomenclature	Genetics & Rare Diseases	https://identifiers.org/orphanet:	INSERM / Orphanet	Reference nomenclature and classification for rare diseases.
+orphanetordo	ORPHANETORDO	Domain Vocabulary	https://identifiers.org/orphanetordo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'orphanetordo'.
+osm	OpenStreetMap Tagging & Features	Geographic Standards	https://www.openstreetmap.org/	OpenStreetMap Foundation	Collaborative project to create a free editable geographic database of the world.
+owl	Web Ontology Language	W3C Standards	http://www.w3.org/2002/07/owl#	W3C	Formal description logic ontology language for semantic web.
+pato	PATO	Domain Vocabulary	https://identifiers.org/pato:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pato'.
+pba	PBA	Domain Vocabulary	https://identifiers.org/pba:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pba'.
+pbpko	PBPKO	Domain Vocabulary	https://identifiers.org/pbpko:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pbpko'.
+pco	PCO	Domain Vocabulary	https://identifiers.org/pco:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pco'.
+pdumdv	PDUMDV	Domain Vocabulary	https://identifiers.org/pdumdv:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pdumdv'.
+pfam	PFAM	Domain Vocabulary	https://identifiers.org/pfam:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pfam'.
+phipo	PHIPO	Domain Vocabulary	https://identifiers.org/phipo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'phipo'.
+pmid	PubMed Unique Identifier	Identifiers	https://pubmed.ncbi.nlm.nih.gov/	National Library of Medicine	Unique identifier for biomedical and life sciences literature.
+ppo	PPO	Domain Vocabulary	https://identifiers.org/ppo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'ppo'.
+pr	Protein Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/PR_	OBO Foundry	Formal representation of evolutionary protein entities, classes, and complexes.
+prism	PRISM	Domain Vocabulary	https://identifiers.org/prism:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'prism'.
+prov	W3C PROV Ontology	Provenance	http://www.w3.org/ns/prov#	W3C	Conceptual data model that forms a basis for provenance interchange.
+pso	PSO	Domain Vocabulary	https://identifiers.org/pso:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pso'.
+pubchemcompound	PUBCHEMCOMPOUND	Domain Vocabulary	https://identifiers.org/pubchemcompound:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'pubchemcompound'.
+radlex	RADLEX	Domain Vocabulary	https://identifiers.org/radlex:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'radlex'.
+rda	Resource Description and Access Elements	Bibliographic Standards	http://rdaregistry.info/Elements/	RDA Steering Committee	Standard for cataloging and descriptive metadata in cultural heritage institutions.
+rdf	Resource Description Framework	W3C Standards	http://www.w3.org/1999/02/22-rdf-syntax-ns#	W3C	Foundation data model for graph knowledge representation.
+rdfs	RDF Schema	W3C Standards	http://www.w3.org/2000/01/rdf-schema#	W3C	Data modeling vocabulary for RDF data structures and hierarchies.
+reactome	Reactome Pathway Database	Pathways & Systems Biology	https://reactome.org/content/detail/	Reactome Consortium	Open-source curated database of biological pathways and reactions.
+registration	REGISTRATION	Domain Vocabulary	https://identifiers.org/registration:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'registration'.
+regorg	REGORG	Domain Vocabulary	https://identifiers.org/regorg:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'regorg'.
+retired	RETIRED	Domain Vocabulary	https://identifiers.org/retired:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'retired'.
+ro	OBO Relation Ontology	Upper Ontologies	http://purl.obolibrary.org/obo/RO_	OBO Foundry	Standardized ontological relations between biomedical entities.
+rxnorm	RxNorm Standardized Clinical Drugs	Pharmacology	https://identifiers.org/rxnorm:	National Library of Medicine (NLM)	Standardized nomenclature for clinical drugs, ingredients, and dosages.
+rxnormext	RxNorm Extension	Pharmacology	https://athena.ohdsi.org/search-terms/terms/	OHDSI	International drug extensions adhering to RxNorm model.
+sarif	SARIF	Domain Vocabulary	https://identifiers.org/sarif:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'sarif'.
+scdo	SCDO	Domain Vocabulary	https://identifiers.org/scdo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'scdo'.
+schema	Schema.org Vocabulary	Web Schemas	http://schema.org/	Schema.org Consortium	Collaborative schema for structured data on the Internet.
+sctid	SNOMED CT Concept Identifier	Health & Biomedicine	http://snomed.info/id/	SNOMED International	Concept identifier namespace for SNOMED CT clinical terms.
+semapv	Semantic Mapping Vocabulary	Mapping Standards	https://w3id.org/semapv/vocab/	OBO Foundry	Vocabulary defining justification types and mediation methods for mappings.
+sepio	SEPIO	Domain Vocabulary	https://identifiers.org/sepio:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'sepio'.
+sibo	SIBO	Domain Vocabulary	https://identifiers.org/sibo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'sibo'.
+sio	Semanticscience Integrated Ontology	Upper Ontologies	http://semanticscience.org/resource/SIO_	Dumontier Lab	Upper-level ontology for the biomedical and health sciences.
+skos	Simple Knowledge Organization System	W3C Standards	http://www.w3.org/2004/02/skos/core#	W3C	Standard representation for thesauri, classification schemes, and subject headings.
+slso	SLSO	Domain Vocabulary	https://identifiers.org/slso:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'slso'.
+snomedct	Systematized Nomenclature of Medicine - Clinical Terms	Health & Biomedicine	http://snomed.info/id/	SNOMED International	Comprehensive, clinically validated healthcare terminology.
+so	Sequence Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/SO_	Sequence Ontology Consortium	Structured computer-readable vocabulary for genomic sequence features.
+sopt	Source of Payment Typology	Healthcare Administration	https://athena.ohdsi.org/search-terms/terms/	PHDSC	National standard for categorizing healthcare payment sources and insurance.
+sosa	SOSA	Domain Vocabulary	https://identifiers.org/sosa:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'sosa'.
+spatialrelations	DOLCE Spatial Relations Ontology	Upper Ontologies	http://www.loa-cnr.it/ontologies/SpatialRelations.owl#	ISTC-CNR	Formal spatial relations module for DOLCE-Lite.
+spd	SPD	Domain Vocabulary	https://identifiers.org/spd:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'spd'.
+sssom	Simple Standard for Sharing Ontological Mappings	Mapping Standards	https://w3id.org/sssom/	Mapping Commons	Standard specification for tabular representation of ontology crosswalks.
+stato	STATO	Domain Vocabulary	https://identifiers.org/stato:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'stato'.
+sumo	Suggested Upper Merged Ontology	Upper Ontologies	http://www.ontologyportal.org/SUMO.owl#	IEEE Working Group / Pease	Formal upper ontology mapped to WordNet and English vocabulary.
+symp	Symptom Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/SYMP_	OBO Foundry	Controlled vocabulary defining symptoms and signs of human pathology.
+t4fs	T4FS	Domain Vocabulary	https://identifiers.org/t4fs:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 't4fs'.
+tads	TADS	Domain Vocabulary	https://identifiers.org/tads:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'tads'.
+tao	TAO	Domain Vocabulary	https://identifiers.org/tao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'tao'.
+taxrank	Taxonomic Rank Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/TAXRANK_	OBO Foundry	Ontology defining ranks of biological taxa (kingdom, phylum, species, etc.).
+tdwgtaxonrank	TDWGTAXONRANK	Domain Vocabulary	https://identifiers.org/tdwgtaxonrank:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'tdwgtaxonrank'.
+temporalrelations	DOLCE Temporal Relations Ontology	Upper Ontologies	http://www.loa-cnr.it/ontologies/TemporalRelations.owl#	ISTC-CNR	Formal temporal relations module for DOLCE-Lite.
+tgma	TGMA	Domain Vocabulary	https://identifiers.org/tgma:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'tgma'.
+txpo	TXPO	Domain Vocabulary	https://identifiers.org/txpo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'txpo'.
+uberon	Uber-anatomy Ontology	OBO Ontologies	http://purl.obolibrary.org/obo/UBERON_	OBO Foundry	Integrated cross-species anatomical ontology representing animal structures.
+ucum	Unified Code for Units of Measure	Measurement Standards	http://unitsofmeasure.org/	Regenstrief Institute	Standardized syntax and units of measure representation in healthcare.
+umls	Unified Medical Language System	Health & Biomedicine	https://identifiers.org/umls:	National Library of Medicine (NLM)	Metathesaurus interconnecting diverse health classifications and terminology.
+unece	UNECE	Domain Vocabulary	https://identifiers.org/unece:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'unece'.
+uniprot	Universal Protein Resource	Proteomics	https://www.uniprot.org/uniprotkb/	UniProt Consortium	Hub for protein sequence and functional information.
+uniprotchain	UNIPROTCHAIN	Domain Vocabulary	https://identifiers.org/uniprotchain:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'uniprotchain'.
+usairforcerankingsystem	USAIRFORCERANKINGSYSTEM	Domain Vocabulary	https://identifiers.org/usairforcerankingsystem:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'usairforcerankingsystem'.
+usarmyrankingsystem	USARMYRANKINGSYSTEM	Domain Vocabulary	https://identifiers.org/usarmyrankingsystem:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'usarmyrankingsystem'.
+uscensus	U.S. Census Bureau Classifications	Demographic Standards	https://www.census.gov/	U.S. Census Bureau	Federal statistical geographic entities, tracts, blocks, and demographic codes.
+uscoastguardrankingsystem	USCOASTGUARDRANKINGSYSTEM	Domain Vocabulary	https://identifiers.org/uscoastguardrankingsystem:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'uscoastguardrankingsystem'.
+usmarinecorpsrankingsystem	USMARINECORPSRANKINGSYSTEM	Domain Vocabulary	https://identifiers.org/usmarinecorpsrankingsystem:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'usmarinecorpsrankingsystem'.
+usnavyrankingsystem	USNAVYRANKINGSYSTEM	Domain Vocabulary	https://identifiers.org/usnavyrankingsystem:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'usnavyrankingsystem'.
+vcard	vCard in RDF	Metadata Standards	http://www.w3.org/2006/vcard/ns#	W3C	Ontology for electronic business card profiles and organizations.
+vhog	VHOG	Domain Vocabulary	https://identifiers.org/vhog:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vhog'.
+viaf	Virtual International Authority File	Library & Authority	http://viaf.org/viaf/	OCLC	Joint project linking global national authority files into a single service.
+vido	VIDO	Domain Vocabulary	https://identifiers.org/vido:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vido'.
+vivo	VIVO	Domain Vocabulary	https://identifiers.org/vivo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vivo'.
+vo	VO	Domain Vocabulary	https://identifiers.org/vo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vo'.
+void	VOID	Domain Vocabulary	https://identifiers.org/void:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'void'.
+vsao	VSAO	Domain Vocabulary	https://identifiers.org/vsao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vsao'.
+vsmo	VSMO	Domain Vocabulary	https://identifiers.org/vsmo:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vsmo'.
+vso	VSO	Domain Vocabulary	https://identifiers.org/vso:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vso'.
+vt	VT	Domain Vocabulary	https://identifiers.org/vt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vt'.
+vto	VTO	Domain Vocabulary	https://identifiers.org/vto:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'vto'.
+wbbt	WBBT	Domain Vocabulary	https://identifiers.org/wbbt:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'wbbt'.
+wbls	WBLS	Domain Vocabulary	https://identifiers.org/wbls:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'wbls'.
+wikidata	Wikidata Knowledge Graph	General Knowledge	http://www.wikidata.org/entity/	Wikimedia Foundation	Free, collaborative, multilingual, secondary knowledge base.
+wikipathways	WikiPathways Biological Pathway Repository	Pathways & Systems Biology	https://www.wikipathways.org/pathways/	WikiPathways	Open, collaborative platform dedicated to the curation of biological pathways.
+wikipedia	Wikipedia Article Namespace	General Knowledge	http://en.wikipedia.org/wiki/	Wikimedia Foundation	Free encyclopedia web article identifier namespace.
+wn	WordNet 3.0 Synsets	Linguistics & Lexicons	http://www.ontologyportal.org/WordNet.owl#	Princeton University / SUMO	Lexical database of semantic relations between words and synsets.
+wordnet	Princeton WordNet Lexicon	Linguistics & Lexicons	http://www.ontologyportal.org/WordNet.owl#	Princeton University	Large lexical database of English nouns, verbs, adjectives, and adverbs.
+xao	XAO	Domain Vocabulary	https://identifiers.org/xao:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'xao'.
+xlmod	XLMOD	Domain Vocabulary	https://identifiers.org/xlmod:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'xlmod'.
+yago	YAGO Knowledge Base	Knowledge Graphs	http://yago-knowledge.org/resource/	Max Planck Institute / Telecom Paris	High-coverage knowledge base derived from Wikipedia, WordNet, and GeoNames.
+zfa	ZFA	Domain Vocabulary	https://identifiers.org/zfa:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'zfa'.
+zfs	ZFS	Domain Vocabulary	https://identifiers.org/zfs:	External Repository / Mapping Commons	Domain ontology / vocabulary mapping endpoint 'zfs'.

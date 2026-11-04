@@ -4,7 +4,7 @@
 [![Mapping Commons](https://img.shields.io/badge/Registry-Mapping_Commons-green.svg)](https://mapping-commons.github.io/)
 [![Python Version](https://img.shields.io/badge/python-3.9%2B-blue.svg)](https://www.python.org/)
 [![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
-[![Tests](https://img.shields.io/badge/tests-19%2F19%20passing-brightgreen.svg)](test/run_urls_test.py)
+[![Tests](https://img.shields.io/badge/tests-23%2F23%20passing-brightgreen.svg)](test/test_loaders.py)
 
 **KOS-Mappings** is an automated extraction, parsing, and harmonization toolkit for Knowledge Organization Systems (KOS), ontologies, thesauri, vocabulary crosswalks, and alignment tables. It converts diverse source formats into validated, high-quality [Simple Standard for Sharing Ontological Mappings (SSSOM)](https://mapping-commons.github.io/sssom/) TSV files structured for publication in the [Mapping Commons Registry](https://mapping-commons.github.io/).
 
@@ -14,11 +14,15 @@
 
 - [Overview](#overview)
 - [Mapping Commons Registry Integration](#mapping-commons-registry-integration)
+- [Repository Size Limits & SSSOM Compression (`.sssom.tsv.gz`)](#repository-size-limits--sssom-compression-sssometz)
+- [Vocabulary Endpoint Dictionary](#vocabulary-endpoint-dictionary)
+- [Web Explorer & Semantic Pathfinder (`./www`)](#web-explorer--semantic-pathfinder)
 - [Repository Structure](#repository-structure)
 - [Supported Formats & Loaders](#supported-formats--loaders)
 - [Installation](#installation)
 - [Quick Start](#quick-start)
 - [Usage Guide](#usage-guide)
+  - [Ingesting OHDSI Athena (OMOP CDM) Vocabularies](#ingesting-ohdsi-athena-omop-cdm-vocabularies)
   - [Converting an External Mapping Source](#converting-an-external-mapping-source)
   - [Automated Pipeline Execution](#automated-pipeline-execution)
   - [Interactive Review Workflow](#interactive-review-workflow)
@@ -120,6 +124,68 @@ Each generated mapping file strictly adheres to the [SSSOM (Simple Standard for 
 
 ---
 
+## Repository Size Limits & SSSOM Compression (.sssom.tsv.gz)
+
+### Why Compression is Essential for GitHub Hosting
+
+1. **GitHub Hard Limits & Warnings**:
+   - GitHub **strictly blocks pushes** containing individual files larger than **100 MB**.
+   - GitHub issues proactive warnings on pushes with files exceeding **50 MB**.
+   - GitHub strongly recommends that total repository working trees remain below **1 GB to 5 GB** to prevent performance degradation during cloning, indexing, and delta compression.
+
+2. **High-Density Crosswalk Tables**:
+   - Comprehensive crosswalk tables (e.g. SNOMED CT, LOINC, ICD-10-PCS, SUMO-WordNet) often encompass tens of thousands to hundreds of thousands of mapping rows.
+   - SSSOM TSV files contain repetitive CURIE prefixes (snomedct:, loinc:), predicates (skos:exactMatch), justifications (semapv:ManualMappingCuration), and provenance URLs across every row.
+
+3. **Standard SSSOM Gzip Support (.sssom.tsv.gz)**:
+   - The official [SSSOM specification](https://mapping-commons.github.io/sssom/) standardizes .sssom.tsv.gz as a first-class, interoperable file extension.
+   - Standard DEFLATE/gzip compression typically achieves **85% to 92% file size reduction** on SSSOM TSV data:
+     - A ~32 MB procedural alignment table compresses to **~3.5 MB**.
+     - A ~10 MB laboratory alignment compresses to **~1.1 MB**.
+   - KOS-Mappings transparently reads, merges, and writes both uncompressed .sssom.tsv and compressed .sssom.tsv.gz files:
+     `ash
+     # Generate or compress canonical files on write:
+     python src/write_sssom_file.py <source> --compress
+     `
+
+---
+
+## Vocabulary Endpoint Dictionary
+
+To provide human-readable disambiguation of all 320+ CURIE prefixes, KOS-Mappings maintains canonical endpoint dictionaries:
+
+- **endpoints.tsv**: Machine-readable tabular reference documenting:
+  - prefix: Controlled lowercase CURIE prefix (e.g. mesh, loinc, snomedct, doid).
+  - 
+ame: Official long-form title (e.g. Medical Subject Headings, Logical Observation Identifiers Names and Codes).
+  - category: Domain grouping (e.g. *Health & Biomedicine*, *OBO Ontologies*, *Upper Ontologies*, *Bibliographic Standards*).
+  - uri_prefix: Canonical URI expansion pattern (e.g. http://id.nlm.nih.gov/mesh/).
+  - uthority: Governance body (e.g. *National Library of Medicine*, *Regenstrief Institute*, *SNOMED International*).
+  - description: Scope and domain coverage.
+- **endpoints.txt**: Clean text dictionary for quick terminal cross-referencing and text search.
+- **www/data/endpoints.json**: Pre-indexed endpoint registry powering the web explorer.
+
+---
+
+## Web Explorer & Semantic Pathfinder (./www)
+
+The repository includes a modern, responsive web application located in ./www designed for deployment to **GitHub Pages**:
+
+- **Crosswalk Pathfinder (Shortest Path & Hop-by-Hop Route Descriptor)**:
+  - Discovers the closest mapping between any two vocabularies using graph Breadth-First-Search (BFS).
+  - If a direct alignment exists, displays direct mapping metrics, predicates, and sample concept rows.
+  - If no direct alignment exists, discovers the shortest multi-hop transitive bridge across intermediate ontologies (e.g., LOINC -> MESH -> SNOMED CT or DOID -> MONDO -> UMLS -> SNOMED CT).
+  - Generates plain-English narrative path explanations explaining the semantic rationale behind each hop.
+- **Concept & Mapping Query Engine**:
+  - Live, instant search across concept labels, codes, and CURIEs.
+  - Interactive filters by predicate (skos:exactMatch, skos:broadMatch), source ontology, and target ontology.
+- **Vocabulary Directory**:
+  - Searchable card directory of all 320+ endpoints with authorities, categories, and URI expansions.
+- **Automated CI/CD Deployment**:
+  - Backed by .github/workflows/deploy-pages.yml which automatically aggregates all mapping tables, compiles www/data/mappings_graph.json, and deploys to GitHub Pages upon push to main.
+
+---
+
 ## Repository Structure
 
 ```
@@ -127,19 +193,30 @@ KOS-Mappings/
 ├── .gitignore                      # Clean ignore rules for builds, envs, and temporary test outputs
 ├── requirements.txt                # Production and testing dependencies
 ├── README.md                       # Repository overview and documentation
+├── endpoints.tsv                   # Machine-readable tabular dictionary of 320+ vocabulary endpoints
+├── endpoints.txt                   # Human-readable reference listing long-form endpoint names
+├── .github/
+│   └── workflows/
+│       └── deploy-pages.yml        # CI/CD automated deployment of web application to GitHub Pages
 ├── commons/                        # Canonical Mapping Commons output directory
 │   ├── dbo/sumo/dbo_sumo.sssom.tsv
 │   ├── bibo/fabio/bibo_fabio.sssom.tsv
 │   ├── icd10cm/icd9cm/icd10cm_icd9cm.sssom.tsv
 │   ├── lcsh/mesh/lcsh_mesh.sssom.tsv
 │   ├── bfo/gfo/bfo_gfo.sssom.tsv
+│   ├── loinc/snomedct/loinc_snomedct.sssom.tsv
+│   ├── snomedct/ucum/snomedct_ucum.sssom.tsv
+│   ├── snomedct/omopext/snomedct_omopext.sssom.tsv
 │   └── ...                         # Pairwise ontology mapping collections
 ├── src/
 │   ├── __init__.py                 # Source package marker
+│   ├── build_web_index.py          # Web graph indexer: scans commons/ into JSON for web app
+│   ├── generate_endpoints_reference.py # Generates endpoints.tsv, endpoints.txt, and endpoints.json
 │   ├── generate_sssom_metadata.py  # Dispatcher: selects loaders, enriches platform metadata, builds JSON
 │   ├── review_sssom_metadata.py    # Review UI / pipeline confirming metadata and recording review audit
 │   ├── write_sssom_file.py         # Orchestrator: performs smart merge & writes canonical SSSOM TSVs
 │   ├── sync_mapping_commons_registry.py # Sync utility: ingests official Mapping Commons Registry sets
+│   ├── load_from_athena.py         # Loader for OHDSI Athena (OMOP CDM v5) vocabulary archives
 │   ├── load_from_graph.py          # Loader for RDF/OWL/Turtle/NTriples/N3 graphs
 │   ├── load_from_sssom.py          # Loader for pre-existing SSSOM TSV files
 │   ├── load_from_spreadsheet.py    # Loader for Excel (.xls, .xlsx), CSV, and TSV tables
@@ -151,6 +228,15 @@ KOS-Mappings/
 │   ├── ingest_sssom_archive.py     # Streaming ingester for SSSOM tarball archives (.tgz)
 │   ├── retrieve_github_metadata.py # GitHub REST API metadata & commit contributor scraper
 │   └── retrieve_sourceforge_metadata.py # SourceForge API & SVN file history scraper
+├── www/                            # Static web application (GitHub Pages deployment)
+│   ├── index.html                  # Responsive UI: Pathfinder, Query Engine, Endpoints Directory, Topology
+│   ├── css/
+│   │   └── style.css               # Rich modern dark theme with glassmorphism & responsive grid
+│   ├── js/
+│   │   └── app.js                  # Client-side BFS shortest path algorithm & mapping query engine
+│   └── data/
+│       ├── mappings_graph.json     # Graph topology & pre-indexed mapping samples
+│       └── endpoints.json          # Complete 320+ vocabulary endpoint registry
 └── test/
     ├── __init__.py                 # Test package marker
     ├── test_urls.txt               # Canonical test benchmark URLs
@@ -164,6 +250,7 @@ KOS-Mappings/
 
 | Loader Module | Source Types & Extensions | Example Sources |
 |---|---|---|
+| `load_from_athena.py` | OHDSI Athena (OMOP CDM v5) ZIP archives and directories (`VOCABULARY.csv`, `CONCEPT.csv`, `CONCEPT_RELATIONSHIP.csv`) | Athena vocabulary bundles (e.g. SNOMED CT, LOINC, UCUM, OMOP Extension, RxNorm, MeSH, ICD-10) |
 | `load_from_graph.py` | Turtle (`.ttl`), RDF/XML (`.rdf`, `.owl`, `.xml`), N-Triples (`.nt`), N3 (`.n3`) | SUMO-DBpedia, BIBO2SPAR, DCAT-PROV, SIO-RO Bridge OWL, Schema.org Turtle, BFO-Mappings PROV-to-BFO with OWL 2 annotated axioms |
 | `load_from_sssom.py` | SSSOM TSV (`.sssom.tsv`, `.sssom`) | Biomappings `positive.sssom.tsv` |
 | `load_from_spreadsheet.py` | Microsoft Excel (`.xlsx`, `.xls`), CSV (`.csv`), TSV (`.tsv`) | CMS/NBER GEM forward & reverse diagnosis and procedure mappings (`icd10cmtoicd9`, `icd9toicd10cm`, `icd10pcstoicd9`, `icd9toicd10pcs`), EBSCO QRH Coverage List |
