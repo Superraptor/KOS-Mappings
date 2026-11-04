@@ -152,6 +152,21 @@ function setupPathfinder() {
 
   btnFind.addEventListener("click", runPathfinder);
 
+  const btnCopyPath = document.getElementById("btn-copy-path");
+  if (btnCopyPath) {
+    btnCopyPath.addEventListener("click", () => {
+      const title = document.getElementById("path-summary-title")?.textContent || "";
+      const narrative = document.getElementById("path-narrative-text")?.innerText || "";
+      if (navigator.clipboard && (title || narrative)) {
+        navigator.clipboard.writeText(`${title}\n\n${narrative}`).then(() => {
+          const orig = btnCopyPath.textContent;
+          btnCopyPath.textContent = "Copied!";
+          setTimeout(() => { btnCopyPath.textContent = orig; }, 1800);
+        });
+      }
+    });
+  }
+
   // Auto-run first search
   setTimeout(runPathfinder, 200);
 }
@@ -293,13 +308,14 @@ function runPathfinder() {
   });
 
   // 2. Build Narrative Explanation
+  const repoBlobBase = "https://github.com/Superraptor/KOS-Mappings/blob/main/";
   let narrative = "";
   if (hopCount === 1) {
     const hop = result.hops[0];
     const cnt = hop.edgeInfo.count ? hop.edgeInfo.count.toLocaleString() : "many";
     const srcName = ENDPOINT_MAP.get(src)?.name || src.toUpperCase();
     const tgtName = ENDPOINT_MAP.get(tgt)?.name || tgt.toUpperCase();
-    narrative = `A <strong>direct canonical mapping set</strong> connects <strong>${srcName} (${src.toUpperCase()})</strong> to <strong>${tgtName} (${tgt.toUpperCase()})</strong> with <strong>${cnt}</strong> curated alignment rows. This crosswalk is published in <a href="file:///${hop.edgeInfo.file}" style="color: var(--accent-cyan); font-family: var(--font-mono);">${hop.edgeInfo.file}</a>.`;
+    narrative = `A <strong>direct canonical mapping set</strong> connects <strong>${srcName} (${src.toUpperCase()})</strong> to <strong>${tgtName} (${tgt.toUpperCase()})</strong> with <strong>${cnt}</strong> curated alignment rows. This crosswalk is published in <a href="${repoBlobBase}${hop.edgeInfo.file}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-family: var(--font-mono);">${hop.edgeInfo.file}</a>.`;
   } else {
     const srcName = ENDPOINT_MAP.get(src)?.name || src.toUpperCase();
     const tgtName = ENDPOINT_MAP.get(tgt)?.name || tgt.toUpperCase();
@@ -309,7 +325,7 @@ function runPathfinder() {
       const uName = ENDPOINT_MAP.get(h.from)?.name || h.from.toUpperCase();
       const vName = ENDPOINT_MAP.get(h.to)?.name || h.to.toUpperCase();
       const pred = Object.keys(h.edgeInfo.predicates || {})[0] || "skos:exactMatch";
-      narrative += `&bull; <strong>Hop ${i + 1}</strong>: <em>${uName}</em> &rarr; <em>${vName}</em> using predicate <code>${pred}</code> (${(h.edgeInfo.count || 0).toLocaleString()} alignments in <code>${h.edgeInfo.file}</code>)<br>`;
+      narrative += `&bull; <strong>Hop ${i + 1}</strong>: <em>${uName}</em> &rarr; <em>${vName}</em> using predicate <code>${pred}</code> (${(h.edgeInfo.count || 0).toLocaleString()} alignments in <a href="${repoBlobBase}${h.edgeInfo.file}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-family: var(--font-mono);">${h.edgeInfo.file}</a>)<br>`;
     });
 
     narrative += `<br>This allows transitive query expansion and interoperability between entities in both systems by chaining through the intermediate hubs.`;
@@ -536,6 +552,7 @@ function setupTopologyView() {
   tbodyEdges.innerHTML = "";
   const sortedEdges = [...GRAPH_DATA.edges].sort((a, b) => b.count - a.count);
 
+  const repoBlobBase = "https://github.com/Superraptor/KOS-Mappings/blob/main/";
   sortedEdges.slice(0, 100).forEach(edge => {
     const tr = document.createElement("tr");
     const domPred = Object.keys(edge.predicates || {})[0] || "skos:exactMatch";
@@ -544,7 +561,7 @@ function setupTopologyView() {
       <td><span class="curie-code">${edge.target}</span></td>
       <td><strong>${edge.count.toLocaleString()}</strong></td>
       <td><span class="badge-predicate ${getPredicateClass(domPred)}">${domPred}</span></td>
-      <td><a href="file:///${edge.file}" style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.8rem;">${edge.file}</a></td>
+      <td><a href="${repoBlobBase}${edge.file}" target="_blank" rel="noopener noreferrer" style="color: var(--accent-cyan); font-family: var(--font-mono); font-size: 0.8rem;">${edge.file}</a></td>
       <td style="font-size: 0.78rem; color: var(--text-dim);">${edge.license}</td>
     `;
     tbodyEdges.appendChild(tr);
